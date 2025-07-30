@@ -1,3 +1,6 @@
+# Copyright (c) 2025 AtsuageZ
+# Licensed under the Custom License - Non-commercial use only, attribution required.
+
 import tkinter.messagebox
 import requests
 import threading
