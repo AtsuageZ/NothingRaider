@@ -3,7 +3,5 @@ pip install websocket-client
 pip install tls-client
 pip install customtkinter
 pip install typing_extensions
-pip install tkinter
-pip install pycryptodome
 pip install toml
 pip install twocaptcha
