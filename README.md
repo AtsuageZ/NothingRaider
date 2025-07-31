@@ -23,7 +23,6 @@ NothingRaiderは、複数のDiscordアカウントを使った自動化・管理
 ## 依存パッケージ
 - requests
 - websocket-client
-- wmi
 - tls-client
 - toml
 - pyaudio
