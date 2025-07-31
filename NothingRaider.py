@@ -249,7 +249,7 @@ def solve_hcaptcha(sitekey, invite):
 def solve_2captcha(sitekey, invite, captcha_rqdata=None, captcha_rqtoken=None):
     twocaptcha_api_key = config['settings']['twocaptcha_api_key']
     if not twocaptcha_api_key:
-        print(f"{RED}2Captcha APIキーが設定されていません。{END}")
+        print(f"{RED}2Captcha API key is not configured.{END}")
         return None
 
     try:
@@ -271,11 +271,11 @@ def solve_2captcha(sitekey, invite, captcha_rqdata=None, captcha_rqtoken=None):
         response_data = response.json()
 
         if response_data.get("status") != 1:
-            print(f"{RED}2Captchaタスク作成失敗: {response_data.get('error_text')}{END}")
+            print(f"{RED}2Captcha task creation failed: {response_data.get('error_text')}{END}")
             return None
 
         task_id = response_data.get("request")
-        print(f"2Captcha Task ID: {task_id} / 結果を待機中...")
+        print(f"2Captcha Task ID: {task_id} / Waiting for result...")
 
         while True:
             time.sleep(5)
@@ -290,16 +290,16 @@ def solve_2captcha(sitekey, invite, captcha_rqdata=None, captcha_rqtoken=None):
 
             if result_data.get("status") == 1:
                 captcha_solution = result_data.get("request")
-                print(f"{GREEN}2Captcha解決成功！トークン: {captcha_solution[:50]}...{END}")
+                print(f"{GREEN}2Captcha solved successfully! Token: {captcha_solution[:50]}...{END}")
                 return captcha_solution
             elif result_data.get("status") == 0 and "CAPCHA_NOT_READY" in result_data.get("request"):
                 continue
             else:
-                print(f"{RED}2Captcha解決失敗: {result_data.get('error_text')}{END}")
+                print(f"{RED}2Captcha solving failed: {result_data.get('error_text')}{END}")
                 return None
 
     except Exception as e:
-        print(f"{RED}2Captchaエラー: {e}{END}")
+        print(f"{RED}2Captcha error: {e}{END}")
         return None
 
 def join_discord_server(token, invite, use_captcha, captcha_service="capsolver"):
@@ -314,9 +314,9 @@ def join_discord_server(token, invite, use_captcha, captcha_service="capsolver")
         hide_token = token[:25].rstrip() + '#'
 
         if response.status_code == 200:
-            status = f"{GREEN}[参加]{MAGENTA}{hide_token}{END}{invite}|{response.json()['guild']['name']}"
+            status = f"{GREEN}[Joined]{MAGENTA}{hide_token}{END}{invite}|{response.json()['guild']['name']}"
         elif response.status_code == 400:
-            status = f"{YELLOW}[キャプチャ]{MAGENTA}{hide_token}{END}{invite}"
+            status = f"{YELLOW}[Captcha]{MAGENTA}{hide_token}{END}{invite}"
             if use_captcha:
                 response_json = response.json()
                 captcha_sitekey = response_json.get("captcha_sitekey", site_key)
@@ -340,15 +340,15 @@ def join_discord_server(token, invite, use_captcha, captcha_service="capsolver")
                         json=payload
                     )
                     if response.status_code == 200:
-                        status = f"{GREEN}[CAPTCHAを解決し、参加]{MAGENTA}{hide_token}{END}{invite}|{response.json()['guild']['name']}"
+                        status = f"{GREEN}[CAPTCHA solved and joined]{MAGENTA}{hide_token}{END}{invite}|{response.json()['guild']['name']}"
                     else:
                         status = f"{RED}FAILED{hide_token}##{response.status_code}:{response.text}"
                 else:
-                    status = f"{RED}CAPTCHA解決失敗{hide_token}##"
+                    status = f"{RED}CAPTCHA solving failed{hide_token}##"
             else:
-                status = f"{YELLOW}CAPTCHA認証が必要{MAGENTA}{hide_token}{END}{invite}"
+                status = f"{YELLOW}CAPTCHA authentication required{MAGENTA}{hide_token}{END}{invite}"
         elif response.status_code == 429:
-            status = f"{BLUE}[レート制限]{MAGENTA}{hide_token}{END}{invite}"
+            status = f"{BLUE}[Rate Limited]{MAGENTA}{hide_token}{END}{invite}"
         else:
             status = f"{RED}FAILED{hide_token}##{response.status_code}:{response.text}"
     except Exception as e:
@@ -376,18 +376,18 @@ def check_guild_membership(guild_id):
             guilds = response.json()
             if not any(g['id'] == guild_id for g in guilds):
                 not_in_guild.append(token)
-                print(f'未参加: {hide_token}')
+                print(f'Not joined: {hide_token}')
             else:
-                print(f'参加済み: {hide_token}')
+                print(f'Already joined: {hide_token}')
         else:
-            print(f'エラー: {hide_token} → {response.status_code}')
+            print(f'Error: {hide_token} → {response.status_code}')
 
     if not_in_guild:
         with open(f'no-in-guild-{guild_id}.txt', 'w', encoding='utf-8') as f:
             f.write('\n'.join(not_in_guild))
-        print(f'{len(not_in_guild)}個のトークンが未参加 詳しくは出力されたtxtをご確認ください。')
+        print(f'{len(not_in_guild)} tokens are not in guild. Check the output txt file for details.')
     else:
-        print('すべてのトークンが参加済みです。')
+        print('All tokens are already joined.')
 
 def leaver(server_id):
     for token in tokens:
@@ -395,7 +395,7 @@ def leaver(server_id):
         headers = {'Authorization': token}
         response = requests.delete(f'https://discord.com/api/v9/users/@me/guilds/{server_id}', headers=headers)
         if response.status_code == 204:
-            print(f'サーバーから退出しました。:{hide_token}')
+            print(f'Left server: {hide_token}')
 
 def spammerOLD(channel_id, message):
     global spammingOLD
@@ -531,7 +531,7 @@ def process_command_spammer(tokens, channel_link, main_command):
         guild_id = match.group(1)
         channel_id = match.group(2)
     else:
-        print("チャンネルリンクが無効です。")
+        print("Invalid channel link.")
         time.sleep(1)
         os.system("cls")
         return
@@ -559,16 +559,16 @@ def process_command_spammer(tokens, channel_link, main_command):
                 continue
             except:
                 if found == {}:
-                    input("不明なコマンド")
+                    input("Unknown command")
                     return
                 if len(found.keys()) != 1:
-                    print("複数botがそのコマンドを持っています。どれにしますか？")
+                    print("Multiple bots have this command. Which one do you want?")
                     choice_name = {}
                     for i, name in enumerate(found.values()):
                         choice_name[i] = name
                     for i, name in enumerate(choice_name.values()):
                         print(f"  {i}:{name}")
-                    choice = int(input("数字で選択:"))
+                    choice = int(input("Select by number:"))
                     name = choice_name[choice]
                     i = [key for key, value in found.items() if value == name][0]
                 else:
@@ -675,16 +675,16 @@ def command_spammer(app_id, guild_id, channel_id, version, id, commands, options
         r = session.post("https://discord.com/api/v9/interactions", headers=header, json=payload)
         tokena = token[:25].rstrip() + "*"
         if r.status_code == 204:
-            print(GREEN + "[成功]" + END + MAGENTA + tokena + END)
+            print(GREEN + "[Success]" + END + MAGENTA + tokena + END)
         elif r.status_code == 401:
-            print(RED + "[失敗]" + END + MAGENTA + tokena + END)
+            print(RED + "[Failed]" + END + MAGENTA + tokena + END)
         elif r.status_code == 403:
-            print(YELLOW + "[ロック]" + END + MAGENTA + tokena + END)
+            print(YELLOW + "[Locked]" + END + MAGENTA + tokena + END)
         elif r.status_code == 429:
-            print(YELLOW + "[レートリミット]" + END + MAGENTA + tokena + END + " " + str(r.json()["retry_after"]) + "秒")
+            print(YELLOW + "[Rate Limited]" + END + MAGENTA + tokena + END + " " + str(r.json()["retry_after"]) + " seconds")
             time.sleep(r.json()["retry_after"])
         else:
-            print(BLUE + "[不明なエラー] " + END + MAGENTA + tokena + END + str(r.status_code))
+            print(BLUE + "[Unknown Error] " + END + MAGENTA + tokena + END + str(r.status_code))
 
 class DiscordSocket(websocket.WebSocketApp):
     def __init__(self, token, guild_id, channel_id):
@@ -838,7 +838,7 @@ def load_members_from_file(guild_id):
 spamming = False
 
 def generate_random_string(length=6):
-    """6文字のランダムな大小文字混在の文字列を生成"""
+    """Generate a 6-character random string with mixed case"""
     return ''.join(random.choices(string.ascii_letters, k=length))
 
 
@@ -849,7 +849,7 @@ def spammer(channel_id, message, guild_id=None, mass_ping=False, ping_count=0, r
     spamming = True
 
     if messages_per_second > 10.0 or turbo_mode:
-        print(YELLOW + "警告: 10メッセージ/秒以上または爆速モードはレートリミットに引っかかる可能性が高いです。推奨しません。" + END)
+        print(YELLOW + "Warning: Over 10 messages/second or turbo mode has high risk of rate limiting. Not recommended." + END)
 
     valid_tokens = check_tokens_in_guild_multithread(tokens, guild_id) if guild_id else tokens
     if not valid_tokens:
@@ -878,7 +878,7 @@ def spammer(channel_id, message, guild_id=None, mass_ping=False, ping_count=0, r
             if response.status_code == 200:
                 print(GREEN + "[Success!]" + MAGENTA + hide_token + END)
             elif response.status_code == 429:
-                print(YELLOW + "[RATELIMIT] 高頻度送信が制限されています: " + MAGENTA + hide_token + END)
+                print(YELLOW + "[RATELIMIT] High frequency sending is restricted: " + MAGENTA + hide_token + END)
                 return False
             elif response.status_code in [401, 403]:
                 print(RED + f'Missing access token {hide_token}' + END)
@@ -937,11 +937,11 @@ def invite_spammer(channel_id, guild_id):
         with open('tokens.txt', 'r') as f:
             tokens = [t.strip() for t in f if t.strip()]
     except FileNotFoundError:
-        print("tokens.txt が見つかりません。")
+        print("tokens.txt not found.")
         return
 
     if not tokens:
-        print("有効なトークンがありません。")
+        print("No valid tokens found.")
         return
 
     token_cycle = cycle(tokens)
@@ -974,7 +974,7 @@ def invite_spammer(channel_id, guild_id):
                 with open(save_path, "a", encoding="utf-8") as f:
                     f.write(url + "\n")
             elif res.status_code == 429:
-                print(f"[RateLimit] {token[:20]}... 一時停止")
+                print(f"[RateLimit] {token[:20]}... Paused")
             elif res.status_code in [401, 403]:
                 print(f"[Invalid Token] {token[:20]}...")
             else:
@@ -1090,7 +1090,6 @@ def get_command_id(token, guild_id, application_id, command_name):
     
     return None
 
-
 def stop_spammer():
     global spamming
     spamming = False
@@ -1103,10 +1102,10 @@ def get_guild_channels(guild_id, token):
         if response.status_code == 200:
             return [channel for channel in response.json() if channel['type'] == 0 or channel['type'] == 5]
         else:
-            print(f'トークン {token} でサーバーのチャンネルを取得できませんでした。ステータスコード: {response.status_code}')
+            print(f'Could not get server channels with token {token}. Status code: {response.status_code}')
             return []
     except requests.exceptions.RequestException as e:
-        print(f'トークン {token} でサーバーのチャンネルを取得中にエラーが発生しました: {str(e)}')
+        print(f'Error occurred while getting server channels with token {token}: {str(e)}')
         return []
 
 def send_message(channel_id, header, message):
@@ -1121,22 +1120,22 @@ def send_message(channel_id, header, message):
         )
 
         if response.status_code == 200:
-            print(f'{nowtime} 送信成功: チャンネル {channel_id}')
+            print(f'{nowtime} Send success: Channel {channel_id}')
         elif response.status_code == 403:
-            print(f'{nowtime} チャンネル {channel_id} に送信する権限がないため、パスします。')
+            print(f'{nowtime} No permission to send to channel {channel_id}, skipping.')
             forbidden_channels.add(channel_id)
         elif response.status_code == 404:
-            print(f'{nowtime} チャンネル {channel_id} が見つかりません。スキップします。')
+            print(f'{nowtime} Channel {channel_id} not found. Skipping.')
             forbidden_channels.add(channel_id)
         elif response.status_code == 429:
             retry_after = response.json().get('retry_after', 1)
-            print(f'{nowtime} [レートリミット] {retry_after} 秒後に再試行します。')
+            print(f'{nowtime} [Rate Limited] Retrying after {retry_after} seconds.')
             time.sleep(retry_after)
             send_message(channel_id, header, message)
         else:
-            print(f'{nowtime} メッセージ送信失敗: {response.status_code} - {response.text}')
+            print(f'{nowtime} Message send failed: {response.status_code} - {response.text}')
     except requests.exceptions.RequestException as e:
-        print(f'{nowtime} メッセージ送信中にエラー: {str(e)}')
+        print(f'{nowtime} Error while sending message: {str(e)}')
 
 def worker(channel_id, header, message):
     send_message(channel_id, header, message)
@@ -1146,7 +1145,7 @@ def all_channel_spam(server_id, message, mass_ping=False, ping_count=0, random_s
     stop_spammer = False
 
     if messages_per_second > 10.0:
-        print(YELLOW + "警告: 10メッセージ/秒を超える設定はレートリミットに引っかかる可能性が高いです。推奨しません。" + END)
+        print(YELLOW + "Warning: Settings over 10 messages/second have high risk of rate limiting. Not recommended." + END)
 
     valid_tokens = check_tokens_in_guild_multithread(tokens, server_id)
     if not valid_tokens:
@@ -1228,7 +1227,7 @@ def is_token_valid(token):
         response = requests.get('https://discord.com/api/v9/users/@me/library', headers=headers)
         return response.status_code == 200
     except requests.exceptions.RequestException as e:
-        print(nowtime() + RED + f'チェックが不可能なtoken: {token}. {str(e)}' + END)
+        print(nowtime() + RED + f'Token cannot be checked: {token}. {str(e)}' + END)
         return False
 
 def check_and_remove_invalid_tokens():
@@ -1239,10 +1238,10 @@ def check_and_remove_invalid_tokens():
     def check_token(token):
         if is_token_valid(token):
             valid_tokens.append(token)
-            print(nowtime() + GREEN + f' [有効]: {token}' + END)
+            print(nowtime() + GREEN + f' [Valid]: {token}' + END)
         else:
             invalid_tokens.append(token)
-            print(nowtime() + RED + f'無効なtoken: {token}' + END)
+            print(nowtime() + RED + f'Invalid token: {token}' + END)
 
     threads = []
     for token in tokens:
@@ -1258,16 +1257,16 @@ def check_and_remove_invalid_tokens():
         with open('invalid_tokens.txt', 'w') as file:
             file.write("\n".join(invalid_tokens))
 
-    tkinter.messagebox.showinfo("Info", f"Tokenチェックが完了しました。削除したtokenの数{len(tokens) - len(valid_tokens)}個")
+    tkinter.messagebox.showinfo("Info", f"Token check completed. Removed {len(tokens) - len(valid_tokens)} tokens")
     
     if len(valid_tokens) != len(tokens):
-        print(f'削除したtokenの数{len(tokens) - len(valid_tokens)}個 無効なtokenを削除しました。')
+        print(f'Removed {len(tokens) - len(valid_tokens)} invalid tokens.')
         tokens = valid_tokens
         
         with open('tokens.txt', 'w') as f:
             f.write('\n'.join(tokens))
         
-        print('tokens.txtはアップデートされました。')
+        print('tokens.txt has been updated.')
 
 def get_existing_reactions(channel_id, message_id, token):
     headers = {
@@ -1302,13 +1301,13 @@ def react_with_token(token, channel_id, message_id, emoji):
     response = requests.put(url, headers=headers)
     hide_token = token[:25].rstrip() + '#'
     if response.status_code == 204:
-        print(f'リアクションに成功 {emoji} : {hide_token}')
+        print(f'Reaction successful {emoji} : {hide_token}')
     elif response.status_code == 404:
-        print(f'Failed to react with {emoji} (メッセージが存在しません): {hide_token}')
+        print(f'Failed to react with {emoji} (Message does not exist): {hide_token}')
     elif response.status_code == 403:
         print(f'Failed to react with {emoji} : {hide_token}')
     else:
-        print(f'Failed to react with {emoji} ステータスコード: {response.status_code}): {hide_token}')
+        print(f'Failed to react with {emoji} Status code: {response.status_code}): {hide_token}')
 
 def react_to_message(channel_id, message_id, emoji):
     threads = []
@@ -1334,16 +1333,16 @@ def fake_typer(channel_id, token):
             hide_token = token[:25].rstrip() + '#'
             response = requests.post(url, headers=headers)
             response.raise_for_status()
-            print(f"fake typeに成功 {channel_id} | {hide_token}")
+            print(f"Fake type successful {channel_id} | {hide_token}")
             time.sleep(5)
         except requests.exceptions.HTTPError as errh:
-            print(f"HTTPエラー: {errh}")
+            print(f"HTTP Error: {errh}")
             break
         except requests.exceptions.ConnectionError as errc:
-            print(f"接続できません: {errc}")
+            print(f"Cannot connect: {errc}")
             break
         except requests.exceptions.Timeout as errt:
-            print(f"タイムアウトエラー: {errt}")
+            print(f"Timeout Error: {errt}")
             break
         except requests.exceptions.RequestException as err:
             print(f"Request Exception: {err}")
@@ -1365,11 +1364,11 @@ def custom_spammer(channel_id):
                     response = requests.post(f'https://discord.com/api/v9/channels/{channel_id}/messages', headers=headers, json=data)
                     
                     if response.status_code == 200:
-                        print(nowtime() + MAGENTA + f'送信成功: {token}' + END)
+                        print(nowtime() + MAGENTA + f'Send successful: {token}' + END)
                         time.sleep(0.7)
                     elif response.status_code == 429:
                         retry_after = response.json().get('retry_after', 1)
-                        print(nowtime() + YELLOW + f'[レートリミット] Retrying after {retry_after} seconds.' + END)
+                        print(nowtime() + YELLOW + f'[Rate Limited] Retrying after {retry_after} seconds.' + END)
                         time.sleep(retry_after)
                     else:
                         print(nowtime() + RED + f'Failed to send message with token {token}. Status code: {response.status_code}' + END)
@@ -1420,14 +1419,14 @@ def howbot(channel_id):
                 response = requests.post(f'https://discord.com/api/v9/channels/{channel_id}/messages', headers=headers, json=data)
                 
                 if response.status_code == 200:
-                    print(nowtime() + MAGENTA + f'送信成功: {token}' + END)
+                    print(nowtime() + MAGENTA + f'Send successful: {token}' + END)
                     message_data = response.json()
                     recent_messages.append(message_data)
                     if len(recent_messages) > 10: 
                         recent_messages.pop(0)
                 elif response.status_code == 429:
                     retry_after = response.json().get('retry_after', 1)
-                    print(nowtime() + YELLOW + f'[レートリミット] Retrying after {retry_after} seconds.' + END)
+                    print(nowtime() + YELLOW + f'[Rate Limited] Retrying after {retry_after} seconds.' + END)
                     time.sleep(retry_after)
                 else:
                     print(nowtime() + RED + f'Failed to send message with token {token}. Status code: {response.status_code}' + END)
@@ -1440,13 +1439,13 @@ def howbot(channel_id):
                         reply_response = requests.post(f'https://discord.com/api/v9/channels/{channel_id}/messages', headers=headers, json=reply_data)
                         
                         if reply_response.status_code == 200:
-                            print(nowtime() + MAGENTA + f'リプライ送信成功: {token}' + END)
+                            print(nowtime() + MAGENTA + f'Reply send successful: {token}' + END)
                         elif reply_response.status_code == 429:
                             retry_after = reply_response.json().get('retry_after', 1)
-                            print(nowtime() + YELLOW + f'[レートリミット] Retrying after {retry_after} seconds.' + END)
+                            print(nowtime() + YELLOW + f'[Rate Limited] Retrying after {retry_after} seconds.' + END)
                             time.sleep(retry_after)
                         else:
-                            print(nowtime() + RED + f'リプライ送信失敗: {token}. Status code: {reply_response.status_code}' + END)
+                            print(nowtime() + RED + f'Reply send failed: {token}. Status code: {reply_response.status_code}' + END)
 
             except requests.exceptions.RequestException as e:
                 print(nowtime() + RED + f'Error occurred while sending message with token {token}: {str(e)}' + END)
@@ -1574,7 +1573,7 @@ def open_dm(token, user_id):
         channel_id = r.json()["id"]
         return channel_id
     except Exception as e:
-        print(f"{RED}[失敗] DMチャンネル作成エラー: {e}{END}")
+        print(f"{RED}[Failed] DM channel creation error: {e}{END}")
         return None
 
 def call_spammer(token, user_id):
@@ -1592,15 +1591,15 @@ def call_spammer(token, user_id):
                 count += 1
                 time.sleep(random.uniform(2, 5))
                 hide_token = token[:25].rstrip() + '*'
-                print(f"{GREEN}[成功] 通話 {count} 回目{END}{MAGENTA}{hide_token}{END}")
+                print(f"{GREEN}[Success] Call {count} times{END}{MAGENTA}{hide_token}{END}")
         except Exception as e:
             hide_token = token[:25].rstrip() + '*'
-            print(f"{RED}[失敗] {e}{END}{MAGENTA}{hide_token}{END}")
+            print(f"{RED}[Failed] {e}{END}{MAGENTA}{hide_token}{END}")
         finally:
             ws.close()
     else:
         hide_token = token[:25].rstrip() + '*'
-        print(f"{RED}[失敗] DMチャンネル作成に失敗{END}{MAGENTA}{hide_token}{END}")
+        print(f"{RED}[Failed] Failed to create DM channel{END}{MAGENTA}{hide_token}{END}")
 
 def process_callspammer(tokens, user_id):
     threads = []
@@ -1625,7 +1624,7 @@ def start_call(token, channel_id):
     cookie = get_discord_cookies()
 
     def on_open(ws):
-        print("通話を開始しました。")
+        print("Call started.")
 
 
         identify_payload = {
@@ -1711,7 +1710,7 @@ def open_dm_and_spam(user_id, message, dm_spam, call_spam, token):
             if call_spam:
                 start_call(token, channel_id)
         else:
-            print("DM チャネルの作成に失敗しました。")
+            print("Failed to create DM channel.")
 
 def read_tokens(file_path):
     with open(file_path, "r") as file:
@@ -1770,15 +1769,15 @@ def soundboard(token, channel_id):
             )
 
             if response.status_code == 204:
-                print(f"サウンドの再生に成功！ {name}")
+                print(f"Sound playback successful! {name}")
             elif response.status_code == 429:
                 retry_after = response.json().get("retry_after")
-                print(f"レートリミット - {retry_after}秒後に再試行。")
+                print(f"Rate limited - Retrying after {retry_after} seconds.")
                 time.sleep(float(retry_after))
             else:
                 print(f"Failed to play sound: {response.json().get('message')}")
     except Exception as e:
-        print(f"音声を再生できません。: {e}")
+        print(f"Cannot play audio: {e}")
 
 def fetch_form_fields(token, guild_id):
     url = f"https://discord.com/api/v9/guilds/{guild_id}/member-verification"
@@ -1811,12 +1810,12 @@ def rule_bypass(token, guild_id):
 
     version = verification_info.get('version')
     if not version:
-        print("バージョンの取得に失敗....")
+        print("Failed to get version....")
         return
 
     form_fields = fetch_form_fields(token, guild_id)
     if not form_fields:
-        print("フォームフィールドを取得できませんでした。.")
+        print("Could not get form fields.")
         return
 
     url_put = f"https://discord.com/api/v9/guilds/{guild_id}/requests/@me"
@@ -1830,7 +1829,7 @@ def rule_bypass(token, guild_id):
     try:
         response_put = requests.put(url_put, headers=headers, json=payload)
         response_put.raise_for_status()
-        print("認証を完了しました！")
+        print("Authentication completed!")
     except requests.exceptions.HTTPError as err:
         print(f"HTTP error occurred during PUT request: {err}")
         print(f"Response content: {response_put.content.decode()}") 
@@ -1842,10 +1841,10 @@ def Oauth2_verify_bypass(guild_id, token):
     state = generate_precise_state(guild_id)
     
     params = {
-        'client_id': 'ここにbotのid',
+        'client_id': 'bot_id_here',
         'response_type': 'code',
-        'redirect_uri': 'ここにbotのリダイレクトurl',
-        'scope': 'ここにscope',
+        'redirect_uri': 'bot_redirect_url_here',
+        'scope': 'scope_here',
         'state': state,
     }
 
@@ -1875,11 +1874,11 @@ def Oauth2_verify_bypass(guild_id, token):
             response_url = requests.get(url)
 
             if response_url.status_code == 200:
-                print("成功!!")
+                print("Success!!")
             else:
                 print(f"Error {response_url.status_code}: {response_url.text}")
         else:
-            print("urlが存在しません。")
+            print("URL does not exist.")
     else:
         print(f"Error {response.status_code}: {response.text}")
 
@@ -1922,11 +1921,11 @@ def auto_oauth2(client_id, token):
             response_url = requests.get(url)
 
             if response_url.status_code == 200:
-                print("連携が完了")
+                print("Authorization completed")
             else:
                 print(f"Error {response_url.status_code}: {response_url.text}")
         else:
-            print("urlが存在しません。")
+            print("URL does not exist.")
     else:
         print(f"Error {response.status_code}: {response.text}")
 
@@ -1949,7 +1948,7 @@ def get_random_image_file():
     valid_exts = ('.png', '.jpg', '.jpeg')
     image_files = [file for file in os.listdir(PICTURE_FOLDER) if file.lower().endswith(valid_exts)]
     if not image_files:
-        raise FileNotFoundError("悲しいことに画像ファイルは出掛けてしまった！！")
+        raise FileNotFoundError("Sadly, the image files have gone out!!")
     return os.path.join(PICTURE_FOLDER, random.choice(image_files))
 
 def change_avatar(token):
@@ -1971,11 +1970,11 @@ def change_avatar(token):
     try:
         response = session.patch(url, headers=get_headers(token), json=payload)
         if response.status_code == 200:
-            print(f"✅ アバターの変更に成功 {hide_token}")
+            print(f"✅ Avatar change successful {hide_token}")
         else:
-            print(f"❌ アバターの変更に失敗 Onlinerを試してください。 {hide_token} Status code: {response.status_code}")
+            print(f"❌ Avatar change failed. Try Onliner. {hide_token} Status code: {response.status_code}")
     except requests.exceptions.RequestException as err:
-        print(f"❌ 不明なエラーによりアバターの変更に失敗 {hide_token}: {err}")
+        print(f"❌ Avatar change failed due to unknown error {hide_token}: {err}")
 
 def start_avatar_change_threads():
     threads = []
@@ -2001,19 +2000,19 @@ def button_bypass(token, message_id, channel_id, guild_id, button_option):
         )
         hide_token = token[:25].rstrip() + '#'
         if response.status_code != 200:
-            print(f"サーバーに入っていません | {hide_token}")
+            print(f"Not in server | {hide_token}")
             return
 
         try:
             messages = response.json()
         except ValueError:
-            print("レスポンスに無効なデータが含まれています。")
+            print("Response contains invalid data.")
             return
 
         if isinstance(messages, list):
             messagebottoclick = next((x for x in messages if x["id"] == message_id), None)
         else:
-            print("メッセージが届いた:", type(messages))
+            print("Messages received:", type(messages))
             return
 
         if messagebottoclick is None:
@@ -2026,13 +2025,13 @@ def button_bypass(token, message_id, channel_id, guild_id, button_option):
                 buttons.append(button)
 
         if not buttons:
-            print("ボタンはありません。")
+            print("No buttons found.")
             return
 
         button_index = int(button_option) - 1
 
         if button_index < 0 or button_index >= len(buttons):
-            print("無効なボタンです。")
+            print("Invalid button.")
             return
 
         data = {
@@ -2057,11 +2056,11 @@ def button_bypass(token, message_id, channel_id, guild_id, button_option):
         )
 
         if response.status_code == 204:
-            print("成功", f"{token[:25]}##")
+            print("Success", f"{token[:25]}##")
         else:
-            print("失敗", f"{token[:25]}##")
+            print("Failed", f"{token[:25]}##")
     except Exception as e:
-        print("失敗", "ボタンのクリックに失敗", e)
+        print("Failed", "Button click failed", e)
 
 def thread_spam(token, channel_id, name):
     url = f'https://discord.com/api/v9/channels/{channel_id}/threads'
@@ -2077,11 +2076,11 @@ def thread_spam(token, channel_id, name):
             response = requests.post(url, headers=get_headers(token), json=payload)
             
             if response.status_code == 201:
-                print("スレッド作成成功")
+                print("Thread creation successful")
             else:
-                print(f"スレッド作成失敗 | {response.status_code}, {response.text}")
+                print(f"Thread creation failed | {response.status_code}, {response.text}")
         except Exception as e:
-            print(f"エラーが発生しました: {e}")
+            print(f"An error occurred: {e}")
 
 def server_boost(guild_id, boost_count, token):
     url = f"https://discord.com/api/v9/guilds/{guild_id}/premium/subscriptions"
@@ -2089,14 +2088,14 @@ def server_boost(guild_id, boost_count, token):
 
     response_get = requests.get(url2, headers=get_headers(token))
     if response_get.status_code != 200:
-        print(f"トークン {token} でブーストスロットの取得に失敗: ステータスコード {response_get.status_code}")
+        print(f"Failed to get boost slots with token {token}: Status code {response_get.status_code}")
         return 0
 
     slots = response_get.json()
     available_slots = [slot['id'] for slot in slots if not slot.get('premium_guild_subscription_id')]
 
     if not available_slots:
-        print(f"トークン {token} で利用可能なスロットがありません。")
+        print(f"No available slots for token {token}.")
         return 0
 
     boost_to_use = min(boost_count, len(available_slots))
@@ -2106,10 +2105,10 @@ def server_boost(guild_id, boost_count, token):
 
     response = requests.put(url, headers=get_headers(token), json=payload)
     if response.status_code in (200, 201):
-        print(f"トークン {token} で {boost_to_use} 回のブーストに成功しました。")
+        print(f"Successfully boosted {boost_to_use} times with token {token}.")
         return boost_to_use
     else:
-        print(f"トークン {token} でブーストに失敗しました: ステータスコード {response.status_code}")
+        print(f"Failed to boost with token {token}: Status code {response.status_code}")
         return 0
 
 def boost_with_multiple_tokens(guild_id, boost_count):
@@ -2119,19 +2118,19 @@ def boost_with_multiple_tokens(guild_id, boost_count):
     remaining_boosts = boost_count
     for token in tokens:
         if remaining_boosts <= 0:
-            print("すべてのブーストが完了しました。")
+            print("All boosts completed.")
             break
 
-        print(f"トークン {token} を使用してブーストを試みます。")
+        print(f"Attempting to boost with token {token}.")
         boosts_done = server_boost(guild_id, remaining_boosts, token)
 
         remaining_boosts -= boosts_done
-        print(f"残りのブースト回数: {remaining_boosts}")
+        print(f"Remaining boosts: {remaining_boosts}")
 
     if remaining_boosts > 0:
-        print(f"指定されたブースト回数 {boost_count} を達成できませんでした。残り: {remaining_boosts}")
+        print(f"Could not achieve the specified boost count {boost_count}. Remaining: {remaining_boosts}")
     else:
-        print("すべての指定されたブーストが完了しました。")
+        print("All specified boosts completed.")
 
 def switch_to_main_ui():
     for widget in root.winfo_children():
@@ -2218,7 +2217,7 @@ def boost_tab(frame):
     boost_entry = ctk.CTkEntry(frame)
     boost_entry.pack(pady=5)
 
-    boost_button = ctk.CTkButton(frame, text="ブースト開始", command=lambda: threading.Thread(target=start_boosting, args=(guild_entry.get(), boost_entry.get())).start())
+    boost_button = ctk.CTkButton(frame, text="Start Boosting", command=lambda: threading.Thread(target=start_boosting, args=(guild_entry.get(), boost_entry.get())).start())
     boost_button.pack(pady=20)
 
 def start_boosting(guild_id, boost_count):
@@ -2227,14 +2226,14 @@ def start_boosting(guild_id, boost_count):
         boost_count = int(boost_count)
         
         if guild_id <= 0 or boost_count <= 0:
-            print("無効なギルドIDまたはブースト回数です。")
+            print("Invalid Guild ID or boost count.")
             return
         
-        print(f"ギルドID: {guild_id}, ブースト回数: {boost_count} を処理中...")
+        print(f"Processing Guild ID: {guild_id}, Boost count: {boost_count}...")
         boost_with_multiple_tokens(guild_id, boost_count)
     
     except ValueError:
-        print("ギルドIDとブースト回数は数字で入力してください。")
+        print("Please enter numeric values for Guild ID and boost count.")
 
 def read_key_from_file(file_path):
     try:
@@ -2249,10 +2248,10 @@ def write_key_to_file(file_path, key):
     try:
         with open(file_path, 'w') as file:
             file.write(key)
-        print("キーを自動保存しました。")
+        print("Key automatically saved.")
     except IOError as e:
         tkinter.messagebox.showerror("File Error", str(e))
-        print(f"ファイルへの書き込みエラー: {str(e)}")
+        print(f"File write error: {str(e)}")
 
 def switch_to_main_ui():
     for widget in root.winfo_children():
@@ -2263,25 +2262,25 @@ def joiner_tab(frame):
     for widget in frame.winfo_children():
         widget.destroy()
 
-    invite_label = ctk.CTkLabel(frame, text="招待リンク")
+    invite_label = ctk.CTkLabel(frame, text="Invite Link")
     invite_label.pack(pady=5)
 
     invite_entry = ctk.CTkEntry(frame, width=250)
     invite_entry.pack(pady=5)
 
     use_captcha_var = ctk.BooleanVar()
-    use_captcha_checkbox = ctk.CTkCheckBox(frame, text="hcap solverサービスを使う", variable=use_captcha_var)
+    use_captcha_checkbox = ctk.CTkCheckBox(frame, text="Use hCaptcha solver service", variable=use_captcha_var)
     use_captcha_checkbox.pack(pady=5)
 
     captcha_service_var = ctk.StringVar(value="capsolver")
-    captcha_service_label = ctk.CTkLabel(frame, text="CAPTCHAサービス")
+    captcha_service_label = ctk.CTkLabel(frame, text="CAPTCHA Service")
     captcha_service_label.pack(pady=5)
     captcha_service_menu = ctk.CTkOptionMenu(frame, values=["CapSolver", "2Captcha"], variable=captcha_service_var)
     captcha_service_menu.pack(pady=5)
 
-    delay_label = ctk.CTkLabel(frame, text="参加間隔（秒）")
+    delay_label = ctk.CTkLabel(frame, text="Join Interval (seconds)")
     delay_label.pack(pady=5)
-    delay_entry = ctk.CTkEntry(frame, width=100, placeholder_text="例: 0.1")
+    delay_entry = ctk.CTkEntry(frame, width=100, placeholder_text="e.g.: 0.1")
     delay_entry.pack(pady=5)
     delay_entry.insert(0, "0.05")
 
@@ -2295,9 +2294,9 @@ def joiner_tab(frame):
         try:
             delay = float(delay_entry.get())
             if delay < 0:
-                raise ValueError("ディレイは0以上の値にしてください")
+                raise ValueError("Delay must be 0 or greater")
         except ValueError as e:
-            tkinter.messagebox.showwarning("Error", f"正しいディレイ値を入力してください: {e}")
+            tkinter.messagebox.showwarning("Error", f"Please enter a valid delay value: {e}")
             return
 
         if invite_code:
@@ -2317,9 +2316,9 @@ def joiner_tab(frame):
             thread = threading.Thread(target=process_tokens)
             thread.start()
         else:
-            tkinter.messagebox.showwarning("Error", "正しくない招待リンク")
+            tkinter.messagebox.showwarning("Error", "Invalid invite link")
 
-    join_button = ctk.CTkButton(frame, text="参加", command=start_joining)
+    join_button = ctk.CTkButton(frame, text="Join", command=start_joining)
     join_button.pack(pady=20)
     
 def read_tokens(file_path):
@@ -2347,7 +2346,7 @@ def onboard_bypass(guild_id, tokens):
 
         if not in_guild:
             hide_token = token[:25].rstrip() + '#'
-            print(f"失敗[このtokenはサーバーに入っていません。| {hide_token}")
+            print(f"Failed [This token is not in the server. | {hide_token}")
             return
 
         data = response.json()
@@ -2376,11 +2375,11 @@ def onboard_bypass(guild_id, tokens):
                 )
                 hide_token = token[:25].rstrip() + '*'
                 if response.status_code == 200:
-                    print(f"成功: {hide_token}")
+                    print(f"Success: {hide_token}")
                 else:
-                    print(f"失敗: {hide_token} - {response.json().get('message')}")
+                    print(f"Failed: {hide_token} - {response.json().get('message')}")
             except Exception as e:
-                print(f"失敗: {hide_token} - {e}")
+                print(f"Failed: {hide_token} - {e}")
 
         threads = []
         for token in tokens:
@@ -2392,7 +2391,7 @@ def onboard_bypass(guild_id, tokens):
             thread.join()
 
     except Exception as e:
-        print(f"オンボード回避に失敗。{e}")
+        print(f"Onboarding bypass failed. {e}")
 
 def start_onboarding_bypass(guild_id):
     with open("tokens.txt", "r") as f:
@@ -2430,11 +2429,11 @@ def bio_changer(token, bio):
 def leaver_tab(frame):
     for widget in frame.winfo_children():
         widget.destroy()
-    server_label = ctk.CTkLabel(frame, text="Guild IDを貼ってください。")
+    server_label = ctk.CTkLabel(frame, text="Please enter Guild ID.")
     server_label.pack(pady=5)
     server_entry = ctk.CTkEntry(frame)
     server_entry.pack(pady=5)
-    leave_button = ctk.CTkButton(frame, text="退出", command=lambda: threading.Thread(target=leaver, args=(server_entry.get(),)).start())
+    leave_button = ctk.CTkButton(frame, text="Leave", command=lambda: threading.Thread(target=leaver, args=(server_entry.get(),)).start())
     leave_button.pack(pady=20)
 
 def stop_spammerOLD():
@@ -2444,11 +2443,11 @@ def stop_spammerOLD():
 def spammerOLD_tab(frame):
     for widget in frame.winfo_children():
         widget.destroy()
-    channel_label = ctk.CTkLabel(frame, text="ChannelIDを貼ってください。")
+    channel_label = ctk.CTkLabel(frame, text="Please enter Channel ID.")
     channel_label.pack(pady=5)
     channel_entry = ctk.CTkEntry(frame)
     channel_entry.pack(pady=5)
-    message_label = ctk.CTkLabel(frame, text="スパムするメッセージ")
+    message_label = ctk.CTkLabel(frame, text="Message to spam")
     message_label.pack(pady=5)
     message_entry = ctk.CTkTextbox(frame, width=500, height=250)
     message_entry.pack(pady=5)
@@ -2461,7 +2460,7 @@ def check_tokens_tab(frame):
     for widget in frame.winfo_children():
         widget.destroy()
 
-    check_button = ctk.CTkButton(frame, text="Tokenチェック", command=start_checking_tokens)
+    check_button = ctk.CTkButton(frame, text="Check Tokens", command=start_checking_tokens)
     check_button.pack(pady=20)
 
 def start_checking_tokens():
@@ -2477,22 +2476,22 @@ def reaction_tab(frame):
     channel_label.pack(pady=5)
     channel_entry = ctk.CTkEntry(frame)
     channel_entry.pack(pady=5)
-    message_label = ctk.CTkLabel(frame, text="メッセージID")
+    message_label = ctk.CTkLabel(frame, text="Message ID")
     message_label.pack(pady=5)
     message_entry = ctk.CTkEntry(frame)
     message_entry.pack(pady=5)
-    emoji_label = ctk.CTkLabel(frame, text="リアクションする絵文字")
+    emoji_label = ctk.CTkLabel(frame, text="Emoji to react with")
     emoji_label.pack(pady=5)
     emoji_entry = ctk.CTkEntry(frame)
     emoji_entry.pack(pady=5)
-    react_button = ctk.CTkButton(frame, text="リアクション", command=lambda: threading.Thread(target=react_to_message, args=(channel_entry.get(), message_entry.get(), emoji_entry.get())).start())
+    react_button = ctk.CTkButton(frame, text="React", command=lambda: threading.Thread(target=react_to_message, args=(channel_entry.get(), message_entry.get(), emoji_entry.get())).start())
     react_button.pack(pady=20)
 
 def fake_typer_tab(frame):
     for widget in frame.winfo_children():
         widget.destroy()
     
-    channel_label = ctk.CTkLabel(frame, text="ChannelIDを入力してください:")
+    channel_label = ctk.CTkLabel(frame, text="Please enter Channel ID:")
     channel_label.pack(pady=5)
     
     channel_entry = ctk.CTkEntry(frame, width=250)
@@ -2504,7 +2503,7 @@ def fake_typer_tab(frame):
 
         channel_id = channel_entry.get().strip()
         if not channel_id:
-            tkinter.messagebox.showerror("エラー", "Channel IDを入力してください。")
+            tkinter.messagebox.showerror("Error", "Please enter Channel ID.")
             return
         stop_event.clear()
         for token in tokens:
@@ -2520,12 +2519,12 @@ def fake_typer_tab(frame):
         for thread in threads:
             thread.join() 
         threads = []
-        print("Fake Typerを止めました")
+        print("Fake Typer stopped")
 
-    fake_typer_button = ctk.CTkButton(frame, text="Fake Typer開始", command=start_fake_typers)
+    fake_typer_button = ctk.CTkButton(frame, text="Start Fake Typer", command=start_fake_typers)
     fake_typer_button.pack(pady=5)
 
-    stop_button = ctk.CTkButton(frame, text="停止", command=stop_fake_typers)
+    stop_button = ctk.CTkButton(frame, text="Stop", command=stop_fake_typers)
     stop_button.pack(pady=5)
 
 def all_channel_spam_tab(frame):
@@ -2537,28 +2536,28 @@ def all_channel_spam_tab(frame):
     server_entry = ctk.CTkEntry(frame, width=400)
     server_entry.pack(pady=5)
 
-    message_label = ctk.CTkLabel(frame, text="メッセージ")
+    message_label = ctk.CTkLabel(frame, text="Message")
     message_label.pack(pady=5)
     message_entry = ctk.CTkTextbox(frame, width=500, height=200)
     message_entry.pack(pady=5)
 
     mass_ping_var = ctk.BooleanVar(value=False)
-    mass_ping_check = ctk.CTkCheckBox(frame, text="Mass Pingを有効にする", variable=mass_ping_var)
+    mass_ping_check = ctk.CTkCheckBox(frame, text="Enable Mass Ping", variable=mass_ping_var)
     mass_ping_check.pack(pady=5)
 
-    ping_count_label = ctk.CTkLabel(frame, text="メンション数 (1-10)")
+    ping_count_label = ctk.CTkLabel(frame, text="Mention Count (1-10)")
     ping_count_label.pack(pady=5)
     ping_count_entry = ctk.CTkEntry(frame, width=100)
     ping_count_entry.insert(0, "3")
     ping_count_entry.pack(pady=5)
 
     random_string_var = ctk.BooleanVar(value=False)
-    random_string_check = ctk.CTkCheckBox(frame, text="ランダム文字列を追加", variable=random_string_var)
+    random_string_check = ctk.CTkCheckBox(frame, text="Add Random String", variable=random_string_var)
     random_string_check.pack(pady=5)
 
-    messages_per_second_label = ctk.CTkLabel(frame, text="1トークンあたりのメッセージ/秒 (0.1-20.0)")
+    messages_per_second_label = ctk.CTkLabel(frame, text="Messages per second per token (0.1-20.0)")
     messages_per_second_label.pack(pady=5)
-    warning_label = ctk.CTkLabel(frame, text="警告: 10メッセージ/秒以上はレートリミットのリスクが高く、推奨しません。", text_color="yellow")
+    warning_label = ctk.CTkLabel(frame, text="Warning: Over 10 messages/second has high risk of rate limiting. Not recommended.", text_color="yellow")
     warning_label.pack(pady=0)
     messages_per_second_entry = ctk.CTkEntry(frame, width=100)
     messages_per_second_entry.insert(0, "1.0")
@@ -2572,21 +2571,21 @@ def all_channel_spam_tab(frame):
         try:
             ping_count = int(ping_count_entry.get() or 0)
             if ping_count < 1 or ping_count > 10:
-                tkinter.messagebox.showerror("エラー", "メンション数は1～10の範囲で指定してください。")
+                tkinter.messagebox.showerror("Error", "Mention count must be between 1 and 10.")
                 return
             messages_per_second = float(messages_per_second_entry.get() or 1.0)
             if messages_per_second < 0.1 or messages_per_second > 50.0:
-                tkinter.messagebox.showerror("エラー", "メッセージ/秒は0.1～50.0の範囲で指定してください。")
+                tkinter.messagebox.showerror("Error", "Messages per second must be between 0.1 and 50.0.")
                 return
         except ValueError:
-            tkinter.messagebox.showerror("エラー", "メンション数とメッセージ/秒は数値で入力してください。")
+            tkinter.messagebox.showerror("Error", "Mention count and messages per second must be numeric values.")
             return
 
         if not server_id:
-            tkinter.messagebox.showerror("エラー", "Guild IDを入力してください。")
+            tkinter.messagebox.showerror("Error", "Please enter Guild ID.")
             return
         if not message:
-            tkinter.messagebox.showerror("エラー", "メッセージを入力してください。")
+            tkinter.messagebox.showerror("Error", "Please enter a message.")
             return
 
         threading.Thread(
@@ -2647,43 +2646,43 @@ def new_spammer_tab(frame):
     channel_entry = ctk.CTkEntry(frame, width=400)
     channel_entry.pack(pady=0)
 
-    guild_label = ctk.CTkLabel(frame, text="Guild ID (Mass pingを使う場合は必要)")
+    guild_label = ctk.CTkLabel(frame, text="Guild ID (Required if using Mass ping)")
     guild_label.pack(pady=0)
     guild_entry = ctk.CTkEntry(frame, width=400)
     guild_entry.pack(pady=0)
 
-    message_label = ctk.CTkLabel(frame, text="メッセージ")
+    message_label = ctk.CTkLabel(frame, text="Message")
     message_label.pack(pady=0)
     message_entry = ctk.CTkTextbox(frame, width=500, height=200)
     message_entry.pack(pady=0)
 
     mass_ping_var = ctk.BooleanVar(value=False)
-    mass_ping_check = ctk.CTkCheckBox(frame, text="Mass Pingを有効にする", variable=mass_ping_var)
+    mass_ping_check = ctk.CTkCheckBox(frame, text="Enable Mass Ping", variable=mass_ping_var)
     mass_ping_check.pack(pady=0)
 
-    ping_count_label = ctk.CTkLabel(frame, text="メンション数 (1-10)")
+    ping_count_label = ctk.CTkLabel(frame, text="Mention Count (1-10)")
     ping_count_label.pack(pady=0)
     ping_count_entry = ctk.CTkEntry(frame, width=100)
     ping_count_entry.insert(0, "3")
     ping_count_entry.pack(pady=0)
 
     random_string_var = ctk.BooleanVar(value=False)
-    random_string_check = ctk.CTkCheckBox(frame, text="ランダム文字列を追加", variable=random_string_var)
+    random_string_check = ctk.CTkCheckBox(frame, text="Add Random String", variable=random_string_var)
     random_string_check.pack(pady=0)
 
-    messages_per_second_label = ctk.CTkLabel(frame, text="1トークンあたりの1秒間に送るメッセージ数 (0.1～20)")
+    messages_per_second_label = ctk.CTkLabel(frame, text="Messages per second per token (0.1-20)")
     messages_per_second_label.pack(pady=0)
-    warning_label = ctk.CTkLabel(frame, text="警告: 10メッセージ/秒以上はレートリミットのリスクが高く、推奨しません。", text_color="yellow")
+    warning_label = ctk.CTkLabel(frame, text="Warning: Over 10 messages/second has high risk of rate limiting. Not recommended.", text_color="yellow")
     warning_label.pack(pady=0)
     messages_per_second_entry = ctk.CTkEntry(frame, width=100)
     messages_per_second_entry.insert(0, "1.0")
     messages_per_second_entry.pack(pady=0)
 
     turbo_mode_var = ctk.BooleanVar(value=False)
-    turbo_mode_check = ctk.CTkCheckBox(frame, text="自動設定(簡単に速い速度に設定)", variable=turbo_mode_var)
+    turbo_mode_check = ctk.CTkCheckBox(frame, text="Auto Settings (Easy fast speed setup)", variable=turbo_mode_var)
     turbo_mode_check.pack(pady=0)
 
-    cycle_interval_label = ctk.CTkLabel(frame, text="トークンサイクル間隔（秒, 0.01-1.0, 自動設定では無視）")
+    cycle_interval_label = ctk.CTkLabel(frame, text="Token cycle interval (seconds, 0.01-1.0, ignored in auto mode)")
     cycle_interval_label.pack(pady=0)
     cycle_interval_entry = ctk.CTkEntry(frame, width=100)
     cycle_interval_entry.insert(0, "0.1")
@@ -2692,18 +2691,18 @@ def new_spammer_tab(frame):
         try:
             messages_per_second = float(messages_per_second_entry.get() or 1.0)
             if messages_per_second < 0.1 or messages_per_second > 20.0:
-                tkinter.messagebox.showerror("エラー", "メッセージ/秒は0.1～20.0の範囲で指定してください。")
+                tkinter.messagebox.showerror("Error", "Messages per second must be between 0.1 and 20.0.")
                 return
             ping_count = int(ping_count_entry.get() or 0)
             if ping_count < 1 or ping_count > 10:
-                tkinter.messagebox.showerror("エラー", "メンション数は1～10の範囲で指定してください。")
+                tkinter.messagebox.showerror("Error", "Mention count must be between 1 and 10.")
                 return
             cycle_interval = float(cycle_interval_entry.get() or 0.1)
             if cycle_interval < 0.01 or cycle_interval > 1.0:
-                tkinter.messagebox.showerror("エラー", "トークンサイクル間隔は0.01～1.0の範囲で指定してください。")
+                tkinter.messagebox.showerror("Error", "Token cycle interval must be between 0.01 and 1.0.")
                 return
         except ValueError:
-            tkinter.messagebox.showerror("エラー", "メッセージ/秒、メンション数、サイクル間隔は数値で入力してください。")
+            tkinter.messagebox.showerror("Error", "Messages per second, mention count, and cycle interval must be numeric values.")
             return
 
         threading.Thread(target=spammer, args=(
@@ -2743,16 +2742,16 @@ def command_spammer_tab(frame):
         main_command = command_entry.get().strip()
 
         if not channel_link or not main_command:
-            tkinter.messagebox.showerror("エラー", "Channel LinkとCommandを入力してください。")
+            tkinter.messagebox.showerror("Error", "Please enter Channel Link and Command.")
             return
 
-        # トークンの読み込み
+        # Load tokens
         tokens = read_tokens('tokens.txt')
         if not tokens:
-            tkinter.messagebox.showerror("エラー", "トークンが読み込めませんでした。")
+            tkinter.messagebox.showerror("Error", "Could not load tokens.")
             return
 
-        # スパム処理を別スレッドで実行
+        # Execute spam processing in separate thread
         threading.Thread(
             target=process_command_spammer,
             args=(tokens, channel_link, main_command),
@@ -2770,7 +2769,7 @@ def change_global_name_ui(frame):
     for widget in frame.winfo_children():
         widget.destroy()
     
-    name_label = ctk.CTkLabel(frame, text="ユーザー名チェンジャー (nick.txtからランダムに)")
+    name_label = ctk.CTkLabel(frame, text="Username Changer (random from nick.txt)")
     name_label.pack(pady=5)
     
     def start_name_changer():
@@ -2781,43 +2780,43 @@ def change_global_name_ui(frame):
             with open("nick.txt", "r", encoding="utf-8") as nick_file:
                 names = nick_file.read().splitlines()
         except UnicodeDecodeError:
-            print("nick.txtが読み取れません。")
+            print("Cannot read nick.txt.")
             return
         
         for token in tokens:
             random_name = random.choice(names)
             threading.Thread(target=change_global_name, args=(token, random_name)).start()
     
-    change_name_button = ctk.CTkButton(frame, text="表示名を変更", command=start_name_changer)
+    change_name_button = ctk.CTkButton(frame, text="Change Display Name", command=start_name_changer)
     change_name_button.pack(pady=20)
 
 def info(frame):
     for widget in frame.winfo_children():
         widget.destroy()
-    Loaded_Tokenlabel = ctk.CTkLabel(frame, text=f"読み込まれたtoken {token_count}個")
+    Loaded_Tokenlabel = ctk.CTkLabel(frame, text=f"Loaded tokens: {token_count}")
     Loaded_Tokenlabel.pack(pady=5)
     label1 = ctk.CTkLabel(frame, text="Ver - Public 3.0")
     label1.pack(pady=5)
-    label2 = ctk.CTkLabel(frame, text="Note - 自由に書いて、どうぞ。")
+    label2 = ctk.CTkLabel(frame, text="Note - Feel free to write anything.")
     label2.pack(pady=5)
-    label3 = ctk.CTkLabel(frame, text="Update1 - 全チャンネルスパムにmasspingを追加")
+    label3 = ctk.CTkLabel(frame, text="Update1 - Added massping to all channel spam")
     label3.pack(pady=5)
-    label4 = ctk.CTkLabel(frame, text="Update2 - コマンドスパム機能を追加(こてつさん作)")
+    label4 = ctk.CTkLabel(frame, text="Update2 - Added command spam feature (by kotetsu)")
     label4.pack(pady=5)
-    label4 = ctk.CTkLabel(frame, text="Update3 - MassDMとは別に、超高性能なcallspam機能を追加(こてつさん作)")
+    label4 = ctk.CTkLabel(frame, text="Update3 - Added high-performance callspam feature (by kotetsu)")
     label4.pack(pady=5)
 
 def open_dm_spam_tab(frame):
     for widget in frame.winfo_children():
         widget.destroy()
-    warn_label = ctk.CTkLabel(frame, text="このオプションはtokenの寿命を非常に削ります。注意して使用してください。")
+    warn_label = ctk.CTkLabel(frame, text="This option significantly reduces token lifespan. Use with caution.")
     warn_label.pack(pady=5)
     user_id_label = ctk.CTkLabel(frame, text="User ID")
     user_id_label.pack(pady=5)
     user_id_entry = ctk.CTkEntry(frame, width=200)
     user_id_entry.pack(pady=5)
 
-    message_label = ctk.CTkLabel(frame, text="メッセージ")
+    message_label = ctk.CTkLabel(frame, text="Message")
     message_label.pack(pady=5)
     message_entry = ctk.CTkTextbox(frame, width=400, height=150)
     message_entry.pack(pady=5)
@@ -2840,11 +2839,11 @@ def open_dm_spam_tab(frame):
         call_spam = call_spam_var.get()
 
         if not user_id:
-            tkinter.messagebox.showwarning("Error", "ユーザーIDが指定されていません。")
+            tkinter.messagebox.showwarning("Error", "User ID is not specified.")
             return
 
         if not dm_spam and not call_spam:
-            tkinter.messagebox.showwarning("Error", "どちらか選択してください。")
+            tkinter.messagebox.showwarning("Error", "Please select one option.")
             return
         
         tokens = read_tokens('tokens.txt')
@@ -3157,7 +3156,7 @@ def start_onboarding_bypass_ui(guild_id_entry):
 
 def onboarding_bypass_tab(tab_frame):
     ctk.CTkLabel(tab_frame, text="Onboarding Bypass").pack(pady=10)
-    guild_id_entry = ctk.CTkEntry(tab_frame, placeholder_text="Guild IDを入力", width=250)
+    guild_id_entry = ctk.CTkEntry(tab_frame, placeholder_text="Enter Guild ID", width=250)
     guild_id_entry.pack(pady=5, padx=5)
     start_button = ctk.CTkButton(tab_frame, text="Start", command=lambda: start_onboarding_bypass_ui(guild_id_entry))
     start_button.pack(pady=10)
@@ -3216,7 +3215,7 @@ def oauth2_verify_bypassui(frame):
     for widget in frame.winfo_children():
         widget.destroy()
 
-    guild_label = ctk.CTkLabel(frame, text="GuildID(サーバーid)")
+    guild_label = ctk.CTkLabel(frame, text="Guild ID (Server ID)")
     guild_label.pack(pady=5)
     
     guild_entry = ctk.CTkEntry(frame, width=400)
@@ -3225,14 +3224,14 @@ def oauth2_verify_bypassui(frame):
     def on_bypass_click():
         guild_id = guild_entry.get().strip()
         if not guild_id:
-            tkinter.messagebox.showerror("入力ミス", "GuildIDが空です。")
+            tkinter.messagebox.showerror("Input Error", "Guild ID is empty.")
             return
 
         def process_token_multithreaded(token):
             try:
                 Oauth2_verify_bypass(guild_id, token)
             except ValueError as e:
-                tkinter.messagebox.showerror("エラー", f"正しくないGuildID: {e}")
+                tkinter.messagebox.showerror("Error", f"Invalid Guild ID: {e}")
 
         def process_all_tokens():
             threads = []
@@ -3263,7 +3262,7 @@ def rule_bypass_ui(frame):
     def on_bypass_click():
         guild_id = guild_entry.get().strip()
         if not guild_id:
-            tkinter.messagebox.showerror("入力に誤りがあります", "GuildIDが正しくありません。")
+            tkinter.messagebox.showerror("Input Error", "Guild ID is not valid.")
             return
 
         for token in tokens:
@@ -3276,7 +3275,7 @@ def avatar_changer_ui(frame):
     for widget in frame.winfo_children():
         widget.destroy()
 
-    status_label = ctk.CTkLabel(frame, text="Avatar changer(先にonlinerを実行)")
+    status_label = ctk.CTkLabel(frame, text="Avatar changer (Run onliner first)")
     status_label.pack(pady=5)
 
     def on_avatar_change_click():
@@ -3298,13 +3297,13 @@ def button_pusher_ui(frame):
     for widget in frame.winfo_children():
         widget.destroy()
 
-    message_label = ctk.CTkLabel(frame, text="メッセージリンク")
+    message_label = ctk.CTkLabel(frame, text="Message Link")
     message_label.pack(pady=5)
 
     message_entry = ctk.CTkEntry(frame, width=400)
     message_entry.pack(pady=5)
 
-    option_label = ctk.CTkLabel(frame, text="どこのボタンを押すか(左から何番目か)")
+    option_label = ctk.CTkLabel(frame, text="Which button to press (position from left)")
     option_label.pack(pady=5)
 
     option_entry = ctk.CTkEntry(frame, width=400)
@@ -3315,16 +3314,16 @@ def button_pusher_ui(frame):
         button_option = option_entry.get().strip()
 
         if not message_link:
-            tkinter.messagebox.showerror("入力に誤りがあります", "Message Linkを入力してください。")
+            tkinter.messagebox.showerror("Input Error", "Please enter Message Link.")
             return
 
         if not message_link.startswith("https://"):
-            tkinter.messagebox.showerror("入力に誤りがあります", "URLの形式が正しくありません。")
+            tkinter.messagebox.showerror("Input Error", "URL format is not correct.")
             return
 
         parts = message_link.split("/")
         if len(parts) < 7:
-            tkinter.messagebox.showerror("入力に誤りがあります", "URLの構造が正しくありません。")
+            tkinter.messagebox.showerror("Input Error", "URL structure is not correct.")
             return
 
         guild_id = parts[4]
@@ -3340,7 +3339,7 @@ def button_pusher_ui(frame):
             with open('tokens.txt', 'r') as file:
                 tokens = [line.strip() for line in file.readlines() if line.strip()]
         except Exception as e:
-            print(f"tokenの読み込みに失敗|{e}")
+            print(f"Failed to load tokens|{e}")
             return
 
         max_workers = len(tokens)
@@ -3357,7 +3356,7 @@ def auto_oauth2_tab(frame):
     for widget in frame.winfo_children():
         widget.destroy()
 
-    guild_label = ctk.CTkLabel(frame, text="ClientID (アプリid)")
+    guild_label = ctk.CTkLabel(frame, text="Client ID (Application ID)")
     guild_label.pack(pady=5)
     
     guild_entry = ctk.CTkEntry(frame, width=400)
@@ -3366,14 +3365,14 @@ def auto_oauth2_tab(frame):
     def on_bypass_click():
         client_id = guild_entry.get().strip()
         if not client_id:
-            tkinter.messagebox.showerror("入力ミス", "ClientIDが空です。")
+            tkinter.messagebox.showerror("Input Error", "Client ID is empty.")
             return
 
         def process_token_multithreaded(token):
             try:
                 auto_oauth2(client_id, token)
             except ValueError as e:
-                tkinter.messagebox.showerror("エラー", f"正しくないClientID: {e}")
+                tkinter.messagebox.showerror("Error", f"Invalid Client ID: {e}")
 
         def process_all_tokens():
             threads = []
@@ -3387,19 +3386,19 @@ def auto_oauth2_tab(frame):
 
         threading.Thread(target=process_all_tokens).start()
 
-    bypass_button = ctk.CTkButton(frame, text="連携する", command=on_bypass_click)
+    bypass_button = ctk.CTkButton(frame, text="Authorize", command=on_bypass_click)
     bypass_button.pack(pady=5)
 
 def thread_spam_ui(frame):
     for widget in frame.winfo_children():
         widget.destroy()
-    fdsa = ctk.CTkLabel(frame, text="スレッドspammer|すぐレートリミットなります。")
+    fdsa = ctk.CTkLabel(frame, text="Thread spammer | Gets rate limited quickly.")
     fdsa.pack(pady=5)
     channel_label = ctk.CTkLabel(frame, text="ChannelID")
     channel_label.pack(pady=5)
     channel_entry = ctk.CTkEntry(frame, width=400)
     channel_entry.pack(pady=5)
-    label1 = ctk.CTkLabel(frame, text="スレッドの名前")
+    label1 = ctk.CTkLabel(frame, text="Thread Name")
     label1.pack(pady=5)
     name_entry = ctk.CTkEntry(frame, width=400)
     name_entry.pack(pady=5)
@@ -3408,7 +3407,7 @@ def thread_spam_ui(frame):
         channel_id = channel_entry.get().strip()
         name = name_entry.get().strip()
         if not channel_id:
-            tkinter.messagebox.showerror("入力に誤りがあります", "ChannelIDが正しくありません。")
+            tkinter.messagebox.showerror("Input Error", "Channel ID is not valid.")
             return
 
         for token in tokens:
@@ -3421,7 +3420,7 @@ def call_spammer_tab(frame):
     for widget in frame.winfo_children():
         widget.destroy()
 
-    # ユーザーID入力フィールド
+    # User ID input field
     user_id_label = ctk.CTkLabel(frame, text="User ID")
     user_id_label.pack(pady=5)
     user_id_entry = ctk.CTkEntry(frame, width=400)
@@ -3433,19 +3432,19 @@ def call_spammer_tab(frame):
         stop_call_spammer = False
         user_id = user_id_entry.get().strip()
         if not user_id:
-            tkinter.messagebox.showerror("エラー", "User IDを入力してください。")
+            tkinter.messagebox.showerror("Error", "Please enter User ID.")
             return
         if not user_id.isdigit():
-            tkinter.messagebox.showerror("エラー", "User IDは数値で入力してください。")
+            tkinter.messagebox.showerror("Error", "User ID must be a numeric value.")
             return
 
-        # トークンの読み込み
+        # Load tokens
         tokens = read_tokens('tokens.txt')
         if not tokens:
             tkinter.messagebox.showerror("エラー", "トークンが読み込めませんでした。")
             return
 
-        # スパム処理を別スレッドで実行
+        # Execute spam processing in separate thread
         threading.Thread(
             target=process_callspammer,
             args=(tokens, user_id),
@@ -3464,26 +3463,26 @@ def forum_spammer_tab(frame):
         widget.destroy()
 
     # Forum Channel ID
-    channel_label = ctk.CTkLabel(frame, text="フォーラムチャンネルID")
+    channel_label = ctk.CTkLabel(frame, text="Forum Channel ID")
     channel_label.pack(pady=0)
     channel_entry = ctk.CTkEntry(frame, width=400)
     channel_entry.pack(pady=0)
 
-    # Thread名のベース
-    name_label = ctk.CTkLabel(frame, text="スレッド名のプレフィックス（例：爆撃スレ）")
+    # Thread name base
+    name_label = ctk.CTkLabel(frame, text="Thread name prefix (e.g., Raid Thread)")
     name_label.pack(pady=0)
     name_entry = ctk.CTkEntry(frame, width=400)
-    name_entry.insert(0, "スレッド")
+    name_entry.insert(0, "Thread")
     name_entry.pack(pady=0)
 
-    # メッセージ内容
-    message_label = ctk.CTkLabel(frame, text="投稿するメッセージ")
+    # Message content
+    message_label = ctk.CTkLabel(frame, text="Message to post")
     message_label.pack(pady=0)
     message_entry = ctk.CTkTextbox(frame, width=500, height=200)
     message_entry.pack(pady=0)
 
     # インターバル
-    interval_label = ctk.CTkLabel(frame, text="連投間隔（秒）")
+    interval_label = ctk.CTkLabel(frame, text="Post interval (seconds)")
     interval_label.pack(pady=0)
     interval_entry = ctk.CTkEntry(frame, width=100)
     interval_entry.insert(0, "2")
@@ -3521,7 +3520,7 @@ def check_guild_tab(frame):
     for widget in frame.winfo_children():
         widget.destroy()
 
-    guild_label = ctk.CTkLabel(frame, text="Guild IDを貼ってください。")
+    guild_label = ctk.CTkLabel(frame, text="Please enter Guild ID.")
     guild_label.pack(pady=5)
 
     guild_entry = ctk.CTkEntry(frame)
@@ -3529,7 +3528,7 @@ def check_guild_tab(frame):
 
     check_button = ctk.CTkButton(
         frame,
-        text="参加状況を確認",
+                        text="Check membership status",
         command=lambda: threading.Thread(target=check_guild_membership, args=(guild_entry.get(),)).start()
     )
     check_button.pack(pady=20)
@@ -3662,17 +3661,17 @@ def new_group_creator_tab(frame):
     for widget in frame.winfo_children():
         widget.destroy()
 
-    token_label = ctk.CTkLabel(frame, text="スパムに使用したいtoken（カンマ区切り）")
+    token_label = ctk.CTkLabel(frame, text="Tokens to use for spam (comma separated)")
     token_label.pack(pady=0)
     token_entry = ctk.CTkTextbox(frame, width=500, height=100)
     token_entry.pack(pady=0)
 
-    user_ids_label = ctk.CTkLabel(frame, text="User ID（カンマ区切り）")
+    user_ids_label = ctk.CTkLabel(frame, text="User IDs (comma separated)")
     user_ids_label.pack(pady=0)
     user_ids_entry = ctk.CTkTextbox(frame, width=500, height=100)
     user_ids_entry.pack(pady=0)
     
-    group_name_label = ctk.CTkLabel(frame, text="グループ名")
+    group_name_label = ctk.CTkLabel(frame, text="Group Name")
     group_name_label.pack(pady=0)
     group_name_entry = ctk.CTkEntry(frame, width=400)
     group_name_entry.pack(pady=0)
