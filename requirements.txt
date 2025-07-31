@@ -1,0 +1,11 @@
+requests
+websocket-client
+wmi
+tls-client
+toml
+pyaudio
+numpy
+pydub
+customtkinter
+pynacl
+ffmpeg-python 
