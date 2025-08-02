@@ -55,7 +55,7 @@ Feel free to report bugs, request features, or suggest improvements.
 
 ---
 
-## 日本語
+## Japanese
 
 ### 概要
 NothingRaiderは、複数のDiscordアカウントを使った自動化・管理・スパム・検証・各種バイパスなど多機能なGUIツールです。
