@@ -1,7 +1,7 @@
 # Copyright (c) 2025 AtsuageZ
 # Licensed under the Custom License - Non-commercial use only, attribution required.
 
-import tkinter.messagebox
+import tkinter.messagebox #未使用インポート削除
 import requests
 import threading
 import time
@@ -14,26 +14,22 @@ import string
 import websocket
 import tkinter
 import re
-import io
 import tls_client
 import toml
 import struct
 import socket
 import concurrent.futures
-import pyaudio
-import numpy as np
-from pydub import AudioSegment
 from datetime import datetime
-from urllib.parse import urlencode, urlparse, parse_qs
+from urllib.parse import urlparse
 import customtkinter as ctk
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import tkinter.filedialog
 import nacl.secret
-import nacl.utils
 import ffmpeg
 from itertools import cycle
-from io import BytesIO
 import mimetypes
+import copy
+
 
 RED = '\033[31m'
 GREEN = '\033[32m'
@@ -558,10 +554,10 @@ def process_command_spammer(tokens, channel_link, main_command):
                 i += 1
                 continue
             except:
-                if found == {}:
+                if not found: #同意
                     input("Unknown command")
                     return
-                if len(found.keys()) != 1:
+                if len(found.keys()) > 1: #正確に
                     print("Multiple bots have this command. Which one do you want?")
                     choice_name = {}
                     for i, name in enumerate(found.values()):
@@ -586,22 +582,24 @@ def process_command_spammer(tokens, channel_link, main_command):
                         option_contents = {}
                         if len(commands) != 1:
                             indexes = []
-                            option = None
+                            option = application_command["options"]
+                            
                             for _ in range(len(commands)):
-                                option = application_command["options"] if option is None else option
+                                #謎の行を削除してさいしょからoptionに値を入れておく
                                 for p in range(len(option)):
                                     if option[p]["name"] == commands[_]:
                                         indexes.append(p)
                                         options.append(option)
-                                        option = option[p]["options"] if option[p].get("options", None) is not None else "FUCK"
+                                        option = option[p]["options"] if option[p].get("options", None) is not None else False#不適切な値をnoneに置き換え
                                         break
-                                if option == "FUCK":
+                                if not option:
                                     break
                             values = []
-                            if option != "FUCK":
+                            if not option: #つまりオプションがあるとき
                                 for _ in range(len(option)):
                                     desc = option[_].get("description", None)
-                                    v = uuid.uuid4().hex if (v := input(f"{option[_]['name']}{f'...{desc}' if desc is not None else ''}:")) == "random" else v
+                                    user_input = input(f"{option[_]['name']}{f'...{desc}' if desc is not None else ''}:")
+                                    v = lambda: uuid.uuid4().hex if user_input == "random" else user_input #vを関数化して、userinput randomに対応させる(修正前は静的)
                                     values.append(v)
                                 options = process_json(application_command["options"], values, indexes)
                             else:
@@ -609,7 +607,8 @@ def process_command_spammer(tokens, channel_link, main_command):
                         else:
                             for option in application_command["options"]:
                                 desc = option.get("description", None)
-                                v = uuid.uuid4().hex if (v := input(f"{option['name']}{f'...{desc}' if desc is not None else ''}:")) == "random" else v
+                                user_input = input(f"{option['name']}{f'...{desc}' if desc is not None else ''}:")
+                                v = lambda: uuid.uuid4().hex if user_input == "random" else user_input #vを関数化して、userinput randomに対応させる(修正前は静的)
                                 option_contents[option["name"]] = [option["type"], v]
                             for name in list(option_contents.keys()):
                                 json = {
@@ -634,13 +633,16 @@ def process_command_spammer(tokens, channel_link, main_command):
     os.system("cls")
 
 def command_spammer(app_id, guild_id, channel_id, version, id, commands, options, token):
-    if not isinstance(options, list):
-        options_payload = [options]
-    else:
-        options_payload = options
+
 
     header = get_headers(token)
     while True:
+        input(options)
+        options_payload = copy.deepcopy(options) if isinstance(options, list) else [copy.deepcopy(options)]#deepcopyを利用してoptionsへの参照を防ぐ。(randomに対応)
+        for opt in options_payload:
+            if callable(opt.get("value", None)):
+                opt["value"] = opt["value"]()  #fをwhile内で呼び出すことで毎度uuidを変化させる
+
         payload_json = {
             "type": 2,
             "application_id": app_id,
@@ -652,7 +654,7 @@ def command_spammer(app_id, guild_id, channel_id, version, id, commands, options
                 "id": id,
                 "name": commands[0],
                 "type": 1,
-                "options": options_payload,
+                "options": options_payload,#関数が実行されて、指定した値(randomならuuid)になる .K
                 "application_command": {
                     "id": id,
                     "type": 1,
@@ -2795,16 +2797,16 @@ def info(frame):
         widget.destroy()
     Loaded_Tokenlabel = ctk.CTkLabel(frame, text=f"Loaded tokens: {token_count}")
     Loaded_Tokenlabel.pack(pady=5)
-    label1 = ctk.CTkLabel(frame, text="Ver - Public 3.0")
-    label1.pack(pady=5)
-    label2 = ctk.CTkLabel(frame, text="Note - Feel free to write anything.")
-    label2.pack(pady=5)
-    label3 = ctk.CTkLabel(frame, text="Update1 - Added massping to all channel spam")
-    label3.pack(pady=5)
-    label4 = ctk.CTkLabel(frame, text="Update2 - Added command spam feature (by kotetsu)")
-    label4.pack(pady=5)
-    label4 = ctk.CTkLabel(frame, text="Update3 - Added high-performance callspam feature (by kotetsu)")
-    label4.pack(pady=5)
+    for text in [
+        "Ver - Public 3.0",
+        "Note - Feel free to write anything.",
+        "Update1 - Added massping to all channel spam",
+        "Update2 - Added command spam feature (by kotetsu)",
+        "Update3 - Added high-performance callspam feature (by kotetsu)",
+        'Update4 - コマンドスパマーにて、値に"random"と入力すると、値をuuidにすることができます。'
+    ]:
+        ctk.CTkLabel(frame, text=text).pack(pady=5)
+        #クソコード修正
 
 def open_dm_spam_tab(frame):
     for widget in frame.winfo_children():
